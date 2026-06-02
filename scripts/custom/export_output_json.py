@@ -80,17 +80,27 @@ def _match_category(
     return None
 
 
+def _item_ref(source_type: str, item: Dict[str, Any]) -> str:
+    return f"{source_type}:{item.get('id')}"
+
+
+def _category_refs(items: List[Dict[str, Any]], source_type: str) -> Dict[str, List[str]]:
+    categories: Dict[str, List[str]] = {}
+    for item in items:
+        category = item.get("matched_category")
+        if not category:
+            continue
+        categories.setdefault(category, []).append(_item_ref(source_type, item))
+    return categories
+
+
 def _filter_and_group_items(
     items: List[Dict[str, Any]],
     word_groups: List[Dict[str, Any]],
     filter_words: List[Any],
     global_filters: List[str],
-) -> tuple[List[Dict[str, Any]], Dict[str, List[Dict[str, Any]]]]:
+) -> List[Dict[str, Any]]:
     filtered: List[Dict[str, Any]] = []
-    categories: Dict[str, List[Dict[str, Any]]] = {
-        (group.get("display_name") or group.get("group_key") or "未分类"): []
-        for group in word_groups
-    }
 
     for item in items:
         category = _match_category(item.get("title", ""), word_groups, filter_words, global_filters)
@@ -98,10 +108,10 @@ def _filter_and_group_items(
             continue
         enriched = dict(item)
         enriched["matched_category"] = category
+        enriched["item_id"] = _item_ref("news" if "platform_id" in enriched else "rss", enriched)
         filtered.append(enriched)
-        categories.setdefault(category, []).append(enriched)
 
-    return filtered, {name: values for name, values in categories.items() if values}
+    return filtered
 
 
 def _apply_keyword_filter(
@@ -110,40 +120,58 @@ def _apply_keyword_filter(
 ) -> tuple[Dict[str, Any], Dict[str, Any], Dict[str, Any]]:
     word_groups, filter_words, global_filters = load_frequency_words("config/frequency_words.txt")
 
-    news_items, news_categories = _filter_and_group_items(news.get("items", []), word_groups, filter_words, global_filters)
-    latest_news_items, latest_news_categories = _filter_and_group_items(
-        news.get("latest_items", []), word_groups, filter_words, global_filters
+    news_items = _filter_and_group_items(news.get("items", []), word_groups, filter_words, global_filters)
+    rss_items = _filter_and_group_items(rss.get("items", []), word_groups, filter_words, global_filters)
+
+    news_latest_ids = [
+        _item_ref("news", item)
+        for item in news_items
+        if item.get("is_latest")
+    ]
+    rss_latest_ids = [
+        _item_ref("rss", item)
+        for item in rss_items
+        if item.get("is_latest")
+    ]
+
+    news_categories = _category_refs(news_items, "news")
+    rss_categories = _category_refs(rss_items, "rss")
+    latest_news_categories = _category_refs(
+        [item for item in news_items if item.get("is_latest")],
+        "news",
     )
-    rss_items, rss_categories = _filter_and_group_items(rss.get("items", []), word_groups, filter_words, global_filters)
-    latest_rss_items, latest_rss_categories = _filter_and_group_items(
-        rss.get("latest_items", []), word_groups, filter_words, global_filters
+    latest_rss_categories = _category_refs(
+        [item for item in rss_items if item.get("is_latest")],
+        "rss",
     )
 
     filtered_news = dict(news)
     filtered_news["items"] = news_items
-    filtered_news["latest_items"] = latest_news_items
+    filtered_news["latest_item_ids"] = news_latest_ids
+    filtered_news.pop("latest_items", None)
     filtered_news["categories"] = news_categories
     filtered_news["latest_categories"] = latest_news_categories
     filtered_news["raw_count"] = news.get("count", 0)
     filtered_news["raw_latest_count"] = news.get("latest_count", 0)
     filtered_news["count"] = len(news_items)
-    filtered_news["latest_count"] = len(latest_news_items)
+    filtered_news["latest_count"] = len(news_latest_ids)
 
     filtered_rss = dict(rss)
     filtered_rss["items"] = rss_items
-    filtered_rss["latest_items"] = latest_rss_items
+    filtered_rss["latest_item_ids"] = rss_latest_ids
+    filtered_rss.pop("latest_items", None)
     filtered_rss["categories"] = rss_categories
     filtered_rss["latest_categories"] = latest_rss_categories
     filtered_rss["raw_count"] = rss.get("count", 0)
     filtered_rss["raw_latest_count"] = rss.get("latest_count", 0)
     filtered_rss["count"] = len(rss_items)
-    filtered_rss["latest_count"] = len(latest_rss_items)
+    filtered_rss["latest_count"] = len(rss_latest_ids)
 
-    combined_categories: Dict[str, Dict[str, List[Dict[str, Any]]]] = {}
-    for category, values in news_categories.items():
-        combined_categories.setdefault(category, {"news": [], "rss": []})["news"] = values
-    for category, values in rss_categories.items():
-        combined_categories.setdefault(category, {"news": [], "rss": []})["rss"] = values
+    combined_categories: Dict[str, Dict[str, List[str]]] = {}
+    for category, ids in news_categories.items():
+        combined_categories.setdefault(category, {"news": [], "rss": []})["news"] = ids
+    for category, ids in rss_categories.items():
+        combined_categories.setdefault(category, {"news": [], "rss": []})["rss"] = ids
 
     return filtered_news, filtered_rss, combined_categories
 
@@ -324,7 +352,7 @@ def main() -> int:
     export_time = news.get("latest_crawl_time") or rss.get("latest_crawl_time") or _now_beijing().strftime("%H-%M")
 
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": _now_beijing().isoformat(),
         "source": {
             "repository": os.environ.get("GITHUB_REPOSITORY", ""),

@@ -317,6 +317,61 @@ def _write_json(path: Path, data: Dict[str, Any]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _compact_news_item(item: Dict[str, Any]) -> Dict[str, Any]:
+    compact = {
+        "id": item.get("item_id") or _item_ref("news", item),
+        "t": item.get("title", ""),
+        "cat": item.get("matched_category", ""),
+        "src": item.get("platform_name") or item.get("platform_id", ""),
+        "rank": item.get("rank"),
+        "url": item.get("mobile_url") or item.get("url") or "",
+        "time": item.get("last_crawl_time") or item.get("first_crawl_time") or "",
+        "latest": bool(item.get("is_latest")),
+        "type": "news",
+    }
+    return {key: value for key, value in compact.items() if value not in (None, "", [], {})}
+
+
+def _compact_rss_item(item: Dict[str, Any]) -> Dict[str, Any]:
+    compact = {
+        "id": item.get("item_id") or _item_ref("rss", item),
+        "t": item.get("title", ""),
+        "cat": item.get("matched_category", ""),
+        "src": item.get("feed_name") or item.get("feed_id", ""),
+        "url": item.get("url") or "",
+        "time": item.get("published_at") or item.get("last_crawl_time") or "",
+        "latest": bool(item.get("is_latest")),
+        "type": "rss",
+    }
+    summary = (item.get("summary") or "").strip()
+    if summary:
+        compact["summary"] = summary[:180]
+    return {key: value for key, value in compact.items() if value not in (None, "", [], {})}
+
+
+def _build_compact_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
+    items = [
+        _compact_news_item(item)
+        for item in payload.get("news", {}).get("items", [])
+    ] + [
+        _compact_rss_item(item)
+        for item in payload.get("rss", {}).get("items", [])
+    ]
+
+    return {
+        "schema_version": 1,
+        "generated_at": payload.get("generated_at"),
+        "date": payload.get("date"),
+        "crawl_time": payload.get("crawl_time"),
+        "counts": {
+            "total": len(items),
+            "news": payload.get("news", {}).get("count", 0),
+            "rss": payload.get("rss", {}).get("count", 0),
+        },
+        "items": items,
+    }
+
+
 def _cleanup_old_date_dirs(base_dir: Path, keep_days: int = RETENTION_DAYS) -> List[Path]:
     """Remove output/json/YYYY-MM-DD directories older than the retention window."""
     if not base_dir.exists():
@@ -380,17 +435,25 @@ def main() -> int:
         "rss": rss,
     }
 
+    compact_payload = _build_compact_payload(payload)
+
     latest_path = JSON_DIR / "latest.json"
+    compact_latest_path = JSON_DIR / "latest.compact.json"
     daily_path = JSON_DIR / export_date / "news.json"
+    compact_daily_path = JSON_DIR / export_date / "news.compact.json"
 
     _write_json(latest_path, payload)
+    _write_json(compact_latest_path, compact_payload)
     _write_json(daily_path, payload)
+    _write_json(compact_daily_path, compact_payload)
     removed_dirs = _cleanup_old_date_dirs(JSON_DIR)
 
     print(f"[export-json] news db: {news_db or 'not found'}")
     print(f"[export-json] rss db: {rss_db or 'not found'}")
     print(f"[export-json] wrote: {latest_path.relative_to(ROOT)}")
+    print(f"[export-json] wrote: {compact_latest_path.relative_to(ROOT)}")
     print(f"[export-json] wrote: {daily_path.relative_to(ROOT)}")
+    print(f"[export-json] wrote: {compact_daily_path.relative_to(ROOT)}")
     for removed_dir in removed_dirs:
         print(f"[export-json] removed old directory: {removed_dir.relative_to(ROOT)}")
     print(f"[export-json] total items: {payload['counts']['total']}")

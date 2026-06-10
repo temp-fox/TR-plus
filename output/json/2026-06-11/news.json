@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-11T03:55:03.982526+08:00",
+  "generated_at": "2026-06-11T06:27:52.653126+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "27302259774",
-    "run_number": "69",
+    "run_id": "27310386583",
+    "run_number": "70",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-11",
-  "crawl_time": "03-54",
+  "crawl_time": "06-27",
   "counts": {
     "news": 30,
     "latest_news": 30,
@@ -19,54 +19,65 @@
     "latest_total": 30,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 69,
-    "raw_latest_rss": 69
+    "raw_rss": 66,
+    "raw_latest_rss": 66
   },
   "categories": {
     "养老生活": {
       "news": [
         "news:31",
-        "news:238"
+        "news:236"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
         "news:44",
-        "news:94",
-        "news:105",
-        "news:216",
+        "news:93",
+        "news:115",
+        "news:219",
         "news:154",
         "news:160",
         "news:162",
         "news:164",
         "news:165",
         "news:177",
-        "news:203",
+        "news:205",
         "news:241",
-        "news:248",
-        "news:251"
+        "news:243",
+        "news:253"
       ],
       "rss": []
     },
     "交通出行": {
       "news": [
-        "news:58",
-        "news:95",
+        "news:94",
         "news:148"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
-        "news:113"
+        "news:114"
+      ],
+      "rss": []
+    },
+    "睡眠心理": {
+      "news": [
+        "news:127"
+      ],
+      "rss": []
+    },
+    "人口家庭": {
+      "news": [
+        "news:210"
       ],
       "rss": []
     },
     "医疗健康": {
       "news": [
         "news:78",
-        "news:22"
+        "news:9"
       ],
       "rss": []
     },
@@ -79,10 +90,9 @@
     },
     "物价消费": {
       "news": [
-        "news:66",
         "news:67",
         "news:68",
-        "news:254"
+        "news:249"
       ],
       "rss": []
     },
@@ -94,14 +104,14 @@
     },
     "就业民生": {
       "news": [
-        "news:182"
+        "news:200"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-11",
-    "latest_crawl_time": "03-54",
+    "latest_crawl_time": "06-27",
     "count": 30,
     "latest_count": 30,
     "items": [
@@ -113,18 +123,18 @@
         "rank": 1,
         "url": "https://www.baidu.com/s?wd=3.2%E4%BA%BF%E8%80%81%E5%B9%B4%E4%BA%BA%E8%A2%AB%E2%80%9C%E7%96%AF%E6%8A%A2%E2%80%9D",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -139,18 +149,18 @@
         "rank": 14,
         "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F+%E5%A5%B3%E7%94%9F%E6%84%9F%E6%85%A8%E5%86%8D%E4%B9%9F%E6%B2%A1%E9%AB%98%E4%B8%AD%E4%B8%8A%E4%BA%86",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           14
         ],
         "rank_timeline": [
           {
             "rank": 14,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -158,160 +168,186 @@
         "item_id": "news:44"
       },
       {
-        "id": 58,
-        "title": "电动车假号牌低至几十元还可定制",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 28,
-        "url": "https://www.baidu.com/s?wd=%E7%94%B5%E5%8A%A8%E8%BD%A6%E5%81%87%E5%8F%B7%E7%89%8C%E4%BD%8E%E8%87%B3%E5%87%A0%E5%8D%81%E5%85%83%E8%BF%98%E5%8F%AF%E5%AE%9A%E5%88%B6",
-        "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
-        "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
-        "ranks": [
-          28
-        ],
-        "rank_timeline": [
-          {
-            "rank": 28,
-            "crawl_time": "03-54"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:58"
-      },
-      {
-        "id": 94,
+        "id": 93,
         "title": "2026高考收官",
         "platform_id": "bilibili-hot-search",
         "platform_name": "bilibili 热搜",
-        "rank": 4,
+        "rank": 3,
         "url": "https://search.bilibili.com/all?keyword=2026%E9%AB%98%E8%80%83%E6%94%B6%E5%AE%98",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
+        "ranks": [
+          3
+        ],
+        "rank_timeline": [
+          {
+            "rank": 3,
+            "crawl_time": "06-27"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:93"
+      },
+      {
+        "id": 94,
+        "title": "退钱哥落地墨西哥打车就被坑了",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 4,
+        "url": "https://search.bilibili.com/all?keyword=%E9%80%80%E9%92%B1%E5%93%A5%E8%90%BD%E5%9C%B0%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%89%93%E8%BD%A6%E5%B0%B1%E8%A2%AB%E5%9D%91%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
+        "crawl_count": 1,
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:94"
+      },
+      {
+        "id": 114,
+        "title": "大暴雨来了",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 24,
+        "url": "https://search.bilibili.com/all?keyword=%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
+        "crawl_count": 1,
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
+        "ranks": [
+          24
+        ],
+        "rank_timeline": [
+          {
+            "rank": 24,
+            "crawl_time": "06-27"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:114"
+      },
+      {
+        "id": 115,
+        "title": "高考结束后回校的高二生",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 25,
+        "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E5%90%8E%E5%9B%9E%E6%A0%A1%E7%9A%84%E9%AB%98%E4%BA%8C%E7%94%9F",
+        "mobile_url": "",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
+        "crawl_count": 1,
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:94"
+        "item_id": "news:115"
       },
       {
-        "id": 95,
-        "title": "退钱哥落地墨西哥打车就被坑了",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 5,
-        "url": "https://search.bilibili.com/all?keyword=%E9%80%80%E9%92%B1%E5%93%A5%E8%90%BD%E5%9C%B0%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%89%93%E8%BD%A6%E5%B0%B1%E8%A2%AB%E5%9D%91%E4%BA%86",
+        "id": 127,
+        "title": "美股收盘：避险情绪升温芯片板块再现抛售潮 道指纳指跌近2%",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 7,
+        "url": "https://www.cls.cn/detail/2396570",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "06-27"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "睡眠心理",
+        "item_id": "news:127"
+      },
+      {
+        "id": 210,
+        "title": "印度出生率首次跌破更替水平",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 5,
+        "url": "https://www.douyin.com/hot/2529586",
+        "mobile_url": "",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
+        "crawl_count": 1,
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:95"
+        "matched_category": "人口家庭",
+        "item_id": "news:210"
       },
       {
-        "id": 105,
-        "title": "高考结束后回校的高二生",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 15,
-        "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E5%90%8E%E5%9B%9E%E6%A0%A1%E7%9A%84%E9%AB%98%E4%BA%8C%E7%94%9F",
-        "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
-        "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
-        "ranks": [
-          15
-        ],
-        "rank_timeline": [
-          {
-            "rank": 15,
-            "crawl_time": "03-54"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:105"
-      },
-      {
-        "id": 113,
-        "title": "大暴雨来了",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 23,
-        "url": "https://search.bilibili.com/all?keyword=%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E4%BA%86",
-        "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
-        "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
-        "ranks": [
-          23
-        ],
-        "rank_timeline": [
-          {
-            "rank": 23,
-            "crawl_time": "03-54"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:113"
-      },
-      {
-        "id": 216,
+        "id": 219,
         "title": "高考结束后你最想干什么",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 11,
+        "rank": 14,
         "url": "https://www.douyin.com/hot/2528801",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
-          11
+          14
         ],
         "rank_timeline": [
           {
-            "rank": 11,
-            "crawl_time": "03-54"
+            "rank": 14,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:216"
+        "item_id": "news:219"
       },
       {
         "id": 78,
@@ -321,18 +357,18 @@
         "rank": 8,
         "url": "https://www.thepaper.cn/newsDetail_forward_33345827",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33345827",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -347,18 +383,18 @@
         "rank": 3,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%B8%80%E5%8F%A3%E7%BD%9A1000%3F%E9%A6%99%E6%B8%AF%E5%9C%B0%E9%93%81%E7%A6%81%E5%96%9D%E6%B0%B4&topic_id=28355049",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -373,18 +409,18 @@
         "rank": 6,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%9C%8D%E8%A3%85%E9%80%80%E6%AC%BE%E8%BE%9F%E8%B0%A3%E8%80%85%E8%A2%AB%E6%9F%90%E4%B9%A6%E6%8B%89%E9%BB%91&topic_id=28355050",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           6
         ],
         "rank_timeline": [
           {
             "rank": 6,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -399,18 +435,18 @@
         "rank": 9,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%9F%A9%E5%9B%BDLCK%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E9%9C%B8%E5%87%8C%E5%A5%B3%E7%B2%89&topic_id=28355038",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -425,18 +461,18 @@
         "rank": 15,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%AB%98%E8%80%83%E6%94%BF%E6%B2%BB%E5%8F%98%E7%94%9F%E7%89%A9%2C%E5%AD%9F%E5%BE%B7%E5%B0%94%E5%BF%AB%E6%98%BE%E7%81%B5&topic_id=28355009",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           15
         ],
         "rank_timeline": [
           {
             "rank": 15,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -451,18 +487,18 @@
         "rank": 17,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%AB%8C%E4%B8%89%E6%89%8B%E9%9A%BE%3F%E5%A4%A9%E6%B4%A5%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87%E6%9B%B4%E7%A3%A8%E4%BA%BA&topic_id=28355000",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -477,18 +513,18 @@
         "rank": 19,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%92%92%E6%9C%AF%E5%9B%9E%E6%88%98%E6%A2%97%E5%9B%BE%E5%92%8C%E9%AB%98%E8%80%83%E5%A4%AA%E9%80%82%E9%85%8D%E4%BA%86&topic_id=28355002",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           19
         ],
         "rank_timeline": [
           {
             "rank": 19,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -503,23 +539,49 @@
         "rank": 20,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%BA%AF%E7%8E%84%E5%AD%A6%3F%E9%AB%98%E8%80%83%E6%95%B0%E5%AD%A6%E8%A7%84%E5%BE%8B%E5%A4%A7%E6%94%B9&topic_id=28355014",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           20
         ],
         "rank_timeline": [
           {
             "rank": 20,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
         "item_id": "news:165"
+      },
+      {
+        "id": 9,
+        "title": "大妈被咬伤打死毒蛇后带到医院就医",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 9,
+        "url": "https://www.toutiao.com/trending/7649697771276517395/",
+        "mobile_url": "",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
+        "crawl_count": 1,
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "06-27"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "医疗健康",
+        "item_id": "news:9"
       },
       {
         "id": 12,
@@ -529,18 +591,18 @@
         "rank": 12,
         "url": "https://www.toutiao.com/trending/7649710632730116123/",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -548,77 +610,25 @@
         "item_id": "news:12"
       },
       {
-        "id": 22,
-        "title": "大妈被咬伤打死毒蛇后带到医院就医",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 22,
-        "url": "https://www.toutiao.com/trending/7649697771276517395/",
-        "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
-        "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
-        "ranks": [
-          22
-        ],
-        "rank_timeline": [
-          {
-            "rank": 22,
-            "crawl_time": "03-54"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:22"
-      },
-      {
-        "id": 66,
+        "id": 67,
         "title": "特朗普威胁打击伊朗电厂、桥梁，油价应声攀升，俄外交部：袭击民用设施“绝对不可接受”",
         "platform_id": "wallstreetcn-hot",
         "platform_name": "华尔街见闻",
-        "rank": 6,
+        "rank": 7,
         "url": "https://wallstreetcn.com/articles/3774340",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "03-54"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:66"
-      },
-      {
-        "id": 67,
-        "title": "美国通胀创三年新高，美股低开，科技股普跌，光通信股反弹，油价攀升",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 7,
-        "url": "https://wallstreetcn.com/articles/3774300",
-        "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
-        "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -633,18 +643,18 @@
         "rank": 8,
         "url": "https://wallstreetcn.com/articles/3774282",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -659,18 +669,18 @@
         "rank": 2,
         "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%B9%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86",
         "mobile_url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%B9%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86&t=31&band_rank=2&Refer=top",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -685,18 +695,18 @@
         "rank": 4,
         "url": "https://s.weibo.com/weibo?q=%E8%82%A5%E8%83%96%E6%A0%87%E5%87%86%E7%9A%84%E9%87%8D%E8%A6%81%E6%9B%B4%E6%96%B0",
         "mobile_url": "https://s.weibo.com/weibo?q=%E8%82%A5%E8%83%96%E6%A0%87%E5%87%86%E7%9A%84%E9%87%8D%E8%A6%81%E6%9B%B4%E6%96%B0&t=31&band_rank=4&Refer=top",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -704,82 +714,82 @@
         "item_id": "news:179"
       },
       {
-        "id": 182,
+        "id": 200,
         "title": "孟羽童自媒体收入不稳定再次求职",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 7,
+        "rank": 25,
         "url": "https://s.weibo.com/weibo?q=%23%E5%AD%9F%E7%BE%BD%E7%AB%A5%E8%87%AA%E5%AA%92%E4%BD%93%E6%94%B6%E5%85%A5%E4%B8%8D%E7%A8%B3%E5%AE%9A%E5%86%8D%E6%AC%A1%E6%B1%82%E8%81%8C%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%AD%9F%E7%BE%BD%E7%AB%A5%E8%87%AA%E5%AA%92%E4%BD%93%E6%94%B6%E5%85%A5%E4%B8%8D%E7%A8%B3%E5%AE%9A%E5%86%8D%E6%AC%A1%E6%B1%82%E8%81%8C%23&t=31&band_rank=7&Refer=top",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%AD%9F%E7%BE%BD%E7%AB%A5%E8%87%AA%E5%AA%92%E4%BD%93%E6%94%B6%E5%85%A5%E4%B8%8D%E7%A8%B3%E5%AE%9A%E5%86%8D%E6%AC%A1%E6%B1%82%E8%81%8C%23&t=31&band_rank=25&Refer=top",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
-          7
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 7,
-            "crawl_time": "03-54"
+            "rank": 25,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:182"
+        "item_id": "news:200"
       },
       {
-        "id": 203,
+        "id": 205,
         "title": "深圳高考现场女学霸凭颜值火出圈",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 28,
+        "rank": 30,
         "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E9%AB%98%E8%80%83%E7%8E%B0%E5%9C%BA%E5%A5%B3%E5%AD%A6%E9%9C%B8%E5%87%AD%E9%A2%9C%E5%80%BC%E7%81%AB%E5%87%BA%E5%9C%88%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E9%AB%98%E8%80%83%E7%8E%B0%E5%9C%BA%E5%A5%B3%E5%AD%A6%E9%9C%B8%E5%87%AD%E9%A2%9C%E5%80%BC%E7%81%AB%E5%87%BA%E5%9C%88%23&t=31&band_rank=28&Refer=top",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E9%AB%98%E8%80%83%E7%8E%B0%E5%9C%BA%E5%A5%B3%E5%AD%A6%E9%9C%B8%E5%87%AD%E9%A2%9C%E5%80%BC%E7%81%AB%E5%87%BA%E5%9C%88%23&t=31&band_rank=30&Refer=top",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
-          28
+          30
         ],
         "rank_timeline": [
           {
-            "rank": 28,
-            "crawl_time": "03-54"
+            "rank": 30,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:203"
+        "item_id": "news:205"
       },
       {
-        "id": 238,
+        "id": 236,
         "title": "官方通报残障老人被奴役 20 年，水泥经销店老板被依法采取刑事拘留强制措施，可能会面临怎样的法律判决？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 3,
+        "rank": 1,
         "url": "https://www.zhihu.com/question/2048051628050051272",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
-          3
+          1
         ],
         "rank_timeline": [
           {
-            "rank": 3,
-            "crawl_time": "03-54"
+            "rank": 1,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:238"
+        "item_id": "news:236"
       },
       {
         "id": 241,
@@ -789,18 +799,18 @@
         "rank": 6,
         "url": "https://www.zhihu.com/question/2046239395876020707",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
           6
         ],
         "rank_timeline": [
           {
             "rank": 6,
-            "crawl_time": "03-54"
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
@@ -808,82 +818,82 @@
         "item_id": "news:241"
       },
       {
-        "id": 248,
+        "id": 243,
         "title": "日月不失其体，故蔽而复明；江汉不失其源，故穷而复通。如何看待 2026 年高考全国卷语文作文？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 13,
+        "rank": 8,
         "url": "https://www.zhihu.com/question/2047069976641672433",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
-          13
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 13,
-            "crawl_time": "03-54"
+            "rank": 8,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:248"
+        "item_id": "news:243"
       },
       {
-        "id": 251,
-        "title": "高考结束那个下午，你还记得自己在干什么吗？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 16,
-        "url": "https://www.zhihu.com/question/2043009167234008989",
-        "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
-        "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "03-54"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:251"
-      },
-      {
-        "id": 254,
+        "id": 249,
         "title": "为什么瑞幸要在各大平台卖 9.9 元券，而不是直接降价为 9.9？背后有哪些商业考量？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 19,
+        "rank": 14,
         "url": "https://www.zhihu.com/question/2047709285535015721",
         "mobile_url": "",
-        "first_crawl_time": "03-54",
-        "last_crawl_time": "03-54",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
         "crawl_count": 1,
-        "created_at": "2026-06-11 03:54:59",
-        "updated_at": "2026-06-11 03:54:59",
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
         "ranks": [
-          19
+          14
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "03-54"
+            "rank": 14,
+            "crawl_time": "06-27"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:254"
+        "item_id": "news:249"
+      },
+      {
+        "id": 253,
+        "title": "孩子高考结束了，计划假期骑行 318，并给了 15000 的费用清单（含自行车和装备），请问该支持吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 18,
+        "url": "https://www.zhihu.com/question/2047428345973961106",
+        "mobile_url": "",
+        "first_crawl_time": "06-27",
+        "last_crawl_time": "06-27",
+        "crawl_count": 1,
+        "created_at": "2026-06-11 06:27:48",
+        "updated_at": "2026-06-11 06:27:48",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "06-27"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:253"
       }
     ],
     "platforms": [
@@ -891,78 +901,79 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-11 03:54:59"
+        "updated_at": "2026-06-11 06:27:48"
       }
     ],
     "latest_item_ids": [
       "news:31",
       "news:44",
-      "news:58",
+      "news:93",
       "news:94",
-      "news:95",
-      "news:105",
-      "news:113",
-      "news:216",
+      "news:114",
+      "news:115",
+      "news:127",
+      "news:210",
+      "news:219",
       "news:78",
       "news:148",
       "news:151",
@@ -971,119 +982,126 @@
       "news:162",
       "news:164",
       "news:165",
+      "news:9",
       "news:12",
-      "news:22",
-      "news:66",
       "news:67",
       "news:68",
       "news:177",
       "news:179",
-      "news:182",
-      "news:203",
-      "news:238",
+      "news:200",
+      "news:205",
+      "news:236",
       "news:241",
-      "news:248",
-      "news:251",
-      "news:254"
+      "news:243",
+      "news:249",
+      "news:253"
     ],
     "categories": {
       "养老生活": [
         "news:31",
-        "news:238"
+        "news:236"
       ],
       "教育民生": [
         "news:44",
-        "news:94",
-        "news:105",
-        "news:216",
+        "news:93",
+        "news:115",
+        "news:219",
         "news:154",
         "news:160",
         "news:162",
         "news:164",
         "news:165",
         "news:177",
-        "news:203",
+        "news:205",
         "news:241",
-        "news:248",
-        "news:251"
+        "news:243",
+        "news:253"
       ],
       "交通出行": [
-        "news:58",
-        "news:95",
+        "news:94",
         "news:148"
       ],
       "安全灾害": [
-        "news:113"
+        "news:114"
+      ],
+      "睡眠心理": [
+        "news:127"
+      ],
+      "人口家庭": [
+        "news:210"
       ],
       "医疗健康": [
         "news:78",
-        "news:22"
+        "news:9"
       ],
       "消费维权": [
         "news:151",
         "news:12"
       ],
       "物价消费": [
-        "news:66",
         "news:67",
         "news:68",
-        "news:254"
+        "news:249"
       ],
       "营养饮食": [
         "news:179"
       ],
       "就业民生": [
-        "news:182"
+        "news:200"
       ]
     },
     "latest_categories": {
       "养老生活": [
         "news:31",
-        "news:238"
+        "news:236"
       ],
       "教育民生": [
         "news:44",
-        "news:94",
-        "news:105",
-        "news:216",
+        "news:93",
+        "news:115",
+        "news:219",
         "news:154",
         "news:160",
         "news:162",
         "news:164",
         "news:165",
         "news:177",
-        "news:203",
+        "news:205",
         "news:241",
-        "news:248",
-        "news:251"
+        "news:243",
+        "news:253"
       ],
       "交通出行": [
-        "news:58",
-        "news:95",
+        "news:94",
         "news:148"
       ],
       "安全灾害": [
-        "news:113"
+        "news:114"
+      ],
+      "睡眠心理": [
+        "news:127"
+      ],
+      "人口家庭": [
+        "news:210"
       ],
       "医疗健康": [
         "news:78",
-        "news:22"
+        "news:9"
       ],
       "消费维权": [
         "news:151",
         "news:12"
       ],
       "物价消费": [
-        "news:66",
         "news:67",
         "news:68",
-        "news:254"
+        "news:249"
       ],
       "营养饮食": [
         "news:179"
       ],
       "就业民生": [
-        "news:182"
+        "news:200"
       ]
     },
     "raw_count": 255,
@@ -1091,7 +1109,7 @@
   },
   "rss": {
     "date": "2026-06-11",
-    "latest_crawl_time": "03:54",
+    "latest_crawl_time": "06:27",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -1104,7 +1122,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-11 03:55:01"
+        "updated_at": "2026-06-11 06:27:49"
       },
       {
         "id": "yahoo-finance",
@@ -1114,13 +1132,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-11 03:55:01"
+        "updated_at": "2026-06-11 06:27:49"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 69,
-    "raw_latest_count": 69
+    "raw_count": 66,
+    "raw_latest_count": 66
   }
 }

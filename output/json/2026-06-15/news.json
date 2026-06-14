@@ -1,62 +1,64 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-15T00:57:12.789666+08:00",
+  "generated_at": "2026-06-15T02:52:12.439632+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "27505765613",
-    "run_number": "100",
+    "run_id": "27508640036",
+    "run_number": "101",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-15",
-  "crawl_time": "00-57",
+  "crawl_time": "02-52",
   "counts": {
-    "news": 16,
-    "latest_news": 16,
+    "news": 20,
+    "latest_news": 20,
     "rss": 0,
     "latest_rss": 0,
-    "total": 16,
-    "latest_total": 16,
+    "total": 20,
+    "latest_total": 20,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 69,
-    "raw_latest_rss": 69
+    "raw_rss": 70,
+    "raw_latest_rss": 70
   },
   "categories": {
     "住房民生": {
       "news": [
-        "news:38",
-        "news:182"
+        "news:36",
+        "news:196"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:39",
-        "news:241",
-        "news:251"
+        "news:38",
+        "news:247",
+        "news:253"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
         "news:41",
-        "news:110",
+        "news:115",
         "news:171",
-        "news:5",
-        "news:253"
+        "news:4",
+        "news:255"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
-        "news:47"
+        "news:47",
+        "news:1",
+        "news:176"
       ],
       "rss": []
     },
     "常见疾病": {
       "news": [
-        "news:49"
+        "news:54"
       ],
       "rss": []
     },
@@ -69,74 +71,81 @@
     "交通出行": {
       "news": [
         "news:173",
-        "news:17"
+        "news:18"
+      ],
+      "rss": []
+    },
+    "人口家庭": {
+      "news": [
+        "news:7",
+        "news:200"
       ],
       "rss": []
     },
     "人群营养": {
       "news": [
-        "news:15"
+        "news:12"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-15",
-    "latest_crawl_time": "00-57",
-    "count": 16,
-    "latest_count": 16,
+    "latest_crawl_time": "02-52",
+    "count": 20,
+    "latest_count": 20,
     "items": [
       {
-        "id": 38,
+        "id": 36,
         "title": "男子去世欠49万房贷父母放弃继承",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 8,
+        "rank": 6,
         "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E6%AC%A049%E4%B8%87%E6%88%BF%E8%B4%B7%E7%88%B6%E6%AF%8D%E6%94%BE%E5%BC%83%E7%BB%A7%E6%89%BF",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "住房民生",
+        "item_id": "news:36"
+      },
+      {
+        "id": 38,
+        "title": "财务给自己多发了780万元工资",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 8,
+        "url": "https://www.baidu.com/s?wd=%E8%B4%A2%E5%8A%A1%E7%BB%99%E8%87%AA%E5%B7%B1%E5%A4%9A%E5%8F%91%E4%BA%86780%E4%B8%87%E5%85%83%E5%B7%A5%E8%B5%84",
+        "mobile_url": "",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "00-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "住房民生",
-        "item_id": "news:38"
-      },
-      {
-        "id": 39,
-        "title": "财务给自己多发了780万元工资",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 9,
-        "url": "https://www.baidu.com/s?wd=%E8%B4%A2%E5%8A%A1%E7%BB%99%E8%87%AA%E5%B7%B1%E5%A4%9A%E5%8F%91%E4%BA%86780%E4%B8%87%E5%85%83%E5%B7%A5%E8%B5%84",
-        "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
-        "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:39"
+        "item_id": "news:38"
       },
       {
         "id": 41,
@@ -146,18 +155,18 @@
         "rank": 11,
         "url": "https://www.baidu.com/s?wd=%E7%BD%91%E6%B0%91%E7%BC%96%E9%80%A0%E2%80%9C%E5%A5%B3%E7%94%9F%E9%81%AD%E9%9C%B8%E5%87%8C%E8%B7%B3%E6%B2%B3%E2%80%9D%E8%A2%AB%E7%BD%9A",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
@@ -172,18 +181,18 @@
         "rank": 17,
         "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E6%83%A0%E6%9D%A5%E9%81%AD%E6%9A%B4%E9%9B%A8+%E5%A4%9A%E8%89%98%E8%88%B9%E8%A2%AB%E5%86%B2%E8%B5%B0",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
@@ -191,56 +200,56 @@
         "item_id": "news:47"
       },
       {
-        "id": 49,
+        "id": 54,
         "title": "女子体重112公斤体内肿瘤达52公斤",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 19,
+        "rank": 24,
         "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E4%BD%93%E9%87%8D112%E5%85%AC%E6%96%A4%E4%BD%93%E5%86%85%E8%82%BF%E7%98%A4%E8%BE%BE52%E5%85%AC%E6%96%A4",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
-          19
+          24
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "00-57"
+            "rank": 24,
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
         "matched_category": "常见疾病",
-        "item_id": "news:49"
+        "item_id": "news:54"
       },
       {
-        "id": 110,
+        "id": 115,
         "title": "高考后最难受的人",
         "platform_id": "bilibili-hot-search",
         "platform_name": "bilibili 热搜",
-        "rank": 20,
+        "rank": 25,
         "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E5%90%8E%E6%9C%80%E9%9A%BE%E5%8F%97%E7%9A%84%E4%BA%BA",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
-          20
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 20,
-            "crawl_time": "00-57"
+            "rank": 25,
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:110"
+        "item_id": "news:115"
       },
       {
         "id": 124,
@@ -250,18 +259,18 @@
         "rank": 4,
         "url": "https://www.cls.cn/detail/2399188",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
@@ -276,18 +285,18 @@
         "rank": 26,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%B2%BE%E6%98%8E%E5%AE%B6%E9%95%BF%2C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%3D%E6%89%8B%E6%9C%BA%E4%BB%B7%E6%A0%BC&topic_id=28355109",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           26
         ],
         "rank_timeline": [
           {
             "rank": 26,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
@@ -302,18 +311,18 @@
         "rank": 28,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%A5%B3%E5%AD%90%E7%82%B9%E5%A4%96%E5%8D%96%E7%A6%BB%E5%A5%87%E6%94%B6%E5%88%B0%E6%B4%BB%E7%89%9B%E8%9B%99&topic_id=28355111",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           28
         ],
         "rank_timeline": [
           {
             "rank": 28,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
@@ -321,186 +330,290 @@
         "item_id": "news:173"
       },
       {
-        "id": 5,
-        "title": "小县城取消中考选拔全员直升高中",
+        "id": 1,
+        "title": "陕西渭南4.1级地震 西安多地有震感",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 5,
-        "url": "https://www.toutiao.com/trending/7650390487204249609/",
+        "rank": 1,
+        "url": "https://www.toutiao.com/trending/7651301505198198299/",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
-          5
+          1
         ],
         "rank_timeline": [
           {
-            "rank": 5,
-            "crawl_time": "00-57"
+            "rank": 1,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:1"
+      },
+      {
+        "id": 4,
+        "title": "小县城取消中考选拔全员直升高中",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 4,
+        "url": "https://www.toutiao.com/trending/7650390487204249609/",
+        "mobile_url": "",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:5"
+        "item_id": "news:4"
       },
       {
-        "id": 15,
-        "title": "媒体评黑龙江宝妈考编第一遭撤岗",
+        "id": 7,
+        "title": "人口16万的库拉索打入世界杯首球",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 15,
-        "url": "https://www.toutiao.com/trending/7650883407911632934/",
-        "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
-        "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
-        "ranks": [
-          15
-        ],
-        "rank_timeline": [
-          {
-            "rank": 15,
-            "crawl_time": "00-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人群营养",
-        "item_id": "news:15"
-      },
-      {
-        "id": 17,
-        "title": "女子把电动摩托车当电动车骑被拦停",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 17,
-        "url": "https://www.toutiao.com/trending/7650804591713402916/",
-        "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
-        "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
-        "ranks": [
-          17
-        ],
-        "rank_timeline": [
-          {
-            "rank": 17,
-            "crawl_time": "00-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:17"
-      },
-      {
-        "id": 182,
-        "title": "男子去世欠49万房贷父母放弃继承",
-        "platform_id": "weibo",
-        "platform_name": "微博",
         "rank": 7,
-        "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E6%AC%A049%E4%B8%87%E6%88%BF%E8%B4%B7%E7%88%B6%E6%AF%8D%E6%94%BE%E5%BC%83%E7%BB%A7%E6%89%BF%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E6%AC%A049%E4%B8%87%E6%88%BF%E8%B4%B7%E7%88%B6%E6%AF%8D%E6%94%BE%E5%BC%83%E7%BB%A7%E6%89%BF%23&t=31&band_rank=7&Refer=top",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "url": "https://www.toutiao.com/trending/7651124079730425907/",
+        "mobile_url": "",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
-        "matched_category": "住房民生",
-        "item_id": "news:182"
+        "matched_category": "人口家庭",
+        "item_id": "news:7"
       },
       {
-        "id": 241,
-        "title": "女子考编第一被低分者顶替，维权后岗位取消，相关部门立案调查，为何会出现这一情况？招聘公平性如何保障？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 6,
-        "url": "https://www.zhihu.com/question/2049225127036990849",
+        "id": 12,
+        "title": "媒体评黑龙江宝妈考编第一遭撤岗",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 12,
+        "url": "https://www.toutiao.com/trending/7650883407911632934/",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
-          6
+          12
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "00-57"
+            "rank": 12,
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:241"
+        "matched_category": "人群营养",
+        "item_id": "news:12"
       },
       {
-        "id": 251,
-        "title": "一地 4 所公立幼儿园要求家长报名时提供工资流水、物管缴费凭证等，这一要求是否合理合规？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 16,
-        "url": "https://www.zhihu.com/question/2046864624553649862",
-        "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
-        "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "00-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:251"
-      },
-      {
-        "id": 253,
-        "title": "西湖大学本科生学费内地生每年 6000 元，外籍生 35 万元，相差近 58 倍，如何看待这种定价？是国际惯例吗？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
+        "id": 18,
+        "title": "女子把电动摩托车当电动车骑被拦停",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
         "rank": 18,
-        "url": "https://www.zhihu.com/question/2047264542703597437",
+        "url": "https://www.toutiao.com/trending/7650804591713402916/",
         "mobile_url": "",
-        "first_crawl_time": "00-57",
-        "last_crawl_time": "00-57",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
         "crawl_count": 1,
-        "created_at": "2026-06-15 00:57:07",
-        "updated_at": "2026-06-15 00:57:07",
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
         "ranks": [
           18
         ],
         "rank_timeline": [
           {
             "rank": 18,
-            "crawl_time": "00-57"
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:18"
+      },
+      {
+        "id": 176,
+        "title": "陕西地震",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 1,
+        "url": "https://s.weibo.com/weibo?q=%E9%99%95%E8%A5%BF%E5%9C%B0%E9%9C%87",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E9%99%95%E8%A5%BF%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          1
+        ],
+        "rank_timeline": [
+          {
+            "rank": 1,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:176"
+      },
+      {
+        "id": 196,
+        "title": "男子去世欠49万房贷父母放弃继承",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 21,
+        "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E6%AC%A049%E4%B8%87%E6%88%BF%E8%B4%B7%E7%88%B6%E6%AF%8D%E6%94%BE%E5%BC%83%E7%BB%A7%E6%89%BF%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E6%AC%A049%E4%B8%87%E6%88%BF%E8%B4%B7%E7%88%B6%E6%AF%8D%E6%94%BE%E5%BC%83%E7%BB%A7%E6%89%BF%23&t=31&band_rank=21&Refer=top",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          21
+        ],
+        "rank_timeline": [
+          {
+            "rank": 21,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "住房民生",
+        "item_id": "news:196"
+      },
+      {
+        "id": 200,
+        "title": "库拉索人口15.8万",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 25,
+        "url": "https://s.weibo.com/weibo?q=%E5%BA%93%E6%8B%89%E7%B4%A2%E4%BA%BA%E5%8F%A315.8%E4%B8%87",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%BA%93%E6%8B%89%E7%B4%A2%E4%BA%BA%E5%8F%A315.8%E4%B8%87&t=31&band_rank=25&Refer=top",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:200"
+      },
+      {
+        "id": 247,
+        "title": "女子考编第一被低分者顶替，维权后岗位取消，相关部门立案调查，为何会出现这一情况？招聘公平性如何保障？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 12,
+        "url": "https://www.zhihu.com/question/2049225127036990849",
+        "mobile_url": "",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          12
+        ],
+        "rank_timeline": [
+          {
+            "rank": 12,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:247"
+      },
+      {
+        "id": 253,
+        "title": "一地 4 所公立幼儿园要求家长报名时提供工资流水、物管缴费凭证等，这一要求是否合理合规？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 18,
+        "url": "https://www.zhihu.com/question/2046864624553649862",
+        "mobile_url": "",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "02-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:253"
+      },
+      {
+        "id": 255,
+        "title": "西湖大学本科生学费内地生每年 6000 元，外籍生 35 万元，相差近 58 倍，如何看待这种定价？是国际惯例吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 20,
+        "url": "https://www.zhihu.com/question/2047264542703597437",
+        "mobile_url": "",
+        "first_crawl_time": "02-52",
+        "last_crawl_time": "02-52",
+        "crawl_count": 1,
+        "created_at": "2026-06-15 02:52:08",
+        "updated_at": "2026-06-15 02:52:08",
+        "ranks": [
+          20
+        ],
+        "rank_timeline": [
+          {
+            "rank": 20,
+            "crawl_time": "02-52"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:253"
+        "item_id": "news:255"
       }
     ],
     "platforms": [
@@ -508,153 +621,169 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-15 00:57:07"
+        "updated_at": "2026-06-15 02:52:08"
       }
     ],
     "latest_item_ids": [
+      "news:36",
       "news:38",
-      "news:39",
       "news:41",
       "news:47",
-      "news:49",
-      "news:110",
+      "news:54",
+      "news:115",
       "news:124",
       "news:171",
       "news:173",
-      "news:5",
-      "news:15",
-      "news:17",
-      "news:182",
-      "news:241",
-      "news:251",
-      "news:253"
+      "news:1",
+      "news:4",
+      "news:7",
+      "news:12",
+      "news:18",
+      "news:176",
+      "news:196",
+      "news:200",
+      "news:247",
+      "news:253",
+      "news:255"
     ],
     "categories": {
       "住房民生": [
-        "news:38",
-        "news:182"
+        "news:36",
+        "news:196"
       ],
       "就业民生": [
-        "news:39",
-        "news:241",
-        "news:251"
+        "news:38",
+        "news:247",
+        "news:253"
       ],
       "教育民生": [
         "news:41",
-        "news:110",
+        "news:115",
         "news:171",
-        "news:5",
-        "news:253"
+        "news:4",
+        "news:255"
       ],
       "安全灾害": [
-        "news:47"
+        "news:47",
+        "news:1",
+        "news:176"
       ],
       "常见疾病": [
-        "news:49"
+        "news:54"
       ],
       "物价消费": [
         "news:124"
       ],
       "交通出行": [
         "news:173",
-        "news:17"
+        "news:18"
+      ],
+      "人口家庭": [
+        "news:7",
+        "news:200"
       ],
       "人群营养": [
-        "news:15"
+        "news:12"
       ]
     },
     "latest_categories": {
       "住房民生": [
-        "news:38",
-        "news:182"
+        "news:36",
+        "news:196"
       ],
       "就业民生": [
-        "news:39",
-        "news:241",
-        "news:251"
+        "news:38",
+        "news:247",
+        "news:253"
       ],
       "教育民生": [
         "news:41",
-        "news:110",
+        "news:115",
         "news:171",
-        "news:5",
-        "news:253"
+        "news:4",
+        "news:255"
       ],
       "安全灾害": [
-        "news:47"
+        "news:47",
+        "news:1",
+        "news:176"
       ],
       "常见疾病": [
-        "news:49"
+        "news:54"
       ],
       "物价消费": [
         "news:124"
       ],
       "交通出行": [
         "news:173",
-        "news:17"
+        "news:18"
+      ],
+      "人口家庭": [
+        "news:7",
+        "news:200"
       ],
       "人群营养": [
-        "news:15"
+        "news:12"
       ]
     },
     "raw_count": 255,
@@ -662,7 +791,7 @@
   },
   "rss": {
     "date": "2026-06-15",
-    "latest_crawl_time": "00:57",
+    "latest_crawl_time": "02:52",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -675,7 +804,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-15 00:57:10"
+        "updated_at": "2026-06-15 02:52:09"
       },
       {
         "id": "yahoo-finance",
@@ -685,13 +814,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-15 00:57:10"
+        "updated_at": "2026-06-15 02:52:09"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 69,
-    "raw_latest_count": 69
+    "raw_count": 70,
+    "raw_latest_count": 70
   }
 }

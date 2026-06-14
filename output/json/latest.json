@@ -1,425 +1,484 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-14T06:37:53.563811+08:00",
+  "generated_at": "2026-06-14T09:55:58.719439+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "27481193547",
-    "run_number": "94",
+    "run_id": "27485256816",
+    "run_number": "95",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-14",
-  "crawl_time": "06-37",
+  "crawl_time": "09-55",
   "counts": {
-    "news": 13,
-    "latest_news": 13,
+    "news": 15,
+    "latest_news": 15,
     "rss": 0,
     "latest_rss": 0,
-    "total": 13,
-    "latest_total": 13,
+    "total": 15,
+    "latest_total": 15,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 62,
-    "raw_latest_rss": 62
+    "raw_rss": 59,
+    "raw_latest_rss": 59
   },
   "categories": {
-    "常见疾病": {
-      "news": [
-        "news:45"
-      ],
-      "rss": []
-    },
     "交通出行": {
       "news": [
-        "news:54",
-        "news:164"
+        "news:48",
+        "news:166",
+        "news:6"
       ],
       "rss": []
     },
-    "就业民生": {
+    "常见疾病": {
       "news": [
-        "news:78",
-        "news:11",
-        "news:251",
-        "news:255"
+        "news:50"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
-        "news:82"
+        "news:117",
+        "news:233",
+        "news:78",
+        "news:16"
       ],
       "rss": []
     },
-    "人口家庭": {
+    "就业民生": {
       "news": [
-        "news:89",
-        "news:194"
+        "news:75"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
-        "news:162"
+        "news:164",
+        "news:245"
       ],
       "rss": []
     },
-    "中医养生": {
+    "人口家庭": {
       "news": [
-        "news:29"
+        "news:22"
+      ],
+      "rss": []
+    },
+    "物价消费": {
+      "news": [
+        "news:67"
+      ],
+      "rss": []
+    },
+    "人群营养": {
+      "news": [
+        "news:204"
       ],
       "rss": []
     },
     "食品安全": {
       "news": [
-        "news:242"
+        "news:251"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-14",
-    "latest_crawl_time": "06-37",
-    "count": 13,
-    "latest_count": 13,
+    "latest_crawl_time": "09-55",
+    "count": 15,
+    "latest_count": 15,
     "items": [
       {
-        "id": 45,
-        "title": "突然确诊癌症 小伙惊了：一直有体检",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 15,
-        "url": "https://www.baidu.com/s?wd=%E7%AA%81%E7%84%B6%E7%A1%AE%E8%AF%8A%E7%99%8C%E7%97%87+%E5%B0%8F%E4%BC%99%E6%83%8A%E4%BA%86%EF%BC%9A%E4%B8%80%E7%9B%B4%E6%9C%89%E4%BD%93%E6%A3%80",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          15
-        ],
-        "rank_timeline": [
-          {
-            "rank": 15,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "常见疾病",
-        "item_id": "news:45"
-      },
-      {
-        "id": 54,
+        "id": 48,
         "title": "女孩心情不好拒收外卖 小哥耐心开导",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 24,
+        "rank": 18,
         "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%A9%E5%BF%83%E6%83%85%E4%B8%8D%E5%A5%BD%E6%8B%92%E6%94%B6%E5%A4%96%E5%8D%96+%E5%B0%8F%E5%93%A5%E8%80%90%E5%BF%83%E5%BC%80%E5%AF%BC",
         "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
         "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
         "ranks": [
-          24
+          18
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "06-37"
+            "rank": 18,
+            "crawl_time": "09-55"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:54"
+        "item_id": "news:48"
       },
       {
-        "id": 78,
-        "title": "不写论文也能拿学位？首批实践毕业生：用小说、商业项目其实更难",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 8,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33373040",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33373040",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:78"
-      },
-      {
-        "id": 82,
-        "title": "南极遭遇极端高温天气，气温偏高超20摄氏度",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 12,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33374035",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33374035",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          12
-        ],
-        "rank_timeline": [
-          {
-            "rank": 12,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:82"
-      },
-      {
-        "id": 89,
-        "title": "艺术评论周刊｜记住守护文化遗产的人",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 19,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33363455",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33363455",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          19
-        ],
-        "rank_timeline": [
-          {
-            "rank": 19,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:89"
-      },
-      {
-        "id": 162,
-        "title": "精明家长,高考分数=手机价格",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 17,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%B2%BE%E6%98%8E%E5%AE%B6%E9%95%BF%2C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%3D%E6%89%8B%E6%9C%BA%E4%BB%B7%E6%A0%BC&topic_id=28355109",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          17
-        ],
-        "rank_timeline": [
-          {
-            "rank": 17,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:162"
-      },
-      {
-        "id": 164,
-        "title": "女子点外卖离奇收到活牛蛙",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 19,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%A5%B3%E5%AD%90%E7%82%B9%E5%A4%96%E5%8D%96%E7%A6%BB%E5%A5%87%E6%94%B6%E5%88%B0%E6%B4%BB%E7%89%9B%E8%9B%99&topic_id=28355111",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          19
-        ],
-        "rank_timeline": [
-          {
-            "rank": 19,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:164"
-      },
-      {
-        "id": 11,
-        "title": "四川多地烈士陵园办公室招聘系谣言",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 11,
-        "url": "https://www.toutiao.com/trending/7650720118226173993/",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          11
-        ],
-        "rank_timeline": [
-          {
-            "rank": 11,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:11"
-      },
-      {
-        "id": 29,
-        "title": "全国名中医单兆伟去世",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 29,
-        "url": "https://www.toutiao.com/trending/7650481384046460991/",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "中医养生",
-        "item_id": "news:29"
-      },
-      {
-        "id": 194,
-        "title": "女生分手男方要求返还彩礼被告强奸",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 19,
-        "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E5%88%86%E6%89%8B%E7%94%B7%E6%96%B9%E8%A6%81%E6%B1%82%E8%BF%94%E8%BF%98%E5%BD%A9%E7%A4%BC%E8%A2%AB%E5%91%8A%E5%BC%BA%E5%A5%B8%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E5%88%86%E6%89%8B%E7%94%B7%E6%96%B9%E8%A6%81%E6%B1%82%E8%BF%94%E8%BF%98%E5%BD%A9%E7%A4%BC%E8%A2%AB%E5%91%8A%E5%BC%BA%E5%A5%B8%23&t=31&band_rank=19&Refer=top",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          19
-        ],
-        "rank_timeline": [
-          {
-            "rank": 19,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:194"
-      },
-      {
-        "id": 242,
-        "title": "日本炸鸡店称一锅油反复用 66 年，从食品安全和健康角度看，这种做法存在哪些潜在风险？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 7,
-        "url": "https://www.zhihu.com/question/2048692040377033581",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          7
-        ],
-        "rank_timeline": [
-          {
-            "rank": 7,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "食品安全",
-        "item_id": "news:242"
-      },
-      {
-        "id": 251,
-        "title": "网传一大厂裁员后 bug 无人修复，靠虚假招聘骗修复方案，如何看待这一操作？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 16,
-        "url": "https://www.zhihu.com/question/2047628590754133157",
-        "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
-        "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "06-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:251"
-      },
-      {
-        "id": 255,
-        "title": "全猿 AI Coding 会不会导致研发 Leader 或 PM 这种管理大量失业，因为不需要了？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
+        "id": 50,
+        "title": "突然确诊癌症 小伙惊了：一直有体检",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
         "rank": 20,
-        "url": "https://www.zhihu.com/question/1997586495188521827",
+        "url": "https://www.baidu.com/s?wd=%E7%AA%81%E7%84%B6%E7%A1%AE%E8%AF%8A%E7%99%8C%E7%97%87+%E5%B0%8F%E4%BC%99%E6%83%8A%E4%BA%86%EF%BC%9A%E4%B8%80%E7%9B%B4%E6%9C%89%E4%BD%93%E6%A3%80",
         "mobile_url": "",
-        "first_crawl_time": "06-37",
-        "last_crawl_time": "06-37",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
         "crawl_count": 1,
-        "created_at": "2026-06-14 06:37:48",
-        "updated_at": "2026-06-14 06:37:48",
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
         "ranks": [
           20
         ],
         "rank_timeline": [
           {
             "rank": 20,
-            "crawl_time": "06-37"
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "常见疾病",
+        "item_id": "news:50"
+      },
+      {
+        "id": 117,
+        "title": "特大暴雨来了",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 27,
+        "url": "https://search.bilibili.com/all?keyword=%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:117"
+      },
+      {
+        "id": 233,
+        "title": "南极半岛出现异常高温",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 28,
+        "url": "https://www.douyin.com/hot/2533017",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          28
+        ],
+        "rank_timeline": [
+          {
+            "rank": 28,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:233"
+      },
+      {
+        "id": 75,
+        "title": "不写论文也能拿学位？首批实践毕业生：用小说、商业项目其实更难",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 5,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33373040",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33373040",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          5
+        ],
+        "rank_timeline": [
+          {
+            "rank": 5,
+            "crawl_time": "09-55"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:255"
+        "item_id": "news:75"
+      },
+      {
+        "id": 78,
+        "title": "南极遭遇极端高温天气，气温偏高超20摄氏度",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 8,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33374035",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33374035",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:78"
+      },
+      {
+        "id": 164,
+        "title": "精明家长,高考分数=手机价格",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 19,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%B2%BE%E6%98%8E%E5%AE%B6%E9%95%BF%2C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%3D%E6%89%8B%E6%9C%BA%E4%BB%B7%E6%A0%BC&topic_id=28355109",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          19
+        ],
+        "rank_timeline": [
+          {
+            "rank": 19,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:164"
+      },
+      {
+        "id": 166,
+        "title": "女子点外卖离奇收到活牛蛙",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 21,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%A5%B3%E5%AD%90%E7%82%B9%E5%A4%96%E5%8D%96%E7%A6%BB%E5%A5%87%E6%94%B6%E5%88%B0%E6%B4%BB%E7%89%9B%E8%9B%99&topic_id=28355111",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          21
+        ],
+        "rank_timeline": [
+          {
+            "rank": 21,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:166"
+      },
+      {
+        "id": 6,
+        "title": "夫妻看店时电瓶车被偷竟浑然不知",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 6,
+        "url": "https://www.toutiao.com/trending/7650824200428814372/",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:6"
+      },
+      {
+        "id": 16,
+        "title": "山东聊城一化工企业工厂突发火灾",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 16,
+        "url": "https://www.toutiao.com/trending/7650817142065594378/",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          16
+        ],
+        "rank_timeline": [
+          {
+            "rank": 16,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:16"
+      },
+      {
+        "id": 22,
+        "title": "女生未满18订婚分手被诉返20万彩礼",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 22,
+        "url": "https://www.toutiao.com/trending/7649803975390920755/",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:22"
+      },
+      {
+        "id": 67,
+        "title": "谁降价谁更弱势！摩根大通：智谱和Minimax做了同样的实验，但结果相反",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 7,
+        "url": "https://wallstreetcn.com/articles/3774596",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:67"
+      },
+      {
+        "id": 204,
+        "title": "当地回应宝妈考编第一被别人递补",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 29,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%BD%93%E5%9C%B0%E5%9B%9E%E5%BA%94%E5%AE%9D%E5%A6%88%E8%80%83%E7%BC%96%E7%AC%AC%E4%B8%80%E8%A2%AB%E5%88%AB%E4%BA%BA%E9%80%92%E8%A1%A5%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%BD%93%E5%9C%B0%E5%9B%9E%E5%BA%94%E5%AE%9D%E5%A6%88%E8%80%83%E7%BC%96%E7%AC%AC%E4%B8%80%E8%A2%AB%E5%88%AB%E4%BA%BA%E9%80%92%E8%A1%A5%23&t=31&band_rank=29&Refer=top",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人群营养",
+        "item_id": "news:204"
+      },
+      {
+        "id": 245,
+        "title": "西湖大学本科生学费内地生每年 6000 元，外籍生 35 万元，相差近 58 倍，如何看待这种定价？是国际惯例吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 10,
+        "url": "https://www.zhihu.com/question/2047264542703597437",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          10
+        ],
+        "rank_timeline": [
+          {
+            "rank": 10,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:245"
+      },
+      {
+        "id": 251,
+        "title": "日本炸鸡店称一锅油反复用 66 年，从食品安全和健康角度看，这种做法存在哪些潜在风险？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 16,
+        "url": "https://www.zhihu.com/question/2048692040377033581",
+        "mobile_url": "",
+        "first_crawl_time": "09-55",
+        "last_crawl_time": "09-55",
+        "crawl_count": 1,
+        "created_at": "2026-06-14 09:55:52",
+        "updated_at": "2026-06-14 09:55:52",
+        "ranks": [
+          16
+        ],
+        "rank_timeline": [
+          {
+            "rank": 16,
+            "crawl_time": "09-55"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "食品安全",
+        "item_id": "news:251"
       }
     ],
     "platforms": [
@@ -427,144 +486,154 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-14 06:37:48"
+        "updated_at": "2026-06-14 09:55:52"
       }
     ],
     "latest_item_ids": [
-      "news:45",
-      "news:54",
+      "news:48",
+      "news:50",
+      "news:117",
+      "news:233",
+      "news:75",
       "news:78",
-      "news:82",
-      "news:89",
-      "news:162",
       "news:164",
-      "news:11",
-      "news:29",
-      "news:194",
-      "news:242",
-      "news:251",
-      "news:255"
+      "news:166",
+      "news:6",
+      "news:16",
+      "news:22",
+      "news:67",
+      "news:204",
+      "news:245",
+      "news:251"
     ],
     "categories": {
-      "常见疾病": [
-        "news:45"
-      ],
       "交通出行": [
-        "news:54",
-        "news:164"
+        "news:48",
+        "news:166",
+        "news:6"
       ],
-      "就业民生": [
-        "news:78",
-        "news:11",
-        "news:251",
-        "news:255"
+      "常见疾病": [
+        "news:50"
       ],
       "安全灾害": [
-        "news:82"
+        "news:117",
+        "news:233",
+        "news:78",
+        "news:16"
       ],
-      "人口家庭": [
-        "news:89",
-        "news:194"
+      "就业民生": [
+        "news:75"
       ],
       "教育民生": [
-        "news:162"
+        "news:164",
+        "news:245"
       ],
-      "中医养生": [
-        "news:29"
+      "人口家庭": [
+        "news:22"
+      ],
+      "物价消费": [
+        "news:67"
+      ],
+      "人群营养": [
+        "news:204"
       ],
       "食品安全": [
-        "news:242"
+        "news:251"
       ]
     },
     "latest_categories": {
-      "常见疾病": [
-        "news:45"
-      ],
       "交通出行": [
-        "news:54",
-        "news:164"
+        "news:48",
+        "news:166",
+        "news:6"
       ],
-      "就业民生": [
-        "news:78",
-        "news:11",
-        "news:251",
-        "news:255"
+      "常见疾病": [
+        "news:50"
       ],
       "安全灾害": [
-        "news:82"
+        "news:117",
+        "news:233",
+        "news:78",
+        "news:16"
       ],
-      "人口家庭": [
-        "news:89",
-        "news:194"
+      "就业民生": [
+        "news:75"
       ],
       "教育民生": [
-        "news:162"
+        "news:164",
+        "news:245"
       ],
-      "中医养生": [
-        "news:29"
+      "人口家庭": [
+        "news:22"
+      ],
+      "物价消费": [
+        "news:67"
+      ],
+      "人群营养": [
+        "news:204"
       ],
       "食品安全": [
-        "news:242"
+        "news:251"
       ]
     },
     "raw_count": 255,
@@ -572,7 +641,7 @@
   },
   "rss": {
     "date": "2026-06-14",
-    "latest_crawl_time": "06:37",
+    "latest_crawl_time": "09:55",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -585,7 +654,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-14 06:37:50"
+        "updated_at": "2026-06-14 09:55:56"
       },
       {
         "id": "yahoo-finance",
@@ -595,13 +664,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-14 06:37:50"
+        "updated_at": "2026-06-14 09:55:56"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 62,
-    "raw_latest_count": 62
+    "raw_count": 59,
+    "raw_latest_count": 59
   }
 }

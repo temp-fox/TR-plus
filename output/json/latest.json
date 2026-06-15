@@ -1,42 +1,28 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-16T03:13:09.278910+08:00",
+  "generated_at": "2026-06-16T06:01:50.692595+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "27570051055",
-    "run_number": "107",
+    "run_id": "27579227468",
+    "run_number": "108",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-16",
-  "crawl_time": "03-13",
+  "crawl_time": "06-01",
   "counts": {
-    "news": 12,
-    "latest_news": 12,
+    "news": 9,
+    "latest_news": 9,
     "rss": 0,
     "latest_rss": 0,
-    "total": 12,
-    "latest_total": 12,
+    "total": 9,
+    "latest_total": 9,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 63,
-    "raw_latest_rss": 63
+    "raw_rss": 62,
+    "raw_latest_rss": 62
   },
   "categories": {
-    "交通出行": {
-      "news": [
-        "news:47"
-      ],
-      "rss": []
-    },
-    "安全灾害": {
-      "news": [
-        "news:233",
-        "news:78",
-        "news:27"
-      ],
-      "rss": []
-    },
     "食物功效": {
       "news": [
         "news:73"
@@ -52,14 +38,19 @@
     "食品安全": {
       "news": [
         "news:75",
-        "news:147",
-        "news:242"
+        "news:148"
+      ],
+      "rss": []
+    },
+    "安全灾害": {
+      "news": [
+        "news:78"
       ],
       "rss": []
     },
     "住房民生": {
       "news": [
-        "news:16"
+        "news:25"
       ],
       "rss": []
     },
@@ -71,69 +62,23 @@
     },
     "营养饮食": {
       "news": [
-        "news:189"
+        "news:185"
+      ],
+      "rss": []
+    },
+    "交通出行": {
+      "news": [
+        "news:254"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-16",
-    "latest_crawl_time": "03-13",
-    "count": 12,
-    "latest_count": 12,
+    "latest_crawl_time": "06-01",
+    "count": 9,
+    "latest_count": 9,
     "items": [
-      {
-        "id": 47,
-        "title": "白天跑网约车晚上回原企业偷锡块",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 17,
-        "url": "https://www.baidu.com/s?wd=%E7%99%BD%E5%A4%A9%E8%B7%91%E7%BD%91%E7%BA%A6%E8%BD%A6%E6%99%9A%E4%B8%8A%E5%9B%9E%E5%8E%9F%E4%BC%81%E4%B8%9A%E5%81%B7%E9%94%A1%E5%9D%97",
-        "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
-        "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
-        "ranks": [
-          17
-        ],
-        "rank_timeline": [
-          {
-            "rank": 17,
-            "crawl_time": "03-13"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:47"
-      },
-      {
-        "id": 233,
-        "title": "深圳全市处于暴雨戒备状态",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 28,
-        "url": "https://www.douyin.com/hot/2535193",
-        "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
-        "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
-        "ranks": [
-          28
-        ],
-        "rank_timeline": [
-          {
-            "rank": 28,
-            "crawl_time": "03-13"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:233"
-      },
       {
         "id": 73,
         "title": "影子调查｜有毒的“养生烟”：电商热销宣称“养生润肺”，神秘厂家难寻",
@@ -142,18 +87,18 @@
         "rank": 3,
         "url": "https://www.thepaper.cn/newsDetail_forward_33360714",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33360714",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "03-13"
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
@@ -168,18 +113,18 @@
         "rank": 4,
         "url": "https://www.thepaper.cn/newsDetail_forward_33380973",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33380973",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "03-13"
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
@@ -194,18 +139,18 @@
         "rank": 5,
         "url": "https://www.thepaper.cn/newsDetail_forward_33380724",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33380724",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "03-13"
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
@@ -220,18 +165,18 @@
         "rank": 8,
         "url": "https://www.thepaper.cn/newsDetail_forward_33380885",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33380885",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "03-13"
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
@@ -239,82 +184,56 @@
         "item_id": "news:78"
       },
       {
-        "id": 147,
+        "id": 148,
         "title": "山姆超市因食品安全被点名",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 2,
+        "rank": 3,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%B1%B1%E5%A7%86%E8%B6%85%E5%B8%82%E5%9B%A0%E9%A3%9F%E5%93%81%E5%AE%89%E5%85%A8%E8%A2%AB%E7%82%B9%E5%90%8D&topic_id=28355176",
         "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
-          2
+          3
         ],
         "rank_timeline": [
           {
-            "rank": 2,
-            "crawl_time": "03-13"
+            "rank": 3,
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
         "matched_category": "食品安全",
-        "item_id": "news:147"
+        "item_id": "news:148"
       },
       {
-        "id": 16,
+        "id": 25,
         "title": "房价终于触底了吗",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 16,
+        "rank": 25,
         "url": "https://www.toutiao.com/trending/7651604533902052900/",
         "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
-          16
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 16,
-            "crawl_time": "03-13"
+            "rank": 25,
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
         "matched_category": "住房民生",
-        "item_id": "news:16"
-      },
-      {
-        "id": 27,
-        "title": "广东一动物园暴雨中上演“水虎传”",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 27,
-        "url": "https://www.toutiao.com/trending/7651327757280411675/",
-        "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
-        "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
-        "ranks": [
-          27
-        ],
-        "rank_timeline": [
-          {
-            "rank": 27,
-            "crawl_time": "03-13"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:27"
+        "item_id": "news:25"
       },
       {
         "id": 62,
@@ -324,18 +243,18 @@
         "rank": 2,
         "url": "https://wallstreetcn.com/articles/3774633",
         "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "03-13"
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
@@ -343,56 +262,56 @@
         "item_id": "news:62"
       },
       {
-        "id": 189,
+        "id": 185,
         "title": "肥胖的最新标准",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 14,
+        "rank": 10,
         "url": "https://s.weibo.com/weibo?q=%23%E8%82%A5%E8%83%96%E7%9A%84%E6%9C%80%E6%96%B0%E6%A0%87%E5%87%86%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E8%82%A5%E8%83%96%E7%9A%84%E6%9C%80%E6%96%B0%E6%A0%87%E5%87%86%23&t=31&band_rank=14&Refer=top",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E8%82%A5%E8%83%96%E7%9A%84%E6%9C%80%E6%96%B0%E6%A0%87%E5%87%86%23&t=31&band_rank=10&Refer=top",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
-          14
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 14,
-            "crawl_time": "03-13"
+            "rank": 10,
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
         "matched_category": "营养饮食",
-        "item_id": "news:189"
+        "item_id": "news:185"
       },
       {
-        "id": 242,
-        "title": "市场监管总局约谈山姆总部，要求其严防全链条食品安全风险，山姆的品控出了什么问题？此次约谈有何警示意义？",
+        "id": 254,
+        "title": "广州公交客流 6 年暴跌 59%，传统公交如何转型才能实现破局？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 7,
-        "url": "https://www.zhihu.com/question/2049810638076130456",
+        "rank": 19,
+        "url": "https://www.zhihu.com/question/2048436426153447769",
         "mobile_url": "",
-        "first_crawl_time": "03-13",
-        "last_crawl_time": "03-13",
+        "first_crawl_time": "06-01",
+        "last_crawl_time": "06-01",
         "crawl_count": 1,
-        "created_at": "2026-06-16 03:13:02",
-        "updated_at": "2026-06-16 03:13:02",
+        "created_at": "2026-06-16 06:01:43",
+        "updated_at": "2026-06-16 06:01:43",
         "ranks": [
-          7
+          19
         ],
         "rank_timeline": [
           {
-            "rank": 7,
-            "crawl_time": "03-13"
+            "rank": 19,
+            "crawl_time": "06-01"
           }
         ],
         "is_latest": true,
-        "matched_category": "食品安全",
-        "item_id": "news:242"
+        "matched_category": "交通出行",
+        "item_id": "news:254"
       }
     ],
     "platforms": [
@@ -400,92 +319,81 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-16 03:13:02"
+        "updated_at": "2026-06-16 06:01:43"
       }
     ],
     "latest_item_ids": [
-      "news:47",
-      "news:233",
       "news:73",
       "news:74",
       "news:75",
       "news:78",
-      "news:147",
-      "news:16",
-      "news:27",
+      "news:148",
+      "news:25",
       "news:62",
-      "news:189",
-      "news:242"
+      "news:185",
+      "news:254"
     ],
     "categories": {
-      "交通出行": [
-        "news:47"
-      ],
-      "安全灾害": [
-        "news:233",
-        "news:78",
-        "news:27"
-      ],
       "食物功效": [
         "news:73"
       ],
@@ -494,28 +402,25 @@
       ],
       "食品安全": [
         "news:75",
-        "news:147",
-        "news:242"
+        "news:148"
+      ],
+      "安全灾害": [
+        "news:78"
       ],
       "住房民生": [
-        "news:16"
+        "news:25"
       ],
       "物价消费": [
         "news:62"
       ],
       "营养饮食": [
-        "news:189"
+        "news:185"
+      ],
+      "交通出行": [
+        "news:254"
       ]
     },
     "latest_categories": {
-      "交通出行": [
-        "news:47"
-      ],
-      "安全灾害": [
-        "news:233",
-        "news:78",
-        "news:27"
-      ],
       "食物功效": [
         "news:73"
       ],
@@ -524,17 +429,22 @@
       ],
       "食品安全": [
         "news:75",
-        "news:147",
-        "news:242"
+        "news:148"
+      ],
+      "安全灾害": [
+        "news:78"
       ],
       "住房民生": [
-        "news:16"
+        "news:25"
       ],
       "物价消费": [
         "news:62"
       ],
       "营养饮食": [
-        "news:189"
+        "news:185"
+      ],
+      "交通出行": [
+        "news:254"
       ]
     },
     "raw_count": 255,
@@ -542,7 +452,7 @@
   },
   "rss": {
     "date": "2026-06-16",
-    "latest_crawl_time": "03:13",
+    "latest_crawl_time": "06:01",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -555,7 +465,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-16 03:13:06"
+        "updated_at": "2026-06-16 06:01:48"
       },
       {
         "id": "yahoo-finance",
@@ -565,13 +475,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-16 03:13:06"
+        "updated_at": "2026-06-16 06:01:48"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 63,
-    "raw_latest_count": 63
+    "raw_count": 62,
+    "raw_latest_count": 62
   }
 }

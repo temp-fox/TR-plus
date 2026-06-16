@@ -1,71 +1,56 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-17T04:28:07.134348+08:00",
+  "generated_at": "2026-06-17T06:31:19.667575+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "27645956171",
-    "run_number": "113",
+    "run_id": "27652395289",
+    "run_number": "114",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-17",
-  "crawl_time": "04-28",
+  "crawl_time": "06-31",
   "counts": {
-    "news": 22,
-    "latest_news": 22,
+    "news": 19,
+    "latest_news": 19,
     "rss": 0,
     "latest_rss": 0,
-    "total": 22,
-    "latest_total": 22,
+    "total": 19,
+    "latest_total": 19,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 68,
-    "raw_latest_rss": 68
+    "raw_rss": 66,
+    "raw_latest_rss": 66
   },
   "categories": {
-    "安全灾害": {
-      "news": [
-        "news:36",
-        "news:49",
-        "news:95",
-        "news:209",
-        "news:89",
-        "news:4",
-        "news:205",
-        "news:250"
-      ],
-      "rss": []
-    },
     "交通出行": {
       "news": [
         "news:41",
-        "news:154",
+        "news:155",
         "news:11",
-        "news:23"
+        "news:27"
+      ],
+      "rss": []
+    },
+    "安全灾害": {
+      "news": [
+        "news:48",
+        "news:95",
+        "news:209",
+        "news:90",
+        "news:205"
       ],
       "rss": []
     },
     "医疗健康": {
       "news": [
-        "news:42"
+        "news:53"
       ],
       "rss": []
     },
-    "肠胃代谢": {
+    "常见疾病": {
       "news": [
-        "news:44"
-      ],
-      "rss": []
-    },
-    "养老生活": {
-      "news": [
-        "news:55"
-      ],
-      "rss": []
-    },
-    "社会保障": {
-      "news": [
-        "news:56"
+        "news:58"
       ],
       "rss": []
     },
@@ -84,55 +69,31 @@
     },
     "食品安全": {
       "news": [
-        "news:162"
+        "news:163"
       ],
       "rss": []
     },
     "消费维权": {
       "news": [
-        "news:29"
+        "news:26",
+        "news:28"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:247"
+        "news:242",
+        "news:243"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-17",
-    "latest_crawl_time": "04-28",
-    "count": 22,
-    "latest_count": 22,
+    "latest_crawl_time": "06-31",
+    "count": 19,
+    "latest_count": 19,
     "items": [
-      {
-        "id": 36,
-        "title": "海西6.3级地震致周边道路变形开裂",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 6,
-        "url": "https://www.baidu.com/s?wd=%E6%B5%B7%E8%A5%BF6.3%E7%BA%A7%E5%9C%B0%E9%9C%87%E8%87%B4%E5%91%A8%E8%BE%B9%E9%81%93%E8%B7%AF%E5%8F%98%E5%BD%A2%E5%BC%80%E8%A3%82",
-        "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
-        "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "04-28"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:36"
-      },
       {
         "id": 41,
         "title": "造谣“上海地铁顶部坠落”者被拘",
@@ -141,18 +102,18 @@
         "rank": 11,
         "url": "https://www.baidu.com/s?wd=%E9%80%A0%E8%B0%A3%E2%80%9C%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81%E9%A1%B6%E9%83%A8%E5%9D%A0%E8%90%BD%E2%80%9D%E8%80%85%E8%A2%AB%E6%8B%98",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -160,134 +121,82 @@
         "item_id": "news:41"
       },
       {
-        "id": 42,
-        "title": "大爷喝养生酒中毒 急救后捡回一命",
+        "id": 48,
+        "title": "海西6.3级地震致周边道路变形开裂",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 12,
-        "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E7%88%B7%E5%96%9D%E5%85%BB%E7%94%9F%E9%85%92%E4%B8%AD%E6%AF%92+%E6%80%A5%E6%95%91%E5%90%8E%E6%8D%A1%E5%9B%9E%E4%B8%80%E5%91%BD",
+        "rank": 18,
+        "url": "https://www.baidu.com/s?wd=%E6%B5%B7%E8%A5%BF6.3%E7%BA%A7%E5%9C%B0%E9%9C%87%E8%87%B4%E5%91%A8%E8%BE%B9%E9%81%93%E8%B7%AF%E5%8F%98%E5%BD%A2%E5%BC%80%E8%A3%82",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          12
+          18
         ],
         "rank_timeline": [
           {
-            "rank": 12,
-            "crawl_time": "04-28"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:42"
-      },
-      {
-        "id": 44,
-        "title": "76岁大爷吃隔夜酱板鸭腹泻到虚脱",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 14,
-        "url": "https://www.baidu.com/s?wd=76%E5%B2%81%E5%A4%A7%E7%88%B7%E5%90%83%E9%9A%94%E5%A4%9C%E9%85%B1%E6%9D%BF%E9%B8%AD%E8%85%B9%E6%B3%BB%E5%88%B0%E8%99%9A%E8%84%B1",
-        "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
-        "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
-        "ranks": [
-          14
-        ],
-        "rank_timeline": [
-          {
-            "rank": 14,
-            "crawl_time": "04-28"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "肠胃代谢",
-        "item_id": "news:44"
-      },
-      {
-        "id": 49,
-        "title": "地震局对海西地震启动三级应急响应",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 19,
-        "url": "https://www.baidu.com/s?wd=%E5%9C%B0%E9%9C%87%E5%B1%80%E5%AF%B9%E6%B5%B7%E8%A5%BF%E5%9C%B0%E9%9C%87%E5%90%AF%E5%8A%A8%E4%B8%89%E7%BA%A7%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94",
-        "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
-        "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
-        "ranks": [
-          19
-        ],
-        "rank_timeline": [
-          {
-            "rank": 19,
-            "crawl_time": "04-28"
+            "rank": 18,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:49"
+        "item_id": "news:48"
       },
       {
-        "id": 55,
-        "title": "七旬老人吃一斤杨梅致肾损伤",
+        "id": 53,
+        "title": "大爷喝养生酒中毒 急救后捡回一命",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 25,
-        "url": "https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E5%90%83%E4%B8%80%E6%96%A4%E6%9D%A8%E6%A2%85%E8%87%B4%E8%82%BE%E6%8D%9F%E4%BC%A4",
+        "rank": 23,
+        "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E7%88%B7%E5%96%9D%E5%85%BB%E7%94%9F%E9%85%92%E4%B8%AD%E6%AF%92+%E6%80%A5%E6%95%91%E5%90%8E%E6%8D%A1%E5%9B%9E%E4%B8%80%E5%91%BD",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          25
+          23
         ],
         "rank_timeline": [
           {
-            "rank": 25,
-            "crawl_time": "04-28"
+            "rank": 23,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:55"
+        "matched_category": "医疗健康",
+        "item_id": "news:53"
       },
       {
-        "id": 56,
-        "title": "12只被救助鸟儿在龙泉山放飞",
+        "id": 58,
+        "title": "司机突发脑梗 把车开到军营门口求助",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 26,
-        "url": "https://www.baidu.com/s?wd=12%E5%8F%AA%E8%A2%AB%E6%95%91%E5%8A%A9%E9%B8%9F%E5%84%BF%E5%9C%A8%E9%BE%99%E6%B3%89%E5%B1%B1%E6%94%BE%E9%A3%9E",
+        "rank": 28,
+        "url": "https://www.baidu.com/s?wd=%E5%8F%B8%E6%9C%BA%E7%AA%81%E5%8F%91%E8%84%91%E6%A2%97+%E6%8A%8A%E8%BD%A6%E5%BC%80%E5%88%B0%E5%86%9B%E8%90%A5%E9%97%A8%E5%8F%A3%E6%B1%82%E5%8A%A9",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          26
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 26,
-            "crawl_time": "04-28"
+            "rank": 28,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:56"
+        "matched_category": "常见疾病",
+        "item_id": "news:58"
       },
       {
         "id": 95,
@@ -297,18 +206,18 @@
         "rank": 5,
         "url": "https://search.bilibili.com/all?keyword=%E6%B5%B7%E8%A5%BF%E5%9C%B0%E9%9C%87%E5%B7%B2%E8%87%B41%E6%AD%BB4%E4%BC%A4",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -323,18 +232,18 @@
         "rank": 2,
         "url": "https://www.cls.cn/detail/2401113",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -349,18 +258,18 @@
         "rank": 4,
         "url": "https://www.douyin.com/hot/2536848",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -375,18 +284,18 @@
         "rank": 12,
         "url": "https://www.thepaper.cn/newsDetail_forward_33382560",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33382560",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -394,108 +303,82 @@
         "item_id": "news:82"
       },
       {
-        "id": 89,
+        "id": 90,
         "title": "现场视频丨青海海西州地震已致1人遇难、4人受伤",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 19,
+        "rank": 20,
         "url": "https://www.thepaper.cn/newsDetail_forward_33391631",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33391631",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          19
+          20
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "04-28"
+            "rank": 20,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:89"
+        "item_id": "news:90"
       },
       {
-        "id": 154,
+        "id": 155,
         "title": "地铁变卧室,大爷吊床薅冷气",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 9,
+        "rank": 10,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%9C%B0%E9%93%81%E5%8F%98%E5%8D%A7%E5%AE%A4%2C%E5%A4%A7%E7%88%B7%E5%90%8A%E5%BA%8A%E8%96%85%E5%86%B7%E6%B0%94&topic_id=28355212",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          9
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 9,
-            "crawl_time": "04-28"
+            "rank": 10,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:154"
+        "item_id": "news:155"
       },
       {
-        "id": 162,
+        "id": 163,
         "title": "山姆超市因食品安全被点名",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 17,
+        "rank": 18,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%B1%B1%E5%A7%86%E8%B6%85%E5%B8%82%E5%9B%A0%E9%A3%9F%E5%93%81%E5%AE%89%E5%85%A8%E8%A2%AB%E7%82%B9%E5%90%8D&topic_id=28355176",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          17
+          18
         ],
         "rank_timeline": [
           {
-            "rank": 17,
-            "crawl_time": "04-28"
+            "rank": 18,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "食品安全",
-        "item_id": "news:162"
-      },
-      {
-        "id": 4,
-        "title": "青海海西州连发地震 最高震级6.3级",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 4,
-        "url": "https://www.toutiao.com/trending/7651920331166191155/",
-        "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
-        "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "04-28"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:4"
+        "item_id": "news:163"
       },
       {
         "id": 11,
@@ -505,18 +388,18 @@
         "rank": 11,
         "url": "https://www.toutiao.com/trending/7651893033147383817/",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -524,56 +407,82 @@
         "item_id": "news:11"
       },
       {
-        "id": 23,
-        "title": "女生每天都能遇到固定通勤搭子",
+        "id": 26,
+        "title": "棉被遭仅退款 商家3000公里寻人",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 23,
-        "url": "https://www.toutiao.com/trending/7651819733221834790/",
+        "rank": 26,
+        "url": "https://www.toutiao.com/trending/7651794610821873727/",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          23
+          26
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "04-28"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:23"
-      },
-      {
-        "id": 29,
-        "title": "“退货姐”衣食住行各方面恶意退款",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 29,
-        "url": "https://www.toutiao.com/trending/7651419171792584740/",
-        "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
-        "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "04-28"
+            "rank": 26,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "消费维权",
-        "item_id": "news:29"
+        "item_id": "news:26"
+      },
+      {
+        "id": 27,
+        "title": "女生每天都能遇到固定通勤搭子",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 27,
+        "url": "https://www.toutiao.com/trending/7651819733221834790/",
+        "mobile_url": "",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
+        "crawl_count": 1,
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "06-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:27"
+      },
+      {
+        "id": 28,
+        "title": "“退货姐”衣食住行各方面恶意退款",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 28,
+        "url": "https://www.toutiao.com/trending/7651419171792584740/",
+        "mobile_url": "",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
+        "crawl_count": 1,
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
+        "ranks": [
+          28
+        ],
+        "rank_timeline": [
+          {
+            "rank": 28,
+            "crawl_time": "06-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:28"
       },
       {
         "id": 62,
@@ -583,18 +492,18 @@
         "rank": 2,
         "url": "https://wallstreetcn.com/articles/3774633",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -609,18 +518,18 @@
         "rank": 30,
         "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%9C%B0%E9%9C%87%E5%B1%80%E5%B7%B2%E5%90%AF%E5%8A%A8%E4%B8%89%E7%BA%A7%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%23",
         "mobile_url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%9C%B0%E9%9C%87%E5%B1%80%E5%B7%B2%E5%90%AF%E5%8A%A8%E4%B8%89%E7%BA%A7%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%23&t=31&band_rank=30&Refer=top",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
           30
         ],
         "rank_timeline": [
           {
             "rank": 30,
-            "crawl_time": "04-28"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -628,56 +537,56 @@
         "item_id": "news:205"
       },
       {
-        "id": 247,
+        "id": 242,
         "title": "匹克直播间官号自爆遭欠薪一年，网传匹克还有 50 万国家队赞助费未支付，具体怎么回事？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 12,
+        "rank": 7,
         "url": "https://www.zhihu.com/question/2050151122652722811",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          12
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 12,
-            "crawl_time": "04-28"
+            "rank": 7,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:247"
+        "item_id": "news:242"
       },
       {
-        "id": 250,
-        "title": "青海 6.3 级地震致 1 死 4 伤，40 分钟连震 8 次，目前当地情况如何？哪些地方有震感？",
+        "id": 243,
+        "title": "刘昊然、董子健等演员「当众求职」，程潇坦言档期很空看看我，如何看待这一现象？折射出怎样的影视行业现状？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 15,
-        "url": "https://www.zhihu.com/question/2050264657722438817",
+        "rank": 8,
+        "url": "https://www.zhihu.com/question/2049828429411739036",
         "mobile_url": "",
-        "first_crawl_time": "04-28",
-        "last_crawl_time": "04-28",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-06-17 04:28:02",
-        "updated_at": "2026-06-17 04:28:02",
+        "created_at": "2026-06-17 06:31:15",
+        "updated_at": "2026-06-17 06:31:15",
         "ranks": [
-          15
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 15,
-            "crawl_time": "04-28"
+            "rank": 8,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:250"
+        "matched_category": "就业民生",
+        "item_id": "news:243"
       }
     ],
     "platforms": [
@@ -685,121 +594,109 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-17 04:28:02"
+        "updated_at": "2026-06-17 06:31:15"
       }
     ],
     "latest_item_ids": [
-      "news:36",
       "news:41",
-      "news:42",
-      "news:44",
-      "news:49",
-      "news:55",
-      "news:56",
+      "news:48",
+      "news:53",
+      "news:58",
       "news:95",
       "news:122",
       "news:209",
       "news:82",
-      "news:89",
-      "news:154",
-      "news:162",
-      "news:4",
+      "news:90",
+      "news:155",
+      "news:163",
       "news:11",
-      "news:23",
-      "news:29",
+      "news:26",
+      "news:27",
+      "news:28",
       "news:62",
       "news:205",
-      "news:247",
-      "news:250"
+      "news:242",
+      "news:243"
     ],
     "categories": {
-      "安全灾害": [
-        "news:36",
-        "news:49",
-        "news:95",
-        "news:209",
-        "news:89",
-        "news:4",
-        "news:205",
-        "news:250"
-      ],
       "交通出行": [
         "news:41",
-        "news:154",
+        "news:155",
         "news:11",
-        "news:23"
+        "news:27"
+      ],
+      "安全灾害": [
+        "news:48",
+        "news:95",
+        "news:209",
+        "news:90",
+        "news:205"
       ],
       "医疗健康": [
-        "news:42"
+        "news:53"
       ],
-      "肠胃代谢": [
-        "news:44"
-      ],
-      "养老生活": [
-        "news:55"
-      ],
-      "社会保障": [
-        "news:56"
+      "常见疾病": [
+        "news:58"
       ],
       "物价消费": [
         "news:122",
@@ -809,43 +706,36 @@
         "news:82"
       ],
       "食品安全": [
-        "news:162"
+        "news:163"
       ],
       "消费维权": [
-        "news:29"
+        "news:26",
+        "news:28"
       ],
       "就业民生": [
-        "news:247"
+        "news:242",
+        "news:243"
       ]
     },
     "latest_categories": {
-      "安全灾害": [
-        "news:36",
-        "news:49",
-        "news:95",
-        "news:209",
-        "news:89",
-        "news:4",
-        "news:205",
-        "news:250"
-      ],
       "交通出行": [
         "news:41",
-        "news:154",
+        "news:155",
         "news:11",
-        "news:23"
+        "news:27"
+      ],
+      "安全灾害": [
+        "news:48",
+        "news:95",
+        "news:209",
+        "news:90",
+        "news:205"
       ],
       "医疗健康": [
-        "news:42"
+        "news:53"
       ],
-      "肠胃代谢": [
-        "news:44"
-      ],
-      "养老生活": [
-        "news:55"
-      ],
-      "社会保障": [
-        "news:56"
+      "常见疾病": [
+        "news:58"
       ],
       "物价消费": [
         "news:122",
@@ -855,13 +745,15 @@
         "news:82"
       ],
       "食品安全": [
-        "news:162"
+        "news:163"
       ],
       "消费维权": [
-        "news:29"
+        "news:26",
+        "news:28"
       ],
       "就业民生": [
-        "news:247"
+        "news:242",
+        "news:243"
       ]
     },
     "raw_count": 255,
@@ -869,7 +761,7 @@
   },
   "rss": {
     "date": "2026-06-17",
-    "latest_crawl_time": "04:28",
+    "latest_crawl_time": "06:31",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -882,7 +774,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-17 04:28:04"
+        "updated_at": "2026-06-17 06:31:16"
       },
       {
         "id": "yahoo-finance",
@@ -892,13 +784,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-17 04:28:04"
+        "updated_at": "2026-06-17 06:31:16"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 68,
-    "raw_latest_count": 68
+    "raw_count": 66,
+    "raw_latest_count": 66
   }
 }

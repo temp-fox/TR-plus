@@ -1,43 +1,58 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-21T18:53:20.673661+08:00",
+  "generated_at": "2026-06-21T21:22:46.052824+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "27902012122",
-    "run_number": "148",
+    "run_id": "27905691597",
+    "run_number": "149",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-21",
-  "crawl_time": "18-53",
+  "crawl_time": "21-22",
   "counts": {
-    "news": 15,
-    "latest_news": 15,
+    "news": 16,
+    "latest_news": 16,
     "rss": 0,
     "latest_rss": 0,
-    "total": 15,
-    "latest_total": 15,
+    "total": 16,
+    "latest_total": 16,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 70,
-    "raw_latest_rss": 70
+    "raw_rss": 69,
+    "raw_latest_rss": 69
   },
   "categories": {
-    "教育民生": {
+    "安全灾害": {
       "news": [
-        "news:52",
-        "news:59",
-        "news:77",
-        "news:83",
-        "news:23",
-        "news:238",
-        "news:245"
+        "news:32",
+        "news:2",
+        "news:14",
+        "news:30",
+        "news:70"
       ],
       "rss": []
     },
-    "物价消费": {
+    "交通出行": {
       "news": [
-        "news:60"
+        "news:44",
+        "news:176"
+      ],
+      "rss": []
+    },
+    "常见疾病": {
+      "news": [
+        "news:52"
+      ],
+      "rss": []
+    },
+    "教育民生": {
+      "news": [
+        "news:54",
+        "news:74",
+        "news:82",
+        "news:243",
+        "news:252"
       ],
       "rss": []
     },
@@ -53,167 +68,174 @@
       ],
       "rss": []
     },
-    "交通出行": {
-      "news": [
-        "news:2"
-      ],
-      "rss": []
-    },
     "日常饮食": {
       "news": [
-        "news:6",
-        "news:204"
-      ],
-      "rss": []
-    },
-    "安全灾害": {
-      "news": [
-        "news:69"
-      ],
-      "rss": []
-    },
-    "人口家庭": {
-      "news": [
-        "news:197"
+        "news:9"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-21",
-    "latest_crawl_time": "18-53",
-    "count": 15,
-    "latest_count": 15,
+    "latest_crawl_time": "21-22",
+    "count": 16,
+    "latest_count": 16,
     "items": [
       {
+        "id": 32,
+        "title": "多预警齐发！大暴雨特大暴雨来了",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 2,
+        "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E9%A2%84%E8%AD%A6%E9%BD%90%E5%8F%91%EF%BC%81%E5%A4%A7%E6%9A%B4%E9%9B%A8%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
+        "crawl_count": 1,
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "21-22"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:32"
+      },
+      {
+        "id": 44,
+        "title": "外卖备注多给饭 老板回复获200万赞",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 14,
+        "url": "https://www.baidu.com/s?wd=%E5%A4%96%E5%8D%96%E5%A4%87%E6%B3%A8%E5%A4%9A%E7%BB%99%E9%A5%AD+%E8%80%81%E6%9D%BF%E5%9B%9E%E5%A4%8D%E8%8E%B7200%E4%B8%87%E8%B5%9E",
+        "mobile_url": "",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
+        "crawl_count": 1,
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "21-22"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:44"
+      },
+      {
         "id": 52,
-        "title": "少年高考每科比别人多考23分钟",
+        "title": "45岁女子突然闭经暴瘦30斤查出肿瘤",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 22,
-        "url": "https://www.baidu.com/s?wd=%E5%B0%91%E5%B9%B4%E9%AB%98%E8%80%83%E6%AF%8F%E7%A7%91%E6%AF%94%E5%88%AB%E4%BA%BA%E5%A4%9A%E8%80%8323%E5%88%86%E9%92%9F",
+        "url": "https://www.baidu.com/s?wd=45%E5%B2%81%E5%A5%B3%E5%AD%90%E7%AA%81%E7%84%B6%E9%97%AD%E7%BB%8F%E6%9A%B4%E7%98%A630%E6%96%A4%E6%9F%A5%E5%87%BA%E8%82%BF%E7%98%A4",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
           22
         ],
         "rank_timeline": [
           {
             "rank": 22,
-            "crawl_time": "18-53"
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
-        "matched_category": "教育民生",
+        "matched_category": "常见疾病",
         "item_id": "news:52"
       },
       {
-        "id": 59,
-        "title": "白岩松：高考查分后要抱抱孩子",
+        "id": 54,
+        "title": "少年高考每科比别人多考23分钟",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 29,
-        "url": "https://www.baidu.com/s?wd=%E7%99%BD%E5%B2%A9%E6%9D%BE%EF%BC%9A%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%E5%90%8E%E8%A6%81%E6%8A%B1%E6%8A%B1%E5%AD%A9%E5%AD%90",
+        "rank": 24,
+        "url": "https://www.baidu.com/s?wd=%E5%B0%91%E5%B9%B4%E9%AB%98%E8%80%83%E6%AF%8F%E7%A7%91%E6%AF%94%E5%88%AB%E4%BA%BA%E5%A4%9A%E8%80%8323%E5%88%86%E9%92%9F",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
-          29
+          24
         ],
         "rank_timeline": [
           {
-            "rank": 29,
-            "crawl_time": "18-53"
+            "rank": 24,
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:59"
+        "item_id": "news:54"
       },
       {
-        "id": 60,
-        "title": "库克释放涨价信号 经销商泼冷水",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 30,
-        "url": "https://www.baidu.com/s?wd=%E5%BA%93%E5%85%8B%E9%87%8A%E6%94%BE%E6%B6%A8%E4%BB%B7%E4%BF%A1%E5%8F%B7+%E7%BB%8F%E9%94%80%E5%95%86%E6%B3%BC%E5%86%B7%E6%B0%B4",
-        "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
-        "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
-        "ranks": [
-          30
-        ],
-        "rank_timeline": [
-          {
-            "rank": 30,
-            "crawl_time": "18-53"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:60"
-      },
-      {
-        "id": 77,
+        "id": 74,
         "title": "云南省招生考试院通报中考历史试卷问题",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 7,
+        "rank": 4,
         "url": "https://www.thepaper.cn/newsDetail_forward_33424244",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33424244",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
-          7
+          4
         ],
         "rank_timeline": [
           {
-            "rank": 7,
-            "crawl_time": "18-53"
+            "rank": 4,
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:77"
+        "item_id": "news:74"
       },
       {
-        "id": 83,
+        "id": 82,
         "title": "广东3岁女童遭幼儿园老师暴力喂食受伤，涉事教师已被拘留",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 13,
+        "rank": 12,
         "url": "https://www.thepaper.cn/newsDetail_forward_33423858",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33423858",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
-          13
+          12
         ],
         "rank_timeline": [
           {
-            "rank": 13,
-            "crawl_time": "18-53"
+            "rank": 12,
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:83"
+        "item_id": "news:82"
       },
       {
         "id": 156,
@@ -223,18 +245,18 @@
         "rank": 11,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%8C%AE%E7%A5%AD%E5%85%A8%E7%8F%AD%2C%E5%81%9A%E9%A2%98%E5%AE%B6%E4%B8%BA%E7%BB%A9%E7%82%B9%E4%B8%BE%E6%8A%A5%E4%BD%9C%E5%BC%8A&topic_id=28355295",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "18-53"
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
@@ -249,18 +271,18 @@
         "rank": 23,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%B7%B4%E8%A5%BF%E5%AE%9D%E5%A6%88%E6%9D%A5%E5%8D%8E%E5%B8%A6%E5%A8%83%E6%B2%A1%E5%8E%8B%E5%8A%9B&topic_id=28355278",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
           23
         ],
         "rank_timeline": [
           {
             "rank": 23,
-            "crawl_time": "18-53"
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
@@ -269,211 +291,211 @@
       },
       {
         "id": 2,
-        "title": "刘强东：将来根本不需要快递员",
+        "title": "40岁副总裁因交通事故去世",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 2,
-        "url": "https://www.toutiao.com/trending/7653753000188149796/",
+        "url": "https://www.toutiao.com/trending/7653764040170520614/",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "18-53"
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
+        "matched_category": "安全灾害",
         "item_id": "news:2"
       },
       {
-        "id": 6,
+        "id": 9,
         "title": "47岁马宁体脂率11不吃红肉",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 6,
+        "rank": 9,
         "url": "https://www.toutiao.com/trending/7653401943822237702/",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "18-53"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "日常饮食",
-        "item_id": "news:6"
-      },
-      {
-        "id": 23,
-        "title": "考生中考开卷考试忘带书 民警帮忙",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 23,
-        "url": "https://www.toutiao.com/trending/7653740087253303305/",
-        "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
-        "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
-        "ranks": [
-          23
-        ],
-        "rank_timeline": [
-          {
-            "rank": 23,
-            "crawl_time": "18-53"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:23"
-      },
-      {
-        "id": 69,
-        "title": "英国政坛地震在即？首相斯塔默或于周一宣布辞职，英债率先定价政权更迭",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 9,
-        "url": "https://wallstreetcn.com/articles/3775128",
-        "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
-        "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "18-53"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:69"
-      },
-      {
-        "id": 197,
-        "title": "离职收到的恭喜比结婚时都多",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 22,
-        "url": "https://s.weibo.com/weibo?q=%E7%A6%BB%E8%81%8C%E6%94%B6%E5%88%B0%E7%9A%84%E6%81%AD%E5%96%9C%E6%AF%94%E7%BB%93%E5%A9%9A%E6%97%B6%E9%83%BD%E5%A4%9A",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E7%A6%BB%E8%81%8C%E6%94%B6%E5%88%B0%E7%9A%84%E6%81%AD%E5%96%9C%E6%AF%94%E7%BB%93%E5%A9%9A%E6%97%B6%E9%83%BD%E5%A4%9A&t=31&band_rank=22&Refer=top",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
-        "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
-        "ranks": [
-          22
-        ],
-        "rank_timeline": [
-          {
-            "rank": 22,
-            "crawl_time": "18-53"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:197"
-      },
-      {
-        "id": 204,
-        "title": "鸡肉最伟大的吃法出现了",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 29,
-        "url": "https://s.weibo.com/weibo?q=%23%E9%B8%A1%E8%82%89%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%90%83%E6%B3%95%E5%87%BA%E7%8E%B0%E4%BA%86%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E9%B8%A1%E8%82%89%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%90%83%E6%B3%95%E5%87%BA%E7%8E%B0%E4%BA%86%23&t=31&band_rank=29&Refer=top",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
-        "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "18-53"
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
         "matched_category": "日常饮食",
-        "item_id": "news:204"
+        "item_id": "news:9"
       },
       {
-        "id": 238,
-        "title": "幼儿园毕业照全底片 520 元，家长选完片才得知要收费，孩子毕业的仪式感为什么变成了「被迫消费」？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 3,
-        "url": "https://www.zhihu.com/question/2050233282009342187",
+        "id": 14,
+        "title": "店员冒暴雨冲出去收拾 店主急喊回来",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 14,
+        "url": "https://www.toutiao.com/trending/7653682686016077862/",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
-          3
+          14
         ],
         "rank_timeline": [
           {
-            "rank": 3,
-            "crawl_time": "18-53"
+            "rank": 14,
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:238"
+        "matched_category": "安全灾害",
+        "item_id": "news:14"
       },
       {
-        "id": 245,
-        "title": "小学三年级，班上超半数孩子在补课，想问问过来人，这笔钱和精力，到底值不值得砸？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 10,
-        "url": "https://www.zhihu.com/question/2051349432130712454",
+        "id": 30,
+        "title": "多预警齐发 这些地方将有大暴雨",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 30,
+        "url": "https://www.toutiao.com/trending/7653734223803498515/",
         "mobile_url": "",
-        "first_crawl_time": "18-53",
-        "last_crawl_time": "18-53",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
         "crawl_count": 1,
-        "created_at": "2026-06-21 18:53:17",
-        "updated_at": "2026-06-21 18:53:17",
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
+        "ranks": [
+          30
+        ],
+        "rank_timeline": [
+          {
+            "rank": 30,
+            "crawl_time": "21-22"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:30"
+      },
+      {
+        "id": 70,
+        "title": "英国政坛地震在即？首相斯塔默或于周一宣布辞职，英债率先定价政权更迭",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 10,
+        "url": "https://wallstreetcn.com/articles/3775128",
+        "mobile_url": "",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
+        "crawl_count": 1,
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "18-53"
+            "crawl_time": "21-22"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:70"
+      },
+      {
+        "id": 176,
+        "title": "刘强东称将来不需要快递员",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 1,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BC%BA%E4%B8%9C%E7%A7%B0%E5%B0%86%E6%9D%A5%E4%B8%8D%E9%9C%80%E8%A6%81%E5%BF%AB%E9%80%92%E5%91%98%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E5%BC%BA%E4%B8%9C%E7%A7%B0%E5%B0%86%E6%9D%A5%E4%B8%8D%E9%9C%80%E8%A6%81%E5%BF%AB%E9%80%92%E5%91%98%23&t=31&band_rank=1&Refer=top",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
+        "crawl_count": 1,
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
+        "ranks": [
+          1
+        ],
+        "rank_timeline": [
+          {
+            "rank": 1,
+            "crawl_time": "21-22"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:176"
+      },
+      {
+        "id": 243,
+        "title": "小学三年级，班上超半数孩子在补课，想问问过来人，这笔钱和精力，到底值不值得砸？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 8,
+        "url": "https://www.zhihu.com/question/2051349432130712454",
+        "mobile_url": "",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
+        "crawl_count": 1,
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "21-22"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:245"
+        "item_id": "news:243"
+      },
+      {
+        "id": 252,
+        "title": "幼儿园毕业照全底片 520 元，家长选完片才得知要收费，孩子毕业的仪式感为什么变成了「被迫消费」？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 17,
+        "url": "https://www.zhihu.com/question/2050233282009342187",
+        "mobile_url": "",
+        "first_crawl_time": "21-22",
+        "last_crawl_time": "21-22",
+        "crawl_count": 1,
+        "created_at": "2026-06-21 21:22:41",
+        "updated_at": "2026-06-21 21:22:41",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "21-22"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:252"
       }
     ],
     "platforms": [
@@ -481,98 +503,108 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-21 18:53:17"
+        "updated_at": "2026-06-21 21:22:41"
       }
     ],
     "latest_item_ids": [
+      "news:32",
+      "news:44",
       "news:52",
-      "news:59",
-      "news:60",
-      "news:77",
-      "news:83",
+      "news:54",
+      "news:74",
+      "news:82",
       "news:156",
       "news:168",
       "news:2",
-      "news:6",
-      "news:23",
-      "news:69",
-      "news:197",
-      "news:204",
-      "news:238",
-      "news:245"
+      "news:9",
+      "news:14",
+      "news:30",
+      "news:70",
+      "news:176",
+      "news:243",
+      "news:252"
     ],
     "categories": {
-      "教育民生": [
-        "news:52",
-        "news:59",
-        "news:77",
-        "news:83",
-        "news:23",
-        "news:238",
-        "news:245"
+      "安全灾害": [
+        "news:32",
+        "news:2",
+        "news:14",
+        "news:30",
+        "news:70"
       ],
-      "物价消费": [
-        "news:60"
+      "交通出行": [
+        "news:44",
+        "news:176"
+      ],
+      "常见疾病": [
+        "news:52"
+      ],
+      "教育民生": [
+        "news:54",
+        "news:74",
+        "news:82",
+        "news:243",
+        "news:252"
       ],
       "消费维权": [
         "news:156"
@@ -580,32 +612,31 @@
       "人群营养": [
         "news:168"
       ],
-      "交通出行": [
-        "news:2"
-      ],
       "日常饮食": [
-        "news:6",
-        "news:204"
-      ],
-      "安全灾害": [
-        "news:69"
-      ],
-      "人口家庭": [
-        "news:197"
+        "news:9"
       ]
     },
     "latest_categories": {
-      "教育民生": [
-        "news:52",
-        "news:59",
-        "news:77",
-        "news:83",
-        "news:23",
-        "news:238",
-        "news:245"
+      "安全灾害": [
+        "news:32",
+        "news:2",
+        "news:14",
+        "news:30",
+        "news:70"
       ],
-      "物价消费": [
-        "news:60"
+      "交通出行": [
+        "news:44",
+        "news:176"
+      ],
+      "常见疾病": [
+        "news:52"
+      ],
+      "教育民生": [
+        "news:54",
+        "news:74",
+        "news:82",
+        "news:243",
+        "news:252"
       ],
       "消费维权": [
         "news:156"
@@ -613,18 +644,8 @@
       "人群营养": [
         "news:168"
       ],
-      "交通出行": [
-        "news:2"
-      ],
       "日常饮食": [
-        "news:6",
-        "news:204"
-      ],
-      "安全灾害": [
-        "news:69"
-      ],
-      "人口家庭": [
-        "news:197"
+        "news:9"
       ]
     },
     "raw_count": 255,
@@ -632,7 +653,7 @@
   },
   "rss": {
     "date": "2026-06-21",
-    "latest_crawl_time": "18:53",
+    "latest_crawl_time": "21:22",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -645,7 +666,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-21 18:53:18"
+        "updated_at": "2026-06-21 21:22:43"
       },
       {
         "id": "yahoo-finance",
@@ -655,13 +676,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-21 18:53:18"
+        "updated_at": "2026-06-21 21:22:43"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 70,
-    "raw_latest_count": 70
+    "raw_count": 69,
+    "raw_latest_count": 69
   }
 }

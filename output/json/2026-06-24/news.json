@@ -1,78 +1,82 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-24T09:26:44.532799+08:00",
+  "generated_at": "2026-06-24T13:40:19.110065+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "28068738561",
-    "run_number": "168",
+    "run_id": "28077761252",
+    "run_number": "169",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-06-24",
-  "crawl_time": "09-26",
+  "crawl_time": "13-40",
   "counts": {
-    "news": 28,
-    "latest_news": 28,
+    "news": 37,
+    "latest_news": 37,
     "rss": 0,
     "latest_rss": 0,
-    "total": 28,
-    "latest_total": 28,
-    "raw_news": 255,
-    "raw_latest_news": 255,
-    "raw_rss": 61,
-    "raw_latest_rss": 61
+    "total": 37,
+    "latest_total": 37,
+    "raw_news": 254,
+    "raw_latest_news": 254,
+    "raw_rss": 62,
+    "raw_latest_rss": 62
   },
   "categories": {
+    "交通出行": {
+      "news": [
+        "news:31"
+      ],
+      "rss": []
+    },
     "教育民生": {
       "news": [
-        "news:34",
-        "news:36",
         "news:37",
-        "news:43",
-        "news:46",
+        "news:40",
+        "news:56",
         "news:58",
-        "news:100",
-        "news:108",
-        "news:206",
-        "news:207",
+        "news:93",
+        "news:104",
+        "news:119",
+        "news:205",
+        "news:210",
+        "news:212",
         "news:213",
         "news:214",
-        "news:150",
-        "news:1",
+        "news:218",
+        "news:229",
+        "news:232",
+        "news:233",
+        "news:146",
+        "news:153",
         "news:5",
         "news:8",
-        "news:11",
-        "news:14"
-      ],
-      "rss": []
-    },
-    "物价消费": {
-      "news": [
-        "news:38"
-      ],
-      "rss": []
-    },
-    "安全灾害": {
-      "news": [
-        "news:74"
+        "news:26",
+        "news:175",
+        "news:176",
+        "news:186",
+        "news:190",
+        "news:201",
+        "news:204",
+        "news:244"
       ],
       "rss": []
     },
     "人口家庭": {
       "news": [
-        "news:79"
+        "news:55"
+      ],
+      "rss": []
+    },
+    "安全灾害": {
+      "news": [
+        "news:73"
       ],
       "rss": []
     },
     "食品安全": {
       "news": [
-        "news:84"
-      ],
-      "rss": []
-    },
-    "社会保障": {
-      "news": [
-        "news:86"
+        "news:80"
       ],
       "rss": []
     },
@@ -82,15 +86,9 @@
       ],
       "rss": []
     },
-    "消费维权": {
-      "news": [
-        "news:172"
-      ],
-      "rss": []
-    },
     "养老金政策": {
       "news": [
-        "news:68"
+        "news:67"
       ],
       "rss": []
     },
@@ -102,68 +100,48 @@
     },
     "睡眠心理": {
       "news": [
-        "news:243"
+        "news:241"
+      ],
+      "rss": []
+    },
+    "社会保障": {
+      "news": [
+        "news:249"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-06-24",
-    "latest_crawl_time": "09-26",
-    "count": 28,
-    "latest_count": 28,
+    "latest_crawl_time": "13-40",
+    "count": 37,
+    "latest_count": 37,
     "items": [
       {
-        "id": 34,
-        "title": "女生高考查分601分 老师鸣礼炮欢呼",
+        "id": 31,
+        "title": "公交车上座率越来越低",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 4,
-        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E7%94%9F%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86601%E5%88%86+%E8%80%81%E5%B8%88%E9%B8%A3%E7%A4%BC%E7%82%AE%E6%AC%A2%E5%91%BC",
+        "rank": 1,
+        "url": "https://www.baidu.com/s?wd=%E5%85%AC%E4%BA%A4%E8%BD%A6%E4%B8%8A%E5%BA%A7%E7%8E%87%E8%B6%8A%E6%9D%A5%E8%B6%8A%E4%BD%8E",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          4
+          1
         ],
         "rank_timeline": [
           {
-            "rank": 4,
-            "crawl_time": "09-26"
+            "rank": 1,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:34"
-      },
-      {
-        "id": 36,
-        "title": "“你只是高考完了 不是家里发财了”",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 6,
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BD%A0%E5%8F%AA%E6%98%AF%E9%AB%98%E8%80%83%E5%AE%8C%E4%BA%86+%E4%B8%8D%E6%98%AF%E5%AE%B6%E9%87%8C%E5%8F%91%E8%B4%A2%E4%BA%86%E2%80%9D",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:36"
+        "matched_category": "交通出行",
+        "item_id": "news:31"
       },
       {
         "id": 37,
@@ -173,18 +151,18 @@
         "rank": 7,
         "url": "https://www.baidu.com/s?wd=%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -192,103 +170,103 @@
         "item_id": "news:37"
       },
       {
-        "id": 38,
-        "title": "合资燃油车大幅降价仍滞销",
+        "id": 40,
+        "title": "2026年各地高考分数线汇总",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 8,
-        "url": "https://www.baidu.com/s?wd=%E5%90%88%E8%B5%84%E7%87%83%E6%B2%B9%E8%BD%A6%E5%A4%A7%E5%B9%85%E9%99%8D%E4%BB%B7%E4%BB%8D%E6%BB%9E%E9%94%80",
+        "rank": 10,
+        "url": "https://www.baidu.com/s?wd=2026%E5%B9%B4%E5%90%84%E5%9C%B0%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E6%B1%87%E6%80%BB",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          8
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:38"
-      },
-      {
-        "id": 43,
-        "title": "挖眼案受害者高考位列全国同专业第一",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 13,
-        "url": "https://www.baidu.com/s?wd=%E6%8C%96%E7%9C%BC%E6%A1%88%E5%8F%97%E5%AE%B3%E8%80%85%E9%AB%98%E8%80%83%E4%BD%8D%E5%88%97%E5%85%A8%E5%9B%BD%E5%90%8C%E4%B8%93%E4%B8%9A%E7%AC%AC%E4%B8%80",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          13
-        ],
-        "rank_timeline": [
-          {
-            "rank": 13,
-            "crawl_time": "09-26"
+            "rank": 10,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:43"
+        "item_id": "news:40"
       },
       {
-        "id": 46,
-        "title": "女孩中考查分查到“隐藏款”",
+        "id": 55,
+        "title": "31省人口流动报告出炉",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 16,
-        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%A9%E4%B8%AD%E8%80%83%E6%9F%A5%E5%88%86%E6%9F%A5%E5%88%B0%E2%80%9C%E9%9A%90%E8%97%8F%E6%AC%BE%E2%80%9D",
+        "rank": 25,
+        "url": "https://www.baidu.com/s?wd=31%E7%9C%81%E4%BA%BA%E5%8F%A3%E6%B5%81%E5%8A%A8%E6%8A%A5%E5%91%8A%E5%87%BA%E7%82%89",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          16
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 16,
-            "crawl_time": "09-26"
+            "rank": 25,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:55"
+      },
+      {
+        "id": 56,
+        "title": "河南高考查分",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 26,
+        "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          26
+        ],
+        "rank_timeline": [
+          {
+            "rank": 26,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:46"
+        "item_id": "news:56"
       },
       {
         "id": 58,
-        "title": "男生高考比预估高69分总分666",
+        "title": "广东高考查分",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 28,
-        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E7%94%9F%E9%AB%98%E8%80%83%E6%AF%94%E9%A2%84%E4%BC%B0%E9%AB%9869%E5%88%86%E6%80%BB%E5%88%86666",
+        "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           28
         ],
         "rank_timeline": [
           {
             "rank": 28,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -296,129 +274,181 @@
         "item_id": "news:58"
       },
       {
-        "id": 100,
-        "title": "上海高考分数线公布",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 10,
-        "url": "https://search.bilibili.com/all?keyword=%E4%B8%8A%E6%B5%B7%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:100"
-      },
-      {
-        "id": 108,
-        "title": "今天开始高考查分",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 18,
-        "url": "https://search.bilibili.com/all?keyword=%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          18
-        ],
-        "rank_timeline": [
-          {
-            "rank": 18,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:108"
-      },
-      {
-        "id": 206,
+        "id": 93,
         "title": "2026天津高考出分",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 3,
+        "url": "https://search.bilibili.com/all?keyword=2026%E5%A4%A9%E6%B4%A5%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          3
+        ],
+        "rank_timeline": [
+          {
+            "rank": 3,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:93"
+      },
+      {
+        "id": 104,
+        "title": "记录高考查分瞬间",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 14,
+        "url": "https://search.bilibili.com/all?keyword=%E8%AE%B0%E5%BD%95%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%E7%9E%AC%E9%97%B4",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:104"
+      },
+      {
+        "id": 119,
+        "title": "高考UP主查分实录",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 29,
+        "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83UP%E4%B8%BB%E6%9F%A5%E5%88%86%E5%AE%9E%E5%BD%95",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:119"
+      },
+      {
+        "id": 205,
+        "title": "我的高考出分时刻",
         "platform_id": "douyin",
         "platform_name": "抖音",
         "rank": 1,
-        "url": "https://www.douyin.com/hot/2545216",
+        "url": "https://www.douyin.com/hot/2545334",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:206"
+        "item_id": "news:205"
       },
       {
-        "id": 207,
+        "id": 210,
         "title": "上海高考分数线公布",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 2,
+        "rank": 6,
         "url": "https://www.douyin.com/hot/2545013",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          2
+          6
         ],
         "rank_timeline": [
           {
-            "rank": 2,
-            "crawl_time": "09-26"
+            "rank": 6,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:207"
+        "item_id": "news:210"
       },
       {
-        "id": 213,
-        "title": "天津2026高考本科录取分数线公布",
+        "id": 212,
+        "title": "北京中考",
         "platform_id": "douyin",
         "platform_name": "抖音",
         "rank": 8,
-        "url": "https://www.douyin.com/hot/2545134",
+        "url": "https://www.douyin.com/hot/2545569",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:212"
+      },
+      {
+        "id": 213,
+        "title": "中考查分瞬间",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 9,
+        "url": "https://www.douyin.com/hot/2545056",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -427,24 +457,24 @@
       },
       {
         "id": 214,
-        "title": "今年中考作文难吗",
+        "title": "天津2026高考本科录取分数线公布",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 9,
-        "url": "https://www.douyin.com/hot/2544411",
+        "rank": 10,
+        "url": "https://www.douyin.com/hot/2545134",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          9
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 9,
-            "crawl_time": "09-26"
+            "rank": 10,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -452,108 +482,160 @@
         "item_id": "news:214"
       },
       {
-        "id": 74,
-        "title": "小米电视紧急致歉：地震预警系研发人员误发",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 4,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33439602",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33439602",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:74"
-      },
-      {
-        "id": 79,
-        "title": "多地殡仪馆由私营向公立转型，推动殡葬服务回归公益属性",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 9,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33434362",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33434362",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:79"
-      },
-      {
-        "id": 84,
-        "title": "马上评丨安排教师凌晨验菜？保障食品安全不能靠强制摊派",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
+        "id": 218,
+        "title": "广东高考分数线公布",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
         "rank": 14,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33439385",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33439385",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "url": "https://www.douyin.com/hot/2545646",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           14
         ],
         "rank_timeline": [
           {
             "rank": 14,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:218"
+      },
+      {
+        "id": 229,
+        "title": "今年中考作文难吗",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 25,
+        "url": "https://www.douyin.com/hot/2544411",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:229"
+      },
+      {
+        "id": 232,
+        "title": "全抖音为2026中考加油",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 28,
+        "url": "https://www.douyin.com/hot/2545572",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          28
+        ],
+        "rank_timeline": [
+          {
+            "rank": 28,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:232"
+      },
+      {
+        "id": 233,
+        "title": "2026天津高考出分",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 29,
+        "url": "https://www.douyin.com/hot/2545216",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:233"
+      },
+      {
+        "id": 73,
+        "title": "小米电视紧急致歉：地震预警系研发人员误发",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 3,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33439602",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33439602",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          3
+        ],
+        "rank_timeline": [
+          {
+            "rank": 3,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:73"
+      },
+      {
+        "id": 80,
+        "title": "马上评丨安排教师凌晨验菜？保障食品安全不能靠强制摊派",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 10,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33439385",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33439385",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          10
+        ],
+        "rank_timeline": [
+          {
+            "rank": 10,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "食品安全",
-        "item_id": "news:84"
-      },
-      {
-        "id": 86,
-        "title": "丰城市社保中心回应“代课37年的教师无社保”：先确定劳动关系，符合条件可补缴",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 16,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33434746",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33434746",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:86"
+        "item_id": "news:80"
       },
       {
         "id": 87,
@@ -563,18 +645,18 @@
         "rank": 17,
         "url": "https://www.thepaper.cn/newsDetail_forward_33437051",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33437051",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -582,103 +664,77 @@
         "item_id": "news:87"
       },
       {
-        "id": 150,
-        "title": "急哭!吧友坐等高考出分",
+        "id": 146,
+        "title": "高考分数出炉,考生集体报喜",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 5,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%80%A5%E5%93%AD%21%E5%90%A7%E5%8F%8B%E5%9D%90%E7%AD%89%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86&topic_id=28355591",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          5
-        ],
-        "rank_timeline": [
-          {
-            "rank": 5,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:150"
-      },
-      {
-        "id": 172,
-        "title": "献祭全班,做题家为绩点举报作弊",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 27,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%8C%AE%E7%A5%AD%E5%85%A8%E7%8F%AD%2C%E5%81%9A%E9%A2%98%E5%AE%B6%E4%B8%BA%E7%BB%A9%E7%82%B9%E4%B8%BE%E6%8A%A5%E4%BD%9C%E5%BC%8A&topic_id=28355295",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          27
-        ],
-        "rank_timeline": [
-          {
-            "rank": 27,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:172"
-      },
-      {
-        "id": 1,
-        "title": "男生高考比预估高69分总分666",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
         "rank": 1,
-        "url": "https://www.toutiao.com/trending/7654102205604184114/",
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E5%87%BA%E7%82%89%2C%E8%80%83%E7%94%9F%E9%9B%86%E4%BD%93%E6%8A%A5%E5%96%9C&topic_id=28355606",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:1"
+        "item_id": "news:146"
+      },
+      {
+        "id": 153,
+        "title": "急哭!吧友坐等高考出分",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 8,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%80%A5%E5%93%AD%21%E5%90%A7%E5%8F%8B%E5%9D%90%E7%AD%89%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86&topic_id=28355591",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:153"
       },
       {
         "id": 5,
-        "title": "“你只是高考完了不是家里发财了”",
+        "title": "考生高考排全市1082名激动连番跳跃",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 5,
-        "url": "https://www.toutiao.com/trending/7653747195086815259/",
+        "url": "https://www.toutiao.com/trending/7654481121846542377/",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -687,24 +743,24 @@
       },
       {
         "id": 8,
-        "title": "女孩高考查分超预期老师跳起拥抱",
+        "title": "广东高考分数线公布",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 8,
-        "url": "https://www.toutiao.com/trending/7654593663747325961/",
+        "url": "https://www.toutiao.com/trending/7654185909750923300/",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -712,82 +768,56 @@
         "item_id": "news:8"
       },
       {
-        "id": 11,
-        "title": "挖眼案受害者高考位列全国同专业第一",
+        "id": 26,
+        "title": "长沙千名中考生集体吃瓜大赛",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 11,
-        "url": "https://www.toutiao.com/trending/7654567972522147894/",
+        "rank": 26,
+        "url": "https://www.toutiao.com/trending/7654487411329908763/",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          11
+          26
         ],
         "rank_timeline": [
           {
-            "rank": 11,
-            "crawl_time": "09-26"
+            "rank": 26,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:11"
+        "item_id": "news:26"
       },
       {
-        "id": 14,
-        "title": "天津高考分数线公布",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 14,
-        "url": "https://www.toutiao.com/trending/7654400871798669362/",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
-        "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
-        "ranks": [
-          14
-        ],
-        "rank_timeline": [
-          {
-            "rank": 14,
-            "crawl_time": "09-26"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:14"
-      },
-      {
-        "id": 68,
+        "id": 67,
         "title": "高盛复盘韩股暴跌：养老金撤退、散户杠杆爆仓引发芯片股雪崩",
         "platform_id": "wallstreetcn-hot",
         "platform_name": "华尔街见闻",
-        "rank": 8,
+        "rank": 7,
         "url": "https://wallstreetcn.com/articles/3775310",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          8
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "09-26"
+            "rank": 7,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "养老金政策",
-        "item_id": "news:68"
+        "item_id": "news:67"
       },
       {
         "id": 70,
@@ -797,18 +827,18 @@
         "rank": 10,
         "url": "https://wallstreetcn.com/articles/3775317",
         "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "09-26"
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
@@ -816,30 +846,238 @@
         "item_id": "news:70"
       },
       {
-        "id": 243,
-        "title": "人民网点评李毅「解说员要服务球迷读懂比赛，不是堆数据炫术语泄情绪」，对此你怎么看？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 8,
-        "url": "https://www.zhihu.com/question/2052801575043560695",
-        "mobile_url": "",
-        "first_crawl_time": "09-26",
-        "last_crawl_time": "09-26",
+        "id": 175,
+        "title": "高考分数线",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 1,
+        "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF&t=31&band_rank=1&Refer=top",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
         "crawl_count": 1,
-        "created_at": "2026-06-24 09:26:40",
-        "updated_at": "2026-06-24 09:26:40",
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
         "ranks": [
-          8
+          1
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "09-26"
+            "rank": 1,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:175"
+      },
+      {
+        "id": 176,
+        "title": "广东高考分数线",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 2,
+        "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E4%B8%9C%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF&t=31&band_rank=2&Refer=top",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:176"
+      },
+      {
+        "id": 186,
+        "title": "AI时代如何让高考分数花在刀刃上",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 12,
+        "url": "https://s.weibo.com/weibo?q=%23AI%E6%97%B6%E4%BB%A3%E5%A6%82%E4%BD%95%E8%AE%A9%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E8%8A%B1%E5%9C%A8%E5%88%80%E5%88%83%E4%B8%8A%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23AI%E6%97%B6%E4%BB%A3%E5%A6%82%E4%BD%95%E8%AE%A9%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E8%8A%B1%E5%9C%A8%E5%88%80%E5%88%83%E4%B8%8A%23&t=31&band_rank=12&Refer=top",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          12
+        ],
+        "rank_timeline": [
+          {
+            "rank": 12,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:186"
+      },
+      {
+        "id": 190,
+        "title": "福建高考成绩",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 16,
+        "url": "https://s.weibo.com/weibo?q=%E7%A6%8F%E5%BB%BA%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E7%A6%8F%E5%BB%BA%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9&t=31&band_rank=16&Refer=top",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          16
+        ],
+        "rank_timeline": [
+          {
+            "rank": 16,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:190"
+      },
+      {
+        "id": 201,
+        "title": "高考成绩",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 27,
+        "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9&t=31&band_rank=27&Refer=top",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:201"
+      },
+      {
+        "id": 204,
+        "title": "2026高考分数线全汇总",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 30,
+        "url": "https://s.weibo.com/weibo?q=%232026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%A8%E6%B1%87%E6%80%BB%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%232026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%A8%E6%B1%87%E6%80%BB%23&t=31&band_rank=30&Refer=top",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          30
+        ],
+        "rank_timeline": [
+          {
+            "rank": 30,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:204"
+      },
+      {
+        "id": 241,
+        "title": "人民网点评李毅「解说员要服务球迷读懂比赛，不是堆数据炫术语泄情绪」，对此你怎么看？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 7,
+        "url": "https://www.zhihu.com/question/2052801575043560695",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "13-40"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
-        "item_id": "news:243"
+        "item_id": "news:241"
+      },
+      {
+        "id": 244,
+        "title": "上海 2026 高考分数线公布，满分 660，特招线 504，本科线 403，如何看待上海高考分数线？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 10,
+        "url": "https://www.zhihu.com/question/2052805504045248560",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          10
+        ],
+        "rank_timeline": [
+          {
+            "rank": 10,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:244"
+      },
+      {
+        "id": 249,
+        "title": "小学教师代课 37 年半未交社保，当地教育局回应补缴诉求称「没有先例」，如何看待该回应？应该补缴吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 15,
+        "url": "https://www.zhihu.com/question/2052464755097466816",
+        "mobile_url": "",
+        "first_crawl_time": "13-40",
+        "last_crawl_time": "13-40",
+        "crawl_count": 1,
+        "created_at": "2026-06-24 13:40:14",
+        "updated_at": "2026-06-24 13:40:14",
+        "ranks": [
+          15
+        ],
+        "rank_timeline": [
+          {
+            "rank": 15,
+            "crawl_time": "13-40"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:249"
       }
     ],
     "platforms": [
@@ -847,209 +1085,232 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-06-24 09:26:40"
+        "updated_at": "2026-06-24 13:40:14"
       }
     ],
     "latest_item_ids": [
-      "news:34",
-      "news:36",
+      "news:31",
       "news:37",
-      "news:38",
-      "news:43",
-      "news:46",
+      "news:40",
+      "news:55",
+      "news:56",
       "news:58",
-      "news:100",
-      "news:108",
-      "news:206",
-      "news:207",
+      "news:93",
+      "news:104",
+      "news:119",
+      "news:205",
+      "news:210",
+      "news:212",
       "news:213",
       "news:214",
-      "news:74",
-      "news:79",
-      "news:84",
-      "news:86",
+      "news:218",
+      "news:229",
+      "news:232",
+      "news:233",
+      "news:73",
+      "news:80",
       "news:87",
-      "news:150",
-      "news:172",
-      "news:1",
+      "news:146",
+      "news:153",
       "news:5",
       "news:8",
-      "news:11",
-      "news:14",
-      "news:68",
+      "news:26",
+      "news:67",
       "news:70",
-      "news:243"
+      "news:175",
+      "news:176",
+      "news:186",
+      "news:190",
+      "news:201",
+      "news:204",
+      "news:241",
+      "news:244",
+      "news:249"
     ],
     "categories": {
+      "交通出行": [
+        "news:31"
+      ],
       "教育民生": [
-        "news:34",
-        "news:36",
         "news:37",
-        "news:43",
-        "news:46",
+        "news:40",
+        "news:56",
         "news:58",
-        "news:100",
-        "news:108",
-        "news:206",
-        "news:207",
+        "news:93",
+        "news:104",
+        "news:119",
+        "news:205",
+        "news:210",
+        "news:212",
         "news:213",
         "news:214",
-        "news:150",
-        "news:1",
+        "news:218",
+        "news:229",
+        "news:232",
+        "news:233",
+        "news:146",
+        "news:153",
         "news:5",
         "news:8",
-        "news:11",
-        "news:14"
-      ],
-      "物价消费": [
-        "news:38"
-      ],
-      "安全灾害": [
-        "news:74"
+        "news:26",
+        "news:175",
+        "news:176",
+        "news:186",
+        "news:190",
+        "news:201",
+        "news:204",
+        "news:244"
       ],
       "人口家庭": [
-        "news:79"
+        "news:55"
+      ],
+      "安全灾害": [
+        "news:73"
       ],
       "食品安全": [
-        "news:84"
-      ],
-      "社会保障": [
-        "news:86"
+        "news:80"
       ],
       "运动康复": [
         "news:87"
       ],
-      "消费维权": [
-        "news:172"
-      ],
       "养老金政策": [
-        "news:68"
+        "news:67"
       ],
       "就业民生": [
         "news:70"
       ],
       "睡眠心理": [
-        "news:243"
+        "news:241"
+      ],
+      "社会保障": [
+        "news:249"
       ]
     },
     "latest_categories": {
+      "交通出行": [
+        "news:31"
+      ],
       "教育民生": [
-        "news:34",
-        "news:36",
         "news:37",
-        "news:43",
-        "news:46",
+        "news:40",
+        "news:56",
         "news:58",
-        "news:100",
-        "news:108",
-        "news:206",
-        "news:207",
+        "news:93",
+        "news:104",
+        "news:119",
+        "news:205",
+        "news:210",
+        "news:212",
         "news:213",
         "news:214",
-        "news:150",
-        "news:1",
+        "news:218",
+        "news:229",
+        "news:232",
+        "news:233",
+        "news:146",
+        "news:153",
         "news:5",
         "news:8",
-        "news:11",
-        "news:14"
-      ],
-      "物价消费": [
-        "news:38"
-      ],
-      "安全灾害": [
-        "news:74"
+        "news:26",
+        "news:175",
+        "news:176",
+        "news:186",
+        "news:190",
+        "news:201",
+        "news:204",
+        "news:244"
       ],
       "人口家庭": [
-        "news:79"
+        "news:55"
+      ],
+      "安全灾害": [
+        "news:73"
       ],
       "食品安全": [
-        "news:84"
-      ],
-      "社会保障": [
-        "news:86"
+        "news:80"
       ],
       "运动康复": [
         "news:87"
       ],
-      "消费维权": [
-        "news:172"
-      ],
       "养老金政策": [
-        "news:68"
+        "news:67"
       ],
       "就业民生": [
         "news:70"
       ],
       "睡眠心理": [
-        "news:243"
+        "news:241"
+      ],
+      "社会保障": [
+        "news:249"
       ]
     },
-    "raw_count": 255,
-    "raw_latest_count": 255
+    "raw_count": 254,
+    "raw_latest_count": 254
   },
   "rss": {
     "date": "2026-06-24",
-    "latest_crawl_time": "09:26",
+    "latest_crawl_time": "13:40",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -1062,7 +1323,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-24 09:26:41"
+        "updated_at": "2026-06-24 13:40:16"
       },
       {
         "id": "yahoo-finance",
@@ -1072,13 +1333,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-06-24 09:26:41"
+        "updated_at": "2026-06-24 13:40:16"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 61,
-    "raw_latest_count": 61
+    "raw_count": 62,
+    "raw_latest_count": 62
   }
 }

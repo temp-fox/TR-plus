@@ -1,277 +1,193 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-05T12:41:25.135078+08:00",
+  "generated_at": "2026-07-05T16:26:16.271161+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "28729723823",
-    "run_number": "267",
+    "run_id": "28734711674",
+    "run_number": "268",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-05",
-  "crawl_time": "12-41",
+  "crawl_time": "16-26",
   "counts": {
-    "news": 16,
-    "latest_news": 16,
+    "news": 15,
+    "latest_news": 15,
     "rss": 0,
     "latest_rss": 0,
-    "total": 16,
-    "latest_total": 16,
+    "total": 15,
+    "latest_total": 15,
     "raw_news": 255,
     "raw_latest_news": 255,
     "raw_rss": 70,
     "raw_latest_rss": 70
   },
   "categories": {
-    "交通出行": {
-      "news": [
-        "news:44",
-        "news:96",
-        "news:211"
-      ],
-      "rss": []
-    },
-    "安全灾害": {
-      "news": [
-        "news:45"
-      ],
-      "rss": []
-    },
     "养老生活": {
       "news": [
-        "news:53",
-        "news:79",
+        "news:42",
+        "news:78",
         "news:82",
-        "news:188"
+        "news:6",
+        "news:249"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:128"
+        "news:129",
+        "news:88"
+      ],
+      "rss": []
+    },
+    "交通出行": {
+      "news": [
+        "news:213",
+        "news:9"
+      ],
+      "rss": []
+    },
+    "社会保障": {
+      "news": [
+        "news:89"
       ],
       "rss": []
     },
     "人群营养": {
       "news": [
-        "news:160"
+        "news:164"
       ],
       "rss": []
     },
     "人口家庭": {
       "news": [
-        "news:163",
-        "news:195"
+        "news:167"
       ],
       "rss": []
     },
     "医疗健康": {
       "news": [
         "news:11",
-        "news:62"
-      ],
-      "rss": []
-    },
-    "中医养生": {
-      "news": [
-        "news:25"
+        "news:61"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
-        "news:241"
+        "news:239"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-05",
-    "latest_crawl_time": "12-41",
-    "count": 16,
-    "latest_count": 16,
+    "latest_crawl_time": "16-26",
+    "count": 15,
+    "latest_count": 15,
     "items": [
       {
-        "id": 44,
-        "title": "女子确诊肺癌晚期在地铁上介绍自己",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 14,
-        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E7%A1%AE%E8%AF%8A%E8%82%BA%E7%99%8C%E6%99%9A%E6%9C%9F%E5%9C%A8%E5%9C%B0%E9%93%81%E4%B8%8A%E4%BB%8B%E7%BB%8D%E8%87%AA%E5%B7%B1",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          14
-        ],
-        "rank_timeline": [
-          {
-            "rank": 14,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:44"
-      },
-      {
-        "id": 45,
-        "title": "中气爱：超强台风巴威很可能登陆",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 15,
-        "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%B0%94%E7%88%B1%EF%BC%9A%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%BE%88%E5%8F%AF%E8%83%BD%E7%99%BB%E9%99%86",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          15
-        ],
-        "rank_timeline": [
-          {
-            "rank": 15,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:45"
-      },
-      {
-        "id": 53,
+        "id": 42,
         "title": "老人月入2万与儿媳争财产败诉",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 23,
+        "rank": 12,
         "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E6%9C%88%E5%85%A52%E4%B8%87%E4%B8%8E%E5%84%BF%E5%AA%B3%E4%BA%89%E8%B4%A2%E4%BA%A7%E8%B4%A5%E8%AF%89",
         "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
-          23
+          12
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "12-41"
+            "rank": 12,
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:53"
+        "item_id": "news:42"
       },
       {
-        "id": 96,
-        "title": "东风快递送达画面曝光",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 6,
-        "url": "https://search.bilibili.com/all?keyword=%E4%B8%9C%E9%A3%8E%E5%BF%AB%E9%80%92%E9%80%81%E8%BE%BE%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:96"
-      },
-      {
-        "id": 128,
+        "id": 129,
         "title": "狂赚约百亿！江波龙半年净利接近去年全年八倍 下半年存储品类仍有涨价|财报解读",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
-        "rank": 8,
+        "rank": 9,
         "url": "https://www.cls.cn/detail/2416926",
         "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:128"
-      },
-      {
-        "id": 211,
-        "title": "在重庆坐个地铁也太难了",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 6,
-        "url": "https://www.douyin.com/hot/2558851",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:211"
-      },
-      {
-        "id": 79,
-        "title": "实探泰山刀片铁丝网现场：有居民点赞“挡住野游”，有老人自带绳索进山称不便",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 9,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33517915",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33517915",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "12-41"
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:129"
+      },
+      {
+        "id": 213,
+        "title": "在重庆坐个地铁也太难了",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 8,
+        "url": "https://www.douyin.com/hot/2558851",
+        "mobile_url": "",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:213"
+      },
+      {
+        "id": 78,
+        "title": "63岁患心梗老人看一颗牙，被宝鸡一医院一次拔12颗种10颗",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 8,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33518949",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33518949",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:79"
+        "item_id": "news:78"
       },
       {
         "id": 82,
@@ -281,18 +197,18 @@
         "rank": 12,
         "url": "https://www.thepaper.cn/newsDetail_forward_33520047",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33520047",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "12-41"
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
@@ -300,56 +216,160 @@
         "item_id": "news:82"
       },
       {
-        "id": 160,
-        "title": "宝妈负债40万勇闯餐饮界",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 15,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%AE%9D%E5%A6%88%E8%B4%9F%E5%80%BA40%E4%B8%87%E5%8B%87%E9%97%AF%E9%A4%90%E9%A5%AE%E7%95%8C&topic_id=28355893",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          15
-        ],
-        "rank_timeline": [
-          {
-            "rank": 15,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人群营养",
-        "item_id": "news:160"
-      },
-      {
-        "id": 163,
-        "title": "山新离婚,配音圈佳偶体面分手",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
+        "id": 88,
+        "title": "四川一地部分酒店在考公期间大幅涨价，当地市监局称无权设价格上限",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
         "rank": 18,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%B1%B1%E6%96%B0%E7%A6%BB%E5%A9%9A%2C%E9%85%8D%E9%9F%B3%E5%9C%88%E4%BD%B3%E5%81%B6%E4%BD%93%E9%9D%A2%E5%88%86%E6%89%8B&topic_id=28355885",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33520675",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33520675",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
           18
         ],
         "rank_timeline": [
           {
             "rank": 18,
-            "crawl_time": "12-41"
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:88"
+      },
+      {
+        "id": 89,
+        "title": "流浪动物救助站围栏大门被拆，武汉洪山街道：未认定违建，系村委会行为",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 19,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33519692",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33519692",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          19
+        ],
+        "rank_timeline": [
+          {
+            "rank": 19,
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:89"
+      },
+      {
+        "id": 164,
+        "title": "宝妈负债40万勇闯餐饮界",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 19,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%AE%9D%E5%A6%88%E8%B4%9F%E5%80%BA40%E4%B8%87%E5%8B%87%E9%97%AF%E9%A4%90%E9%A5%AE%E7%95%8C&topic_id=28355893",
+        "mobile_url": "",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          19
+        ],
+        "rank_timeline": [
+          {
+            "rank": 19,
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人群营养",
+        "item_id": "news:164"
+      },
+      {
+        "id": 167,
+        "title": "山新离婚,配音圈佳偶体面分手",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 22,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%B1%B1%E6%96%B0%E7%A6%BB%E5%A9%9A%2C%E9%85%8D%E9%9F%B3%E5%9C%88%E4%BD%B3%E5%81%B6%E4%BD%93%E9%9D%A2%E5%88%86%E6%89%8B&topic_id=28355885",
+        "mobile_url": "",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:163"
+        "item_id": "news:167"
+      },
+      {
+        "id": 6,
+        "title": "媒体评老人看一颗牙被拔十二颗牙",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 6,
+        "url": "https://www.toutiao.com/trending/7658636400228761646/",
+        "mobile_url": "",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:6"
+      },
+      {
+        "id": 9,
+        "title": "打车去拉萨当事出租车已被托运回重庆",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 9,
+        "url": "https://www.toutiao.com/trending/7658289133136232502/",
+        "mobile_url": "",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:9"
       },
       {
         "id": 11,
@@ -359,18 +379,18 @@
         "rank": 11,
         "url": "https://www.toutiao.com/trending/7657413753150980132/",
         "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "12-41"
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
@@ -378,134 +398,82 @@
         "item_id": "news:11"
       },
       {
-        "id": 25,
-        "title": "当千年中医智慧遇见AI",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 25,
-        "url": "https://www.toutiao.com/trending/7658140828023767081/",
-        "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          25
-        ],
-        "rank_timeline": [
-          {
-            "rank": 25,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "中医养生",
-        "item_id": "news:25"
-      },
-      {
-        "id": 62,
+        "id": 61,
         "title": "高盛：美股AI上涨力竭，下半年布局防御板块，看好医疗、欧洲防务",
         "platform_id": "wallstreetcn-hot",
         "platform_name": "华尔街见闻",
-        "rank": 2,
+        "rank": 1,
         "url": "https://wallstreetcn.com/articles/3776200",
         "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
-          2
+          1
         ],
         "rank_timeline": [
           {
-            "rank": 2,
-            "crawl_time": "12-41"
+            "rank": 1,
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:62"
+        "item_id": "news:61"
       },
       {
-        "id": 188,
-        "title": "老人月收入2万被判无儿子遗产继承权",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 13,
-        "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E6%9C%88%E6%94%B6%E5%85%A52%E4%B8%87%E8%A2%AB%E5%88%A4%E6%97%A0%E5%84%BF%E5%AD%90%E9%81%97%E4%BA%A7%E7%BB%A7%E6%89%BF%E6%9D%83%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E6%9C%88%E6%94%B6%E5%85%A52%E4%B8%87%E8%A2%AB%E5%88%A4%E6%97%A0%E5%84%BF%E5%AD%90%E9%81%97%E4%BA%A7%E7%BB%A7%E6%89%BF%E6%9D%83%23&t=31&band_rank=13&Refer=top",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          13
-        ],
-        "rank_timeline": [
-          {
-            "rank": 13,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:188"
-      },
-      {
-        "id": 195,
-        "title": "男子为儿子结婚偷转8000二婚妻子崩溃",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 20,
-        "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%BA%E5%84%BF%E5%AD%90%E7%BB%93%E5%A9%9A%E5%81%B7%E8%BD%AC8000%E4%BA%8C%E5%A9%9A%E5%A6%BB%E5%AD%90%E5%B4%A9%E6%BA%83%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%BA%E5%84%BF%E5%AD%90%E7%BB%93%E5%A9%9A%E5%81%B7%E8%BD%AC8000%E4%BA%8C%E5%A9%9A%E5%A6%BB%E5%AD%90%E5%B4%A9%E6%BA%83%23&t=31&band_rank=20&Refer=top",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
-        "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
-        "ranks": [
-          20
-        ],
-        "rank_timeline": [
-          {
-            "rank": 20,
-            "crawl_time": "12-41"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:195"
-      },
-      {
-        "id": 241,
+        "id": 239,
         "title": "寒门女孩高考 699 分报考清华却被网暴，劝学生别沉迷手机为何引来几十万点赞的负面评论？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 6,
+        "rank": 4,
         "url": "https://www.zhihu.com/question/2056771003376722999",
         "mobile_url": "",
-        "first_crawl_time": "12-41",
-        "last_crawl_time": "12-41",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
         "crawl_count": 1,
-        "created_at": "2026-07-05 12:41:17",
-        "updated_at": "2026-07-05 12:41:17",
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
         "ranks": [
-          6
+          4
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "12-41"
+            "rank": 4,
+            "crawl_time": "16-26"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:241"
+        "item_id": "news:239"
+      },
+      {
+        "id": 249,
+        "title": "心梗老人看牙被全口拔光，医院拿走手机刷光 18800 元还欠 6200 元，医院做法存在哪些违规或失当之处？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 14,
+        "url": "https://www.zhihu.com/question/2056861703225042408",
+        "mobile_url": "",
+        "first_crawl_time": "16-26",
+        "last_crawl_time": "16-26",
+        "crawl_count": 1,
+        "created_at": "2026-07-05 16:26:12",
+        "updated_at": "2026-07-05 16:26:12",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "16-26"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:249"
       }
     ],
     "platforms": [
@@ -513,157 +481,150 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-05 12:41:17"
+        "updated_at": "2026-07-05 16:26:12"
       }
     ],
     "latest_item_ids": [
-      "news:44",
-      "news:45",
-      "news:53",
-      "news:96",
-      "news:128",
-      "news:211",
-      "news:79",
+      "news:42",
+      "news:129",
+      "news:213",
+      "news:78",
       "news:82",
-      "news:160",
-      "news:163",
+      "news:88",
+      "news:89",
+      "news:164",
+      "news:167",
+      "news:6",
+      "news:9",
       "news:11",
-      "news:25",
-      "news:62",
-      "news:188",
-      "news:195",
-      "news:241"
+      "news:61",
+      "news:239",
+      "news:249"
     ],
     "categories": {
-      "交通出行": [
-        "news:44",
-        "news:96",
-        "news:211"
-      ],
-      "安全灾害": [
-        "news:45"
-      ],
       "养老生活": [
-        "news:53",
-        "news:79",
+        "news:42",
+        "news:78",
         "news:82",
-        "news:188"
+        "news:6",
+        "news:249"
       ],
       "物价消费": [
-        "news:128"
+        "news:129",
+        "news:88"
+      ],
+      "交通出行": [
+        "news:213",
+        "news:9"
+      ],
+      "社会保障": [
+        "news:89"
       ],
       "人群营养": [
-        "news:160"
+        "news:164"
       ],
       "人口家庭": [
-        "news:163",
-        "news:195"
+        "news:167"
       ],
       "医疗健康": [
         "news:11",
-        "news:62"
-      ],
-      "中医养生": [
-        "news:25"
+        "news:61"
       ],
       "教育民生": [
-        "news:241"
+        "news:239"
       ]
     },
     "latest_categories": {
-      "交通出行": [
-        "news:44",
-        "news:96",
-        "news:211"
-      ],
-      "安全灾害": [
-        "news:45"
-      ],
       "养老生活": [
-        "news:53",
-        "news:79",
+        "news:42",
+        "news:78",
         "news:82",
-        "news:188"
+        "news:6",
+        "news:249"
       ],
       "物价消费": [
-        "news:128"
+        "news:129",
+        "news:88"
+      ],
+      "交通出行": [
+        "news:213",
+        "news:9"
+      ],
+      "社会保障": [
+        "news:89"
       ],
       "人群营养": [
-        "news:160"
+        "news:164"
       ],
       "人口家庭": [
-        "news:163",
-        "news:195"
+        "news:167"
       ],
       "医疗健康": [
         "news:11",
-        "news:62"
-      ],
-      "中医养生": [
-        "news:25"
+        "news:61"
       ],
       "教育民生": [
-        "news:241"
+        "news:239"
       ]
     },
     "raw_count": 255,
@@ -671,7 +632,7 @@
   },
   "rss": {
     "date": "2026-07-05",
-    "latest_crawl_time": "12:41",
+    "latest_crawl_time": "16:26",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -684,7 +645,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-05 12:41:22"
+        "updated_at": "2026-07-05 16:26:13"
       },
       {
         "id": "yahoo-finance",
@@ -694,7 +655,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-05 12:41:22"
+        "updated_at": "2026-07-05 16:26:13"
       }
     ],
     "latest_item_ids": [],

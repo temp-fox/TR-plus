@@ -1,71 +1,62 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-13T07:27:55.315012+08:00",
+  "generated_at": "2026-07-13T09:05:42.575400+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "29213423403",
-    "run_number": "346",
+    "run_id": "29216655238",
+    "run_number": "347",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-13",
-  "crawl_time": "07-27",
+  "crawl_time": "09-05",
   "counts": {
-    "news": 32,
-    "latest_news": 32,
+    "news": 27,
+    "latest_news": 27,
     "rss": 0,
     "latest_rss": 0,
-    "total": 32,
-    "latest_total": 32,
+    "total": 27,
+    "latest_total": 27,
     "raw_news": 254,
     "raw_latest_news": 254,
-    "raw_rss": 70,
-    "raw_latest_rss": 70
+    "raw_rss": 68,
+    "raw_latest_rss": 68
   },
   "categories": {
     "安全灾害": {
       "news": [
-        "news:31",
-        "news:32",
         "news:33",
-        "news:39",
-        "news:49",
-        "news:53",
-        "news:57",
-        "news:91",
-        "news:110",
-        "news:133",
-        "news:234",
-        "news:79",
+        "news:40",
+        "news:45",
+        "news:58",
+        "news:93",
+        "news:100",
+        "news:115",
+        "news:131",
+        "news:208",
+        "news:78",
         "news:171",
-        "news:4",
-        "news:6",
-        "news:11",
-        "news:13",
-        "news:181",
-        "news:239"
+        "news:8",
+        "news:19",
+        "news:22",
+        "news:175",
+        "news:179",
+        "news:254"
       ],
       "rss": []
     },
     "交通出行": {
       "news": [
-        "news:38",
-        "news:206"
+        "news:54",
+        "news:17"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:123",
-        "news:86",
-        "news:7",
-        "news:253"
-      ],
-      "rss": []
-    },
-    "医疗健康": {
-      "news": [
-        "news:132"
+        "news:122",
+        "news:84",
+        "news:29"
       ],
       "rss": []
     },
@@ -75,85 +66,37 @@
       ],
       "rss": []
     },
+    "四季养生": {
+      "news": [
+        "news:7"
+      ],
+      "rss": []
+    },
     "人口家庭": {
       "news": [
-        "news:62",
-        "news:247",
-        "news:250"
+        "news:63"
       ],
       "rss": []
     },
     "睡眠心理": {
       "news": [
-        "news:67"
+        "news:69"
       ],
       "rss": []
     },
     "消费维权": {
       "news": [
-        "news:236"
+        "news:249"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-13",
-    "latest_crawl_time": "07-27",
-    "count": 32,
-    "latest_count": 32,
+    "latest_crawl_time": "09-05",
+    "count": 27,
+    "latest_count": 27,
     "items": [
-      {
-        "id": 31,
-        "title": "巴威接下来携暴雨大暴雨去哪儿",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 1,
-        "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%A8%81%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%90%BA%E6%9A%B4%E9%9B%A8%E5%A4%A7%E6%9A%B4%E9%9B%A8%E5%8E%BB%E5%93%AA%E5%84%BF",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          1
-        ],
-        "rank_timeline": [
-          {
-            "rank": 1,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:31"
-      },
-      {
-        "id": 32,
-        "title": "台风把瀑布吹到倒流",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 2,
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E6%8A%8A%E7%80%91%E5%B8%83%E5%90%B9%E5%88%B0%E5%80%92%E6%B5%81",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          2
-        ],
-        "rank_timeline": [
-          {
-            "rank": 2,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:32"
-      },
       {
         "id": 33,
         "title": "防汛防台风 各部门这样部署",
@@ -162,18 +105,18 @@
         "rank": 3,
         "url": "https://www.baidu.com/s?wd=%E9%98%B2%E6%B1%9B%E9%98%B2%E5%8F%B0%E9%A3%8E+%E5%90%84%E9%83%A8%E9%97%A8%E8%BF%99%E6%A0%B7%E9%83%A8%E7%BD%B2",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
@@ -181,368 +124,316 @@
         "item_id": "news:33"
       },
       {
-        "id": 38,
-        "title": "“哈哈”高铁出发了",
+        "id": 40,
+        "title": "四川宜宾高县发生3.8级地震",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 8,
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%93%88%E5%93%88%E2%80%9D%E9%AB%98%E9%93%81%E5%87%BA%E5%8F%91%E4%BA%86",
+        "rank": 10,
+        "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E9%AB%98%E5%8E%BF%E5%8F%91%E7%94%9F3.8%E7%BA%A7%E5%9C%B0%E9%9C%87",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
-          8
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "07-27"
+            "rank": 10,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:40"
+      },
+      {
+        "id": 45,
+        "title": "巴威北上 东北警惕极端特大暴雨",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 15,
+        "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%A8%81%E5%8C%97%E4%B8%8A+%E4%B8%9C%E5%8C%97%E8%AD%A6%E6%83%95%E6%9E%81%E7%AB%AF%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          15
+        ],
+        "rank_timeline": [
+          {
+            "rank": 15,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:45"
+      },
+      {
+        "id": 54,
+        "title": "“哈哈”高铁出发了",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 24,
+        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%93%88%E5%93%88%E2%80%9D%E9%AB%98%E9%93%81%E5%87%BA%E5%8F%91%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          24
+        ],
+        "rank_timeline": [
+          {
+            "rank": 24,
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:38"
+        "item_id": "news:54"
       },
       {
-        "id": 39,
+        "id": 58,
         "title": "台风巴威风力持续减小 最新预测",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 9,
+        "rank": 28,
         "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E9%A3%8E%E5%8A%9B%E6%8C%81%E7%BB%AD%E5%87%8F%E5%B0%8F+%E6%9C%80%E6%96%B0%E9%A2%84%E6%B5%8B",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
-          9
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 9,
-            "crawl_time": "07-27"
+            "rank": 28,
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:39"
+        "item_id": "news:58"
       },
       {
-        "id": 49,
-        "title": "山东也要迎战台风了",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 19,
-        "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E4%B8%9C%E4%B9%9F%E8%A6%81%E8%BF%8E%E6%88%98%E5%8F%B0%E9%A3%8E%E4%BA%86",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          19
-        ],
-        "rank_timeline": [
-          {
-            "rank": 19,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:49"
-      },
-      {
-        "id": 53,
-        "title": "洪水退去 狗狗踱步守候房子",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 23,
-        "url": "https://www.baidu.com/s?wd=%E6%B4%AA%E6%B0%B4%E9%80%80%E5%8E%BB+%E7%8B%97%E7%8B%97%E8%B8%B1%E6%AD%A5%E5%AE%88%E5%80%99%E6%88%BF%E5%AD%90",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          23
-        ],
-        "rank_timeline": [
-          {
-            "rank": 23,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:53"
-      },
-      {
-        "id": 57,
-        "title": "摩天轮座舱被台风吹成“风火轮”",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 27,
-        "url": "https://www.baidu.com/s?wd=%E6%91%A9%E5%A4%A9%E8%BD%AE%E5%BA%A7%E8%88%B1%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%90%B9%E6%88%90%E2%80%9C%E9%A3%8E%E7%81%AB%E8%BD%AE%E2%80%9D",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          27
-        ],
-        "rank_timeline": [
-          {
-            "rank": 27,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:57"
-      },
-      {
-        "id": 91,
-        "title": "台风巴威北上",
+        "id": 93,
+        "title": "巴威或将造成局地特大暴雨",
         "platform_id": "bilibili-hot-search",
         "platform_name": "bilibili 热搜",
-        "rank": 1,
-        "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8C%97%E4%B8%8A",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          1
-        ],
-        "rank_timeline": [
-          {
-            "rank": 1,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:91"
-      },
-      {
-        "id": 110,
-        "title": "特大暴雨来了",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 20,
-        "url": "https://search.bilibili.com/all?keyword=%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E4%BA%86",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          20
-        ],
-        "rank_timeline": [
-          {
-            "rank": 20,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:110"
-      },
-      {
-        "id": 123,
-        "title": "MLCC涨价潮下的华强北“众生相”：结构性紧缺下渠道躁动 商户喜忧分化",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
         "rank": 3,
-        "url": "https://www.cls.cn/detail/2423531",
+        "url": "https://search.bilibili.com/all?keyword=%E5%B7%B4%E5%A8%81%E6%88%96%E5%B0%86%E9%80%A0%E6%88%90%E5%B1%80%E5%9C%B0%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:123"
-      },
-      {
-        "id": 132,
-        "title": "“先免妈、再上位” ：奥精医疗内斗上演连续剧 上市首任董事长“回董”被董事会拦下",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 12,
-        "url": "https://www.cls.cn/detail/2423530",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          12
-        ],
-        "rank_timeline": [
-          {
-            "rank": 12,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:132"
-      },
-      {
-        "id": 133,
-        "title": "“台风+暴雨+强对流”三预警齐发 “巴威”最新路径公布",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 13,
-        "url": "https://www.cls.cn/detail/2423675",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          13
-        ],
-        "rank_timeline": [
-          {
-            "rank": 13,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:133"
+        "item_id": "news:93"
       },
       {
-        "id": 206,
-        "title": "南京地铁地面及高架区段暂停运营",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 2,
-        "url": "https://www.douyin.com/hot/2567781",
+        "id": 100,
+        "title": "台风巴威北上",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 10,
+        "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%8C%97%E4%B8%8A",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          10
+        ],
+        "rank_timeline": [
+          {
+            "rank": 10,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:100"
+      },
+      {
+        "id": 115,
+        "title": "特大暴雨来了",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 25,
+        "url": "https://search.bilibili.com/all?keyword=%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8%E6%9D%A5%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:115"
+      },
+      {
+        "id": 122,
+        "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 2,
+        "url": "https://www.cls.cn/detail/2423960",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:206"
-      },
-      {
-        "id": 234,
-        "title": "网友实拍台风登陆画面",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 30,
-        "url": "https://www.douyin.com/hot/2567758",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          30
-        ],
-        "rank_timeline": [
-          {
-            "rank": 30,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:234"
-      },
-      {
-        "id": 79,
-        "title": "闻“汛”而动、听令而行，是魔都台风天里的真正“结界”",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 9,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33571282",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33571282",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:79"
-      },
-      {
-        "id": 86,
-        "title": "调查：“扫开就近2块钱”，共享单车涨价到哪里是个头",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 16,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33572014",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33572014",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:86"
+        "item_id": "news:122"
+      },
+      {
+        "id": 131,
+        "title": "“台风+暴雨+强对流”三预警齐发 “巴威”最新路径公布",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 11,
+        "url": "https://www.cls.cn/detail/2423675",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:131"
+      },
+      {
+        "id": 208,
+        "title": "沈阳暴雨",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 4,
+        "url": "https://www.douyin.com/hot/2568921",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:208"
+      },
+      {
+        "id": 78,
+        "title": "闻“汛”而动、听令而行，是魔都台风天里的真正“结界”",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 8,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33571282",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33571282",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:78"
+      },
+      {
+        "id": 84,
+        "title": "调查：“扫开就近2块钱”，共享单车涨价到哪里是个头",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 14,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33572014",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33572014",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:84"
       },
       {
         "id": 171,
@@ -552,18 +443,18 @@
         "rank": 26,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%8F%B0%E9%A3%8E%E5%A4%A9%E5%AE%81%E6%84%BF%E9%A5%BF%E7%9D%80%E4%B9%9F%E4%B8%8D%E4%B9%B0%E7%9A%84%E6%B3%A1%E9%9D%A2&topic_id=28356099",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           26
         ],
         "rank_timeline": [
           {
             "rank": 26,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
@@ -578,18 +469,18 @@
         "rank": 27,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%90%8C%E8%A1%8C%E9%9C%B8%E5%87%8C%E5%8F%8D%E5%99%AC%2C%E5%B0%BC%E5%8F%A4%E5%96%B5%E4%BD%9C%E8%80%85%E8%B5%A2%E9%BA%BB&topic_id=28356090",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           27
         ],
         "rank_timeline": [
           {
             "rank": 27,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
@@ -597,342 +488,316 @@
         "item_id": "news:172"
       },
       {
-        "id": 4,
-        "title": "江苏盐城发生3.0级地震",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 4,
-        "url": "https://www.toutiao.com/trending/7661641926701023238/",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:4"
-      },
-      {
-        "id": 6,
-        "title": "台风巴威实时路径",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 6,
-        "url": "https://www.toutiao.com/trending/7660478020792205331/",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:6"
-      },
-      {
         "id": 7,
-        "title": "7月17日油价将调整",
+        "title": "三伏天养生牢记“六不要”",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 7,
-        "url": "https://www.toutiao.com/trending/7660698070631481371/",
+        "url": "https://www.toutiao.com/trending/7661120534739927083/",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
+        "matched_category": "四季养生",
         "item_id": "news:7"
       },
       {
-        "id": 11,
-        "title": "男子发布涉台风不实信息被行拘",
+        "id": 8,
+        "title": "女子在爆裂玻璃上贴米字扛过台风",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 11,
-        "url": "https://www.toutiao.com/trending/7661316882703876146/",
+        "rank": 8,
+        "url": "https://www.toutiao.com/trending/7661552665859637311/",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
-          11
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 11,
-            "crawl_time": "07-27"
+            "rank": 8,
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:11"
+        "item_id": "news:8"
       },
       {
-        "id": 13,
-        "title": "60万斤温州大黄鱼扛过台风巴威",
+        "id": 17,
+        "title": "比亚迪开启电动车“炫耀之旅”",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 13,
-        "url": "https://www.toutiao.com/trending/7661215856987258921/",
+        "rank": 17,
+        "url": "https://www.toutiao.com/trending/7661674856559152682/",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
-          13
+          17
         ],
         "rank_timeline": [
           {
-            "rank": 13,
-            "crawl_time": "07-27"
+            "rank": 17,
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:13"
+        "matched_category": "交通出行",
+        "item_id": "news:17"
       },
       {
-        "id": 62,
-        "title": "人口第一大国，被AI做空了",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 2,
-        "url": "https://wallstreetcn.com/articles/3776722",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          2
-        ],
-        "rank_timeline": [
-          {
-            "rank": 2,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:62"
-      },
-      {
-        "id": 67,
-        "title": "美银Hartnett：日本银行股是“全球避险情绪领先指标”，下半年有“四大逆向交易机会”",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 7,
-        "url": "https://wallstreetcn.com/articles/3776713",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          7
-        ],
-        "rank_timeline": [
-          {
-            "rank": 7,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "睡眠心理",
-        "item_id": "news:67"
-      },
-      {
-        "id": 181,
-        "title": "火鸡面被台风孤立了",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 7,
-        "url": "https://s.weibo.com/weibo?q=%E7%81%AB%E9%B8%A1%E9%9D%A2%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%AD%A4%E7%AB%8B%E4%BA%86",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E7%81%AB%E9%B8%A1%E9%9D%A2%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%AD%A4%E7%AB%8B%E4%BA%86&t=31&band_rank=7&Refer=top",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          7
-        ],
-        "rank_timeline": [
-          {
-            "rank": 7,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:181"
-      },
-      {
-        "id": 236,
-        "title": "小红书前员工再发文实名举报 IPO 合规，哪些信息值得关注？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 2,
-        "url": "https://www.zhihu.com/question/2058623048639689021",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          2
-        ],
-        "rank_timeline": [
-          {
-            "rank": 2,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:236"
-      },
-      {
-        "id": 239,
-        "title": "为什么台风预报的时候来势汹汹，但真登陆了感觉没有那么强烈？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 5,
-        "url": "https://www.zhihu.com/question/1943291837109478434",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          5
-        ],
-        "rank_timeline": [
-          {
-            "rank": 5,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:239"
-      },
-      {
-        "id": 247,
-        "title": "冉莹颖称曾多次想离婚，录综艺本想救赎婚姻，录完「不再执着于改造对方」，透露出怎样的婚姻相处智慧？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 13,
-        "url": "https://www.zhihu.com/question/2057515225566242609",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          13
-        ],
-        "rank_timeline": [
-          {
-            "rank": 13,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:247"
-      },
-      {
-        "id": 250,
-        "title": "网传大 S 遗产卡里仅有 200 万台币，这一消息真实性如何？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 16,
-        "url": "https://www.zhihu.com/question/2058340032570725122",
-        "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "07-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:250"
-      },
-      {
-        "id": 253,
-        "title": "5000 元以下笔记本基本绝迹，购机门槛升至万元以上，为啥涨价幅度这么大？对行业和消费者有哪些影响？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
+        "id": 19,
+        "title": "安徽多地将有大暴雨",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
         "rank": 19,
-        "url": "https://www.zhihu.com/question/2058111600045678958",
+        "url": "https://www.toutiao.com/trending/7661782572015308307/",
         "mobile_url": "",
-        "first_crawl_time": "07-27",
-        "last_crawl_time": "07-27",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
         "crawl_count": 1,
-        "created_at": "2026-07-13 07:27:51",
-        "updated_at": "2026-07-13 07:27:51",
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
         "ranks": [
           19
         ],
         "rank_timeline": [
           {
             "rank": 19,
-            "crawl_time": "07-27"
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:19"
+      },
+      {
+        "id": 22,
+        "title": "沈阳暴雨红警",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 22,
+        "url": "https://www.toutiao.com/trending/7661792591792328198/",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:22"
+      },
+      {
+        "id": 29,
+        "title": "7月17日油价将调整",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 29,
+        "url": "https://www.toutiao.com/trending/7660698070631481371/",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "09-05"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:253"
+        "item_id": "news:29"
+      },
+      {
+        "id": 63,
+        "title": "人口第一大国，被AI做空了",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 3,
+        "url": "https://wallstreetcn.com/articles/3776722",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          3
+        ],
+        "rank_timeline": [
+          {
+            "rank": 3,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:63"
+      },
+      {
+        "id": 69,
+        "title": "美银Hartnett：日本银行股是“全球避险情绪领先指标”，下半年有“四大逆向交易机会”",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 9,
+        "url": "https://wallstreetcn.com/articles/3776713",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "睡眠心理",
+        "item_id": "news:69"
+      },
+      {
+        "id": 175,
+        "title": "沈阳暴雨",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 1,
+        "url": "https://s.weibo.com/weibo?q=%E6%B2%88%E9%98%B3%E6%9A%B4%E9%9B%A8",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E6%B2%88%E9%98%B3%E6%9A%B4%E9%9B%A8&t=31&band_rank=1&Refer=top",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          1
+        ],
+        "rank_timeline": [
+          {
+            "rank": 1,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:175"
+      },
+      {
+        "id": 179,
+        "title": "宜宾地震",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 5,
+        "url": "https://s.weibo.com/weibo?q=%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87&t=31&band_rank=5&Refer=top",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          5
+        ],
+        "rank_timeline": [
+          {
+            "rank": 5,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:179"
+      },
+      {
+        "id": 249,
+        "title": "小红书前员工再发文实名举报 IPO 合规，哪些信息值得关注？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 15,
+        "url": "https://www.zhihu.com/question/2058623048639689021",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          15
+        ],
+        "rank_timeline": [
+          {
+            "rank": 15,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:249"
+      },
+      {
+        "id": 254,
+        "title": "台风「巴威」深入内陆，江苏、山东、东北等地将有暴雨，这轮降雨会持续多久？你那里情况怎么样？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 20,
+        "url": "https://www.zhihu.com/question/2059572234985763779",
+        "mobile_url": "",
+        "first_crawl_time": "09-05",
+        "last_crawl_time": "09-05",
+        "crawl_count": 1,
+        "created_at": "2026-07-13 09:05:37",
+        "updated_at": "2026-07-13 09:05:37",
+        "ranks": [
+          20
+        ],
+        "rank_timeline": [
+          {
+            "rank": 20,
+            "crawl_time": "09-05"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:254"
       }
     ],
     "platforms": [
@@ -940,201 +805,186 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-13 07:27:51"
+        "updated_at": "2026-07-13 09:05:37"
       }
     ],
     "latest_item_ids": [
-      "news:31",
-      "news:32",
       "news:33",
-      "news:38",
-      "news:39",
-      "news:49",
-      "news:53",
-      "news:57",
-      "news:91",
-      "news:110",
-      "news:123",
-      "news:132",
-      "news:133",
-      "news:206",
-      "news:234",
-      "news:79",
-      "news:86",
+      "news:40",
+      "news:45",
+      "news:54",
+      "news:58",
+      "news:93",
+      "news:100",
+      "news:115",
+      "news:122",
+      "news:131",
+      "news:208",
+      "news:78",
+      "news:84",
       "news:171",
       "news:172",
-      "news:4",
-      "news:6",
       "news:7",
-      "news:11",
-      "news:13",
-      "news:62",
-      "news:67",
-      "news:181",
-      "news:236",
-      "news:239",
-      "news:247",
-      "news:250",
-      "news:253"
+      "news:8",
+      "news:17",
+      "news:19",
+      "news:22",
+      "news:29",
+      "news:63",
+      "news:69",
+      "news:175",
+      "news:179",
+      "news:249",
+      "news:254"
     ],
     "categories": {
       "安全灾害": [
-        "news:31",
-        "news:32",
         "news:33",
-        "news:39",
-        "news:49",
-        "news:53",
-        "news:57",
-        "news:91",
-        "news:110",
-        "news:133",
-        "news:234",
-        "news:79",
+        "news:40",
+        "news:45",
+        "news:58",
+        "news:93",
+        "news:100",
+        "news:115",
+        "news:131",
+        "news:208",
+        "news:78",
         "news:171",
-        "news:4",
-        "news:6",
-        "news:11",
-        "news:13",
-        "news:181",
-        "news:239"
+        "news:8",
+        "news:19",
+        "news:22",
+        "news:175",
+        "news:179",
+        "news:254"
       ],
       "交通出行": [
-        "news:38",
-        "news:206"
+        "news:54",
+        "news:17"
       ],
       "物价消费": [
-        "news:123",
-        "news:86",
-        "news:7",
-        "news:253"
-      ],
-      "医疗健康": [
-        "news:132"
+        "news:122",
+        "news:84",
+        "news:29"
       ],
       "教育民生": [
         "news:172"
       ],
+      "四季养生": [
+        "news:7"
+      ],
       "人口家庭": [
-        "news:62",
-        "news:247",
-        "news:250"
+        "news:63"
       ],
       "睡眠心理": [
-        "news:67"
+        "news:69"
       ],
       "消费维权": [
-        "news:236"
+        "news:249"
       ]
     },
     "latest_categories": {
       "安全灾害": [
-        "news:31",
-        "news:32",
         "news:33",
-        "news:39",
-        "news:49",
-        "news:53",
-        "news:57",
-        "news:91",
-        "news:110",
-        "news:133",
-        "news:234",
-        "news:79",
+        "news:40",
+        "news:45",
+        "news:58",
+        "news:93",
+        "news:100",
+        "news:115",
+        "news:131",
+        "news:208",
+        "news:78",
         "news:171",
-        "news:4",
-        "news:6",
-        "news:11",
-        "news:13",
-        "news:181",
-        "news:239"
+        "news:8",
+        "news:19",
+        "news:22",
+        "news:175",
+        "news:179",
+        "news:254"
       ],
       "交通出行": [
-        "news:38",
-        "news:206"
+        "news:54",
+        "news:17"
       ],
       "物价消费": [
-        "news:123",
-        "news:86",
-        "news:7",
-        "news:253"
-      ],
-      "医疗健康": [
-        "news:132"
+        "news:122",
+        "news:84",
+        "news:29"
       ],
       "教育民生": [
         "news:172"
       ],
+      "四季养生": [
+        "news:7"
+      ],
       "人口家庭": [
-        "news:62",
-        "news:247",
-        "news:250"
+        "news:63"
       ],
       "睡眠心理": [
-        "news:67"
+        "news:69"
       ],
       "消费维权": [
-        "news:236"
+        "news:249"
       ]
     },
     "raw_count": 254,
@@ -1142,7 +992,7 @@
   },
   "rss": {
     "date": "2026-07-13",
-    "latest_crawl_time": "07:27",
+    "latest_crawl_time": "09:05",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -1155,7 +1005,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-13 07:27:52"
+        "updated_at": "2026-07-13 09:05:39"
       },
       {
         "id": "yahoo-finance",
@@ -1165,13 +1015,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-13 07:27:52"
+        "updated_at": "2026-07-13 09:05:39"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 70,
-    "raw_latest_count": 70
+    "raw_count": 68,
+    "raw_latest_count": 68
   }
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-16T04:34:42.564075+08:00",
+  "generated_at": "2026-07-16T06:31:25.088157+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "29448777391",
-    "run_number": "378",
+    "run_id": "29455616402",
+    "run_number": "379",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-16",
-  "crawl_time": "04-34",
+  "crawl_time": "06-31",
   "counts": {
     "news": 16,
     "latest_news": 16,
@@ -23,151 +23,172 @@
     "raw_latest_rss": 64
   },
   "categories": {
+    "消费维权": {
+      "news": [
+        "news:46",
+        "news:172",
+        "news:196",
+        "news:248"
+      ],
+      "rss": []
+    },
     "交通出行": {
       "news": [
-        "news:43",
+        "news:52",
         "news:80",
-        "news:157"
+        "news:158"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
-        "news:92",
+        "news:94",
         "news:144"
       ],
       "rss": []
     },
     "睡眠心理": {
       "news": [
-        "news:126",
+        "news:125",
         "news:135"
-      ],
-      "rss": []
-    },
-    "消费维权": {
-      "news": [
-        "news:171",
-        "news:248"
       ],
       "rss": []
     },
     "养老生活": {
       "news": [
         "news:9",
-        "news:191"
+        "news:202"
       ],
       "rss": []
     },
     "四季养生": {
       "news": [
-        "news:12"
+        "news:13"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:16",
-        "news:61"
+        "news:27"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:186"
-      ],
-      "rss": []
-    },
-    "日常饮食": {
-      "news": [
-        "news:253"
+        "news:187"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-16",
-    "latest_crawl_time": "04-34",
+    "latest_crawl_time": "06-31",
     "count": 16,
     "latest_count": 16,
     "items": [
       {
-        "id": 43,
-        "title": "停车扫码缴费狂弹广告 微信出手了",
+        "id": 46,
+        "title": "帕雷德斯举报凯恩捂嘴",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 13,
-        "url": "https://www.baidu.com/s?wd=%E5%81%9C%E8%BD%A6%E6%89%AB%E7%A0%81%E7%BC%B4%E8%B4%B9%E7%8B%82%E5%BC%B9%E5%B9%BF%E5%91%8A+%E5%BE%AE%E4%BF%A1%E5%87%BA%E6%89%8B%E4%BA%86",
+        "rank": 16,
+        "url": "https://www.baidu.com/s?wd=%E5%B8%95%E9%9B%B7%E5%BE%B7%E6%96%AF%E4%B8%BE%E6%8A%A5%E5%87%AF%E6%81%A9%E6%8D%82%E5%98%B4",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
-          13
+          16
         ],
         "rank_timeline": [
           {
-            "rank": 13,
-            "crawl_time": "04-34"
+            "rank": 16,
+            "crawl_time": "06-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:46"
+      },
+      {
+        "id": 52,
+        "title": "停车扫码缴费狂弹广告 微信出手了",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 22,
+        "url": "https://www.baidu.com/s?wd=%E5%81%9C%E8%BD%A6%E6%89%AB%E7%A0%81%E7%BC%B4%E8%B4%B9%E7%8B%82%E5%BC%B9%E5%B9%BF%E5%91%8A+%E5%BE%AE%E4%BF%A1%E5%87%BA%E6%89%8B%E4%BA%86",
+        "mobile_url": "",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:43"
+        "item_id": "news:52"
       },
       {
-        "id": 92,
+        "id": 94,
         "title": "我国将迎大范围酷热高温",
         "platform_id": "bilibili-hot-search",
         "platform_name": "bilibili 热搜",
-        "rank": 2,
+        "rank": 4,
         "url": "https://search.bilibili.com/all?keyword=%E6%88%91%E5%9B%BD%E5%B0%86%E8%BF%8E%E5%A4%A7%E8%8C%83%E5%9B%B4%E9%85%B7%E7%83%AD%E9%AB%98%E6%B8%A9",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
-          2
+          4
         ],
         "rank_timeline": [
           {
-            "rank": 2,
-            "crawl_time": "04-34"
+            "rank": 4,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:92"
+        "item_id": "news:94"
       },
       {
-        "id": 126,
+        "id": 125,
         "title": "美国6月PPI超预期降温 油价“救场”难掩上游涨价压力",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
-        "rank": 6,
+        "rank": 5,
         "url": "https://www.cls.cn/detail/2427667",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
-          6
+          5
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "04-34"
+            "rank": 5,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
-        "item_id": "news:126"
+        "item_id": "news:125"
       },
       {
         "id": 135,
@@ -177,18 +198,18 @@
         "rank": 2,
         "url": "https://news.ifeng.com/c/8umustJIuDD",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "04-34"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -203,18 +224,18 @@
         "rank": 11,
         "url": "https://news.ifeng.com/c/8umOPjOSWIg",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "04-34"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -229,18 +250,18 @@
         "rank": 10,
         "url": "https://www.thepaper.cn/newsDetail_forward_33588479",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33588479",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "04-34"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -248,56 +269,56 @@
         "item_id": "news:80"
       },
       {
-        "id": 157,
+        "id": 158,
         "title": "外卖哥拒送自提单惹怒网友",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 12,
+        "rank": 13,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%A4%96%E5%8D%96%E5%93%A5%E6%8B%92%E9%80%81%E8%87%AA%E6%8F%90%E5%8D%95%E6%83%B9%E6%80%92%E7%BD%91%E5%8F%8B&topic_id=28356192",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
-          12
+          13
         ],
         "rank_timeline": [
           {
-            "rank": 12,
-            "crawl_time": "04-34"
+            "rank": 13,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:157"
+        "item_id": "news:158"
       },
       {
-        "id": 171,
+        "id": 172,
         "title": "千里追讨,老太硬刚仅退款",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 26,
+        "rank": 27,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%8D%83%E9%87%8C%E8%BF%BD%E8%AE%A8%2C%E8%80%81%E5%A4%AA%E7%A1%AC%E5%88%9A%E4%BB%85%E9%80%80%E6%AC%BE&topic_id=28356176",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
-          26
+          27
         ],
         "rank_timeline": [
           {
-            "rank": 26,
-            "crawl_time": "04-34"
+            "rank": 27,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "消费维权",
-        "item_id": "news:171"
+        "item_id": "news:172"
       },
       {
         "id": 9,
@@ -307,18 +328,18 @@
         "rank": 9,
         "url": "https://www.toutiao.com/trending/7661542562557198377/",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "04-34"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
@@ -326,134 +347,134 @@
         "item_id": "news:9"
       },
       {
-        "id": 12,
+        "id": 13,
         "title": "专家：三伏天千万不要喝冷饮",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 12,
+        "rank": 13,
         "url": "https://www.toutiao.com/trending/7662041691360215046/",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
+        "ranks": [
+          13
+        ],
+        "rank_timeline": [
+          {
+            "rank": 13,
+            "crawl_time": "06-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "四季养生",
+        "item_id": "news:13"
+      },
+      {
+        "id": 27,
+        "title": "7月17日24时国内油价将调整",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 27,
+        "url": "https://www.toutiao.com/trending/7661869729721417770/",
+        "mobile_url": "",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "06-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:27"
+      },
+      {
+        "id": 187,
+        "title": "DeepSeek工资待遇太恐怖了",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 12,
+        "url": "https://s.weibo.com/weibo?q=DeepSeek%E5%B7%A5%E8%B5%84%E5%BE%85%E9%81%87%E5%A4%AA%E6%81%90%E6%80%96%E4%BA%86",
+        "mobile_url": "https://s.weibo.com/weibo?q=DeepSeek%E5%B7%A5%E8%B5%84%E5%BE%85%E9%81%87%E5%A4%AA%E6%81%90%E6%80%96%E4%BA%86&t=31&band_rank=12&Refer=top",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "04-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "四季养生",
-        "item_id": "news:12"
-      },
-      {
-        "id": 16,
-        "title": "7月17日24时国内油价将调整",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 16,
-        "url": "https://www.toutiao.com/trending/7661869729721417770/",
-        "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "04-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:16"
-      },
-      {
-        "id": 61,
-        "title": "美国通胀降温提振美股，存储跌幅扩大，戴尔重挫13%，油价转跌",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 1,
-        "url": "https://wallstreetcn.com/articles/3776964",
-        "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
-        "ranks": [
-          1
-        ],
-        "rank_timeline": [
-          {
-            "rank": 1,
-            "crawl_time": "04-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:61"
-      },
-      {
-        "id": 186,
-        "title": "DeepSeek工资待遇太恐怖了",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 11,
-        "url": "https://s.weibo.com/weibo?q=DeepSeek%E5%B7%A5%E8%B5%84%E5%BE%85%E9%81%87%E5%A4%AA%E6%81%90%E6%80%96%E4%BA%86",
-        "mobile_url": "https://s.weibo.com/weibo?q=DeepSeek%E5%B7%A5%E8%B5%84%E5%BE%85%E9%81%87%E5%A4%AA%E6%81%90%E6%80%96%E4%BA%86&t=31&band_rank=11&Refer=top",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
-        "ranks": [
-          11
-        ],
-        "rank_timeline": [
-          {
-            "rank": 11,
-            "crawl_time": "04-34"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:186"
+        "item_id": "news:187"
       },
       {
-        "id": 191,
-        "title": "中老年妇女困境",
+        "id": 196,
+        "title": "帕雷德斯举报凯恩捂嘴",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 16,
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E8%80%81%E5%B9%B4%E5%A6%87%E5%A5%B3%E5%9B%B0%E5%A2%83",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E8%80%81%E5%B9%B4%E5%A6%87%E5%A5%B3%E5%9B%B0%E5%A2%83&t=31&band_rank=16&Refer=top",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "rank": 21,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%B8%95%E9%9B%B7%E5%BE%B7%E6%96%AF%E4%B8%BE%E6%8A%A5%E5%87%AF%E6%81%A9%E6%8D%82%E5%98%B4%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%B8%95%E9%9B%B7%E5%BE%B7%E6%96%AF%E4%B8%BE%E6%8A%A5%E5%87%AF%E6%81%A9%E6%8D%82%E5%98%B4%23&t=31&band_rank=21&Refer=top",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
-          16
+          21
         ],
         "rank_timeline": [
           {
-            "rank": 16,
-            "crawl_time": "04-34"
+            "rank": 21,
+            "crawl_time": "06-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:196"
+      },
+      {
+        "id": 202,
+        "title": "中老年妇女困境",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 27,
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E8%80%81%E5%B9%B4%E5%A6%87%E5%A5%B3%E5%9B%B0%E5%A2%83",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E8%80%81%E5%B9%B4%E5%A6%87%E5%A5%B3%E5%9B%B0%E5%A2%83&t=31&band_rank=27&Refer=top",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:191"
+        "item_id": "news:202"
       },
       {
         "id": 248,
@@ -463,49 +484,23 @@
         "rank": 13,
         "url": "https://www.zhihu.com/question/2060545155124441600",
         "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
+        "first_crawl_time": "06-31",
+        "last_crawl_time": "06-31",
         "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
+        "created_at": "2026-07-16 06:31:20",
+        "updated_at": "2026-07-16 06:31:20",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "04-34"
+            "crawl_time": "06-31"
           }
         ],
         "is_latest": true,
         "matched_category": "消费维权",
         "item_id": "news:248"
-      },
-      {
-        "id": 253,
-        "title": "鸡肉这种食材有哪些美味的做法?",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 18,
-        "url": "https://www.zhihu.com/question/1909692480716252807",
-        "mobile_url": "",
-        "first_crawl_time": "04-34",
-        "last_crawl_time": "04-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-16 04:34:38",
-        "updated_at": "2026-07-16 04:34:38",
-        "ranks": [
-          18
-        ],
-        "rank_timeline": [
-          {
-            "rank": 18,
-            "crawl_time": "04-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "日常饮食",
-        "item_id": "news:253"
       }
     ],
     "platforms": [
@@ -513,157 +508,153 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-16 04:34:38"
+        "updated_at": "2026-07-16 06:31:20"
       }
     ],
     "latest_item_ids": [
-      "news:43",
-      "news:92",
-      "news:126",
+      "news:46",
+      "news:52",
+      "news:94",
+      "news:125",
       "news:135",
       "news:144",
       "news:80",
-      "news:157",
-      "news:171",
+      "news:158",
+      "news:172",
       "news:9",
-      "news:12",
-      "news:16",
-      "news:61",
-      "news:186",
-      "news:191",
-      "news:248",
-      "news:253"
+      "news:13",
+      "news:27",
+      "news:187",
+      "news:196",
+      "news:202",
+      "news:248"
     ],
     "categories": {
+      "消费维权": [
+        "news:46",
+        "news:172",
+        "news:196",
+        "news:248"
+      ],
       "交通出行": [
-        "news:43",
+        "news:52",
         "news:80",
-        "news:157"
+        "news:158"
       ],
       "安全灾害": [
-        "news:92",
+        "news:94",
         "news:144"
       ],
       "睡眠心理": [
-        "news:126",
+        "news:125",
         "news:135"
-      ],
-      "消费维权": [
-        "news:171",
-        "news:248"
       ],
       "养老生活": [
         "news:9",
-        "news:191"
+        "news:202"
       ],
       "四季养生": [
-        "news:12"
+        "news:13"
       ],
       "物价消费": [
-        "news:16",
-        "news:61"
+        "news:27"
       ],
       "就业民生": [
-        "news:186"
-      ],
-      "日常饮食": [
-        "news:253"
+        "news:187"
       ]
     },
     "latest_categories": {
+      "消费维权": [
+        "news:46",
+        "news:172",
+        "news:196",
+        "news:248"
+      ],
       "交通出行": [
-        "news:43",
+        "news:52",
         "news:80",
-        "news:157"
+        "news:158"
       ],
       "安全灾害": [
-        "news:92",
+        "news:94",
         "news:144"
       ],
       "睡眠心理": [
-        "news:126",
+        "news:125",
         "news:135"
-      ],
-      "消费维权": [
-        "news:171",
-        "news:248"
       ],
       "养老生活": [
         "news:9",
-        "news:191"
+        "news:202"
       ],
       "四季养生": [
-        "news:12"
+        "news:13"
       ],
       "物价消费": [
-        "news:16",
-        "news:61"
+        "news:27"
       ],
       "就业民生": [
-        "news:186"
-      ],
-      "日常饮食": [
-        "news:253"
+        "news:187"
       ]
     },
     "raw_count": 255,
@@ -671,7 +662,7 @@
   },
   "rss": {
     "date": "2026-07-16",
-    "latest_crawl_time": "04:34",
+    "latest_crawl_time": "06:31",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -684,7 +675,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-16 04:34:40"
+        "updated_at": "2026-07-16 06:31:22"
       },
       {
         "id": "yahoo-finance",
@@ -694,7 +685,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-16 04:34:40"
+        "updated_at": "2026-07-16 06:31:22"
       }
     ],
     "latest_item_ids": [],

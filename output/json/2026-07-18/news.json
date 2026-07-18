@@ -1,45 +1,39 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-18T17:58:14.440897+08:00",
+  "generated_at": "2026-07-18T19:31:14.608901+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "29640033280",
-    "run_number": "408",
+    "run_id": "29642656103",
+    "run_number": "409",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-18",
-  "crawl_time": "17-58",
+  "crawl_time": "19-31",
   "counts": {
-    "news": 10,
-    "latest_news": 10,
+    "news": 11,
+    "latest_news": 11,
     "rss": 0,
     "latest_rss": 0,
-    "total": 10,
-    "latest_total": 10,
+    "total": 11,
+    "latest_total": 11,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 61,
-    "raw_latest_rss": 61
+    "raw_rss": 62,
+    "raw_latest_rss": 62
   },
   "categories": {
-    "养老生活": {
-      "news": [
-        "news:38",
-        "news:48"
-      ],
-      "rss": []
-    },
     "人口家庭": {
       "news": [
         "news:124",
-        "news:199"
+        "news:185",
+        "news:249"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:125",
+        "news:126",
         "news:128",
         "news:61"
       ],
@@ -57,71 +51,31 @@
       ],
       "rss": []
     },
-    "安全灾害": {
+    "教育民生": {
       "news": [
-        "news:24"
+        "news:8"
+      ],
+      "rss": []
+    },
+    "医疗健康": {
+      "news": [
+        "news:12"
+      ],
+      "rss": []
+    },
+    "消费维权": {
+      "news": [
+        "news:255"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-18",
-    "latest_crawl_time": "17-58",
-    "count": 10,
-    "latest_count": 10,
+    "latest_crawl_time": "19-31",
+    "count": 11,
+    "latest_count": 11,
     "items": [
-      {
-        "id": 38,
-        "title": "自助餐为何“没吃几口就饱”",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 8,
-        "url": "https://www.baidu.com/s?wd=%E8%87%AA%E5%8A%A9%E9%A4%90%E4%B8%BA%E4%BD%95%E2%80%9C%E6%B2%A1%E5%90%83%E5%87%A0%E5%8F%A3%E5%B0%B1%E9%A5%B1%E2%80%9D",
-        "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
-        "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "17-58"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:38"
-      },
-      {
-        "id": 48,
-        "title": "“抢老人”该抢什么样的老人",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 18,
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%8A%A2%E8%80%81%E4%BA%BA%E2%80%9D%E8%AF%A5%E6%8A%A2%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E8%80%81%E4%BA%BA",
-        "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
-        "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
-        "ranks": [
-          18
-        ],
-        "rank_timeline": [
-          {
-            "rank": 18,
-            "crawl_time": "17-58"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:48"
-      },
       {
         "id": 124,
         "title": "A股再现天价离婚：分手费59.5亿元，公司上市不足一年",
@@ -130,18 +84,18 @@
         "rank": 4,
         "url": "https://www.cls.cn/detail/2430101",
         "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "17-58"
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
@@ -149,30 +103,30 @@
         "item_id": "news:124"
       },
       {
-        "id": 125,
+        "id": 126,
         "title": "【早报】茅台宣布：涨价；国内油价，今起上调",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
-        "rank": 5,
+        "rank": 6,
         "url": "https://www.cls.cn/detail/2430081",
         "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
-          5
+          6
         ],
         "rank_timeline": [
           {
-            "rank": 5,
-            "crawl_time": "17-58"
+            "rank": 6,
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:125"
+        "item_id": "news:126"
       },
       {
         "id": 128,
@@ -182,18 +136,18 @@
         "rank": 8,
         "url": "https://www.cls.cn/detail/2429977",
         "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "17-58"
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
@@ -208,18 +162,18 @@
         "rank": 10,
         "url": "https://www.cls.cn/detail/2429875",
         "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "17-58"
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
@@ -234,18 +188,18 @@
         "rank": 17,
         "url": "https://www.thepaper.cn/newsDetail_forward_33611116",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33611116",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "17-58"
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
@@ -253,30 +207,56 @@
         "item_id": "news:87"
       },
       {
-        "id": 24,
-        "title": "黑龙江省一跨河浮桥被洪水冲塌",
+        "id": 8,
+        "title": "男孩高考后边送外卖边考驾照",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 24,
-        "url": "https://www.toutiao.com/trending/7662658317467041834/",
+        "rank": 8,
+        "url": "https://www.toutiao.com/trending/7663488773338447899/",
         "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
-          24
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "17-58"
+            "rank": 8,
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:24"
+        "matched_category": "教育民生",
+        "item_id": "news:8"
+      },
+      {
+        "id": 12,
+        "title": "杜华劝邹市明去看病",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 12,
+        "url": "https://www.toutiao.com/trending/7663759355465089060/",
+        "mobile_url": "",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
+        "ranks": [
+          12
+        ],
+        "rank_timeline": [
+          {
+            "rank": 12,
+            "crawl_time": "19-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "医疗健康",
+        "item_id": "news:12"
       },
       {
         "id": 61,
@@ -286,18 +266,18 @@
         "rank": 1,
         "url": "https://wallstreetcn.com/articles/3777186",
         "mobile_url": "",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "17-58"
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
@@ -305,30 +285,82 @@
         "item_id": "news:61"
       },
       {
-        "id": 199,
+        "id": 185,
         "title": "邹市明拒绝上海户口说我是贵州人",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 24,
+        "rank": 10,
         "url": "https://s.weibo.com/weibo?q=%23%E9%82%B9%E5%B8%82%E6%98%8E%E6%8B%92%E7%BB%9D%E4%B8%8A%E6%B5%B7%E6%88%B7%E5%8F%A3%E8%AF%B4%E6%88%91%E6%98%AF%E8%B4%B5%E5%B7%9E%E4%BA%BA%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E9%82%B9%E5%B8%82%E6%98%8E%E6%8B%92%E7%BB%9D%E4%B8%8A%E6%B5%B7%E6%88%B7%E5%8F%A3%E8%AF%B4%E6%88%91%E6%98%AF%E8%B4%B5%E5%B7%9E%E4%BA%BA%23&t=31&band_rank=24&Refer=top",
-        "first_crawl_time": "17-58",
-        "last_crawl_time": "17-58",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E9%82%B9%E5%B8%82%E6%98%8E%E6%8B%92%E7%BB%9D%E4%B8%8A%E6%B5%B7%E6%88%B7%E5%8F%A3%E8%AF%B4%E6%88%91%E6%98%AF%E8%B4%B5%E5%B7%9E%E4%BA%BA%23&t=31&band_rank=10&Refer=top",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
         "crawl_count": 1,
-        "created_at": "2026-07-18 17:58:10",
-        "updated_at": "2026-07-18 17:58:10",
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
         "ranks": [
-          24
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "17-58"
+            "rank": 10,
+            "crawl_time": "19-31"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:199"
+        "item_id": "news:185"
+      },
+      {
+        "id": 249,
+        "title": "如何看待曝大 S 生前用手机写下遗产分配方案，珠宝、名牌包留给女儿？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 14,
+        "url": "https://www.zhihu.com/question/2060765589857990533",
+        "mobile_url": "",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "19-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:249"
+      },
+      {
+        "id": 255,
+        "title": "遭终身禁足的前国脚申思被举报掌掴小球员，上海足协通报其所在俱乐部被警告罚款，申思可能面临哪些法律责任？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 20,
+        "url": "https://www.zhihu.com/question/2061692639876059528",
+        "mobile_url": "",
+        "first_crawl_time": "19-31",
+        "last_crawl_time": "19-31",
+        "crawl_count": 1,
+        "created_at": "2026-07-18 19:31:10",
+        "updated_at": "2026-07-18 19:31:10",
+        "ranks": [
+          20
+        ],
+        "rank_timeline": [
+          {
+            "rank": 20,
+            "crawl_time": "19-31"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:255"
       }
     ],
     "platforms": [
@@ -336,92 +368,90 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-18 17:58:10"
+        "updated_at": "2026-07-18 19:31:10"
       }
     ],
     "latest_item_ids": [
-      "news:38",
-      "news:48",
       "news:124",
-      "news:125",
+      "news:126",
       "news:128",
       "news:130",
       "news:87",
-      "news:24",
+      "news:8",
+      "news:12",
       "news:61",
-      "news:199"
+      "news:185",
+      "news:249",
+      "news:255"
     ],
     "categories": {
-      "养老生活": [
-        "news:38",
-        "news:48"
-      ],
       "人口家庭": [
         "news:124",
-        "news:199"
+        "news:185",
+        "news:249"
       ],
       "物价消费": [
-        "news:125",
+        "news:126",
         "news:128",
         "news:61"
       ],
@@ -431,21 +461,24 @@
       "交通出行": [
         "news:87"
       ],
-      "安全灾害": [
-        "news:24"
+      "教育民生": [
+        "news:8"
+      ],
+      "医疗健康": [
+        "news:12"
+      ],
+      "消费维权": [
+        "news:255"
       ]
     },
     "latest_categories": {
-      "养老生活": [
-        "news:38",
-        "news:48"
-      ],
       "人口家庭": [
         "news:124",
-        "news:199"
+        "news:185",
+        "news:249"
       ],
       "物价消费": [
-        "news:125",
+        "news:126",
         "news:128",
         "news:61"
       ],
@@ -455,8 +488,14 @@
       "交通出行": [
         "news:87"
       ],
-      "安全灾害": [
-        "news:24"
+      "教育民生": [
+        "news:8"
+      ],
+      "医疗健康": [
+        "news:12"
+      ],
+      "消费维权": [
+        "news:255"
       ]
     },
     "raw_count": 255,
@@ -464,7 +503,7 @@
   },
   "rss": {
     "date": "2026-07-18",
-    "latest_crawl_time": "17:58",
+    "latest_crawl_time": "19:31",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -477,7 +516,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-18 17:58:11"
+        "updated_at": "2026-07-18 19:31:11"
       },
       {
         "id": "yahoo-finance",
@@ -487,13 +526,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-18 17:58:11"
+        "updated_at": "2026-07-18 19:31:11"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 61,
-    "raw_latest_count": 61
+    "raw_count": 62,
+    "raw_latest_count": 62
   }
 }

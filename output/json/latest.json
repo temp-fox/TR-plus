@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-19T19:37:18.304300+08:00",
+  "generated_at": "2026-07-19T22:02:43.536870+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "29685440259",
-    "run_number": "424",
+    "run_id": "29690009329",
+    "run_number": "425",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-19",
-  "crawl_time": "19-37",
+  "crawl_time": "22-02",
   "counts": {
-    "news": 11,
-    "latest_news": 11,
+    "news": 13,
+    "latest_news": 13,
     "rss": 0,
     "latest_rss": 0,
-    "total": 11,
-    "latest_total": 11,
+    "total": 13,
+    "latest_total": 13,
     "raw_news": 255,
     "raw_latest_news": 255,
     "raw_rss": 69,
@@ -26,81 +26,83 @@
     "安全灾害": {
       "news": [
         "news:31",
-        "news:1"
-      ],
-      "rss": []
-    },
-    "教育民生": {
-      "news": [
-        "news:46",
-        "news:219"
-      ],
-      "rss": []
-    },
-    "人口家庭": {
-      "news": [
-        "news:121"
+        "news:1",
+        "news:26",
+        "news:203"
       ],
       "rss": []
     },
     "社会保障": {
       "news": [
-        "news:130"
+        "news:124"
       ],
       "rss": []
     },
-    "医疗健康": {
+    "物价消费": {
       "news": [
-        "news:84"
-      ],
-      "rss": []
-    },
-    "养老生活": {
-      "news": [
-        "news:86",
-        "news:184"
+        "news:128",
+        "news:149"
       ],
       "rss": []
     },
     "睡眠心理": {
       "news": [
+        "news:131",
         "news:146"
+      ],
+      "rss": []
+    },
+    "医疗健康": {
+      "news": [
+        "news:81"
+      ],
+      "rss": []
+    },
+    "养老生活": {
+      "news": [
+        "news:83"
+      ],
+      "rss": []
+    },
+    "教育民生": {
+      "news": [
+        "news:85"
       ],
       "rss": []
     },
     "消费维权": {
       "news": [
-        "news:243"
+        "news:241"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-19",
-    "latest_crawl_time": "19-37",
-    "count": 11,
-    "latest_count": 11,
+    "latest_crawl_time": "22-02",
+    "count": 13,
+    "latest_count": 13,
     "items": [
       {
         "id": 31,
-        "title": "上海暴雨如注",
+        "title": "上海暴雨 盒马旗下超市被淹",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 1,
-        "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E6%9A%B4%E9%9B%A8%E5%A6%82%E6%B3%A8",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E6%9A%B4%E9%9B%A8+%E7%9B%92%E9%A9%AC%E6%97%97%E4%B8%8B%E8%B6%85%E5%B8%82%E8%A2%AB%E6%B7%B9",
         "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "19-37"
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
@@ -108,160 +110,160 @@
         "item_id": "news:31"
       },
       {
-        "id": 46,
-        "title": "“高考估分715查分299”？警方通报",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 16,
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%AB%98%E8%80%83%E4%BC%B0%E5%88%86715%E6%9F%A5%E5%88%86299%E2%80%9D%EF%BC%9F%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
-        "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
-        "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "19-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:46"
-      },
-      {
-        "id": 121,
-        "title": "A股再现天价离婚：分手费59.5亿元，公司上市不足一年",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 1,
-        "url": "https://www.cls.cn/detail/2430101",
-        "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
-        "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
-        "ranks": [
-          1
-        ],
-        "rank_timeline": [
-          {
-            "rank": 1,
-            "crawl_time": "19-37"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:121"
-      },
-      {
-        "id": 130,
+        "id": 124,
         "title": "长鑫科技中签号出炉，36支社保、养老基金参与战略配售",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
-        "rank": 10,
+        "rank": 4,
         "url": "https://www.cls.cn/detail/2430460",
         "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
-          10
+          4
         ],
         "rank_timeline": [
           {
-            "rank": 10,
-            "crawl_time": "19-37"
+            "rank": 4,
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
         "matched_category": "社会保障",
-        "item_id": "news:130"
+        "item_id": "news:124"
       },
       {
-        "id": 219,
-        "title": "女孩高考估分715查分299系谣言",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 14,
-        "url": "https://www.douyin.com/hot/2576852",
+        "id": 128,
+        "title": "周末要闻汇总：费城半导体指数进入技术性熊市；茅台宣布涨价",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 8,
+        "url": "https://www.cls.cn/detail/2430503",
         "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
-          14
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 14,
-            "crawl_time": "19-37"
+            "rank": 8,
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:219"
+        "matched_category": "物价消费",
+        "item_id": "news:128"
       },
       {
-        "id": 84,
-        "title": "官方辟谣：网传“韩红基金会向和田地区人民医院捐赠医疗设备”为不实信息",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 14,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33615249",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33615249",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "id": 131,
+        "title": "多家券商周末紧急“心理按摩”，是情绪价值，也是有实操策略",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 11,
+        "url": "https://www.cls.cn/detail/2430433",
+        "mobile_url": "",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
-          14
+          11
         ],
         "rank_timeline": [
           {
-            "rank": 14,
-            "crawl_time": "19-37"
+            "rank": 11,
+            "crawl_time": "22-02"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "睡眠心理",
+        "item_id": "news:131"
+      },
+      {
+        "id": 81,
+        "title": "官方辟谣：网传“韩红基金会向和田地区人民医院捐赠医疗设备”为不实信息",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 11,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33615249",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33615249",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:84"
+        "item_id": "news:81"
       },
       {
-        "id": 86,
+        "id": 83,
         "title": "文盲老人被跨省开通证券账户，兴业银行合肥分行：严肃问责",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 16,
+        "rank": 13,
         "url": "https://www.thepaper.cn/newsDetail_forward_33615640",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33615640",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
-          16
+          13
         ],
         "rank_timeline": [
           {
-            "rank": 16,
-            "crawl_time": "19-37"
+            "rank": 13,
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:86"
+        "item_id": "news:83"
+      },
+      {
+        "id": 85,
+        "title": "幼儿园还未运营就被拆投资人称当地隐瞒拆迁规划，湖北鄂州多方回应",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 15,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33604644",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33604644",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
+        "ranks": [
+          15
+        ],
+        "rank_timeline": [
+          {
+            "rank": 15,
+            "crawl_time": "22-02"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:85"
       },
       {
         "id": 146,
@@ -271,23 +273,49 @@
         "rank": 1,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%BB%99Bin%E4%B8%8A%E5%8E%8B%E5%8A%9B%3FBLG%E6%80%A5%E8%A7%85%E6%96%B0%E4%B8%8A%E5%8D%95&topic_id=28356316",
         "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "19-37"
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
         "item_id": "news:146"
+      },
+      {
+        "id": 149,
+        "title": "物价飞涨,日本增产1日元硬币",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 4,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%89%A9%E4%BB%B7%E9%A3%9E%E6%B6%A8%2C%E6%97%A5%E6%9C%AC%E5%A2%9E%E4%BA%A71%E6%97%A5%E5%85%83%E7%A1%AC%E5%B8%81&topic_id=28356315",
+        "mobile_url": "",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "22-02"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:149"
       },
       {
         "id": 1,
@@ -297,18 +325,18 @@
         "rank": 1,
         "url": "https://www.toutiao.com/trending/7663750963165056575/",
         "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "19-37"
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
@@ -316,56 +344,82 @@
         "item_id": "news:1"
       },
       {
-        "id": 184,
-        "title": "现在有的老人连车都打不到",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 9,
-        "url": "https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E6%9C%89%E7%9A%84%E8%80%81%E4%BA%BA%E8%BF%9E%E8%BD%A6%E9%83%BD%E6%89%93%E4%B8%8D%E5%88%B0",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E6%9C%89%E7%9A%84%E8%80%81%E4%BA%BA%E8%BF%9E%E8%BD%A6%E9%83%BD%E6%89%93%E4%B8%8D%E5%88%B0&t=31&band_rank=9&Refer=top",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "id": 26,
+        "title": "今晚至明晚安徽中南部有大到暴雨",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 26,
+        "url": "https://www.toutiao.com/trending/7663397050344423430/",
+        "mobile_url": "",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
-          9
+          26
         ],
         "rank_timeline": [
           {
-            "rank": 9,
-            "crawl_time": "19-37"
+            "rank": 26,
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:184"
+        "matched_category": "安全灾害",
+        "item_id": "news:26"
       },
       {
-        "id": 243,
-        "title": "杭州图书馆允许流浪汉免费入馆阅读，回复投诉读者「我无权拒绝任何人，但你可以离开」，这个做法是否合理？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 8,
-        "url": "https://www.zhihu.com/question/2061763921598476625",
-        "mobile_url": "",
-        "first_crawl_time": "19-37",
-        "last_crawl_time": "19-37",
+        "id": 203,
+        "title": "纽约 军团病疫情",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 28,
+        "url": "https://s.weibo.com/weibo?q=%E7%BA%BD%E7%BA%A6+%E5%86%9B%E5%9B%A2%E7%97%85%E7%96%AB%E6%83%85",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E7%BA%BD%E7%BA%A6%20%E5%86%9B%E5%9B%A2%E7%97%85%E7%96%AB%E6%83%85&t=31&band_rank=28&Refer=top",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
         "crawl_count": 1,
-        "created_at": "2026-07-19 19:37:14",
-        "updated_at": "2026-07-19 19:37:14",
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
         "ranks": [
-          8
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "19-37"
+            "rank": 28,
+            "crawl_time": "22-02"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:203"
+      },
+      {
+        "id": 241,
+        "title": "杭州图书馆允许流浪汉免费入馆阅读，回复投诉读者「我无权拒绝任何人，但你可以离开」，这个做法是否合理？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 6,
+        "url": "https://www.zhihu.com/question/2061763921598476625",
+        "mobile_url": "",
+        "first_crawl_time": "22-02",
+        "last_crawl_time": "22-02",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 22:02:39",
+        "updated_at": "2026-07-19 22:02:39",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "22-02"
           }
         ],
         "is_latest": true,
         "matched_category": "消费维权",
-        "item_id": "news:243"
+        "item_id": "news:241"
       }
     ],
     "platforms": [
@@ -373,138 +427,144 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-19 19:37:14"
+        "updated_at": "2026-07-19 22:02:39"
       }
     ],
     "latest_item_ids": [
       "news:31",
-      "news:46",
-      "news:121",
-      "news:130",
-      "news:219",
-      "news:84",
-      "news:86",
+      "news:124",
+      "news:128",
+      "news:131",
+      "news:81",
+      "news:83",
+      "news:85",
       "news:146",
+      "news:149",
       "news:1",
-      "news:184",
-      "news:243"
+      "news:26",
+      "news:203",
+      "news:241"
     ],
     "categories": {
       "安全灾害": [
         "news:31",
-        "news:1"
-      ],
-      "教育民生": [
-        "news:46",
-        "news:219"
-      ],
-      "人口家庭": [
-        "news:121"
+        "news:1",
+        "news:26",
+        "news:203"
       ],
       "社会保障": [
-        "news:130"
+        "news:124"
       ],
-      "医疗健康": [
-        "news:84"
-      ],
-      "养老生活": [
-        "news:86",
-        "news:184"
+      "物价消费": [
+        "news:128",
+        "news:149"
       ],
       "睡眠心理": [
+        "news:131",
         "news:146"
       ],
+      "医疗健康": [
+        "news:81"
+      ],
+      "养老生活": [
+        "news:83"
+      ],
+      "教育民生": [
+        "news:85"
+      ],
       "消费维权": [
-        "news:243"
+        "news:241"
       ]
     },
     "latest_categories": {
       "安全灾害": [
         "news:31",
-        "news:1"
-      ],
-      "教育民生": [
-        "news:46",
-        "news:219"
-      ],
-      "人口家庭": [
-        "news:121"
+        "news:1",
+        "news:26",
+        "news:203"
       ],
       "社会保障": [
-        "news:130"
+        "news:124"
       ],
-      "医疗健康": [
-        "news:84"
-      ],
-      "养老生活": [
-        "news:86",
-        "news:184"
+      "物价消费": [
+        "news:128",
+        "news:149"
       ],
       "睡眠心理": [
+        "news:131",
         "news:146"
       ],
+      "医疗健康": [
+        "news:81"
+      ],
+      "养老生活": [
+        "news:83"
+      ],
+      "教育民生": [
+        "news:85"
+      ],
       "消费维权": [
-        "news:243"
+        "news:241"
       ]
     },
     "raw_count": 255,
@@ -512,7 +572,7 @@
   },
   "rss": {
     "date": "2026-07-19",
-    "latest_crawl_time": "19:37",
+    "latest_crawl_time": "22:02",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -525,7 +585,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-19 19:37:15"
+        "updated_at": "2026-07-19 22:02:40"
       },
       {
         "id": "yahoo-finance",
@@ -535,7 +595,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-19 19:37:15"
+        "updated_at": "2026-07-19 22:02:40"
       }
     ],
     "latest_item_ids": [],

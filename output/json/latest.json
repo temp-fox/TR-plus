@@ -1,44 +1,58 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-19T09:02:26.132827+08:00",
+  "generated_at": "2026-07-19T12:49:44.922675+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "29667926278",
-    "run_number": "420",
+    "run_id": "29673886673",
+    "run_number": "421",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-19",
-  "crawl_time": "09-02",
+  "crawl_time": "12-49",
   "counts": {
-    "news": 9,
-    "latest_news": 9,
+    "news": 14,
+    "latest_news": 14,
     "rss": 0,
     "latest_rss": 0,
-    "total": 9,
-    "latest_total": 9,
+    "total": 14,
+    "latest_total": 14,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 58,
-    "raw_latest_rss": 58
+    "raw_rss": 60,
+    "raw_latest_rss": 60
   },
   "categories": {
+    "营养饮食": {
+      "news": [
+        "news:35"
+      ],
+      "rss": []
+    },
     "教育民生": {
       "news": [
-        "news:38"
+        "news:41",
+        "news:219",
+        "news:86"
+      ],
+      "rss": []
+    },
+    "住房民生": {
+      "news": [
+        "news:49"
       ],
       "rss": []
     },
     "人口家庭": {
       "news": [
-        "news:123"
+        "news:122"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:125",
-        "news:131",
+        "news:124",
+        "news:132",
         "news:248"
       ],
       "rss": []
@@ -49,134 +63,213 @@
       ],
       "rss": []
     },
-    "四季养生": {
+    "养老金政策": {
       "news": [
-        "news:26"
+        "news:20"
       ],
       "rss": []
     },
-    "运动康复": {
+    "安全灾害": {
       "news": [
-        "news:27"
+        "news:25",
+        "news:28"
       ],
       "rss": []
     },
-    "医疗健康": {
+    "交通出行": {
       "news": [
-        "news:30"
+        "news:238"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-19",
-    "latest_crawl_time": "09-02",
-    "count": 9,
-    "latest_count": 9,
+    "latest_crawl_time": "12-49",
+    "count": 14,
+    "latest_count": 14,
     "items": [
       {
-        "id": 38,
-        "title": "“高考估分715查分299”？警方通报",
+        "id": 35,
+        "title": "一天1500元 “工业维生素”价格大涨",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 8,
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%AB%98%E8%80%83%E4%BC%B0%E5%88%86715%E6%9F%A5%E5%88%86299%E2%80%9D%EF%BC%9F%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
-        "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
-        "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "09-02"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:38"
-      },
-      {
-        "id": 123,
-        "title": "A股再现天价离婚：分手费59.5亿元，公司上市不足一年",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 3,
-        "url": "https://www.cls.cn/detail/2430101",
-        "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
-        "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
-        "ranks": [
-          3
-        ],
-        "rank_timeline": [
-          {
-            "rank": 3,
-            "crawl_time": "09-02"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:123"
-      },
-      {
-        "id": 125,
-        "title": "【早报】茅台宣布：涨价；国内油价，今起上调",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
         "rank": 5,
-        "url": "https://www.cls.cn/detail/2430081",
+        "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%A4%A91500%E5%85%83+%E2%80%9C%E5%B7%A5%E4%B8%9A%E7%BB%B4%E7%94%9F%E7%B4%A0%E2%80%9D%E4%BB%B7%E6%A0%BC%E5%A4%A7%E6%B6%A8",
         "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "09-02"
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:125"
+        "matched_category": "营养饮食",
+        "item_id": "news:35"
       },
       {
-        "id": 131,
-        "title": "时隔三月再涨价：年内飞天茅台出厂价累计上调200元 这是怎样的信号？",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
+        "id": 41,
+        "title": "“高考估分715查分299”？警方通报",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
         "rank": 11,
-        "url": "https://www.cls.cn/detail/2429977",
+        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%AB%98%E8%80%83%E4%BC%B0%E5%88%86715%E6%9F%A5%E5%88%86299%E2%80%9D%EF%BC%9F%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
         "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "09-02"
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:41"
+      },
+      {
+        "id": 49,
+        "title": "物业主动撤离小区 谁来接盘",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 19,
+        "url": "https://www.baidu.com/s?wd=%E7%89%A9%E4%B8%9A%E4%B8%BB%E5%8A%A8%E6%92%A4%E7%A6%BB%E5%B0%8F%E5%8C%BA+%E8%B0%81%E6%9D%A5%E6%8E%A5%E7%9B%98",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          19
+        ],
+        "rank_timeline": [
+          {
+            "rank": 19,
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "住房民生",
+        "item_id": "news:49"
+      },
+      {
+        "id": 122,
+        "title": "A股再现天价离婚：分手费59.5亿元，公司上市不足一年",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 2,
+        "url": "https://www.cls.cn/detail/2430101",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:122"
+      },
+      {
+        "id": 124,
+        "title": "【早报】茅台宣布：涨价；国内油价，今起上调",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 4,
+        "url": "https://www.cls.cn/detail/2430081",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:131"
+        "item_id": "news:124"
+      },
+      {
+        "id": 132,
+        "title": "时隔三月再涨价：年内飞天茅台出厂价累计上调200元 这是怎样的信号？",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 12,
+        "url": "https://www.cls.cn/detail/2429977",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          12
+        ],
+        "rank_timeline": [
+          {
+            "rank": 12,
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:132"
+      },
+      {
+        "id": 219,
+        "title": "女孩高考估分715查分299系谣言",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 14,
+        "url": "https://www.douyin.com/hot/2576852",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:219"
       },
       {
         "id": 82,
@@ -186,18 +279,18 @@
         "rank": 12,
         "url": "https://www.thepaper.cn/newsDetail_forward_33612810",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33612810",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "09-02"
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
@@ -205,82 +298,134 @@
         "item_id": "news:82"
       },
       {
-        "id": 26,
-        "title": "医生：三伏天管住嘴就能瘦",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 26,
-        "url": "https://www.toutiao.com/trending/7663023338318938150/",
-        "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "id": 86,
+        "title": "高考估分715查分299，试卷不是自己的？发帖者被拘留",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 16,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33612819",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33612819",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
-          26
+          16
         ],
         "rank_timeline": [
           {
-            "rank": 26,
-            "crawl_time": "09-02"
+            "rank": 16,
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
-        "matched_category": "四季养生",
-        "item_id": "news:26"
+        "matched_category": "教育民生",
+        "item_id": "news:86"
       },
       {
-        "id": 27,
-        "title": "这些症状病根其实可能在颈椎",
+        "id": 20,
+        "title": "人社部解读职工养老保险制度",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 27,
-        "url": "https://www.toutiao.com/trending/7664004479456575514/",
+        "rank": 20,
+        "url": "https://www.toutiao.com/trending/7663416052860796947/",
         "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
-          27
+          20
         ],
         "rank_timeline": [
           {
-            "rank": 27,
-            "crawl_time": "09-02"
+            "rank": 20,
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
-        "matched_category": "运动康复",
-        "item_id": "news:27"
+        "matched_category": "养老金政策",
+        "item_id": "news:20"
       },
       {
-        "id": 30,
-        "title": "杜华劝邹市明去看病",
+        "id": 25,
+        "title": "湖南启动气象灾害暴雨四级应急响应",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 30,
-        "url": "https://www.toutiao.com/trending/7663759355465089060/",
+        "rank": 25,
+        "url": "https://www.toutiao.com/trending/7663320593265262646/",
         "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
-          30
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 30,
-            "crawl_time": "09-02"
+            "rank": 25,
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:30"
+        "matched_category": "安全灾害",
+        "item_id": "news:25"
+      },
+      {
+        "id": 28,
+        "title": "洪水退去广西横州茉莉花重新冒芽",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 28,
+        "url": "https://www.toutiao.com/trending/7663893577319219254/",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          28
+        ],
+        "rank_timeline": [
+          {
+            "rank": 28,
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:28"
+      },
+      {
+        "id": 238,
+        "title": "中学生无法购买高铁学生票，12306 称学生需异地上学并开具证明，如何看待这一购票规则？是否需要改进？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 3,
+        "url": "https://www.zhihu.com/question/2061093407297115914",
+        "mobile_url": "",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
+        "crawl_count": 1,
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
+        "ranks": [
+          3
+        ],
+        "rank_timeline": [
+          {
+            "rank": 3,
+            "crawl_time": "12-49"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:238"
       },
       {
         "id": 248,
@@ -290,18 +435,18 @@
         "rank": 13,
         "url": "https://www.zhihu.com/question/2061571818717175888",
         "mobile_url": "",
-        "first_crawl_time": "09-02",
-        "last_crawl_time": "09-02",
+        "first_crawl_time": "12-49",
+        "last_crawl_time": "12-49",
         "crawl_count": 1,
-        "created_at": "2026-07-19 09:02:21",
-        "updated_at": "2026-07-19 09:02:21",
+        "created_at": "2026-07-19 12:49:40",
+        "updated_at": "2026-07-19 12:49:40",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "09-02"
+            "crawl_time": "12-49"
           }
         ],
         "is_latest": true,
@@ -314,128 +459,151 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-19 09:02:21"
+        "updated_at": "2026-07-19 12:49:40"
       }
     ],
     "latest_item_ids": [
-      "news:38",
-      "news:123",
-      "news:125",
-      "news:131",
+      "news:35",
+      "news:41",
+      "news:49",
+      "news:122",
+      "news:124",
+      "news:132",
+      "news:219",
       "news:82",
-      "news:26",
-      "news:27",
-      "news:30",
+      "news:86",
+      "news:20",
+      "news:25",
+      "news:28",
+      "news:238",
       "news:248"
     ],
     "categories": {
+      "营养饮食": [
+        "news:35"
+      ],
       "教育民生": [
-        "news:38"
+        "news:41",
+        "news:219",
+        "news:86"
+      ],
+      "住房民生": [
+        "news:49"
       ],
       "人口家庭": [
-        "news:123"
+        "news:122"
       ],
       "物价消费": [
-        "news:125",
-        "news:131",
+        "news:124",
+        "news:132",
         "news:248"
       ],
       "消费维权": [
         "news:82"
       ],
-      "四季养生": [
-        "news:26"
+      "养老金政策": [
+        "news:20"
       ],
-      "运动康复": [
-        "news:27"
+      "安全灾害": [
+        "news:25",
+        "news:28"
       ],
-      "医疗健康": [
-        "news:30"
+      "交通出行": [
+        "news:238"
       ]
     },
     "latest_categories": {
+      "营养饮食": [
+        "news:35"
+      ],
       "教育民生": [
-        "news:38"
+        "news:41",
+        "news:219",
+        "news:86"
+      ],
+      "住房民生": [
+        "news:49"
       ],
       "人口家庭": [
-        "news:123"
+        "news:122"
       ],
       "物价消费": [
-        "news:125",
-        "news:131",
+        "news:124",
+        "news:132",
         "news:248"
       ],
       "消费维权": [
         "news:82"
       ],
-      "四季养生": [
-        "news:26"
+      "养老金政策": [
+        "news:20"
       ],
-      "运动康复": [
-        "news:27"
+      "安全灾害": [
+        "news:25",
+        "news:28"
       ],
-      "医疗健康": [
-        "news:30"
+      "交通出行": [
+        "news:238"
       ]
     },
     "raw_count": 255,
@@ -443,7 +611,7 @@
   },
   "rss": {
     "date": "2026-07-19",
-    "latest_crawl_time": "09:02",
+    "latest_crawl_time": "12:49",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -456,7 +624,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-19 09:02:23"
+        "updated_at": "2026-07-19 12:49:42"
       },
       {
         "id": "yahoo-finance",
@@ -466,13 +634,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-19 09:02:23"
+        "updated_at": "2026-07-19 12:49:42"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 58,
-    "raw_latest_count": 58
+    "raw_count": 60,
+    "raw_latest_count": 60
   }
 }

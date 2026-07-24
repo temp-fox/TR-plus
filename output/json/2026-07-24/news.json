@@ -1,171 +1,252 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-24T18:34:32.007153+08:00",
+  "generated_at": "2026-07-24T20:59:25.605016+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "30086600743",
-    "run_number": "479",
+    "run_id": "30095055762",
+    "run_number": "480",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-24",
-  "crawl_time": "18-34",
+  "crawl_time": "20-59",
   "counts": {
-    "news": 14,
-    "latest_news": 14,
+    "news": 17,
+    "latest_news": 17,
     "rss": 0,
     "latest_rss": 0,
-    "total": 14,
-    "latest_total": 14,
+    "total": 17,
+    "latest_total": 17,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 62,
-    "raw_latest_rss": 62
+    "raw_rss": 50,
+    "raw_latest_rss": 50
   },
   "categories": {
     "人口家庭": {
       "news": [
-        "news:43"
+        "news:47",
+        "news:133"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
-        "news:57",
+        "news:49",
+        "news:55",
         "news:206",
-        "news:225",
-        "news:22",
-        "news:184"
-      ],
-      "rss": []
-    },
-    "社会保障": {
-      "news": [
-        "news:124"
+        "news:21",
+        "news:203"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:82"
+        "news:115"
       ],
       "rss": []
     },
     "睡眠心理": {
       "news": [
-        "news:153"
+        "news:126",
+        "news:155"
       ],
       "rss": []
     },
-    "医疗健康": {
+    "养老生活": {
       "news": [
-        "news:21"
+        "news:88"
+      ],
+      "rss": []
+    },
+    "住房民生": {
+      "news": [
+        "news:17"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
         "news:61",
-        "news:65"
-      ],
-      "rss": []
-    },
-    "消费维权": {
-      "news": [
-        "news:242"
+        "news:65",
+        "news:252"
       ],
       "rss": []
     },
     "交通出行": {
       "news": [
-        "news:245"
+        "news:242"
+      ],
+      "rss": []
+    },
+    "消费维权": {
+      "news": [
+        "news:255"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-07-24",
-    "latest_crawl_time": "18-34",
-    "count": 14,
-    "latest_count": 14,
+    "latest_crawl_time": "20-59",
+    "count": 17,
+    "latest_count": 17,
     "items": [
       {
-        "id": 43,
+        "id": 47,
         "title": "没彩礼没宴席 夫妻花200元办婚礼",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 13,
+        "rank": 17,
         "url": "https://www.baidu.com/s?wd=%E6%B2%A1%E5%BD%A9%E7%A4%BC%E6%B2%A1%E5%AE%B4%E5%B8%AD+%E5%A4%AB%E5%A6%BB%E8%8A%B1200%E5%85%83%E5%8A%9E%E5%A9%9A%E7%A4%BC",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:47"
+      },
+      {
+        "id": 49,
+        "title": "台风红霞或以巅峰强度登陆广东",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 19,
+        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E6%88%96%E4%BB%A5%E5%B7%85%E5%B3%B0%E5%BC%BA%E5%BA%A6%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          19
+        ],
+        "rank_timeline": [
+          {
+            "rank": 19,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:49"
+      },
+      {
+        "id": 55,
+        "title": "景区演员暴雨中坚持演出获满堂彩",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 25,
+        "url": "https://www.baidu.com/s?wd=%E6%99%AF%E5%8C%BA%E6%BC%94%E5%91%98%E6%9A%B4%E9%9B%A8%E4%B8%AD%E5%9D%9A%E6%8C%81%E6%BC%94%E5%87%BA%E8%8E%B7%E6%BB%A1%E5%A0%82%E5%BD%A9",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:55"
+      },
+      {
+        "id": 115,
+        "title": "土木专业毕业生锐评志愿",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 25,
+        "url": "https://search.bilibili.com/all?keyword=%E5%9C%9F%E6%9C%A8%E4%B8%93%E4%B8%9A%E6%AF%95%E4%B8%9A%E7%94%9F%E9%94%90%E8%AF%84%E5%BF%97%E6%84%BF",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:115"
+      },
+      {
+        "id": 126,
+        "title": "就在下周！存储三雄最新财报即将揭晓 产业再迎“压力测试”？",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 6,
+        "url": "https://www.cls.cn/detail/2436364",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "睡眠心理",
+        "item_id": "news:126"
+      },
+      {
+        "id": 133,
+        "title": "SK掌门人“天价离婚案”宣判：女方将获得9440亿韩元财产！",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 13,
+        "url": "https://www.cls.cn/detail/2436120",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "18-34"
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:43"
-      },
-      {
-        "id": 57,
-        "title": "台风红霞",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 27,
-        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E",
-        "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
-        "ranks": [
-          27
-        ],
-        "rank_timeline": [
-          {
-            "rank": 27,
-            "crawl_time": "18-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:57"
-      },
-      {
-        "id": 124,
-        "title": "稳楼市再上新！大连为二套房公积金贷款贴息3年，15%利息，年内近90城密集发“房补”",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 4,
-        "url": "https://www.cls.cn/detail/2435988",
-        "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "18-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:124"
+        "item_id": "news:133"
       },
       {
         "id": 206,
@@ -175,18 +256,18 @@
         "rank": 1,
         "url": "https://www.douyin.com/hot/2582983",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "18-34"
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
@@ -194,134 +275,108 @@
         "item_id": "news:206"
       },
       {
-        "id": 225,
-        "title": "黑龙江暴雨红色预警",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 20,
-        "url": "https://www.douyin.com/hot/2583355",
-        "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
-        "ranks": [
-          20
-        ],
-        "rank_timeline": [
-          {
-            "rank": 20,
-            "crawl_time": "18-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:225"
-      },
-      {
-        "id": 82,
-        "title": "38岁清华毕业生回应被北大医学部录取：挺激动的，太不容易了",
+        "id": 88,
+        "title": "两护工照护86岁失能老人被欠薪40万元，老人6个子女互相推诿不给钱",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 12,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33644389",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33644389",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "rank": 18,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33647836",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33647836",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
-          12
+          18
         ],
         "rank_timeline": [
           {
-            "rank": 12,
-            "crawl_time": "18-34"
+            "rank": 18,
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:82"
+        "matched_category": "养老生活",
+        "item_id": "news:88"
       },
       {
-        "id": 153,
+        "id": 155,
         "title": "日本游客锐减,仇越情绪爆发",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 8,
+        "rank": 10,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%97%A5%E6%9C%AC%E6%B8%B8%E5%AE%A2%E9%94%90%E5%87%8F%2C%E4%BB%87%E8%B6%8A%E6%83%85%E7%BB%AA%E7%88%86%E5%8F%91&topic_id=28356470",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
-          8
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "18-34"
+            "rank": 10,
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
-        "item_id": "news:153"
+        "item_id": "news:155"
+      },
+      {
+        "id": 17,
+        "title": "物业大撤退背后发生了什么",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 17,
+        "url": "https://www.toutiao.com/trending/7665948964046471211/",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "住房民生",
+        "item_id": "news:17"
       },
       {
         "id": 21,
-        "title": "腿上若有5个异常建议及时就医",
+        "title": "台风“红霞”或于明晚登陆我国",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 21,
-        "url": "https://www.toutiao.com/trending/7665913905478877220/",
+        "url": "https://www.toutiao.com/trending/7665866823346196011/",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
           21
         ],
         "rank_timeline": [
           {
             "rank": 21,
-            "crawl_time": "18-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:21"
-      },
-      {
-        "id": 22,
-        "title": "台风“红霞”将影响广东珠海",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 22,
-        "url": "https://www.toutiao.com/trending/7665980416976752169/",
-        "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
-        "ranks": [
-          22
-        ],
-        "rank_timeline": [
-          {
-            "rank": 22,
-            "crawl_time": "18-34"
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:22"
+        "item_id": "news:21"
       },
       {
         "id": 61,
@@ -331,18 +386,18 @@
         "rank": 1,
         "url": "https://wallstreetcn.com/articles/3777754",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "18-34"
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
@@ -357,18 +412,18 @@
         "rank": 5,
         "url": "https://wallstreetcn.com/articles/3777830",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "18-34"
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
@@ -376,82 +431,108 @@
         "item_id": "news:65"
       },
       {
-        "id": 184,
+        "id": 203,
         "title": "台风红霞",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 9,
+        "rank": 28,
         "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E&t=31&band_rank=9&Refer=top",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E&t=31&band_rank=28&Refer=top",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
-          9
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 9,
-            "crawl_time": "18-34"
+            "rank": 28,
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:184"
+        "item_id": "news:203"
       },
       {
         "id": 242,
-        "title": "男子用 AI 伪造水果腐烂照片，恶意仅退款百余次套现，被判诈骗罪，当地也被平台标记高风险，如何看待此事？",
+        "title": "全国首条穿越长江高铁隧道贯通，这是一个怎样的工程？在长江底下挖高铁隧道，有多难？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
         "rank": 7,
-        "url": "https://www.zhihu.com/question/2063396759536154240",
+        "url": "https://www.zhihu.com/question/2063952005505324990",
         "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
         "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "18-34"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:242"
-      },
-      {
-        "id": 245,
-        "title": "全国首条穿越长江高铁隧道贯通，这是一个怎样的工程？在长江底下挖高铁隧道，有多难？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 10,
-        "url": "https://www.zhihu.com/question/2063952005505324990",
-        "mobile_url": "",
-        "first_crawl_time": "18-34",
-        "last_crawl_time": "18-34",
-        "crawl_count": 1,
-        "created_at": "2026-07-24 18:34:26",
-        "updated_at": "2026-07-24 18:34:26",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "18-34"
+            "crawl_time": "20-59"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:245"
+        "item_id": "news:242"
+      },
+      {
+        "id": 252,
+        "title": "OPPO 、 Vivo  拒绝三星存储涨价报价，后续国产手机可能都用长鑫等国产内存吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 17,
+        "url": "https://www.zhihu.com/question/2063583824378848408",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:252"
+      },
+      {
+        "id": 255,
+        "title": "男子用 AI 伪造水果腐烂照片，恶意仅退款百余次套现，被判诈骗罪，当地也被平台标记高风险，如何看待此事？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 20,
+        "url": "https://www.zhihu.com/question/2063396759536154240",
+        "mobile_url": "",
+        "first_crawl_time": "20-59",
+        "last_crawl_time": "20-59",
+        "crawl_count": 1,
+        "created_at": "2026-07-24 20:59:06",
+        "updated_at": "2026-07-24 20:59:06",
+        "ranks": [
+          20
+        ],
+        "rank_timeline": [
+          {
+            "rank": 20,
+            "crawl_time": "20-59"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:255"
       }
     ],
     "platforms": [
@@ -459,151 +540,160 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-24 18:34:26"
+        "updated_at": "2026-07-24 20:59:06"
       }
     ],
     "latest_item_ids": [
-      "news:43",
-      "news:57",
-      "news:124",
+      "news:47",
+      "news:49",
+      "news:55",
+      "news:115",
+      "news:126",
+      "news:133",
       "news:206",
-      "news:225",
-      "news:82",
-      "news:153",
+      "news:88",
+      "news:155",
+      "news:17",
       "news:21",
-      "news:22",
       "news:61",
       "news:65",
-      "news:184",
+      "news:203",
       "news:242",
-      "news:245"
+      "news:252",
+      "news:255"
     ],
     "categories": {
       "人口家庭": [
-        "news:43"
+        "news:47",
+        "news:133"
       ],
       "安全灾害": [
-        "news:57",
+        "news:49",
+        "news:55",
         "news:206",
-        "news:225",
-        "news:22",
-        "news:184"
-      ],
-      "社会保障": [
-        "news:124"
+        "news:21",
+        "news:203"
       ],
       "就业民生": [
-        "news:82"
+        "news:115"
       ],
       "睡眠心理": [
-        "news:153"
+        "news:126",
+        "news:155"
       ],
-      "医疗健康": [
-        "news:21"
+      "养老生活": [
+        "news:88"
+      ],
+      "住房民生": [
+        "news:17"
       ],
       "物价消费": [
         "news:61",
-        "news:65"
-      ],
-      "消费维权": [
-        "news:242"
+        "news:65",
+        "news:252"
       ],
       "交通出行": [
-        "news:245"
+        "news:242"
+      ],
+      "消费维权": [
+        "news:255"
       ]
     },
     "latest_categories": {
       "人口家庭": [
-        "news:43"
+        "news:47",
+        "news:133"
       ],
       "安全灾害": [
-        "news:57",
+        "news:49",
+        "news:55",
         "news:206",
-        "news:225",
-        "news:22",
-        "news:184"
-      ],
-      "社会保障": [
-        "news:124"
+        "news:21",
+        "news:203"
       ],
       "就业民生": [
-        "news:82"
+        "news:115"
       ],
       "睡眠心理": [
-        "news:153"
+        "news:126",
+        "news:155"
       ],
-      "医疗健康": [
-        "news:21"
+      "养老生活": [
+        "news:88"
+      ],
+      "住房民生": [
+        "news:17"
       ],
       "物价消费": [
         "news:61",
-        "news:65"
-      ],
-      "消费维权": [
-        "news:242"
+        "news:65",
+        "news:252"
       ],
       "交通出行": [
-        "news:245"
+        "news:242"
+      ],
+      "消费维权": [
+        "news:255"
       ]
     },
     "raw_count": 255,
@@ -611,7 +701,7 @@
   },
   "rss": {
     "date": "2026-07-24",
-    "latest_crawl_time": "18:34",
+    "latest_crawl_time": "20:59",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -624,7 +714,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-24 18:34:29"
+        "updated_at": "2026-07-24 20:59:22"
       },
       {
         "id": "yahoo-finance",
@@ -634,13 +724,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-24 18:34:29"
+        "updated_at": "2026-07-24 20:59:22"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 62,
-    "raw_latest_count": 62
+    "raw_count": 50,
+    "raw_latest_count": 50
   }
 }

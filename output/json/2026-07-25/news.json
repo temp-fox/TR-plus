@@ -1,26 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-25T02:59:16.297042+08:00",
+  "generated_at": "2026-07-25T04:47:13.208343+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "30119000166",
-    "run_number": "483",
+    "run_id": "30125336473",
+    "run_number": "484",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-25",
-  "crawl_time": "02-59",
+  "crawl_time": "04-47",
   "counts": {
-    "news": 22,
-    "latest_news": 22,
+    "news": 25,
+    "latest_news": 25,
     "rss": 0,
     "latest_rss": 0,
-    "total": 22,
-    "latest_total": 22,
+    "total": 25,
+    "latest_total": 25,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 63,
-    "raw_latest_rss": 63
+    "raw_rss": 64,
+    "raw_latest_rss": 64
   },
   "categories": {
     "交通出行": {
@@ -33,15 +33,16 @@
     },
     "安全灾害": {
       "news": [
-        "news:95",
-        "news:8",
-        "news:198"
+        "news:59",
+        "news:98",
+        "news:14",
+        "news:192"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:113"
+        "news:112"
       ],
       "rss": []
     },
@@ -58,8 +59,8 @@
         "news:62",
         "news:65",
         "news:66",
-        "news:238",
-        "news:247"
+        "news:242",
+        "news:244"
       ],
       "rss": []
     },
@@ -72,19 +73,26 @@
     "养老生活": {
       "news": [
         "news:84",
-        "news:253"
+        "news:252"
       ],
       "rss": []
     },
     "医疗健康": {
       "news": [
-        "news:18",
-        "news:190"
+        "news:17",
+        "news:199"
+      ],
+      "rss": []
+    },
+    "住房民生": {
+      "news": [
+        "news:25"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
+        "news:28",
         "news:187"
       ],
       "rss": []
@@ -98,9 +106,9 @@
   },
   "news": {
     "date": "2026-07-25",
-    "latest_crawl_time": "02-59",
-    "count": 22,
-    "latest_count": 22,
+    "latest_crawl_time": "04-47",
+    "count": 25,
+    "latest_count": 25,
     "items": [
       {
         "id": 42,
@@ -110,18 +118,18 @@
         "rank": 12,
         "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E4%B8%BA%E8%BF%98%E7%99%BE%E4%B8%87%E6%AC%A0%E6%AC%BE%E6%AF%8F%E5%A4%A9%E8%B7%9116%E5%B0%8F%E6%97%B6%E5%A4%96%E5%8D%96",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -129,56 +137,82 @@
         "item_id": "news:42"
       },
       {
-        "id": 95,
-        "title": "台风红霞将快速登陆广东",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 5,
-        "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E5%B0%86%E5%BF%AB%E9%80%9F%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C",
+        "id": 59,
+        "title": "台风红霞或以巅峰强度登陆广东",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 29,
+        "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E6%88%96%E4%BB%A5%E5%B7%85%E5%B3%B0%E5%BC%BA%E5%BA%A6%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          5
+          29
         ],
         "rank_timeline": [
           {
-            "rank": 5,
-            "crawl_time": "02-59"
+            "rank": 29,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:95"
+        "item_id": "news:59"
       },
       {
-        "id": 113,
-        "title": "土木专业毕业生锐评志愿",
+        "id": 98,
+        "title": "台风红霞将快速登陆广东",
         "platform_id": "bilibili-hot-search",
         "platform_name": "bilibili 热搜",
-        "rank": 23,
-        "url": "https://search.bilibili.com/all?keyword=%E5%9C%9F%E6%9C%A8%E4%B8%93%E4%B8%9A%E6%AF%95%E4%B8%9A%E7%94%9F%E9%94%90%E8%AF%84%E5%BF%97%E6%84%BF",
+        "rank": 8,
+        "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E5%B0%86%E5%BF%AB%E9%80%9F%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          23
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "02-59"
+            "rank": 8,
+            "crawl_time": "04-47"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:98"
+      },
+      {
+        "id": 112,
+        "title": "土木专业毕业生锐评志愿",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 22,
+        "url": "https://search.bilibili.com/all?keyword=%E5%9C%9F%E6%9C%A8%E4%B8%93%E4%B8%9A%E6%AF%95%E4%B8%9A%E7%94%9F%E9%94%90%E8%AF%84%E5%BF%97%E6%84%BF",
+        "mobile_url": "",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
+        "crawl_count": 1,
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:113"
+        "item_id": "news:112"
       },
       {
         "id": 127,
@@ -188,18 +222,18 @@
         "rank": 7,
         "url": "https://www.cls.cn/detail/2436364",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -214,18 +248,18 @@
         "rank": 11,
         "url": "https://www.cls.cn/detail/2436694",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -240,18 +274,18 @@
         "rank": 10,
         "url": "https://www.thepaper.cn/newsDetail_forward_33652237",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33652237",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -266,18 +300,18 @@
         "rank": 13,
         "url": "https://www.thepaper.cn/newsDetail_forward_33650984",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33650984",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -292,18 +326,18 @@
         "rank": 14,
         "url": "https://www.thepaper.cn/newsDetail_forward_33647836",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33647836",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           14
         ],
         "rank_timeline": [
           {
             "rank": 14,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -318,18 +352,18 @@
         "rank": 13,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%97%A5%E6%9C%AC%E6%B8%B8%E5%AE%A2%E9%94%90%E5%87%8F%2C%E4%BB%87%E8%B6%8A%E6%83%85%E7%BB%AA%E7%88%86%E5%8F%91&topic_id=28356470",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -337,56 +371,108 @@
         "item_id": "news:158"
       },
       {
-        "id": 8,
+        "id": 14,
         "title": "高温天做5件事会给身体埋下病根",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 8,
+        "rank": 14,
         "url": "https://www.toutiao.com/trending/7665973959099793434/",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          8
+          14
         ],
         "rank_timeline": [
           {
-            "rank": 8,
-            "crawl_time": "02-59"
+            "rank": 14,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:8"
+        "item_id": "news:14"
       },
       {
-        "id": 18,
+        "id": 17,
         "title": "腿上若有5个异常建议及时就医",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 18,
+        "rank": 17,
         "url": "https://www.toutiao.com/trending/7665913905478877220/",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          18
+          17
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "02-59"
+            "rank": 17,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:18"
+        "item_id": "news:17"
+      },
+      {
+        "id": 25,
+        "title": "物业大撤退背后发生了什么",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 25,
+        "url": "https://www.toutiao.com/trending/7665948964046471211/",
+        "mobile_url": "",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
+        "crawl_count": 1,
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "04-47"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "住房民生",
+        "item_id": "news:25"
+      },
+      {
+        "id": 28,
+        "title": "王虹16岁高考653分进北大",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 28,
+        "url": "https://www.toutiao.com/trending/7665112206291288106/",
+        "mobile_url": "",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
+        "crawl_count": 1,
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
+        "ranks": [
+          28
+        ],
+        "rank_timeline": [
+          {
+            "rank": 28,
+            "crawl_time": "04-47"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:28"
       },
       {
         "id": 62,
@@ -396,18 +482,18 @@
         "rank": 2,
         "url": "https://wallstreetcn.com/articles/3777754",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -422,18 +508,18 @@
         "rank": 5,
         "url": "https://wallstreetcn.com/articles/3777833",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -448,18 +534,18 @@
         "rank": 6,
         "url": "https://wallstreetcn.com/articles/3777830",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           6
         ],
         "rank_timeline": [
           {
             "rank": 6,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -474,18 +560,18 @@
         "rank": 12,
         "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E7%94%9F%E4%B8%AD%E8%80%83699%E5%88%86%E5%81%B7%E5%81%B7%E6%94%B9%E5%BF%97%E6%84%BF%E8%AF%BB%E4%B8%AD%E8%81%8C%23",
         "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E7%94%9F%E4%B8%AD%E8%80%83699%E5%88%86%E5%81%B7%E5%81%B7%E6%94%B9%E5%BF%97%E6%84%BF%E8%AF%BB%E4%B8%AD%E8%81%8C%23&t=31&band_rank=12&Refer=top",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -493,30 +579,30 @@
         "item_id": "news:187"
       },
       {
-        "id": 190,
-        "title": "峰学蔚来武亮住院",
+        "id": 192,
+        "title": "台风红霞逼近广东强度将爆发",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 15,
-        "url": "https://s.weibo.com/weibo?q=%23%E5%B3%B0%E5%AD%A6%E8%94%9A%E6%9D%A5%E6%AD%A6%E4%BA%AE%E4%BD%8F%E9%99%A2%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%B3%B0%E5%AD%A6%E8%94%9A%E6%9D%A5%E6%AD%A6%E4%BA%AE%E4%BD%8F%E9%99%A2%23&t=31&band_rank=15&Refer=top",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "rank": 17,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E9%80%BC%E8%BF%91%E5%B9%BF%E4%B8%9C%E5%BC%BA%E5%BA%A6%E5%B0%86%E7%88%86%E5%8F%91%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E9%80%BC%E8%BF%91%E5%B9%BF%E4%B8%9C%E5%BC%BA%E5%BA%A6%E5%B0%86%E7%88%86%E5%8F%91%23&t=31&band_rank=17&Refer=top",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          15
+          17
         ],
         "rank_timeline": [
           {
-            "rank": 15,
-            "crawl_time": "02-59"
+            "rank": 17,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:190"
+        "matched_category": "安全灾害",
+        "item_id": "news:192"
       },
       {
         "id": 197,
@@ -526,18 +612,18 @@
         "rank": 22,
         "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E4%B8%BA%E5%88%9D%E6%81%8B%E6%83%B3%E7%A6%BB%E5%A9%9A%E8%A6%81%E5%88%86%E5%A5%B3%E5%84%BF630%E4%B8%87%E6%88%BF%E6%AC%BE%23",
         "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E4%B8%BA%E5%88%9D%E6%81%8B%E6%83%B3%E7%A6%BB%E5%A9%9A%E8%A6%81%E5%88%86%E5%A5%B3%E5%84%BF630%E4%B8%87%E6%88%BF%E6%AC%BE%23&t=31&band_rank=22&Refer=top",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           22
         ],
         "rank_timeline": [
           {
             "rank": 22,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -545,56 +631,82 @@
         "item_id": "news:197"
       },
       {
-        "id": 198,
-        "title": "台风红霞逼近广东强度将爆发",
+        "id": 199,
+        "title": "峰学蔚来武亮住院",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 23,
-        "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E9%80%BC%E8%BF%91%E5%B9%BF%E4%B8%9C%E5%BC%BA%E5%BA%A6%E5%B0%86%E7%88%86%E5%8F%91%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E9%80%BC%E8%BF%91%E5%B9%BF%E4%B8%9C%E5%BC%BA%E5%BA%A6%E5%B0%86%E7%88%86%E5%8F%91%23&t=31&band_rank=23&Refer=top",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "rank": 24,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%B3%B0%E5%AD%A6%E8%94%9A%E6%9D%A5%E6%AD%A6%E4%BA%AE%E4%BD%8F%E9%99%A2%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%B3%B0%E5%AD%A6%E8%94%9A%E6%9D%A5%E6%AD%A6%E4%BA%AE%E4%BD%8F%E9%99%A2%23&t=31&band_rank=24&Refer=top",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          23
+          24
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "02-59"
+            "rank": 24,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:198"
+        "matched_category": "医疗健康",
+        "item_id": "news:199"
       },
       {
-        "id": 238,
+        "id": 242,
         "title": "OPPO 、 Vivo  拒绝三星存储涨价报价，后续国产手机可能都用长鑫等国产内存吗？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 3,
+        "rank": 7,
         "url": "https://www.zhihu.com/question/2063583824378848408",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          3
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 3,
-            "crawl_time": "02-59"
+            "rank": 7,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:238"
+        "item_id": "news:242"
+      },
+      {
+        "id": 244,
+        "title": "如何看待内存的涨价终于波及到了显卡，50 系显卡逐渐大面积缺货开始暴涨？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 9,
+        "url": "https://www.zhihu.com/question/2063926827077445448",
+        "mobile_url": "",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
+        "crawl_count": 1,
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "04-47"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:244"
       },
       {
         "id": 245,
@@ -604,18 +716,18 @@
         "rank": 10,
         "url": "https://www.zhihu.com/question/2063952005505324990",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "02-59"
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
@@ -623,56 +735,30 @@
         "item_id": "news:245"
       },
       {
-        "id": 247,
-        "title": "如何看待内存的涨价终于波及到了显卡，50 系显卡逐渐大面积缺货开始暴涨？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 12,
-        "url": "https://www.zhihu.com/question/2063926827077445448",
-        "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
-        "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
-        "ranks": [
-          12
-        ],
-        "rank_timeline": [
-          {
-            "rank": 12,
-            "crawl_time": "02-59"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:247"
-      },
-      {
-        "id": 253,
+        "id": 252,
         "title": "12306 优先为老年旅客分配下铺，而带娃旅客不优先，该如何平衡不同群体需求？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 18,
+        "rank": 17,
         "url": "https://www.zhihu.com/question/2062138734179628224",
         "mobile_url": "",
-        "first_crawl_time": "02-59",
-        "last_crawl_time": "02-59",
+        "first_crawl_time": "04-47",
+        "last_crawl_time": "04-47",
         "crawl_count": 1,
-        "created_at": "2026-07-25 02:59:11",
-        "updated_at": "2026-07-25 02:59:11",
+        "created_at": "2026-07-25 04:47:09",
+        "updated_at": "2026-07-25 04:47:09",
         "ranks": [
-          18
+          17
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "02-59"
+            "rank": 17,
+            "crawl_time": "04-47"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:253"
+        "item_id": "news:252"
       }
     ],
     "platforms": [
@@ -680,92 +766,95 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-25 02:59:11"
+        "updated_at": "2026-07-25 04:47:09"
       }
     ],
     "latest_item_ids": [
       "news:42",
-      "news:95",
-      "news:113",
+      "news:59",
+      "news:98",
+      "news:112",
       "news:127",
       "news:131",
       "news:80",
       "news:83",
       "news:84",
       "news:158",
-      "news:8",
-      "news:18",
+      "news:14",
+      "news:17",
+      "news:25",
+      "news:28",
       "news:62",
       "news:65",
       "news:66",
       "news:187",
-      "news:190",
+      "news:192",
       "news:197",
-      "news:198",
-      "news:238",
+      "news:199",
+      "news:242",
+      "news:244",
       "news:245",
-      "news:247",
-      "news:253"
+      "news:252"
     ],
     "categories": {
       "交通出行": [
@@ -774,12 +863,13 @@
         "news:245"
       ],
       "安全灾害": [
-        "news:95",
-        "news:8",
-        "news:198"
+        "news:59",
+        "news:98",
+        "news:14",
+        "news:192"
       ],
       "就业民生": [
-        "news:113"
+        "news:112"
       ],
       "睡眠心理": [
         "news:127",
@@ -790,21 +880,25 @@
         "news:62",
         "news:65",
         "news:66",
-        "news:238",
-        "news:247"
+        "news:242",
+        "news:244"
       ],
       "消费维权": [
         "news:80"
       ],
       "养老生活": [
         "news:84",
-        "news:253"
+        "news:252"
       ],
       "医疗健康": [
-        "news:18",
-        "news:190"
+        "news:17",
+        "news:199"
+      ],
+      "住房民生": [
+        "news:25"
       ],
       "教育民生": [
+        "news:28",
         "news:187"
       ],
       "人口家庭": [
@@ -818,12 +912,13 @@
         "news:245"
       ],
       "安全灾害": [
-        "news:95",
-        "news:8",
-        "news:198"
+        "news:59",
+        "news:98",
+        "news:14",
+        "news:192"
       ],
       "就业民生": [
-        "news:113"
+        "news:112"
       ],
       "睡眠心理": [
         "news:127",
@@ -834,21 +929,25 @@
         "news:62",
         "news:65",
         "news:66",
-        "news:238",
-        "news:247"
+        "news:242",
+        "news:244"
       ],
       "消费维权": [
         "news:80"
       ],
       "养老生活": [
         "news:84",
-        "news:253"
+        "news:252"
       ],
       "医疗健康": [
-        "news:18",
-        "news:190"
+        "news:17",
+        "news:199"
+      ],
+      "住房民生": [
+        "news:25"
       ],
       "教育民生": [
+        "news:28",
         "news:187"
       ],
       "人口家庭": [
@@ -860,7 +959,7 @@
   },
   "rss": {
     "date": "2026-07-25",
-    "latest_crawl_time": "02:59",
+    "latest_crawl_time": "04:47",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -873,7 +972,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-25 02:59:13"
+        "updated_at": "2026-07-25 04:47:10"
       },
       {
         "id": "yahoo-finance",
@@ -883,13 +982,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-25 02:59:13"
+        "updated_at": "2026-07-25 04:47:10"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 63,
-    "raw_latest_count": 63
+    "raw_count": 64,
+    "raw_latest_count": 64
   }
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-27T05:27:52.435430+08:00",
+  "generated_at": "2026-07-27T06:32:30.381815+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "30221097358",
-    "run_number": "509",
+    "run_id": "30223258581",
+    "run_number": "510",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-07-27",
-  "crawl_time": "05-27",
+  "crawl_time": "06-32",
   "counts": {
     "news": 24,
     "latest_news": 24,
@@ -23,29 +23,28 @@
     "raw_latest_rss": 69
   },
   "categories": {
-    "交通出行": {
-      "news": [
-        "news:43",
-        "news:51",
-        "news:214",
-        "news:169"
-      ],
-      "rss": []
-    },
     "安全灾害": {
       "news": [
+        "news:42",
         "news:50",
-        "news:52",
-        "news:54",
-        "news:114",
+        "news:118",
         "news:215",
-        "news:227",
-        "news:88",
-        "news:90",
+        "news:230",
+        "news:231",
+        "news:89",
         "news:160",
         "news:17",
         "news:178",
-        "news:185"
+        "news:190"
+      ],
+      "rss": []
+    },
+    "交通出行": {
+      "news": [
+        "news:54",
+        "news:56",
+        "news:219",
+        "news:169"
       ],
       "rss": []
     },
@@ -70,14 +69,7 @@
     },
     "住房民生": {
       "news": [
-        "news:7"
-      ],
-      "rss": []
-    },
-    "常见疾病": {
-      "news": [
-        "news:10",
-        "news:241"
+        "news:6"
       ],
       "rss": []
     },
@@ -86,39 +78,52 @@
         "news:11"
       ],
       "rss": []
+    },
+    "常见疾病": {
+      "news": [
+        "news:22",
+        "news:240"
+      ],
+      "rss": []
+    },
+    "四季养生": {
+      "news": [
+        "news:27"
+      ],
+      "rss": []
     }
   },
   "news": {
     "date": "2026-07-27",
-    "latest_crawl_time": "05-27",
+    "latest_crawl_time": "06-32",
     "count": 24,
     "latest_count": 24,
     "items": [
       {
-        "id": 43,
-        "title": "成都到贵州高铁可以买月票了",
+        "id": 42,
+        "title": "济南突降暴雨 积水深到大腿",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 13,
-        "url": "https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E5%88%B0%E8%B4%B5%E5%B7%9E%E9%AB%98%E9%93%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E6%9C%88%E7%A5%A8%E4%BA%86",
+        "rank": 12,
+        "url": "https://www.baidu.com/s?wd=%E6%B5%8E%E5%8D%97%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8+%E7%A7%AF%E6%B0%B4%E6%B7%B1%E5%88%B0%E5%A4%A7%E8%85%BF",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          13
+          12
         ],
         "rank_timeline": [
           {
-            "rank": 13,
-            "crawl_time": "05-27"
+            "rank": 12,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:43"
+        "matched_category": "安全灾害",
+        "item_id": "news:42"
       },
       {
         "id": 50,
@@ -128,18 +133,18 @@
         "rank": 20,
         "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E6%96%B0%E5%8C%974.8%E7%BA%A7%E5%9C%B0%E9%9C%87+%E7%A6%8F%E5%BB%BA%E5%A4%9A%E5%9C%B0%E6%9C%89%E9%9C%87%E6%84%9F",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           20
         ],
         "rank_timeline": [
           {
             "rank": 20,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -147,108 +152,82 @@
         "item_id": "news:50"
       },
       {
-        "id": 51,
+        "id": 54,
         "title": "嫌停车贵 男子跟车逃费183次被刑拘",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 21,
+        "rank": 24,
         "url": "https://www.baidu.com/s?wd=%E5%AB%8C%E5%81%9C%E8%BD%A6%E8%B4%B5+%E7%94%B7%E5%AD%90%E8%B7%9F%E8%BD%A6%E9%80%83%E8%B4%B9183%E6%AC%A1%E8%A2%AB%E5%88%91%E6%8B%98",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          21
+          24
         ],
         "rank_timeline": [
           {
-            "rank": 21,
-            "crawl_time": "05-27"
+            "rank": 24,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:51"
-      },
-      {
-        "id": 52,
-        "title": "济南突降暴雨 积水深到大腿",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 22,
-        "url": "https://www.baidu.com/s?wd=%E6%B5%8E%E5%8D%97%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8+%E7%A7%AF%E6%B0%B4%E6%B7%B1%E5%88%B0%E5%A4%A7%E8%85%BF",
-        "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
-        "ranks": [
-          22
-        ],
-        "rank_timeline": [
-          {
-            "rank": 22,
-            "crawl_time": "05-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:52"
-      },
-      {
-        "id": 54,
-        "title": "广东武警台风救援画面来了",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 24,
-        "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E6%AD%A6%E8%AD%A6%E5%8F%B0%E9%A3%8E%E6%95%91%E6%8F%B4%E7%94%BB%E9%9D%A2%E6%9D%A5%E4%BA%86",
-        "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
-        "ranks": [
-          24
-        ],
-        "rank_timeline": [
-          {
-            "rank": 24,
-            "crawl_time": "05-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
         "item_id": "news:54"
       },
       {
-        "id": 114,
-        "title": "我国高温中心将转移到北方",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 24,
-        "url": "https://search.bilibili.com/all?keyword=%E6%88%91%E5%9B%BD%E9%AB%98%E6%B8%A9%E4%B8%AD%E5%BF%83%E5%B0%86%E8%BD%AC%E7%A7%BB%E5%88%B0%E5%8C%97%E6%96%B9",
+        "id": 56,
+        "title": "成都到贵州高铁可以买月票了",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 26,
+        "url": "https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E5%88%B0%E8%B4%B5%E5%B7%9E%E9%AB%98%E9%93%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E6%9C%88%E7%A5%A8%E4%BA%86",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          24
+          26
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "05-27"
+            "rank": 26,
+            "crawl_time": "06-32"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:56"
+      },
+      {
+        "id": 118,
+        "title": "我国高温中心将转移到北方",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 28,
+        "url": "https://search.bilibili.com/all?keyword=%E6%88%91%E5%9B%BD%E9%AB%98%E6%B8%A9%E4%B8%AD%E5%BF%83%E5%B0%86%E8%BD%AC%E7%A7%BB%E5%88%B0%E5%8C%97%E6%96%B9",
+        "mobile_url": "",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
+        "crawl_count": 1,
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
+        "ranks": [
+          28
+        ],
+        "rank_timeline": [
+          {
+            "rank": 28,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:114"
+        "item_id": "news:118"
       },
       {
         "id": 125,
@@ -258,18 +237,18 @@
         "rank": 5,
         "url": "https://www.cls.cn/detail/2436884",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -277,51 +256,25 @@
         "item_id": "news:125"
       },
       {
-        "id": 214,
-        "title": "铁路部门回应李姓艺人高铁占座",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 9,
-        "url": "https://www.douyin.com/hot/2586180",
-        "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "05-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:214"
-      },
-      {
         "id": 215,
-        "title": "台风红霞登陆广东",
+        "title": "第一视角记录台风红霞来袭",
         "platform_id": "douyin",
         "platform_name": "抖音",
         "rank": 10,
-        "url": "https://www.douyin.com/hot/2585337",
+        "url": "https://www.douyin.com/hot/2585552",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -329,82 +282,108 @@
         "item_id": "news:215"
       },
       {
-        "id": 227,
+        "id": 219,
+        "title": "铁路部门回应李姓艺人高铁占座",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 14,
+        "url": "https://www.douyin.com/hot/2586180",
+        "mobile_url": "",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
+        "crawl_count": 1,
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "06-32"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:219"
+      },
+      {
+        "id": 230,
+        "title": "台风红霞登陆广东",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 25,
+        "url": "https://www.douyin.com/hot/2585337",
+        "mobile_url": "",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
+        "crawl_count": 1,
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "06-32"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:230"
+      },
+      {
+        "id": 231,
         "title": "台风红霞最新路径",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 22,
+        "rank": 26,
         "url": "https://www.douyin.com/hot/2584497",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          22
+          26
         ],
         "rank_timeline": [
           {
-            "rank": 22,
-            "crawl_time": "05-27"
+            "rank": 26,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:227"
+        "item_id": "news:231"
       },
       {
-        "id": 88,
+        "id": 89,
         "title": "台风“红霞”登陆惠州，志愿者偶遇风中骑摩托车的市民，主动表示：“我送你回家”",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 18,
+        "rank": 19,
         "url": "https://www.thepaper.cn/newsDetail_forward_33662332",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33662332",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          18
+          19
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "05-27"
+            "rank": 19,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:88"
-      },
-      {
-        "id": 90,
-        "title": "台风“红霞”在广东惠州登陆，中心附近最大风力14级",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 20,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33660641",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33660641",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
-        "ranks": [
-          20
-        ],
-        "rank_timeline": [
-          {
-            "rank": 20,
-            "crawl_time": "05-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:90"
+        "item_id": "news:89"
       },
       {
         "id": 160,
@@ -414,18 +393,18 @@
         "rank": 15,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E7%99%BB%E9%99%86%2C%E6%B7%B1%E5%A4%9C%E6%A8%AA%E6%89%AB%E5%B9%BF%E4%B8%9C&topic_id=28356509",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           15
         ],
         "rank_timeline": [
           {
             "rank": 15,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -440,18 +419,18 @@
         "rank": 24,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%8D%B0%E6%97%A5%E9%AB%98%E9%93%81%E6%92%95%E7%A0%B4%E8%84%B8%2C%E5%85%84%E5%A6%B9%E4%BA%92%E7%94%A9%E9%94%85&topic_id=28356498",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           24
         ],
         "rank_timeline": [
           {
             "rank": 24,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -466,18 +445,18 @@
         "rank": 27,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%89%9B%E4%B8%8D%E4%BD%8F%21%E5%B3%B0%E5%AD%A6%E8%94%9A%E6%9D%A5%E6%8E%A5%E7%8F%AD%E4%BA%BA%E4%BD%8F%E9%99%A2&topic_id=28356493",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           27
         ],
         "rank_timeline": [
           {
             "rank": 27,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -492,18 +471,18 @@
         "rank": 29,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%B7%A5%E8%B5%84%E4%BA%A4%E4%B8%80%E5%8D%8A%2C%E8%80%81%E5%93%A5%E7%88%B1%E5%AE%A0%E9%81%AD%E6%AF%92%E6%89%8B&topic_id=28356494",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           29
         ],
         "rank_timeline": [
           {
             "rank": 29,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -511,56 +490,30 @@
         "item_id": "news:174"
       },
       {
-        "id": 7,
+        "id": 6,
         "title": "业主拒交2年物业费被起诉 法院判了",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 7,
+        "rank": 6,
         "url": "https://www.toutiao.com/trending/7665882531048308790/",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          7
+          6
         ],
         "rank_timeline": [
           {
-            "rank": 7,
-            "crawl_time": "05-27"
+            "rank": 6,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "住房民生",
-        "item_id": "news:7"
-      },
-      {
-        "id": 10,
-        "title": "男子无三高却突发脑梗",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 10,
-        "url": "https://www.toutiao.com/trending/7666687358389485577/",
-        "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
-        "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "05-27"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "常见疾病",
-        "item_id": "news:10"
+        "item_id": "news:6"
       },
       {
         "id": 11,
@@ -570,18 +523,18 @@
         "rank": 11,
         "url": "https://www.toutiao.com/trending/7666389255610990611/",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -596,23 +549,75 @@
         "rank": 17,
         "url": "https://www.toutiao.com/trending/7666086385439555625/",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
         "item_id": "news:17"
+      },
+      {
+        "id": 22,
+        "title": "男子无三高却突发脑梗",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 22,
+        "url": "https://www.toutiao.com/trending/7666687358389485577/",
+        "mobile_url": "",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
+        "crawl_count": 1,
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "06-32"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "常见疾病",
+        "item_id": "news:22"
+      },
+      {
+        "id": 27,
+        "title": "三伏天连出汗都大有讲究",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 27,
+        "url": "https://www.toutiao.com/trending/7666400102684393515/",
+        "mobile_url": "",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
+        "crawl_count": 1,
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "06-32"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "四季养生",
+        "item_id": "news:27"
       },
       {
         "id": 63,
@@ -622,18 +627,18 @@
         "rank": 3,
         "url": "https://wallstreetcn.com/articles/3777938",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -648,18 +653,18 @@
         "rank": 3,
         "url": "https://s.weibo.com/weibo?q=%232.5%E4%B8%87%E4%BB%B6%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E7%B2%A4%E8%B5%A3%E6%B9%98%E5%8F%B0%E9%A3%8E%E6%95%91%E7%81%BE%23",
         "mobile_url": "https://s.weibo.com/weibo?q=%232.5%E4%B8%87%E4%BB%B6%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E7%B2%A4%E8%B5%A3%E6%B9%98%E5%8F%B0%E9%A3%8E%E6%95%91%E7%81%BE%23&t=31&band_rank=3&Refer=top",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "05-27"
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
@@ -667,56 +672,56 @@
         "item_id": "news:178"
       },
       {
-        "id": 185,
+        "id": 190,
         "title": "台风红霞登陆后武警迅速救援",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 10,
+        "rank": 15,
         "url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E7%99%BB%E9%99%86%E5%90%8E%E6%AD%A6%E8%AD%A6%E8%BF%85%E9%80%9F%E6%95%91%E6%8F%B4%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E7%99%BB%E9%99%86%E5%90%8E%E6%AD%A6%E8%AD%A6%E8%BF%85%E9%80%9F%E6%95%91%E6%8F%B4%23&t=31&band_rank=10&Refer=top",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E7%99%BB%E9%99%86%E5%90%8E%E6%AD%A6%E8%AD%A6%E8%BF%85%E9%80%9F%E6%95%91%E6%8F%B4%23&t=31&band_rank=15&Refer=top",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          10
+          15
         ],
         "rank_timeline": [
           {
-            "rank": 10,
-            "crawl_time": "05-27"
+            "rank": 15,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:185"
+        "item_id": "news:190"
       },
       {
-        "id": 241,
+        "id": 240,
         "title": "亚运短跑冠军体脂低于 10%，退役不到一年查出三高和脂肪肝，这是什么原因？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 6,
+        "rank": 5,
         "url": "https://www.zhihu.com/question/2063668726759691526",
         "mobile_url": "",
-        "first_crawl_time": "05-27",
-        "last_crawl_time": "05-27",
+        "first_crawl_time": "06-32",
+        "last_crawl_time": "06-32",
         "crawl_count": 1,
-        "created_at": "2026-07-27 05:27:45",
-        "updated_at": "2026-07-27 05:27:45",
+        "created_at": "2026-07-27 06:32:25",
+        "updated_at": "2026-07-27 06:32:25",
         "ranks": [
-          6
+          5
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "05-27"
+            "rank": 5,
+            "crawl_time": "06-32"
           }
         ],
         "is_latest": true,
         "matched_category": "常见疾病",
-        "item_id": "news:241"
+        "item_id": "news:240"
       }
     ],
     "platforms": [
@@ -724,115 +729,114 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-07-27 05:27:45"
+        "updated_at": "2026-07-27 06:32:25"
       }
     ],
     "latest_item_ids": [
-      "news:43",
+      "news:42",
       "news:50",
-      "news:51",
-      "news:52",
       "news:54",
-      "news:114",
+      "news:56",
+      "news:118",
       "news:125",
-      "news:214",
       "news:215",
-      "news:227",
-      "news:88",
-      "news:90",
+      "news:219",
+      "news:230",
+      "news:231",
+      "news:89",
       "news:160",
       "news:169",
       "news:172",
       "news:174",
-      "news:7",
-      "news:10",
+      "news:6",
       "news:11",
       "news:17",
+      "news:22",
+      "news:27",
       "news:63",
       "news:178",
-      "news:185",
-      "news:241"
+      "news:190",
+      "news:240"
     ],
     "categories": {
-      "交通出行": [
-        "news:43",
-        "news:51",
-        "news:214",
-        "news:169"
-      ],
       "安全灾害": [
+        "news:42",
         "news:50",
-        "news:52",
-        "news:54",
-        "news:114",
+        "news:118",
         "news:215",
-        "news:227",
-        "news:88",
-        "news:90",
+        "news:230",
+        "news:231",
+        "news:89",
         "news:160",
         "news:17",
         "news:178",
-        "news:185"
+        "news:190"
+      ],
+      "交通出行": [
+        "news:54",
+        "news:56",
+        "news:219",
+        "news:169"
       ],
       "物价消费": [
         "news:125",
@@ -845,36 +849,38 @@
         "news:174"
       ],
       "住房民生": [
-        "news:7"
-      ],
-      "常见疾病": [
-        "news:10",
-        "news:241"
+        "news:6"
       ],
       "人口家庭": [
         "news:11"
+      ],
+      "常见疾病": [
+        "news:22",
+        "news:240"
+      ],
+      "四季养生": [
+        "news:27"
       ]
     },
     "latest_categories": {
-      "交通出行": [
-        "news:43",
-        "news:51",
-        "news:214",
-        "news:169"
-      ],
       "安全灾害": [
+        "news:42",
         "news:50",
-        "news:52",
-        "news:54",
-        "news:114",
+        "news:118",
         "news:215",
-        "news:227",
-        "news:88",
-        "news:90",
+        "news:230",
+        "news:231",
+        "news:89",
         "news:160",
         "news:17",
         "news:178",
-        "news:185"
+        "news:190"
+      ],
+      "交通出行": [
+        "news:54",
+        "news:56",
+        "news:219",
+        "news:169"
       ],
       "物价消费": [
         "news:125",
@@ -887,14 +893,17 @@
         "news:174"
       ],
       "住房民生": [
-        "news:7"
-      ],
-      "常见疾病": [
-        "news:10",
-        "news:241"
+        "news:6"
       ],
       "人口家庭": [
         "news:11"
+      ],
+      "常见疾病": [
+        "news:22",
+        "news:240"
+      ],
+      "四季养生": [
+        "news:27"
       ]
     },
     "raw_count": 255,
@@ -902,7 +911,7 @@
   },
   "rss": {
     "date": "2026-07-27",
-    "latest_crawl_time": "05:27",
+    "latest_crawl_time": "06:32",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -915,7 +924,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-27 05:27:49"
+        "updated_at": "2026-07-27 06:32:27"
       },
       {
         "id": "yahoo-finance",
@@ -925,7 +934,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-07-27 05:27:49"
+        "updated_at": "2026-07-27 06:32:27"
       }
     ],
     "latest_item_ids": [],

@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T12:04:56.868171+08:00",
+  "generated_at": "2026-08-15T12:57:35.560094+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "31863458762",
-    "run_number": "770",
+    "run_id": "31865701962",
+    "run_number": "771",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-08-15",
-  "crawl_time": "12-04",
+  "crawl_time": "12-57",
   "counts": {
-    "news": 24,
-    "latest_news": 24,
+    "news": 21,
+    "latest_news": 21,
     "rss": 0,
     "latest_rss": 0,
-    "total": 24,
-    "latest_total": 24,
+    "total": 21,
+    "latest_total": 21,
     "raw_news": 255,
     "raw_latest_news": 255,
     "raw_rss": 69,
@@ -26,34 +26,31 @@
     "物价消费": {
       "news": [
         "news:36",
-        "news:51",
-        "news:159"
-      ],
-      "rss": []
-    },
-    "安全灾害": {
-      "news": [
-        "news:40",
-        "news:49",
-        "news:59",
-        "news:222",
-        "news:227",
-        "news:185"
+        "news:52",
+        "news:160"
       ],
       "rss": []
     },
     "养老生活": {
       "news": [
-        "news:47"
+        "news:45"
+      ],
+      "rss": []
+    },
+    "安全灾害": {
+      "news": [
+        "news:49",
+        "news:51",
+        "news:222",
+        "news:232",
+        "news:204"
       ],
       "rss": []
     },
     "人口家庭": {
       "news": [
-        "news:52",
-        "news:163",
-        "news:21",
-        "news:196"
+        "news:54",
+        "news:164"
       ],
       "rss": []
     },
@@ -61,8 +58,7 @@
       "news": [
         "news:140",
         "news:83",
-        "news:10",
-        "news:250"
+        "news:243"
       ],
       "rss": []
     },
@@ -81,28 +77,29 @@
     },
     "睡眠心理": {
       "news": [
-        "news:149"
+        "news:149",
+        "news:150"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
-        "news:169"
+        "news:170"
       ],
       "rss": []
     },
     "公共服务": {
       "news": [
-        "news:245"
+        "news:240"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-08-15",
-    "latest_crawl_time": "12-04",
-    "count": 24,
-    "latest_count": 24,
+    "latest_crawl_time": "12-57",
+    "count": 21,
+    "latest_count": 21,
     "items": [
       {
         "id": 36,
@@ -112,18 +109,18 @@
         "rank": 6,
         "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%B6%A8%E4%BB%B7+%E6%89%8B%E6%9C%BA%E5%BF%AB%E4%B9%B0%E4%B8%8D%E8%B5%B7%E4%BA%86",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           6
         ],
         "rank_timeline": [
           {
             "rank": 6,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -131,77 +128,51 @@
         "item_id": "news:36"
       },
       {
-        "id": 40,
-        "title": "印尼7.7级地震引发海啸",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 10,
-        "url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87%E5%BC%95%E5%8F%91%E6%B5%B7%E5%95%B8",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:40"
-      },
-      {
-        "id": 47,
+        "id": 45,
         "title": "宝宝从餐椅跌落 老人不敢告知父母",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 17,
+        "rank": 15,
         "url": "https://www.baidu.com/s?wd=%E5%AE%9D%E5%AE%9D%E4%BB%8E%E9%A4%90%E6%A4%85%E8%B7%8C%E8%90%BD+%E8%80%81%E4%BA%BA%E4%B8%8D%E6%95%A2%E5%91%8A%E7%9F%A5%E7%88%B6%E6%AF%8D",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
-          17
+          15
         ],
         "rank_timeline": [
           {
-            "rank": 17,
-            "crawl_time": "12-04"
+            "rank": 15,
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
         "matched_category": "养老生活",
-        "item_id": "news:47"
+        "item_id": "news:45"
       },
       {
         "id": 49,
-        "title": "河南暴雨",
+        "title": "印尼7.7级地震引发海啸",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 19,
-        "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E6%9A%B4%E9%9B%A8",
+        "url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87%E5%BC%95%E5%8F%91%E6%B5%B7%E5%95%B8",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           19
         ],
         "rank_timeline": [
           {
             "rank": 19,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -210,81 +181,81 @@
       },
       {
         "id": 51,
-        "title": "金价银价油价都涨了",
+        "title": "印尼7.7级地震居民冲上马路避难",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 21,
-        "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E9%93%B6%E4%BB%B7%E6%B2%B9%E4%BB%B7%E9%83%BD%E6%B6%A8%E4%BA%86",
+        "url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87%E5%B1%85%E6%B0%91%E5%86%B2%E4%B8%8A%E9%A9%AC%E8%B7%AF%E9%81%BF%E9%9A%BE",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           21
         ],
         "rank_timeline": [
           {
             "rank": 21,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
+        "matched_category": "安全灾害",
         "item_id": "news:51"
       },
       {
         "id": 52,
-        "title": "律师称结婚不领证影响很大",
+        "title": "金价银价油价都涨了",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 22,
-        "url": "https://www.baidu.com/s?wd=%E5%BE%8B%E5%B8%88%E7%A7%B0%E7%BB%93%E5%A9%9A%E4%B8%8D%E9%A2%86%E8%AF%81%E5%BD%B1%E5%93%8D%E5%BE%88%E5%A4%A7",
+        "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E9%93%B6%E4%BB%B7%E6%B2%B9%E4%BB%B7%E9%83%BD%E6%B6%A8%E4%BA%86",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           22
         ],
         "rank_timeline": [
           {
             "rank": 22,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:52"
+      },
+      {
+        "id": 54,
+        "title": "律师称结婚不领证影响很大",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 24,
+        "url": "https://www.baidu.com/s?wd=%E5%BE%8B%E5%B8%88%E7%A7%B0%E7%BB%93%E5%A9%9A%E4%B8%8D%E9%A2%86%E8%AF%81%E5%BD%B1%E5%93%8D%E5%BE%88%E5%A4%A7",
+        "mobile_url": "",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          24
+        ],
+        "rank_timeline": [
+          {
+            "rank": 24,
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:52"
-      },
-      {
-        "id": 59,
-        "title": "印尼7.7级地震居民冲上马路避难",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 29,
-        "url": "https://www.baidu.com/s?wd=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87%E5%B1%85%E6%B0%91%E5%86%B2%E4%B8%8A%E9%A9%AC%E8%B7%AF%E9%81%BF%E9%9A%BE",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:59"
+        "item_id": "news:54"
       },
       {
         "id": 222,
@@ -294,18 +265,18 @@
         "rank": 17,
         "url": "https://www.douyin.com/hot/2610083",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -313,30 +284,30 @@
         "item_id": "news:222"
       },
       {
-        "id": 227,
+        "id": 232,
         "title": "水利部升级发布洪水黄色预警",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 22,
+        "rank": 27,
         "url": "https://www.douyin.com/hot/2609723",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
-          22
+          27
         ],
         "rank_timeline": [
           {
-            "rank": 22,
-            "crawl_time": "12-04"
+            "rank": 27,
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:227"
+        "item_id": "news:232"
       },
       {
         "id": 140,
@@ -346,18 +317,18 @@
         "rank": 7,
         "url": "https://v.ifeng.com/c/8vW4Ky9QQs8",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -372,18 +343,18 @@
         "rank": 11,
         "url": "https://www.thepaper.cn/newsDetail_forward_33784773",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33784773",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -398,18 +369,18 @@
         "rank": 13,
         "url": "https://www.thepaper.cn/newsDetail_forward_33782671",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33782671",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -424,18 +395,18 @@
         "rank": 15,
         "url": "https://www.thepaper.cn/newsDetail_forward_33781657",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33781657",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           15
         ],
         "rank_timeline": [
           {
             "rank": 15,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -450,18 +421,18 @@
         "rank": 1,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E8%83%96%E4%B8%9C%E6%9D%A5%E6%8B%9B%E8%81%98%E5%88%91%E6%BB%A1%E9%87%8A%E6%94%BE%E4%BA%BA%E5%91%98&topic_id=28357614",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -470,24 +441,24 @@
       },
       {
         "id": 149,
-        "title": "牛头人登上银幕,绷住确诊抑郁",
+        "title": "舆论压力大,完蛋男同学下架",
         "platform_id": "tieba",
         "platform_name": "贴吧",
         "rank": 4,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%89%9B%E5%A4%B4%E4%BA%BA%E7%99%BB%E4%B8%8A%E9%93%B6%E5%B9%95%2C%E7%BB%B7%E4%BD%8F%E7%A1%AE%E8%AF%8A%E6%8A%91%E9%83%81&topic_id=28357622",
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E8%88%86%E8%AE%BA%E5%8E%8B%E5%8A%9B%E5%A4%A7%2C%E5%AE%8C%E8%9B%8B%E7%94%B7%E5%90%8C%E5%AD%A6%E4%B8%8B%E6%9E%B6&topic_id=28357623",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
@@ -495,238 +466,186 @@
         "item_id": "news:149"
       },
       {
-        "id": 159,
+        "id": 150,
+        "title": "牛头人登大银幕,绷住确诊抑郁",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 5,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%89%9B%E5%A4%B4%E4%BA%BA%E7%99%BB%E5%A4%A7%E9%93%B6%E5%B9%95%2C%E7%BB%B7%E4%BD%8F%E7%A1%AE%E8%AF%8A%E6%8A%91%E9%83%81&topic_id=28357622",
+        "mobile_url": "",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          5
+        ],
+        "rank_timeline": [
+          {
+            "rank": 5,
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "睡眠心理",
+        "item_id": "news:150"
+      },
+      {
+        "id": 160,
         "title": "俱往矣!DeepSeek大幅涨价",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 14,
+        "rank": 15,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%BF%B1%E5%BE%80%E7%9F%A3%21DeepSeek%E5%A4%A7%E5%B9%85%E6%B6%A8%E4%BB%B7&topic_id=28357395",
         "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
         "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          14
-        ],
-        "rank_timeline": [
-          {
-            "rank": 14,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:159"
-      },
-      {
-        "id": 163,
-        "title": "一步到位,银行能领结婚证",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 18,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D%2C%E9%93%B6%E8%A1%8C%E8%83%BD%E9%A2%86%E7%BB%93%E5%A9%9A%E8%AF%81&topic_id=28357454",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          18
-        ],
-        "rank_timeline": [
-          {
-            "rank": 18,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:163"
-      },
-      {
-        "id": 169,
-        "title": "砸钱30万,中考生700分上职校",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 24,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%A0%B8%E9%92%B130%E4%B8%87%2C%E4%B8%AD%E8%80%83%E7%94%9F700%E5%88%86%E4%B8%8A%E8%81%8C%E6%A0%A1&topic_id=28357458",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          24
-        ],
-        "rank_timeline": [
-          {
-            "rank": 24,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:169"
-      },
-      {
-        "id": 10,
-        "title": "河南一传染病医院被淹",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 10,
-        "url": "https://www.toutiao.com/trending/7673736618486530090/",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:10"
-      },
-      {
-        "id": 21,
-        "title": "律师：结婚不领证影响很大",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 21,
-        "url": "https://www.toutiao.com/trending/7673482747101397034/",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          21
-        ],
-        "rank_timeline": [
-          {
-            "rank": 21,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:21"
-      },
-      {
-        "id": 185,
-        "title": "印尼7.7级地震",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 10,
-        "url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87&t=31&band_rank=10&Refer=top",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:185"
-      },
-      {
-        "id": 196,
-        "title": "私生子 继承权",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 21,
-        "url": "https://s.weibo.com/weibo?q=%E7%A7%81%E7%94%9F%E5%AD%90+%E7%BB%A7%E6%89%BF%E6%9D%83",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E7%A7%81%E7%94%9F%E5%AD%90%20%E7%BB%A7%E6%89%BF%E6%9D%83&t=31&band_rank=21&Refer=top",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          21
-        ],
-        "rank_timeline": [
-          {
-            "rank": 21,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:196"
-      },
-      {
-        "id": 245,
-        "title": "宝鸡一天然气公司要求热水器满 8 年必须换，否则不给购气，这个要求合理吗？燃气公司有权这么做吗？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 10,
-        "url": "https://www.zhihu.com/question/2071200961867900907",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "12-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "公共服务",
-        "item_id": "news:245"
-      },
-      {
-        "id": 250,
-        "title": "儿科韩医生事件，会不会造成全国的防御性医疗的开端和大面积的医护离职潮爆发？未来儿科医生的数量腰斩？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 15,
-        "url": "https://www.zhihu.com/question/2069050672704705907",
-        "mobile_url": "",
-        "first_crawl_time": "12-04",
-        "last_crawl_time": "12-04",
-        "crawl_count": 1,
-        "created_at": "2026-08-15 12:04:41",
-        "updated_at": "2026-08-15 12:04:41",
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
         "ranks": [
           15
         ],
         "rank_timeline": [
           {
             "rank": 15,
-            "crawl_time": "12-04"
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:160"
+      },
+      {
+        "id": 164,
+        "title": "一步到位,银行能领结婚证",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 19,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D%2C%E9%93%B6%E8%A1%8C%E8%83%BD%E9%A2%86%E7%BB%93%E5%A9%9A%E8%AF%81&topic_id=28357454",
+        "mobile_url": "",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          19
+        ],
+        "rank_timeline": [
+          {
+            "rank": 19,
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:164"
+      },
+      {
+        "id": 170,
+        "title": "砸钱30万,中考生700分上职校",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 25,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%A0%B8%E9%92%B130%E4%B8%87%2C%E4%B8%AD%E8%80%83%E7%94%9F700%E5%88%86%E4%B8%8A%E8%81%8C%E6%A0%A1&topic_id=28357458",
+        "mobile_url": "",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          25
+        ],
+        "rank_timeline": [
+          {
+            "rank": 25,
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:170"
+      },
+      {
+        "id": 204,
+        "title": "印尼7.7级地震",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 29,
+        "url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%B0%BC7.7%E7%BA%A7%E5%9C%B0%E9%9C%87&t=31&band_rank=29&Refer=top",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:204"
+      },
+      {
+        "id": 240,
+        "title": "宝鸡一天然气公司要求热水器满 8 年必须换，否则不给购气，这个要求合理吗？燃气公司有权这么做吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 5,
+        "url": "https://www.zhihu.com/question/2071200961867900907",
+        "mobile_url": "",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          5
+        ],
+        "rank_timeline": [
+          {
+            "rank": 5,
+            "crawl_time": "12-57"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "公共服务",
+        "item_id": "news:240"
+      },
+      {
+        "id": 243,
+        "title": "儿科韩医生事件，会不会造成全国的防御性医疗的开端和大面积的医护离职潮爆发？未来儿科医生的数量腰斩？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 8,
+        "url": "https://www.zhihu.com/question/2069050672704705907",
+        "mobile_url": "",
+        "first_crawl_time": "12-57",
+        "last_crawl_time": "12-57",
+        "crawl_count": 1,
+        "created_at": "2026-08-15 12:57:31",
+        "updated_at": "2026-08-15 12:57:31",
+        "ranks": [
+          8
+        ],
+        "rank_timeline": [
+          {
+            "rank": 8,
+            "crawl_time": "12-57"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:250"
+        "item_id": "news:243"
       }
     ],
     "platforms": [
@@ -734,123 +653,116 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-08-15 12:04:41"
+        "updated_at": "2026-08-15 12:57:31"
       }
     ],
     "latest_item_ids": [
       "news:36",
-      "news:40",
-      "news:47",
+      "news:45",
       "news:49",
       "news:51",
       "news:52",
-      "news:59",
+      "news:54",
       "news:222",
-      "news:227",
+      "news:232",
       "news:140",
       "news:81",
       "news:83",
       "news:85",
       "news:146",
       "news:149",
-      "news:159",
-      "news:163",
-      "news:169",
-      "news:10",
-      "news:21",
-      "news:185",
-      "news:196",
-      "news:245",
-      "news:250"
+      "news:150",
+      "news:160",
+      "news:164",
+      "news:170",
+      "news:204",
+      "news:240",
+      "news:243"
     ],
     "categories": {
       "物价消费": [
         "news:36",
-        "news:51",
-        "news:159"
-      ],
-      "安全灾害": [
-        "news:40",
-        "news:49",
-        "news:59",
-        "news:222",
-        "news:227",
-        "news:185"
+        "news:52",
+        "news:160"
       ],
       "养老生活": [
-        "news:47"
+        "news:45"
+      ],
+      "安全灾害": [
+        "news:49",
+        "news:51",
+        "news:222",
+        "news:232",
+        "news:204"
       ],
       "人口家庭": [
-        "news:52",
-        "news:163",
-        "news:21",
-        "news:196"
+        "news:54",
+        "news:164"
       ],
       "医疗健康": [
         "news:140",
         "news:83",
-        "news:10",
-        "news:250"
+        "news:243"
       ],
       "消费维权": [
         "news:81",
@@ -860,43 +772,40 @@
         "news:146"
       ],
       "睡眠心理": [
-        "news:149"
+        "news:149",
+        "news:150"
       ],
       "教育民生": [
-        "news:169"
+        "news:170"
       ],
       "公共服务": [
-        "news:245"
+        "news:240"
       ]
     },
     "latest_categories": {
       "物价消费": [
         "news:36",
-        "news:51",
-        "news:159"
-      ],
-      "安全灾害": [
-        "news:40",
-        "news:49",
-        "news:59",
-        "news:222",
-        "news:227",
-        "news:185"
+        "news:52",
+        "news:160"
       ],
       "养老生活": [
-        "news:47"
+        "news:45"
+      ],
+      "安全灾害": [
+        "news:49",
+        "news:51",
+        "news:222",
+        "news:232",
+        "news:204"
       ],
       "人口家庭": [
-        "news:52",
-        "news:163",
-        "news:21",
-        "news:196"
+        "news:54",
+        "news:164"
       ],
       "医疗健康": [
         "news:140",
         "news:83",
-        "news:10",
-        "news:250"
+        "news:243"
       ],
       "消费维权": [
         "news:81",
@@ -906,13 +815,14 @@
         "news:146"
       ],
       "睡眠心理": [
-        "news:149"
+        "news:149",
+        "news:150"
       ],
       "教育民生": [
-        "news:169"
+        "news:170"
       ],
       "公共服务": [
-        "news:245"
+        "news:240"
       ]
     },
     "raw_count": 255,
@@ -920,7 +830,7 @@
   },
   "rss": {
     "date": "2026-08-15",
-    "latest_crawl_time": "12:04",
+    "latest_crawl_time": "12:57",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -933,7 +843,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-08-15 12:04:54"
+        "updated_at": "2026-08-15 12:57:32"
       },
       {
         "id": "yahoo-finance",
@@ -943,7 +853,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-08-15 12:04:54"
+        "updated_at": "2026-08-15 12:57:32"
       }
     ],
     "latest_item_ids": [],

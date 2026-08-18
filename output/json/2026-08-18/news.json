@@ -1,35 +1,39 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-18T18:57:12.817735+08:00",
+  "generated_at": "2026-08-18T19:52:23.229717+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "32129236147",
-    "run_number": "846",
+    "run_id": "32133828395",
+    "run_number": "847",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-08-18",
-  "crawl_time": "18-57",
+  "crawl_time": "19-52",
   "counts": {
-    "news": 23,
-    "latest_news": 23,
+    "news": 24,
+    "latest_news": 24,
     "rss": 0,
     "latest_rss": 0,
-    "total": 23,
-    "latest_total": 23,
+    "total": 24,
+    "latest_total": 24,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 69,
-    "raw_latest_rss": 69
+    "raw_rss": 70,
+    "raw_latest_rss": 70
   },
   "categories": {
     "社会保障": {
       "news": [
-        "news:34",
-        "news:123",
+        "news:32",
+        "news:39",
+        "news:124",
         "news:2",
+        "news:9",
         "news:177",
-        "news:182"
+        "news:180",
+        "news:182",
+        "news:241"
       ],
       "rss": []
     },
@@ -41,45 +45,31 @@
     },
     "就业民生": {
       "news": [
-        "news:53"
-      ],
-      "rss": []
-    },
-    "交通出行": {
-      "news": [
-        "news:59",
-        "news:27"
+        "news:52",
+        "news:251"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:124",
+        "news:123",
         "news:61",
         "news:64",
-        "news:68",
-        "news:69",
-        "news:240"
-      ],
-      "rss": []
-    },
-    "食物功效": {
-      "news": [
-        "news:133"
+        "news:66",
+        "news:67"
       ],
       "rss": []
     },
     "住房民生": {
       "news": [
-        "news:74"
+        "news:75"
       ],
       "rss": []
     },
     "人口家庭": {
       "news": [
         "news:82",
-        "news:90",
-        "news:24"
+        "news:90"
       ],
       "rss": []
     },
@@ -91,43 +81,80 @@
     },
     "消费维权": {
       "news": [
-        "news:169",
-        "news:246"
+        "news:169"
+      ],
+      "rss": []
+    },
+    "交通出行": {
+      "news": [
+        "news:28"
+      ],
+      "rss": []
+    },
+    "肠胃代谢": {
+      "news": [
+        "news:253"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-08-18",
-    "latest_crawl_time": "18-57",
-    "count": 23,
-    "latest_count": 23,
+    "latest_crawl_time": "19-52",
+    "count": 24,
+    "latest_count": 24,
     "items": [
       {
-        "id": 34,
+        "id": 32,
         "title": "公积金新政来了",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 4,
+        "rank": 2,
         "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          4
+          2
         ],
         "rank_timeline": [
           {
-            "rank": 4,
-            "crawl_time": "18-57"
+            "rank": 2,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
         "matched_category": "社会保障",
-        "item_id": "news:34"
+        "item_id": "news:32"
+      },
+      {
+        "id": 39,
+        "title": "租房提取公积金取消收入比例门槛",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 9,
+        "url": "https://www.baidu.com/s?wd=%E7%A7%9F%E6%88%BF%E6%8F%90%E5%8F%96%E5%85%AC%E7%A7%AF%E9%87%91%E5%8F%96%E6%B6%88%E6%94%B6%E5%85%A5%E6%AF%94%E4%BE%8B%E9%97%A8%E6%A7%9B",
+        "mobile_url": "",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
+        "crawl_count": 1,
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "19-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:39"
       },
       {
         "id": 40,
@@ -137,18 +164,18 @@
         "rank": 10,
         "url": "https://www.baidu.com/s?wd=%E7%94%B5%E8%A7%86%E9%95%BF%E8%BE%88%E6%A8%A1%E5%BC%8F%E5%9B%B0%E4%BD%8F3.23%E4%BA%BF%E4%B8%AD%E5%9B%BD%E8%80%81%E4%BA%BA",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -156,160 +183,108 @@
         "item_id": "news:40"
       },
       {
-        "id": 53,
+        "id": 52,
         "title": "DeepSeek招聘土木人才释放一个信号",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 23,
+        "rank": 22,
         "url": "https://www.baidu.com/s?wd=DeepSeek%E6%8B%9B%E8%81%98%E5%9C%9F%E6%9C%A8%E4%BA%BA%E6%89%8D%E9%87%8A%E6%94%BE%E4%B8%80%E4%B8%AA%E4%BF%A1%E5%8F%B7",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          23
+          22
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "18-57"
+            "rank": 22,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:53"
-      },
-      {
-        "id": 59,
-        "title": "南京地铁几十条黄鳝出逃爬满车厢",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 29,
-        "url": "https://www.baidu.com/s?wd=%E5%8D%97%E4%BA%AC%E5%9C%B0%E9%93%81%E5%87%A0%E5%8D%81%E6%9D%A1%E9%BB%84%E9%B3%9D%E5%87%BA%E9%80%83%E7%88%AC%E6%BB%A1%E8%BD%A6%E5%8E%A2",
-        "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
-        "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "18-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:59"
+        "item_id": "news:52"
       },
       {
         "id": 123,
-        "title": "汽车促消费政策“升级” 多地将二手车纳入补贴范围、单台至高4000元",
+        "title": "功率半导体又酝酿涨价？AI用电拉动需求 部分企业或10月行动",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
         "rank": 3,
-        "url": "https://www.cls.cn/detail/2456833",
+        "url": "https://www.cls.cn/detail/2457030",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "18-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:123"
-      },
-      {
-        "id": 124,
-        "title": "功率半导体又酝酿涨价？AI用电拉动需求 部分企业或10月行动",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 4,
-        "url": "https://www.cls.cn/detail/2457030",
-        "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
-        "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:124"
+        "item_id": "news:123"
       },
       {
-        "id": 133,
-        "title": "美国金融史上最明目张胆的一次？特朗普家族持股加密公司获批银行牌照",
+        "id": 124,
+        "title": "汽车促消费政策“升级” 多地将二手车纳入补贴范围、单台至高4000元",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
-        "rank": 13,
-        "url": "https://www.cls.cn/detail/2456722",
-        "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
-        "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
-        "ranks": [
-          13
-        ],
-        "rank_timeline": [
-          {
-            "rank": 13,
-            "crawl_time": "18-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "食物功效",
-        "item_id": "news:133"
-      },
-      {
-        "id": 74,
-        "title": "一线城市二手房价格连续5个月环比上涨",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
         "rank": 4,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33799536",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33799536",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "url": "https://www.cls.cn/detail/2456833",
+        "mobile_url": "",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:124"
+      },
+      {
+        "id": 75,
+        "title": "一线城市二手房价格连续5个月环比上涨",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 5,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33799536",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33799536",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
+        "crawl_count": 1,
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
+        "ranks": [
+          5
+        ],
+        "rank_timeline": [
+          {
+            "rank": 5,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
         "matched_category": "住房民生",
-        "item_id": "news:74"
+        "item_id": "news:75"
       },
       {
         "id": 82,
@@ -319,18 +294,18 @@
         "rank": 12,
         "url": "https://www.thepaper.cn/newsDetail_forward_33800378",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33800378",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -345,18 +320,18 @@
         "rank": 20,
         "url": "https://www.thepaper.cn/newsDetail_forward_33803959",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33803959",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           20
         ],
         "rank_timeline": [
           {
             "rank": 20,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -371,18 +346,18 @@
         "rank": 22,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=Peyz%E7%BD%9A%E7%AB%99%E9%81%AD%E9%9C%B8%E5%87%8C%2CT1%E7%B2%89%E8%BD%AC%E9%BB%91&topic_id=28357935",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           22
         ],
         "rank_timeline": [
           {
             "rank": 22,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -397,18 +372,18 @@
         "rank": 24,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%A6%BB%E8%B0%B1%21%E5%B8%82%E6%B0%91%E6%8A%95%E8%AF%89%E6%9C%88%E5%85%89%E5%A4%AA%E4%BA%AE%E7%9D%A1%E4%B8%8D%E7%9D%80&topic_id=28357877",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           24
         ],
         "rank_timeline": [
           {
             "rank": 24,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -423,18 +398,18 @@
         "rank": 2,
         "url": "https://www.toutiao.com/trending/7675219140914826771/",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -442,56 +417,56 @@
         "item_id": "news:2"
       },
       {
-        "id": 24,
-        "title": "假结婚证订制300元起售 可选配另一半",
+        "id": 9,
+        "title": "租房提取公积金取消收入比例门槛",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 24,
-        "url": "https://www.toutiao.com/trending/7674780369124802596/",
+        "rank": 9,
+        "url": "https://www.toutiao.com/trending/7675294052996268095/",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          24
+          9
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "18-57"
+            "rank": 9,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:24"
+        "matched_category": "社会保障",
+        "item_id": "news:9"
       },
       {
-        "id": 27,
+        "id": 28,
         "title": "女子用外卖袋改造空调出风耗电量减半",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 27,
+        "rank": 28,
         "url": "https://www.toutiao.com/trending/7675233067165843492/",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          27
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 27,
-            "crawl_time": "18-57"
+            "rank": 28,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:27"
+        "item_id": "news:28"
       },
       {
         "id": 61,
@@ -501,18 +476,18 @@
         "rank": 1,
         "url": "https://wallstreetcn.com/articles/3779603",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -527,18 +502,18 @@
         "rank": 4,
         "url": "https://wallstreetcn.com/articles/3779638",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -546,56 +521,56 @@
         "item_id": "news:64"
       },
       {
-        "id": 68,
-        "title": "小米Q2收入1089亿元，净利润94.6亿元超预期，存储涨价叠加需求疲软，手机出货量下降26.5% | 财报见闻",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 8,
-        "url": "https://wallstreetcn.com/articles/3779700",
-        "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
-        "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "18-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:68"
-      },
-      {
-        "id": 69,
+        "id": 66,
         "title": "全球股债齐挫！30年期美债收益率创07年以来新高，美股盘前科技股普跌，闪迪跌约4%，油价上行、金银走弱",
         "platform_id": "wallstreetcn-hot",
         "platform_name": "华尔街见闻",
-        "rank": 9,
+        "rank": 6,
         "url": "https://wallstreetcn.com/articles/3779677",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          9
+          6
         ],
         "rank_timeline": [
           {
-            "rank": 9,
-            "crawl_time": "18-57"
+            "rank": 6,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:69"
+        "item_id": "news:66"
+      },
+      {
+        "id": 67,
+        "title": "小米Q2收入1089亿元，净利润94.6亿元超预期，存储涨价叠加需求疲软，手机出货量下降26.5% | 财报见闻",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 7,
+        "url": "https://wallstreetcn.com/articles/3779700",
+        "mobile_url": "",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
+        "crawl_count": 1,
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "19-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:67"
       },
       {
         "id": 177,
@@ -605,18 +580,18 @@
         "rank": 2,
         "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91",
         "mobile_url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91&t=31&band_rank=2&Refer=top",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -624,25 +599,51 @@
         "item_id": "news:177"
       },
       {
+        "id": 180,
+        "title": "住房公积金新政来了",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 5,
+        "url": "https://s.weibo.com/weibo?q=%23%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86%23&t=31&band_rank=5&Refer=top",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
+        "crawl_count": 1,
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
+        "ranks": [
+          5
+        ],
+        "rank_timeline": [
+          {
+            "rank": 5,
+            "crawl_time": "19-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:180"
+      },
+      {
         "id": 182,
-        "title": "租房提取公积金取消收入比例门槛",
+        "title": "公积金条例修改",
         "platform_id": "weibo",
         "platform_name": "微博",
         "rank": 7,
-        "url": "https://s.weibo.com/weibo?q=%23%E7%A7%9F%E6%88%BF%E6%8F%90%E5%8F%96%E5%85%AC%E7%A7%AF%E9%87%91%E5%8F%96%E6%B6%88%E6%94%B6%E5%85%A5%E6%AF%94%E4%BE%8B%E9%97%A8%E6%A7%9B%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%A7%9F%E6%88%BF%E6%8F%90%E5%8F%96%E5%85%AC%E7%A7%AF%E9%87%91%E5%8F%96%E6%B6%88%E6%94%B6%E5%85%A5%E6%AF%94%E4%BE%8B%E9%97%A8%E6%A7%9B%23&t=31&band_rank=7&Refer=top",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91%E6%9D%A1%E4%BE%8B%E4%BF%AE%E6%94%B9",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91%E6%9D%A1%E4%BE%8B%E4%BF%AE%E6%94%B9&t=31&band_rank=7&Refer=top",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "18-57"
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
@@ -650,56 +651,82 @@
         "item_id": "news:182"
       },
       {
-        "id": 240,
-        "title": "BBA 集体大降价，宝马 5 系跌至 28 万、奔驰 E 级优惠超 10 万，传统豪华车的价格体系是如何走向瓦解的？",
+        "id": 241,
+        "title": "官方调整住房公积金政策，租房提取公积金取消收入比例门槛，装修自住住房可提取公积金，哪些变化值得关注？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 5,
-        "url": "https://www.zhihu.com/question/2073013614953359329",
+        "rank": 6,
+        "url": "https://www.zhihu.com/question/2073094932298822565",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          5
+          6
         ],
         "rank_timeline": [
           {
-            "rank": 5,
-            "crawl_time": "18-57"
+            "rank": 6,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:240"
+        "matched_category": "社会保障",
+        "item_id": "news:241"
       },
       {
-        "id": 246,
-        "title": "弟弟举报哥哥冒名顶替上大学案开庭，母亲首发声，湘潭大学重新调查，目前进展如何？",
+        "id": 251,
+        "title": "抛开工资不谈，请问你每天坚持上班的目的是什么？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 11,
-        "url": "https://www.zhihu.com/question/2073017538514871592",
+        "rank": 16,
+        "url": "https://www.zhihu.com/question/2072261461347509905",
         "mobile_url": "",
-        "first_crawl_time": "18-57",
-        "last_crawl_time": "18-57",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
         "crawl_count": 1,
-        "created_at": "2026-08-18 18:57:08",
-        "updated_at": "2026-08-18 18:57:08",
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
         "ranks": [
-          11
+          16
         ],
         "rank_timeline": [
           {
-            "rank": 11,
-            "crawl_time": "18-57"
+            "rank": 16,
+            "crawl_time": "19-52"
           }
         ],
         "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:246"
+        "matched_category": "就业民生",
+        "item_id": "news:251"
+      },
+      {
+        "id": 253,
+        "title": "某酸奶因宣传「促进消化」被罚，酸奶中含有乳酸菌能帮助消化不是常识吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 18,
+        "url": "https://www.zhihu.com/question/2070999506716291233",
+        "mobile_url": "",
+        "first_crawl_time": "19-52",
+        "last_crawl_time": "19-52",
+        "crawl_count": 1,
+        "created_at": "2026-08-18 19:52:19",
+        "updated_at": "2026-08-18 19:52:19",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "19-52"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "肠胃代谢",
+        "item_id": "news:253"
       }
     ],
     "platforms": [
@@ -707,182 +734,185 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-08-18 18:57:08"
+        "updated_at": "2026-08-18 19:52:19"
       }
     ],
     "latest_item_ids": [
-      "news:34",
+      "news:32",
+      "news:39",
       "news:40",
-      "news:53",
-      "news:59",
+      "news:52",
       "news:123",
       "news:124",
-      "news:133",
-      "news:74",
+      "news:75",
       "news:82",
       "news:90",
       "news:167",
       "news:169",
       "news:2",
-      "news:24",
-      "news:27",
+      "news:9",
+      "news:28",
       "news:61",
       "news:64",
-      "news:68",
-      "news:69",
+      "news:66",
+      "news:67",
       "news:177",
+      "news:180",
       "news:182",
-      "news:240",
-      "news:246"
+      "news:241",
+      "news:251",
+      "news:253"
     ],
     "categories": {
       "社会保障": [
-        "news:34",
-        "news:123",
+        "news:32",
+        "news:39",
+        "news:124",
         "news:2",
+        "news:9",
         "news:177",
-        "news:182"
+        "news:180",
+        "news:182",
+        "news:241"
       ],
       "养老生活": [
         "news:40"
       ],
       "就业民生": [
-        "news:53"
-      ],
-      "交通出行": [
-        "news:59",
-        "news:27"
+        "news:52",
+        "news:251"
       ],
       "物价消费": [
-        "news:124",
+        "news:123",
         "news:61",
         "news:64",
-        "news:68",
-        "news:69",
-        "news:240"
-      ],
-      "食物功效": [
-        "news:133"
+        "news:66",
+        "news:67"
       ],
       "住房民生": [
-        "news:74"
+        "news:75"
       ],
       "人口家庭": [
         "news:82",
-        "news:90",
-        "news:24"
+        "news:90"
       ],
       "教育民生": [
         "news:167"
       ],
       "消费维权": [
-        "news:169",
-        "news:246"
+        "news:169"
+      ],
+      "交通出行": [
+        "news:28"
+      ],
+      "肠胃代谢": [
+        "news:253"
       ]
     },
     "latest_categories": {
       "社会保障": [
-        "news:34",
-        "news:123",
+        "news:32",
+        "news:39",
+        "news:124",
         "news:2",
+        "news:9",
         "news:177",
-        "news:182"
+        "news:180",
+        "news:182",
+        "news:241"
       ],
       "养老生活": [
         "news:40"
       ],
       "就业民生": [
-        "news:53"
-      ],
-      "交通出行": [
-        "news:59",
-        "news:27"
+        "news:52",
+        "news:251"
       ],
       "物价消费": [
-        "news:124",
+        "news:123",
         "news:61",
         "news:64",
-        "news:68",
-        "news:69",
-        "news:240"
-      ],
-      "食物功效": [
-        "news:133"
+        "news:66",
+        "news:67"
       ],
       "住房民生": [
-        "news:74"
+        "news:75"
       ],
       "人口家庭": [
         "news:82",
-        "news:90",
-        "news:24"
+        "news:90"
       ],
       "教育民生": [
         "news:167"
       ],
       "消费维权": [
-        "news:169",
-        "news:246"
+        "news:169"
+      ],
+      "交通出行": [
+        "news:28"
+      ],
+      "肠胃代谢": [
+        "news:253"
       ]
     },
     "raw_count": 255,
@@ -890,7 +920,7 @@
   },
   "rss": {
     "date": "2026-08-18",
-    "latest_crawl_time": "18:57",
+    "latest_crawl_time": "19:52",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -903,7 +933,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-08-18 18:57:09"
+        "updated_at": "2026-08-18 19:52:20"
       },
       {
         "id": "yahoo-finance",
@@ -913,13 +943,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-08-18 18:57:09"
+        "updated_at": "2026-08-18 19:52:20"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 69,
-    "raw_latest_count": 69
+    "raw_count": 70,
+    "raw_latest_count": 70
   }
 }

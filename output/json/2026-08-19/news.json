@@ -1,68 +1,71 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-19T19:51:34.727798+08:00",
+  "generated_at": "2026-08-19T21:25:56.206056+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "32249609659",
-    "run_number": "870",
+    "run_id": "32257974454",
+    "run_number": "871",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-08-19",
-  "crawl_time": "19-51",
+  "crawl_time": "21-25",
   "counts": {
-    "news": 22,
-    "latest_news": 22,
+    "news": 28,
+    "latest_news": 28,
     "rss": 0,
     "latest_rss": 0,
-    "total": 22,
-    "latest_total": 22,
+    "total": 28,
+    "latest_total": 28,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 68,
-    "raw_latest_rss": 68
+    "raw_rss": 60,
+    "raw_latest_rss": 60
   },
   "categories": {
-    "消费维权": {
-      "news": [
-        "news:32",
-        "news:238"
-      ],
-      "rss": []
-    },
-    "医疗健康": {
+    "社会保障": {
       "news": [
         "news:33",
-        "news:3",
+        "news:60",
         "news:178"
-      ],
-      "rss": []
-    },
-    "安全灾害": {
-      "news": [
-        "news:41",
-        "news:53",
-        "news:209",
-        "news:11"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:49",
-        "news:87",
+        "news:34",
+        "news:88",
         "news:89",
-        "news:151",
-        "news:19",
-        "news:20",
+        "news:152",
+        "news:15",
+        "news:243",
+        "news:253",
         "news:254"
       ],
       "rss": []
     },
-    "社会保障": {
+    "安全灾害": {
       "news": [
-        "news:54",
-        "news:98"
+        "news:39",
+        "news:41",
+        "news:207",
+        "news:11"
+      ],
+      "rss": []
+    },
+    "医疗健康": {
+      "news": [
+        "news:46",
+        "news:127",
+        "news:192",
+        "news:204"
+      ],
+      "rss": []
+    },
+    "交通出行": {
+      "news": [
+        "news:58",
+        "news:146"
       ],
       "rss": []
     },
@@ -72,15 +75,16 @@
       ],
       "rss": []
     },
-    "交通出行": {
+    "人口家庭": {
       "news": [
-        "news:146"
+        "news:77",
+        "news:181"
       ],
       "rss": []
     },
-    "人口家庭": {
+    "教育民生": {
       "news": [
-        "news:177"
+        "news:13"
       ],
       "rss": []
     },
@@ -89,65 +93,98 @@
         "news:237"
       ],
       "rss": []
+    },
+    "消费维权": {
+      "news": [
+        "news:247",
+        "news:252"
+      ],
+      "rss": []
     }
   },
   "news": {
     "date": "2026-08-19",
-    "latest_crawl_time": "19-51",
-    "count": 22,
-    "latest_count": 22,
+    "latest_crawl_time": "21-25",
+    "count": 28,
+    "latest_count": 28,
     "items": [
       {
-        "id": 32,
-        "title": "“仅退款”的风吹到了医院",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 2,
-        "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BB%85%E9%80%80%E6%AC%BE%E2%80%9D%E7%9A%84%E9%A3%8E%E5%90%B9%E5%88%B0%E4%BA%86%E5%8C%BB%E9%99%A2",
-        "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
-        "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
-        "ranks": [
-          2
-        ],
-        "rank_timeline": [
-          {
-            "rank": 2,
-            "crawl_time": "19-51"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:32"
-      },
-      {
         "id": 33,
-        "title": "全民医保“十五五”规划来了",
+        "title": "公积金新政来了 有哪些利好",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 3,
-        "url": "https://www.baidu.com/s?wd=%E5%85%A8%E6%B0%91%E5%8C%BB%E4%BF%9D%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92%E6%9D%A5%E4%BA%86",
+        "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86+%E6%9C%89%E5%93%AA%E4%BA%9B%E5%88%A9%E5%A5%BD",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
-        "matched_category": "医疗健康",
+        "matched_category": "社会保障",
         "item_id": "news:33"
+      },
+      {
+        "id": 34,
+        "title": "多地宣布：调整最低工资标准",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 4,
+        "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%AE%A3%E5%B8%83%EF%BC%9A%E8%B0%83%E6%95%B4%E6%9C%80%E4%BD%8E%E5%B7%A5%E8%B5%84%E6%A0%87%E5%87%86",
+        "mobile_url": "",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:34"
+      },
+      {
+        "id": 39,
+        "title": "暴雨后大爷拿鱼叉抓鱼叉中十斤大鱼",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 9,
+        "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E5%90%8E%E5%A4%A7%E7%88%B7%E6%8B%BF%E9%B1%BC%E5%8F%89%E6%8A%93%E9%B1%BC%E5%8F%89%E4%B8%AD%E5%8D%81%E6%96%A4%E5%A4%A7%E9%B1%BC",
+        "mobile_url": "",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:39"
       },
       {
         "id": 41,
@@ -157,18 +194,18 @@
         "rank": 11,
         "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8F%B0%E9%A3%8E%E5%90%B9%E8%90%BD%E9%A3%8E%E5%8A%9B%E5%8F%91%E7%94%B5%E6%9C%BA%E7%9A%84%E6%A1%A8%E5%8F%B6%E2%80%9D%E4%B8%8D%E5%AE%9E",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -176,108 +213,82 @@
         "item_id": "news:41"
       },
       {
-        "id": 49,
-        "title": "多地宣布：调整最低工资标准",
+        "id": 46,
+        "title": "男子直肠癌手术三年后喝酒 医生提醒",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 19,
-        "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%AE%A3%E5%B8%83%EF%BC%9A%E8%B0%83%E6%95%B4%E6%9C%80%E4%BD%8E%E5%B7%A5%E8%B5%84%E6%A0%87%E5%87%86",
+        "rank": 16,
+        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%9B%B4%E8%82%A0%E7%99%8C%E6%89%8B%E6%9C%AF%E4%B8%89%E5%B9%B4%E5%90%8E%E5%96%9D%E9%85%92+%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          19
+          16
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "19-51"
+            "rank": 16,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:49"
+        "matched_category": "医疗健康",
+        "item_id": "news:46"
       },
       {
-        "id": 53,
-        "title": "暴雨后大爷拿鱼叉抓鱼叉中十斤大鱼",
+        "id": 58,
+        "title": "班主任出嫁学生组电动车队一路护送",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 23,
-        "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E5%90%8E%E5%A4%A7%E7%88%B7%E6%8B%BF%E9%B1%BC%E5%8F%89%E6%8A%93%E9%B1%BC%E5%8F%89%E4%B8%AD%E5%8D%81%E6%96%A4%E5%A4%A7%E9%B1%BC",
+        "rank": 28,
+        "url": "https://www.baidu.com/s?wd=%E7%8F%AD%E4%B8%BB%E4%BB%BB%E5%87%BA%E5%AB%81%E5%AD%A6%E7%94%9F%E7%BB%84%E7%94%B5%E5%8A%A8%E8%BD%A6%E9%98%9F%E4%B8%80%E8%B7%AF%E6%8A%A4%E9%80%81",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          23
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "19-51"
+            "rank": 28,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:53"
+        "matched_category": "交通出行",
+        "item_id": "news:58"
       },
       {
-        "id": 54,
-        "title": "公积金新政来了 有哪些利好",
+        "id": 60,
+        "title": "公积金改革大潮",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 24,
-        "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86+%E6%9C%89%E5%93%AA%E4%BA%9B%E5%88%A9%E5%A5%BD",
+        "rank": 30,
+        "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%94%B9%E9%9D%A9%E5%A4%A7%E6%BD%AE",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          24
+          30
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "19-51"
+            "rank": 30,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "社会保障",
-        "item_id": "news:54"
-      },
-      {
-        "id": 98,
-        "title": "住房公积金制度改了什么",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 8,
-        "url": "https://search.bilibili.com/all?keyword=%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E5%88%B6%E5%BA%A6%E6%94%B9%E4%BA%86%E4%BB%80%E4%B9%88",
-        "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
-        "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "19-51"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:98"
+        "item_id": "news:60"
       },
       {
         "id": 124,
@@ -287,18 +298,18 @@
         "rank": 4,
         "url": "https://www.cls.cn/detail/2458228",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -306,77 +317,129 @@
         "item_id": "news:124"
       },
       {
-        "id": 209,
-        "title": "今年第18号台风沙德尔生成",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 4,
-        "url": "https://www.douyin.com/hot/2615479",
+        "id": 127,
+        "title": "莫德纳股价盘前暴涨超80% 个性化癌症疫苗III期传来重磅利好",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 7,
+        "url": "https://www.cls.cn/detail/2458597",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          4
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 4,
-            "crawl_time": "19-51"
+            "rank": 7,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "医疗健康",
+        "item_id": "news:127"
+      },
+      {
+        "id": 207,
+        "title": "今年第18号台风沙德尔生成",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 2,
+        "url": "https://www.douyin.com/hot/2615479",
+        "mobile_url": "",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:209"
+        "item_id": "news:207"
       },
       {
-        "id": 87,
-        "title": "胖东来澄清“无门槛招聘刑满释放人员”：排除性侵等恶性犯罪前科人员",
+        "id": 77,
+        "title": "涉王星案！跨境人口贩卖集团17名犯罪嫌疑人被提起公诉",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 17,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33808245",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33808245",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "rank": 7,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33809894",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33809894",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          17
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 17,
-            "crawl_time": "19-51"
+            "rank": 7,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:77"
+      },
+      {
+        "id": 88,
+        "title": "教师招聘笔试前13名落选、后5名进体检名单？佛山通报",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 18,
+        "url": "https://www.thepaper.cn/newsDetail_forward_33810219",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33810219",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:87"
+        "item_id": "news:88"
       },
       {
         "id": 89,
-        "title": "教师招聘笔试前13名落选、后5名进体检名单？佛山通报",
+        "title": "胖东来澄清“无门槛招聘刑满释放人员”：排除性侵等恶性犯罪前科人员",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
         "rank": 19,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33810219",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33810219",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33808245",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33808245",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           19
         ],
         "rank_timeline": [
           {
             "rank": 19,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -391,18 +454,18 @@
         "rank": 1,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%B7%91%E5%A4%96%E5%8D%96%2C3%E5%A4%A9%E5%80%92%E4%BA%8F700%E5%85%83&topic_id=28358893",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -410,56 +473,30 @@
         "item_id": "news:146"
       },
       {
-        "id": 151,
+        "id": 152,
         "title": "胖东来招聘不含性侵犯罪人员",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 6,
+        "rank": 7,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E8%83%96%E4%B8%9C%E6%9D%A5%E6%8B%9B%E8%81%98%E4%B8%8D%E5%90%AB%E6%80%A7%E4%BE%B5%E7%8A%AF%E7%BD%AA%E4%BA%BA%E5%91%98&topic_id=28358767",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          6
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "19-51"
+            "rank": 7,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:151"
-      },
-      {
-        "id": 3,
-        "title": "未来5年，优化医保便民这么干",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 3,
-        "url": "https://www.toutiao.com/trending/7675628132103376410/",
-        "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
-        "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
-        "ranks": [
-          3
-        ],
-        "rank_timeline": [
-          {
-            "rank": 3,
-            "crawl_time": "19-51"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:3"
+        "item_id": "news:152"
       },
       {
         "id": 11,
@@ -469,18 +506,18 @@
         "rank": 11,
         "url": "https://www.toutiao.com/trending/7675346146596077622/",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -488,108 +525,160 @@
         "item_id": "news:11"
       },
       {
-        "id": 19,
-        "title": "官方通报教师招聘笔试前13名全淘汰",
+        "id": 13,
+        "title": "贵州一村庄升学宴“瘦身”",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 19,
-        "url": "https://www.toutiao.com/trending/7675667566118833710/",
+        "rank": 13,
+        "url": "https://www.toutiao.com/trending/7675636385378041862/",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          19
+          13
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "19-51"
+            "rank": 13,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:19"
+        "matched_category": "教育民生",
+        "item_id": "news:13"
       },
       {
-        "id": 20,
+        "id": 15,
         "title": "胖东来招聘不包含性侵犯罪人员",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 20,
+        "rank": 15,
         "url": "https://www.toutiao.com/trending/7674576291556802586/",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          20
+          15
         ],
         "rank_timeline": [
           {
-            "rank": 20,
-            "crawl_time": "19-51"
+            "rank": 15,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:20"
-      },
-      {
-        "id": 177,
-        "title": "男子将遗产全部留给弟弟不给妻儿",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 2,
-        "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%B0%86%E9%81%97%E4%BA%A7%E5%85%A8%E9%83%A8%E7%95%99%E7%BB%99%E5%BC%9F%E5%BC%9F%E4%B8%8D%E7%BB%99%E5%A6%BB%E5%84%BF%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%B0%86%E9%81%97%E4%BA%A7%E5%85%A8%E9%83%A8%E7%95%99%E7%BB%99%E5%BC%9F%E5%BC%9F%E4%B8%8D%E7%BB%99%E5%A6%BB%E5%84%BF%23&t=31&band_rank=2&Refer=top",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
-        "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
-        "ranks": [
-          2
-        ],
-        "rank_timeline": [
-          {
-            "rank": 2,
-            "crawl_time": "19-51"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:177"
+        "item_id": "news:15"
       },
       {
         "id": 178,
-        "title": "未来5年全民医保这样干",
+        "title": "公积金此次变化意味着什么",
         "platform_id": "weibo",
         "platform_name": "微博",
         "rank": 3,
-        "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E5%85%A8%E6%B0%91%E5%8C%BB%E4%BF%9D%E8%BF%99%E6%A0%B7%E5%B9%B2%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E5%85%A8%E6%B0%91%E5%8C%BB%E4%BF%9D%E8%BF%99%E6%A0%B7%E5%B9%B2%23&t=31&band_rank=3&Refer=top",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E7%A7%AF%E9%87%91%E6%AD%A4%E6%AC%A1%E5%8F%98%E5%8C%96%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E7%A7%AF%E9%87%91%E6%AD%A4%E6%AC%A1%E5%8F%98%E5%8C%96%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88%23&t=31&band_rank=3&Refer=top",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:178"
+      },
+      {
+        "id": 181,
+        "title": "男子将遗产全部留给弟弟不给妻儿",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 6,
+        "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%B0%86%E9%81%97%E4%BA%A7%E5%85%A8%E9%83%A8%E7%95%99%E7%BB%99%E5%BC%9F%E5%BC%9F%E4%B8%8D%E7%BB%99%E5%A6%BB%E5%84%BF%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%B0%86%E9%81%97%E4%BA%A7%E5%85%A8%E9%83%A8%E7%95%99%E7%BB%99%E5%BC%9F%E5%BC%9F%E4%B8%8D%E7%BB%99%E5%A6%BB%E5%84%BF%23&t=31&band_rank=6&Refer=top",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:181"
+      },
+      {
+        "id": 192,
+        "title": "仅退款的风吹到了医疗界",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 17,
+        "url": "https://s.weibo.com/weibo?q=%23%E4%BB%85%E9%80%80%E6%AC%BE%E7%9A%84%E9%A3%8E%E5%90%B9%E5%88%B0%E4%BA%86%E5%8C%BB%E7%96%97%E7%95%8C%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E4%BB%85%E9%80%80%E6%AC%BE%E7%9A%84%E9%A3%8E%E5%90%B9%E5%88%B0%E4%BA%86%E5%8C%BB%E7%96%97%E7%95%8C%23&t=31&band_rank=17&Refer=top",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:178"
+        "item_id": "news:192"
+      },
+      {
+        "id": 204,
+        "title": "卫生院员工倒卖38万条儿童家长信息",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 29,
+        "url": "https://s.weibo.com/weibo?q=%E5%8D%AB%E7%94%9F%E9%99%A2%E5%91%98%E5%B7%A5%E5%80%92%E5%8D%9638%E4%B8%87%E6%9D%A1%E5%84%BF%E7%AB%A5%E5%AE%B6%E9%95%BF%E4%BF%A1%E6%81%AF",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8D%AB%E7%94%9F%E9%99%A2%E5%91%98%E5%B7%A5%E5%80%92%E5%8D%9638%E4%B8%87%E6%9D%A1%E5%84%BF%E7%AB%A5%E5%AE%B6%E9%95%BF%E4%BF%A1%E6%81%AF&t=31&band_rank=29&Refer=top",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "医疗健康",
+        "item_id": "news:204"
       },
       {
         "id": 237,
@@ -599,18 +688,18 @@
         "rank": 2,
         "url": "https://www.zhihu.com/question/2073315945364156524",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -618,51 +707,129 @@
         "item_id": "news:237"
       },
       {
-        "id": 238,
-        "title": "弟弟举报哥哥冒名上大学案开庭，母亲称弟弟嫌农村人穷，究竟谁在说谎？",
+        "id": 243,
+        "title": "佛山通报「教师招聘笔试后 5 名进体检」，区教育局局长、副局长被立案调查，将重新面试，哪些信息值得关注？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 3,
-        "url": "https://www.zhihu.com/question/2073048947094992599",
+        "rank": 8,
+        "url": "https://www.zhihu.com/question/2073462270726595030",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
-          3
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 3,
-            "crawl_time": "19-51"
+            "rank": 8,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:243"
+      },
+      {
+        "id": 247,
+        "title": "弟弟举报哥哥冒名上大学案开庭，母亲称弟弟嫌农村人穷，究竟谁在说谎？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 12,
+        "url": "https://www.zhihu.com/question/2073048947094992599",
+        "mobile_url": "",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          12
+        ],
+        "rank_timeline": [
+          {
+            "rank": 12,
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
         "matched_category": "消费维权",
-        "item_id": "news:238"
+        "item_id": "news:247"
+      },
+      {
+        "id": 252,
+        "title": "女子隆胸术后一周查出怀孕五周，认为医院术前检查不到位要求退款，院方予以拒绝，如何从法律角度解读？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 17,
+        "url": "https://www.zhihu.com/question/2071567464362676269",
+        "mobile_url": "",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:252"
+      },
+      {
+        "id": 253,
+        "title": "反诈老陈称线上收入难以维持生活，将线下求职，他的转型困境反映了哪些问题？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 18,
+        "url": "https://www.zhihu.com/question/2073385154072897039",
+        "mobile_url": "",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
+        "crawl_count": 1,
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "21-25"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:253"
       },
       {
         "id": 254,
-        "title": "九部门联手力挺县域消费，推动就业创业、增强城镇市场消费力，县域经济要迎来新风口了吗？",
+        "title": "胖东来再招聘刑释人员的「刑期五年以上」门槛引质疑，这在法律上是什么程度？如何平衡社会责任与公众担忧？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
         "rank": 19,
-        "url": "https://www.zhihu.com/question/2073086191856100727",
+        "url": "https://www.zhihu.com/question/2073379443104538730",
         "mobile_url": "",
-        "first_crawl_time": "19-51",
-        "last_crawl_time": "19-51",
+        "first_crawl_time": "21-25",
+        "last_crawl_time": "21-25",
         "crawl_count": 1,
-        "created_at": "2026-08-19 19:51:30",
-        "updated_at": "2026-08-19 19:51:30",
+        "created_at": "2026-08-19 21:25:51",
+        "updated_at": "2026-08-19 21:25:51",
         "ranks": [
           19
         ],
         "rank_timeline": [
           {
             "rank": 19,
-            "crawl_time": "19-51"
+            "crawl_time": "21-25"
           }
         ],
         "is_latest": true,
@@ -675,175 +842,197 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-08-19 19:51:30"
+        "updated_at": "2026-08-19 21:25:51"
       }
     ],
     "latest_item_ids": [
-      "news:32",
       "news:33",
+      "news:34",
+      "news:39",
       "news:41",
-      "news:49",
-      "news:53",
-      "news:54",
-      "news:98",
+      "news:46",
+      "news:58",
+      "news:60",
       "news:124",
-      "news:209",
-      "news:87",
+      "news:127",
+      "news:207",
+      "news:77",
+      "news:88",
       "news:89",
       "news:146",
-      "news:151",
-      "news:3",
+      "news:152",
       "news:11",
-      "news:19",
-      "news:20",
-      "news:177",
+      "news:13",
+      "news:15",
       "news:178",
+      "news:181",
+      "news:192",
+      "news:204",
       "news:237",
-      "news:238",
+      "news:243",
+      "news:247",
+      "news:252",
+      "news:253",
       "news:254"
     ],
     "categories": {
-      "消费维权": [
-        "news:32",
-        "news:238"
-      ],
-      "医疗健康": [
+      "社会保障": [
         "news:33",
-        "news:3",
+        "news:60",
         "news:178"
       ],
-      "安全灾害": [
-        "news:41",
-        "news:53",
-        "news:209",
-        "news:11"
-      ],
       "就业民生": [
-        "news:49",
-        "news:87",
+        "news:34",
+        "news:88",
         "news:89",
-        "news:151",
-        "news:19",
-        "news:20",
+        "news:152",
+        "news:15",
+        "news:243",
+        "news:253",
         "news:254"
       ],
-      "社会保障": [
-        "news:54",
-        "news:98"
+      "安全灾害": [
+        "news:39",
+        "news:41",
+        "news:207",
+        "news:11"
+      ],
+      "医疗健康": [
+        "news:46",
+        "news:127",
+        "news:192",
+        "news:204"
+      ],
+      "交通出行": [
+        "news:58",
+        "news:146"
       ],
       "物价消费": [
         "news:124"
       ],
-      "交通出行": [
-        "news:146"
-      ],
       "人口家庭": [
-        "news:177"
+        "news:77",
+        "news:181"
+      ],
+      "教育民生": [
+        "news:13"
       ],
       "养老金政策": [
         "news:237"
+      ],
+      "消费维权": [
+        "news:247",
+        "news:252"
       ]
     },
     "latest_categories": {
-      "消费维权": [
-        "news:32",
-        "news:238"
-      ],
-      "医疗健康": [
+      "社会保障": [
         "news:33",
-        "news:3",
+        "news:60",
         "news:178"
       ],
-      "安全灾害": [
-        "news:41",
-        "news:53",
-        "news:209",
-        "news:11"
-      ],
       "就业民生": [
-        "news:49",
-        "news:87",
+        "news:34",
+        "news:88",
         "news:89",
-        "news:151",
-        "news:19",
-        "news:20",
+        "news:152",
+        "news:15",
+        "news:243",
+        "news:253",
         "news:254"
       ],
-      "社会保障": [
-        "news:54",
-        "news:98"
+      "安全灾害": [
+        "news:39",
+        "news:41",
+        "news:207",
+        "news:11"
+      ],
+      "医疗健康": [
+        "news:46",
+        "news:127",
+        "news:192",
+        "news:204"
+      ],
+      "交通出行": [
+        "news:58",
+        "news:146"
       ],
       "物价消费": [
         "news:124"
       ],
-      "交通出行": [
-        "news:146"
-      ],
       "人口家庭": [
-        "news:177"
+        "news:77",
+        "news:181"
+      ],
+      "教育民生": [
+        "news:13"
       ],
       "养老金政策": [
         "news:237"
+      ],
+      "消费维权": [
+        "news:247",
+        "news:252"
       ]
     },
     "raw_count": 255,
@@ -851,7 +1040,7 @@
   },
   "rss": {
     "date": "2026-08-19",
-    "latest_crawl_time": "19:51",
+    "latest_crawl_time": "21:25",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -864,7 +1053,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-08-19 19:51:31"
+        "updated_at": "2026-08-19 21:25:53"
       },
       {
         "id": "yahoo-finance",
@@ -874,13 +1063,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-08-19 19:51:31"
+        "updated_at": "2026-08-19 21:25:53"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 68,
-    "raw_latest_count": 68
+    "raw_count": 60,
+    "raw_latest_count": 60
   }
 }

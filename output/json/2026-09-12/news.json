@@ -1,213 +1,164 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-12T08:29:56.189798+08:00",
+  "generated_at": "2026-09-12T12:54:31.605227+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "34661786653",
-    "run_number": "1123",
+    "run_id": "34674194906",
+    "run_number": "1124",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-09-12",
-  "crawl_time": "08-29",
+  "crawl_time": "12-54",
   "counts": {
-    "news": 25,
-    "latest_news": 25,
+    "news": 17,
+    "latest_news": 17,
     "rss": 0,
     "latest_rss": 0,
-    "total": 25,
-    "latest_total": 25,
-    "raw_news": 255,
-    "raw_latest_news": 255,
-    "raw_rss": 70,
-    "raw_latest_rss": 70
+    "total": 17,
+    "latest_total": 17,
+    "raw_news": 254,
+    "raw_latest_news": 254,
+    "raw_rss": 69,
+    "raw_latest_rss": 69
   },
   "categories": {
-    "常见疾病": {
+    "安全灾害": {
       "news": [
-        "news:48",
-        "news:15"
+        "news:36",
+        "news:90",
+        "news:26",
+        "news:70",
+        "news:178",
+        "news:203"
+      ],
+      "rss": []
+    },
+    "养老生活": {
+      "news": [
+        "news:57"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
-        "news:54",
-        "news:124",
         "news:126",
-        "news:231",
-        "news:173",
+        "news:127",
         "news:62",
-        "news:63",
-        "news:65",
-        "news:198"
+        "news:63"
       ],
       "rss": []
     },
-    "安全灾害": {
+    "常见疾病": {
       "news": [
-        "news:209",
-        "news:164",
-        "news:21"
+        "news:130"
       ],
       "rss": []
     },
     "交通出行": {
       "news": [
-        "news:86"
-      ],
-      "rss": []
-    },
-    "住房民生": {
-      "news": [
-        "news:171"
-      ],
-      "rss": []
-    },
-    "肠胃代谢": {
-      "news": [
-        "news:9",
-        "news:197",
-        "news:255"
-      ],
-      "rss": []
-    },
-    "就业民生": {
-      "news": [
-        "news:26",
-        "news:66"
-      ],
-      "rss": []
-    },
-    "消费维权": {
-      "news": [
-        "news:177"
-      ],
-      "rss": []
-    },
-    "医疗健康": {
-      "news": [
-        "news:186"
+        "news:11",
+        "news:241"
       ],
       "rss": []
     },
     "人群营养": {
       "news": [
-        "news:193"
+        "news:191"
       ],
       "rss": []
     },
-    "食物功效": {
+    "肠胃代谢": {
       "news": [
-        "news:253"
+        "news:196"
+      ],
+      "rss": []
+    },
+    "就业民生": {
+      "news": [
+        "news:244"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-09-12",
-    "latest_crawl_time": "08-29",
-    "count": 25,
-    "latest_count": 25,
+    "latest_crawl_time": "12-54",
+    "count": 17,
+    "latest_count": 17,
     "items": [
       {
-        "id": 48,
-        "title": "中国糖尿病患者人数突破两亿",
+        "id": 36,
+        "title": "宁波大学开学典礼暴雨 校长只讲3句话",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 18,
-        "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%B3%96%E5%B0%BF%E7%97%85%E6%82%A3%E8%80%85%E4%BA%BA%E6%95%B0%E7%AA%81%E7%A0%B4%E4%B8%A4%E4%BA%BF",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          18
-        ],
-        "rank_timeline": [
-          {
-            "rank": 18,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "常见疾病",
-        "item_id": "news:48"
-      },
-      {
-        "id": 54,
-        "title": "雀巢宣布涨价",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 24,
-        "url": "https://www.baidu.com/s?wd=%E9%9B%80%E5%B7%A2%E5%AE%A3%E5%B8%83%E6%B6%A8%E4%BB%B7",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          24
-        ],
-        "rank_timeline": [
-          {
-            "rank": 24,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:54"
-      },
-      {
-        "id": 124,
-        "title": "霍尔木兹传来新消息？伊朗与海湾六国下周会晤 油价应声走低",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 4,
-        "url": "https://www.cls.cn/detail/2480923",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:124"
-      },
-      {
-        "id": 126,
-        "title": "美国8月CPI基本符合预期 国际油价大幅回落 | 今夜看点",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
         "rank": 6,
-        "url": "https://www.cls.cn/detail/2481177",
+        "url": "https://www.baidu.com/s?wd=%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E6%9A%B4%E9%9B%A8+%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
           6
         ],
         "rank_timeline": [
           {
             "rank": 6,
-            "crawl_time": "08-29"
+            "crawl_time": "12-54"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:36"
+      },
+      {
+        "id": 57,
+        "title": "老人住每月4千养老院却因热射病离世",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 27,
+        "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E4%BD%8F%E6%AF%8F%E6%9C%884%E5%8D%83%E5%85%BB%E8%80%81%E9%99%A2%E5%8D%B4%E5%9B%A0%E7%83%AD%E5%B0%84%E7%97%85%E7%A6%BB%E4%B8%96",
+        "mobile_url": "",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
+        "crawl_count": 1,
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "12-54"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:57"
+      },
+      {
+        "id": 126,
+        "title": "霍尔木兹传来新消息？伊朗与海湾六国下周会晤 油价应声走低",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 6,
+        "url": "https://www.cls.cn/detail/2480923",
+        "mobile_url": "",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
+        "crawl_count": 1,
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
@@ -215,263 +166,133 @@
         "item_id": "news:126"
       },
       {
-        "id": 209,
-        "title": "第25号台风杜鹃或将生成",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 4,
-        "url": "https://www.douyin.com/hot/2645707",
+        "id": 127,
+        "title": "美国8月CPI基本符合预期 国际油价大幅回落 | 今夜看点",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 7,
+        "url": "https://www.cls.cn/detail/2481177",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          4
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 4,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:209"
-      },
-      {
-        "id": 231,
-        "title": "国家对成品油价格实施调控",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 26,
-        "url": "https://www.douyin.com/hot/2645021",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          26
-        ],
-        "rank_timeline": [
-          {
-            "rank": 26,
-            "crawl_time": "08-29"
+            "rank": 7,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:231"
+        "item_id": "news:127"
       },
       {
-        "id": 86,
-        "title": "把学开电动车纳入军训，华南农业大学军训创新受好评说明了什么？",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 16,
-        "url": "https://www.thepaper.cn/newsDetail_forward_33982451",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_33982451",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:86"
-      },
-      {
-        "id": 164,
-        "title": "青岛货轮火灾致25人死亡",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 19,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%9D%92%E5%B2%9B%E8%B4%A7%E8%BD%AE%E7%81%AB%E7%81%BE%E8%87%B425%E4%BA%BA%E6%AD%BB%E4%BA%A1&topic_id=28363486",
+        "id": 130,
+        "title": "“减肥神药”获批国内脂肪肝适应症后，GLP-1还有哪些潜能？",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 10,
+        "url": "https://www.cls.cn/detail/2480571",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          19
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:164"
-      },
-      {
-        "id": 171,
-        "title": "房贷还不起,女子喊男友收房",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 26,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%88%BF%E8%B4%B7%E8%BF%98%E4%B8%8D%E8%B5%B7%2C%E5%A5%B3%E5%AD%90%E5%96%8A%E7%94%B7%E5%8F%8B%E6%94%B6%E6%88%BF&topic_id=28363399",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          26
-        ],
-        "rank_timeline": [
-          {
-            "rank": 26,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "住房民生",
-        "item_id": "news:171"
-      },
-      {
-        "id": 173,
-        "title": "周边降价清仓,尘白疑要跑路",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 28,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%91%A8%E8%BE%B9%E9%99%8D%E4%BB%B7%E6%B8%85%E4%BB%93%2C%E5%B0%98%E7%99%BD%E7%96%91%E8%A6%81%E8%B7%91%E8%B7%AF&topic_id=28363452",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          28
-        ],
-        "rank_timeline": [
-          {
-            "rank": 28,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:173"
-      },
-      {
-        "id": 9,
-        "title": "起床后这4个表现提示你血脂可能超标",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 9,
-        "url": "https://www.toutiao.com/trending/7684097757912875062/",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "肠胃代谢",
-        "item_id": "news:9"
-      },
-      {
-        "id": 15,
-        "title": "35岁男子天天熬夜到凌晨突发心梗",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 15,
-        "url": "https://www.toutiao.com/trending/7684051038885888046/",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          15
-        ],
-        "rank_timeline": [
-          {
-            "rank": 15,
-            "crawl_time": "08-29"
+            "rank": 10,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
         "matched_category": "常见疾病",
-        "item_id": "news:15"
+        "item_id": "news:130"
       },
       {
-        "id": 21,
-        "title": "开学典礼遇暴雨 校长发言只说三句话",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 21,
-        "url": "https://www.toutiao.com/trending/7683788157783015466/",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "id": 90,
+        "title": "言短意长｜《突发：唐山地震》这个报道一定要发么？",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 20,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34050264",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34050264",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          21
+          20
         ],
         "rank_timeline": [
           {
-            "rank": 21,
-            "crawl_time": "08-29"
+            "rank": 20,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:21"
+        "item_id": "news:90"
+      },
+      {
+        "id": 11,
+        "title": "外卖员往饮料里加百草枯？假的",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 11,
+        "url": "https://www.toutiao.com/trending/7684215508028440617/",
+        "mobile_url": "",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
+        "crawl_count": 1,
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "12-54"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:11"
       },
       {
         "id": 26,
-        "title": "周星驰御用配角求职做景区NPC",
+        "title": "广东将有大雨局部暴雨 新台风或生成",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 26,
-        "url": "https://www.toutiao.com/trending/7684146637917192228/",
+        "url": "https://www.toutiao.com/trending/7684427997630104110/",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
           26
         ],
         "rank_timeline": [
           {
             "rank": 26,
-            "crawl_time": "08-29"
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
+        "matched_category": "安全灾害",
         "item_id": "news:26"
       },
       {
@@ -482,18 +303,18 @@
         "rank": 2,
         "url": "https://wallstreetcn.com/articles/3781549",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
           2
         ],
         "rank_timeline": [
           {
             "rank": 2,
-            "crawl_time": "08-29"
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
@@ -508,18 +329,18 @@
         "rank": 3,
         "url": "https://wallstreetcn.com/articles/3781565",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "08-29"
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
@@ -527,238 +348,186 @@
         "item_id": "news:63"
       },
       {
-        "id": 65,
-        "title": "油价逼近110+贝森特“帮倒忙”+特朗普“发钱”=“股债双杀”！",
+        "id": 70,
+        "title": "IEA警告：伊朗战争拖累石油需求创疫情后最大降幅，警告未来数月恐进一步走弱",
         "platform_id": "wallstreetcn-hot",
         "platform_name": "华尔街见闻",
-        "rank": 5,
-        "url": "https://wallstreetcn.com/articles/3781540",
+        "rank": 10,
+        "url": "https://wallstreetcn.com/articles/3781588",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          5
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 5,
-            "crawl_time": "08-29"
+            "rank": 10,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:65"
+        "matched_category": "安全灾害",
+        "item_id": "news:70"
       },
       {
-        "id": 66,
-        "title": "研究员要失业了？OpenAI推出金融版ChatGPT，研究、建模、PPT一站式完成",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 6,
-        "url": "https://wallstreetcn.com/articles/3781534",
-        "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:66"
-      },
-      {
-        "id": 177,
-        "title": "举报考古文物失踪后店铺遭轮番查",
+        "id": 178,
+        "title": "宁波大学开学典礼突降暴雨校长只讲3句话",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 2,
-        "url": "https://s.weibo.com/weibo?q=%23%E4%B8%BE%E6%8A%A5%E8%80%83%E5%8F%A4%E6%96%87%E7%89%A9%E5%A4%B1%E8%B8%AA%E5%90%8E%E5%BA%97%E9%93%BA%E9%81%AD%E8%BD%AE%E7%95%AA%E6%9F%A5%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E4%B8%BE%E6%8A%A5%E8%80%83%E5%8F%A4%E6%96%87%E7%89%A9%E5%A4%B1%E8%B8%AA%E5%90%8E%E5%BA%97%E9%93%BA%E9%81%AD%E8%BD%AE%E7%95%AA%E6%9F%A5%23&t=31&band_rank=2&Refer=top",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "rank": 4,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%AA%81%E9%99%8D%E6%9A%B4%E9%9B%A8%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D%23&t=31&band_rank=4&Refer=top",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          2
+          4
         ],
         "rank_timeline": [
           {
-            "rank": 2,
-            "crawl_time": "08-29"
+            "rank": 4,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:177"
+        "matched_category": "安全灾害",
+        "item_id": "news:178"
       },
       {
-        "id": 186,
-        "title": "长沙查封代孕手术室执法图流入代孕群",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 11,
-        "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E6%9F%A5%E5%B0%81%E4%BB%A3%E5%AD%95%E6%89%8B%E6%9C%AF%E5%AE%A4%E6%89%A7%E6%B3%95%E5%9B%BE%E6%B5%81%E5%85%A5%E4%BB%A3%E5%AD%95%E7%BE%A4",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%B2%99%E6%9F%A5%E5%B0%81%E4%BB%A3%E5%AD%95%E6%89%8B%E6%9C%AF%E5%AE%A4%E6%89%A7%E6%B3%95%E5%9B%BE%E6%B5%81%E5%85%A5%E4%BB%A3%E5%AD%95%E7%BE%A4&t=31&band_rank=11&Refer=top",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
-        "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
-        "ranks": [
-          11
-        ],
-        "rank_timeline": [
-          {
-            "rank": 11,
-            "crawl_time": "08-29"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:186"
-      },
-      {
-        "id": 193,
+        "id": 191,
         "title": "半夜宝爸将宝妈抱摔下床泡奶",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 18,
+        "rank": 17,
         "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%A4%9C%E5%AE%9D%E7%88%B8%E5%B0%86%E5%AE%9D%E5%A6%88%E6%8A%B1%E6%91%94%E4%B8%8B%E5%BA%8A%E6%B3%A1%E5%A5%B6%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%A4%9C%E5%AE%9D%E7%88%B8%E5%B0%86%E5%AE%9D%E5%A6%88%E6%8A%B1%E6%91%94%E4%B8%8B%E5%BA%8A%E6%B3%A1%E5%A5%B6%23&t=31&band_rank=18&Refer=top",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%A4%9C%E5%AE%9D%E7%88%B8%E5%B0%86%E5%AE%9D%E5%A6%88%E6%8A%B1%E6%91%94%E4%B8%8B%E5%BA%8A%E6%B3%A1%E5%A5%B6%23&t=31&band_rank=17&Refer=top",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          18
+          17
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "08-29"
+            "rank": 17,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
         "matched_category": "人群营养",
-        "item_id": "news:193"
+        "item_id": "news:191"
       },
       {
-        "id": 197,
+        "id": 196,
         "title": "胃病向胃癌发展有5个征兆",
         "platform_id": "weibo",
         "platform_name": "微博",
         "rank": 22,
         "url": "https://s.weibo.com/weibo?q=%23%E8%83%83%E7%97%85%E5%90%91%E8%83%83%E7%99%8C%E5%8F%91%E5%B1%95%E6%9C%895%E4%B8%AA%E5%BE%81%E5%85%86%23",
         "mobile_url": "https://s.weibo.com/weibo?q=%23%E8%83%83%E7%97%85%E5%90%91%E8%83%83%E7%99%8C%E5%8F%91%E5%B1%95%E6%9C%895%E4%B8%AA%E5%BE%81%E5%85%86%23&t=31&band_rank=22&Refer=top",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
           22
         ],
         "rank_timeline": [
           {
             "rank": 22,
-            "crawl_time": "08-29"
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
         "matched_category": "肠胃代谢",
-        "item_id": "news:197"
+        "item_id": "news:196"
       },
       {
-        "id": 198,
-        "title": "油价涨涨涨",
+        "id": 203,
+        "title": "日本博主暴雨中直播在排水沟洗头",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 23,
-        "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B9%E4%BB%B7%E6%B6%A8%E6%B6%A8%E6%B6%A8%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%B2%B9%E4%BB%B7%E6%B6%A8%E6%B6%A8%E6%B6%A8%23&t=31&band_rank=23&Refer=top",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "rank": 29,
+        "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%8D%9A%E4%B8%BB%E6%9A%B4%E9%9B%A8%E4%B8%AD%E7%9B%B4%E6%92%AD%E5%9C%A8%E6%8E%92%E6%B0%B4%E6%B2%9F%E6%B4%97%E5%A4%B4%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%8D%9A%E4%B8%BB%E6%9A%B4%E9%9B%A8%E4%B8%AD%E7%9B%B4%E6%92%AD%E5%9C%A8%E6%8E%92%E6%B0%B4%E6%B2%9F%E6%B4%97%E5%A4%B4%23&t=31&band_rank=29&Refer=top",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          23
+          29
         ],
         "rank_timeline": [
           {
-            "rank": 23,
-            "crawl_time": "08-29"
+            "rank": 29,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:198"
+        "matched_category": "安全灾害",
+        "item_id": "news:203"
       },
       {
-        "id": 253,
-        "title": "网友称把前置摄像头关掉刷手机可以保护眼睛，这是真的吗？如果属实，是因为哪些原理？",
+        "id": 241,
+        "title": "特斯拉无稀土电机 10 秒一台，每台省 1000 美元，其技术原理是什么？将如何影响电动车行业？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 18,
-        "url": "https://www.zhihu.com/question/2080609977136148977",
+        "rank": 7,
+        "url": "https://www.zhihu.com/question/2081338019919967553",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          18
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "08-29"
+            "rank": 7,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
-        "matched_category": "食物功效",
-        "item_id": "news:253"
+        "matched_category": "交通出行",
+        "item_id": "news:241"
       },
       {
-        "id": 255,
-        "title": "肠道里住着那么多细菌，免疫系统为什么不会一直攻击它们？",
+        "id": 244,
+        "title": "知名黄金珠宝品牌千叶珠宝疑暴雷，创始人夫妇失联，大量员工称遭欠薪，具体情况如何？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 20,
-        "url": "https://www.zhihu.com/question/2078484653351121598",
+        "rank": 10,
+        "url": "https://www.zhihu.com/question/2081684942476375940",
         "mobile_url": "",
-        "first_crawl_time": "08-29",
-        "last_crawl_time": "08-29",
+        "first_crawl_time": "12-54",
+        "last_crawl_time": "12-54",
         "crawl_count": 1,
-        "created_at": "2026-09-12 08:29:51",
-        "updated_at": "2026-09-12 08:29:51",
+        "created_at": "2026-09-12 12:54:27",
+        "updated_at": "2026-09-12 12:54:27",
         "ranks": [
-          20
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 20,
-            "crawl_time": "08-29"
+            "rank": 10,
+            "crawl_time": "12-54"
           }
         ],
         "is_latest": true,
-        "matched_category": "肠胃代谢",
-        "item_id": "news:255"
+        "matched_category": "就业民生",
+        "item_id": "news:244"
       }
     ],
     "platforms": [
@@ -766,200 +535,164 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-09-12 08:29:51"
+        "updated_at": "2026-09-12 12:54:27"
       }
     ],
     "latest_item_ids": [
-      "news:48",
-      "news:54",
-      "news:124",
+      "news:36",
+      "news:57",
       "news:126",
-      "news:209",
-      "news:231",
-      "news:86",
-      "news:164",
-      "news:171",
-      "news:173",
-      "news:9",
-      "news:15",
-      "news:21",
+      "news:127",
+      "news:130",
+      "news:90",
+      "news:11",
       "news:26",
       "news:62",
       "news:63",
-      "news:65",
-      "news:66",
-      "news:177",
-      "news:186",
-      "news:193",
-      "news:197",
-      "news:198",
-      "news:253",
-      "news:255"
+      "news:70",
+      "news:178",
+      "news:191",
+      "news:196",
+      "news:203",
+      "news:241",
+      "news:244"
     ],
     "categories": {
-      "常见疾病": [
-        "news:48",
-        "news:15"
+      "安全灾害": [
+        "news:36",
+        "news:90",
+        "news:26",
+        "news:70",
+        "news:178",
+        "news:203"
+      ],
+      "养老生活": [
+        "news:57"
       ],
       "物价消费": [
-        "news:54",
-        "news:124",
         "news:126",
-        "news:231",
-        "news:173",
+        "news:127",
         "news:62",
-        "news:63",
-        "news:65",
-        "news:198"
+        "news:63"
       ],
-      "安全灾害": [
-        "news:209",
-        "news:164",
-        "news:21"
+      "常见疾病": [
+        "news:130"
       ],
       "交通出行": [
-        "news:86"
-      ],
-      "住房民生": [
-        "news:171"
-      ],
-      "肠胃代谢": [
-        "news:9",
-        "news:197",
-        "news:255"
-      ],
-      "就业民生": [
-        "news:26",
-        "news:66"
-      ],
-      "消费维权": [
-        "news:177"
-      ],
-      "医疗健康": [
-        "news:186"
+        "news:11",
+        "news:241"
       ],
       "人群营养": [
-        "news:193"
+        "news:191"
       ],
-      "食物功效": [
-        "news:253"
+      "肠胃代谢": [
+        "news:196"
+      ],
+      "就业民生": [
+        "news:244"
       ]
     },
     "latest_categories": {
-      "常见疾病": [
-        "news:48",
-        "news:15"
+      "安全灾害": [
+        "news:36",
+        "news:90",
+        "news:26",
+        "news:70",
+        "news:178",
+        "news:203"
+      ],
+      "养老生活": [
+        "news:57"
       ],
       "物价消费": [
-        "news:54",
-        "news:124",
         "news:126",
-        "news:231",
-        "news:173",
+        "news:127",
         "news:62",
-        "news:63",
-        "news:65",
-        "news:198"
+        "news:63"
       ],
-      "安全灾害": [
-        "news:209",
-        "news:164",
-        "news:21"
+      "常见疾病": [
+        "news:130"
       ],
       "交通出行": [
-        "news:86"
-      ],
-      "住房民生": [
-        "news:171"
-      ],
-      "肠胃代谢": [
-        "news:9",
-        "news:197",
-        "news:255"
-      ],
-      "就业民生": [
-        "news:26",
-        "news:66"
-      ],
-      "消费维权": [
-        "news:177"
-      ],
-      "医疗健康": [
-        "news:186"
+        "news:11",
+        "news:241"
       ],
       "人群营养": [
-        "news:193"
+        "news:191"
       ],
-      "食物功效": [
-        "news:253"
+      "肠胃代谢": [
+        "news:196"
+      ],
+      "就业民生": [
+        "news:244"
       ]
     },
-    "raw_count": 255,
-    "raw_latest_count": 255
+    "raw_count": 254,
+    "raw_latest_count": 254
   },
   "rss": {
     "date": "2026-09-12",
-    "latest_crawl_time": "08:29",
+    "latest_crawl_time": "12:54",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -972,7 +705,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-12 08:29:53"
+        "updated_at": "2026-09-12 12:54:29"
       },
       {
         "id": "yahoo-finance",
@@ -982,13 +715,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-12 08:29:53"
+        "updated_at": "2026-09-12 12:54:29"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 70,
-    "raw_latest_count": 70
+    "raw_count": 69,
+    "raw_latest_count": 69
   }
 }

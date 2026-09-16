@@ -1,102 +1,114 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-16T05:39:30.800903+08:00",
+  "generated_at": "2026-09-16T08:41:34.670025+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "35026780417",
-    "run_number": "1146",
+    "run_id": "35041000551",
+    "run_number": "1147",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-09-16",
-  "crawl_time": "05-39",
+  "crawl_time": "08-41",
   "counts": {
-    "news": 33,
-    "latest_news": 33,
+    "news": 37,
+    "latest_news": 37,
     "rss": 0,
     "latest_rss": 0,
-    "total": 33,
-    "latest_total": 33,
+    "total": 37,
+    "latest_total": 37,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 70,
-    "raw_latest_rss": 70
+    "raw_rss": 69,
+    "raw_latest_rss": 69
   },
   "categories": {
     "住房民生": {
       "news": [
-        "news:31",
-        "news:60",
-        "news:5"
-      ],
-      "rss": []
-    },
-    "社会保障": {
-      "news": [
         "news:35",
-        "news:144"
+        "news:5",
+        "news:22"
       ],
       "rss": []
     },
     "医疗健康": {
       "news": [
         "news:36",
-        "news:49",
-        "news:120",
-        "news:81"
+        "news:116",
+        "news:83",
+        "news:246"
+      ],
+      "rss": []
+    },
+    "物价消费": {
+      "news": [
+        "news:39",
+        "news:121",
+        "news:127",
+        "news:24",
+        "news:61"
       ],
       "rss": []
     },
     "睡眠心理": {
       "news": [
-        "news:39",
-        "news:223",
-        "news:227"
+        "news:40",
+        "news:220",
+        "news:230"
       ],
       "rss": []
     },
     "消费维权": {
       "news": [
         "news:41",
-        "news:11"
+        "news:11",
+        "news:202"
       ],
       "rss": []
     },
-    "人口家庭": {
+    "社会保障": {
       "news": [
-        "news:47",
-        "news:80",
-        "news:9"
-      ],
-      "rss": []
-    },
-    "交通出行": {
-      "news": [
-        "news:48",
-        "news:83",
-        "news:154",
-        "news:22",
-        "news:249"
+        "news:46"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
+        "news:52",
         "news:97",
-        "news:207"
+        "news:206",
+        "news:85"
+      ],
+      "rss": []
+    },
+    "人口家庭": {
+      "news": [
+        "news:60",
+        "news:81",
+        "news:16",
+        "news:29"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:88"
+        "news:90",
+        "news:249"
       ],
       "rss": []
     },
     "养老生活": {
       "news": [
         "news:153",
-        "news:7"
+        "news:18"
+      ],
+      "rss": []
+    },
+    "交通出行": {
+      "news": [
+        "news:154",
+        "news:27",
+        "news:244"
       ],
       "rss": []
     },
@@ -108,81 +120,47 @@
     },
     "常见疾病": {
       "news": [
-        "news:4",
         "news:10"
-      ],
-      "rss": []
-    },
-    "物价消费": {
-      "news": [
-        "news:19",
-        "news:63"
       ],
       "rss": []
     },
     "肠胃代谢": {
       "news": [
-        "news:245"
+        "news:237"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-09-16",
-    "latest_crawl_time": "05-39",
-    "count": 33,
-    "latest_count": 33,
+    "latest_crawl_time": "08-41",
+    "count": 37,
+    "latest_count": 37,
     "items": [
       {
-        "id": 31,
-        "title": "专家：楼市基本触底",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 1,
-        "url": "https://www.baidu.com/s?wd=%E4%B8%93%E5%AE%B6%EF%BC%9A%E6%A5%BC%E5%B8%82%E5%9F%BA%E6%9C%AC%E8%A7%A6%E5%BA%95",
-        "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          1
-        ],
-        "rank_timeline": [
-          {
-            "rank": 1,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "住房民生",
-        "item_id": "news:31"
-      },
-      {
         "id": 35,
-        "title": "娃哈哈因拖欠公积金被查封办公楼",
+        "title": "40年房贷全面落地",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 5,
-        "url": "https://www.baidu.com/s?wd=%E5%A8%83%E5%93%88%E5%93%88%E5%9B%A0%E6%8B%96%E6%AC%A0%E5%85%AC%E7%A7%AF%E9%87%91%E8%A2%AB%E6%9F%A5%E5%B0%81%E5%8A%9E%E5%85%AC%E6%A5%BC",
+        "url": "https://www.baidu.com/s?wd=40%E5%B9%B4%E6%88%BF%E8%B4%B7%E5%85%A8%E9%9D%A2%E8%90%BD%E5%9C%B0",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "社会保障",
+        "matched_category": "住房民生",
         "item_id": "news:35"
       },
       {
@@ -193,18 +171,18 @@
         "rank": 6,
         "url": "https://www.baidu.com/s?wd=%E6%9B%9D%E9%99%88%E5%BB%BA%E5%B7%9E%E7%AA%81%E5%8F%91%E5%BF%83%E8%82%8C%E6%A2%97%E5%A1%9E%E7%B4%A7%E6%80%A5%E6%89%8B%E6%9C%AF",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           6
         ],
         "rank_timeline": [
           {
             "rank": 6,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -213,29 +191,55 @@
       },
       {
         "id": 39,
-        "title": "压力大收入低 银行柜员辞职卖馒头",
+        "title": "纳指跌超200点 国际油价大涨",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 9,
-        "url": "https://www.baidu.com/s?wd=%E5%8E%8B%E5%8A%9B%E5%A4%A7%E6%94%B6%E5%85%A5%E4%BD%8E+%E9%93%B6%E8%A1%8C%E6%9F%9C%E5%91%98%E8%BE%9E%E8%81%8C%E5%8D%96%E9%A6%92%E5%A4%B4",
+        "url": "https://www.baidu.com/s?wd=%E7%BA%B3%E6%8C%87%E8%B7%8C%E8%B6%85200%E7%82%B9+%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E5%A4%A7%E6%B6%A8",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:39"
+      },
+      {
+        "id": 40,
+        "title": "压力大收入低 银行柜员辞职卖馒头",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 10,
+        "url": "https://www.baidu.com/s?wd=%E5%8E%8B%E5%8A%9B%E5%A4%A7%E6%94%B6%E5%85%A5%E4%BD%8E+%E9%93%B6%E8%A1%8C%E6%9F%9C%E5%91%98%E8%BE%9E%E8%81%8C%E5%8D%96%E9%A6%92%E5%A4%B4",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          10
+        ],
+        "rank_timeline": [
+          {
+            "rank": 10,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
-        "item_id": "news:39"
+        "item_id": "news:40"
       },
       {
         "id": 41,
@@ -245,18 +249,18 @@
         "rank": 11,
         "url": "https://www.baidu.com/s?wd=%E4%B8%8D%E8%89%AF%E4%BF%A1%E6%81%AF%E4%B8%80%E9%94%AE%E4%B8%BE%E6%8A%A5+%E5%85%B1%E5%BB%BA%E6%B8%85%E6%9C%97%E7%A9%BA%E9%97%B4",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -264,107 +268,81 @@
         "item_id": "news:41"
       },
       {
-        "id": 47,
-        "title": "我国人口总量14.05亿",
+        "id": 46,
+        "title": "娃哈哈因拖欠公积金被查封办公楼",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 17,
-        "url": "https://www.baidu.com/s?wd=%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%80%BB%E9%87%8F14.05%E4%BA%BF",
+        "rank": 16,
+        "url": "https://www.baidu.com/s?wd=%E5%A8%83%E5%93%88%E5%93%88%E5%9B%A0%E6%8B%96%E6%AC%A0%E5%85%AC%E7%A7%AF%E9%87%91%E8%A2%AB%E6%9F%A5%E5%B0%81%E5%8A%9E%E5%85%AC%E6%A5%BC",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          17
+          16
         ],
         "rank_timeline": [
           {
-            "rank": 17,
-            "crawl_time": "05-39"
+            "rank": 16,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:47"
+        "matched_category": "社会保障",
+        "item_id": "news:46"
       },
       {
-        "id": 48,
-        "title": "交警吐槽无人快递车：听不懂人话",
+        "id": 52,
+        "title": "斐济宣布艾滋病疫情构成国家危机",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 18,
-        "url": "https://www.baidu.com/s?wd=%E4%BA%A4%E8%AD%A6%E5%90%90%E6%A7%BD%E6%97%A0%E4%BA%BA%E5%BF%AB%E9%80%92%E8%BD%A6%EF%BC%9A%E5%90%AC%E4%B8%8D%E6%87%82%E4%BA%BA%E8%AF%9D",
+        "rank": 22,
+        "url": "https://www.baidu.com/s?wd=%E6%96%90%E6%B5%8E%E5%AE%A3%E5%B8%83%E8%89%BE%E6%BB%8B%E7%97%85%E7%96%AB%E6%83%85%E6%9E%84%E6%88%90%E5%9B%BD%E5%AE%B6%E5%8D%B1%E6%9C%BA",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          18
+          22
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "05-39"
+            "rank": 22,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:48"
-      },
-      {
-        "id": 49,
-        "title": "国家卫健委拟延长献血年龄至65岁",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 19,
-        "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E6%8B%9F%E5%BB%B6%E9%95%BF%E7%8C%AE%E8%A1%80%E5%B9%B4%E9%BE%84%E8%87%B365%E5%B2%81",
-        "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          19
-        ],
-        "rank_timeline": [
-          {
-            "rank": 19,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:49"
+        "matched_category": "安全灾害",
+        "item_id": "news:52"
       },
       {
         "id": 60,
-        "title": "住房金融新政后 购房者会增多吗",
+        "title": "我国人口总量14.05亿",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 30,
-        "url": "https://www.baidu.com/s?wd=%E4%BD%8F%E6%88%BF%E9%87%91%E8%9E%8D%E6%96%B0%E6%94%BF%E5%90%8E+%E8%B4%AD%E6%88%BF%E8%80%85%E4%BC%9A%E5%A2%9E%E5%A4%9A%E5%90%97",
+        "url": "https://www.baidu.com/s?wd=%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%80%BB%E9%87%8F14.05%E4%BA%BF",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           30
         ],
         "rank_timeline": [
           {
             "rank": 30,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "住房民生",
+        "matched_category": "人口家庭",
         "item_id": "news:60"
       },
       {
@@ -375,18 +353,18 @@
         "rank": 7,
         "url": "https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E6%A2%85%E6%AF%92%E7%96%AB%E6%83%85%E6%9C%89%E5%A4%9A%E4%B8%A5%E9%87%8D",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -394,238 +372,264 @@
         "item_id": "news:97"
       },
       {
-        "id": 120,
+        "id": 116,
         "title": "国家卫健委主任喊你多喝白开水",
         "platform_id": "bilibili-hot-search",
         "platform_name": "bilibili 热搜",
-        "rank": 30,
+        "rank": 26,
         "url": "https://search.bilibili.com/all?keyword=%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E4%B8%BB%E4%BB%BB%E5%96%8A%E4%BD%A0%E5%A4%9A%E5%96%9D%E7%99%BD%E5%BC%80%E6%B0%B4",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          30
+          26
         ],
         "rank_timeline": [
           {
-            "rank": 30,
-            "crawl_time": "05-39"
+            "rank": 26,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:120"
+        "item_id": "news:116"
       },
       {
-        "id": 207,
-        "title": "25号台风“杜鹃”未来或将趋向日本",
-        "platform_id": "douyin",
-        "platform_name": "抖音",
-        "rank": 2,
-        "url": "https://www.douyin.com/hot/2650741",
+        "id": 121,
+        "title": "【早报】标普500创8月份以来收盘新低；国际油价大涨；商业银行科技贷款统计口径面临收紧",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 1,
+        "url": "https://www.cls.cn/detail/2484266",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          2
+          1
         ],
         "rank_timeline": [
           {
-            "rank": 2,
-            "crawl_time": "05-39"
+            "rank": 1,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:121"
+      },
+      {
+        "id": 127,
+        "title": "国际油价深夜坐上“过山车” 沙特据传取消部分欧洲炼厂9月订单",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 7,
+        "url": "https://www.cls.cn/detail/2484131",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:127"
+      },
+      {
+        "id": 206,
+        "title": "25号台风“杜鹃”未来或将趋向日本",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 1,
+        "url": "https://www.douyin.com/hot/2650741",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          1
+        ],
+        "rank_timeline": [
+          {
+            "rank": 1,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "安全灾害",
-        "item_id": "news:207"
+        "item_id": "news:206"
       },
       {
-        "id": 223,
+        "id": 220,
         "title": "不去焦虑还未发生的事",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 18,
+        "rank": 15,
         "url": "https://www.douyin.com/hot/2650839",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          18
+          15
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "05-39"
+            "rank": 15,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
-        "item_id": "news:223"
+        "item_id": "news:220"
       },
       {
-        "id": 227,
+        "id": 230,
         "title": "你就承认你的压力来源了吧",
         "platform_id": "douyin",
         "platform_name": "抖音",
-        "rank": 22,
+        "rank": 25,
         "url": "https://www.douyin.com/hot/2651228",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          22
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 22,
-            "crawl_time": "05-39"
+            "rank": 25,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "睡眠心理",
-        "item_id": "news:227"
+        "item_id": "news:230"
       },
       {
-        "id": 144,
-        "title": "欠缴超200万公积金？娃哈哈原虎林工厂房产被查封",
-        "platform_id": "ifeng",
-        "platform_name": "凤凰网",
+        "id": 81,
+        "title": "马上评｜9个亲戚争遗产，“房产归国家”是尊重逝者意愿",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
         "rank": 11,
-        "url": "https://news.ifeng.com/c/8wRb5whAiz2",
-        "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "url": "https://www.thepaper.cn/newsDetail_forward_34073073",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34073073",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:144"
-      },
-      {
-        "id": 80,
-        "title": "马上评｜9个亲戚争遗产，“房产归国家”是尊重逝者意愿",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 10,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34073073",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34073073",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:80"
-      },
-      {
-        "id": 81,
-        "title": "张文宏：医疗公平不会因为药物创新而自然到来",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 11,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34072408",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34072408",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          11
-        ],
-        "rank_timeline": [
-          {
-            "rank": 11,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
         "item_id": "news:81"
       },
       {
         "id": 83,
-        "title": "宁波“能看海的地铁”免费试乘火爆，运营方提醒市民错峰出行",
+        "title": "张文宏：医疗公平不会因为药物创新而自然到来",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
         "rank": 13,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34070348",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34070348",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "url": "https://www.thepaper.cn/newsDetail_forward_34072408",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34072408",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           13
         ],
         "rank_timeline": [
           {
             "rank": 13,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
+        "matched_category": "医疗健康",
         "item_id": "news:83"
       },
       {
-        "id": 88,
-        "title": "比尔·盖茨警告AI就业冲击：全球或经历20年动荡转型，现在就要开始准备",
+        "id": 85,
+        "title": "广西百色一河堤挡墙投用不足一年突发垮塌，官方回应：洪水冲刷浸泡所致，正加紧处置",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 18,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34050252",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34050252",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "rank": 15,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34075037",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34075037",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          18
+          15
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "05-39"
+            "rank": 15,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:85"
+      },
+      {
+        "id": 90,
+        "title": "比尔·盖茨警告AI就业冲击：全球或经历20年动荡转型，现在就要开始准备",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 20,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34050252",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34050252",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          20
+        ],
+        "rank_timeline": [
+          {
+            "rank": 20,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:88"
+        "item_id": "news:90"
       },
       {
         "id": 153,
@@ -635,18 +639,18 @@
         "rank": 8,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E8%BD%BB%E7%94%9F%E5%A5%B3%E5%AD%90%E4%B8%BA%E6%B1%82%E6%AD%BB%E5%88%91%E6%8D%85%E6%9D%80%E8%80%81%E4%BA%BA&topic_id=28364287",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -661,18 +665,18 @@
         "rank": 9,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%90%9C%E6%89%93%E6%92%A4%3F%E5%A4%A7%E5%AD%A6%E5%9F%8E%E7%8C%8E%E6%89%8B%E5%81%B7%E5%85%89%E5%A4%96%E5%8D%96&topic_id=28364271",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -687,49 +691,23 @@
         "rank": 16,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%8D%B0%E5%BA%A6%E5%A4%96%E4%BA%A4%E5%AE%98%E7%8B%82%E5%90%83%E5%9D%9A%E6%9E%9C%E8%88%94%E6%89%8B%E6%8C%87&topic_id=28364276",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           16
         ],
         "rank_timeline": [
           {
             "rank": 16,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "日常饮食",
         "item_id": "news:161"
-      },
-      {
-        "id": 4,
-        "title": "“黑人”陈建州心梗入院",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 4,
-        "url": "https://www.toutiao.com/trending/7685757969196367913/",
-        "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "常见疾病",
-        "item_id": "news:4"
       },
       {
         "id": 5,
@@ -739,18 +717,18 @@
         "rank": 5,
         "url": "https://www.toutiao.com/trending/7685663412193447470/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           5
         ],
         "rank_timeline": [
           {
             "rank": 5,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -758,77 +736,25 @@
         "item_id": "news:5"
       },
       {
-        "id": 7,
-        "title": "老人接到女儿离世噩耗 导游助其回家",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 7,
-        "url": "https://www.toutiao.com/trending/7685197372347285558/",
-        "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          7
-        ],
-        "rank_timeline": [
-          {
-            "rank": 7,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:7"
-      },
-      {
-        "id": 9,
-        "title": "我国人口总量14.05亿",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 9,
-        "url": "https://www.toutiao.com/trending/7685663216705359369/",
-        "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
-        "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "05-39"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:9"
-      },
-      {
         "id": 10,
-        "title": "研究：得糖尿病的人大多离不开这4点",
+        "title": "“黑人”陈建州心梗入院",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 10,
-        "url": "https://www.toutiao.com/trending/7685582862262779931/",
+        "url": "https://www.toutiao.com/trending/7685757969196367913/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           10
         ],
         "rank_timeline": [
           {
             "rank": 10,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -843,18 +769,18 @@
         "rank": 11,
         "url": "https://www.toutiao.com/trending/7685212470499131411/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
@@ -862,133 +788,315 @@
         "item_id": "news:11"
       },
       {
-        "id": 19,
-        "title": "牛肉价格为什么开始“起飞”",
+        "id": 16,
+        "title": "我国人口总量14.05亿",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
-        "rank": 19,
-        "url": "https://www.toutiao.com/trending/7685675470418890291/",
+        "rank": 16,
+        "url": "https://www.toutiao.com/trending/7685663216705359369/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          19
+          16
         ],
         "rank_timeline": [
           {
-            "rank": 19,
-            "crawl_time": "05-39"
+            "rank": 16,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:19"
+        "matched_category": "人口家庭",
+        "item_id": "news:16"
+      },
+      {
+        "id": 18,
+        "title": "老人接到女儿离世噩耗 导游助其回家",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 18,
+        "url": "https://www.toutiao.com/trending/7685197372347285558/",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:18"
       },
       {
         "id": 22,
-        "title": "“能看海的地铁”试乘首日挤爆了",
+        "title": "专家：楼市基本触底",
         "platform_id": "toutiao",
         "platform_name": "今日头条",
         "rank": 22,
-        "url": "https://www.toutiao.com/trending/7684914297072648234/",
+        "url": "https://www.toutiao.com/trending/7685906195005197875/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           22
         ],
         "rank_timeline": [
           {
             "rank": 22,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
+        "matched_category": "住房民生",
         "item_id": "news:22"
       },
       {
-        "id": 63,
-        "title": "油价飙升加剧通胀担忧，美股低开，存储芯片、光通信股逆势走高，10年期美债收益率破5%创2007年来新高",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 3,
-        "url": "https://wallstreetcn.com/articles/3781779",
+        "id": 24,
+        "title": "牛肉价格为什么开始“起飞”",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 24,
+        "url": "https://www.toutiao.com/trending/7685675470418890291/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          3
+          24
         ],
         "rank_timeline": [
           {
-            "rank": 3,
-            "crawl_time": "05-39"
+            "rank": 24,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:63"
+        "item_id": "news:24"
       },
       {
-        "id": 245,
-        "title": "鸡如果吃了水蛭，水蛭可以钻破鸡的肠胃，长期在鸡的体内吸血吗？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 10,
-        "url": "https://www.zhihu.com/question/1947010301284286955",
+        "id": 27,
+        "title": "“能看海的地铁”试乘首日挤爆了",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 27,
+        "url": "https://www.toutiao.com/trending/7684914297072648234/",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
-          10
+          27
         ],
         "rank_timeline": [
           {
-            "rank": 10,
-            "crawl_time": "05-39"
+            "rank": 27,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:27"
+      },
+      {
+        "id": 29,
+        "title": "朵朵不知道佟丽娅陈思诚离婚",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 29,
+        "url": "https://www.toutiao.com/trending/7685739288042405907/",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          29
+        ],
+        "rank_timeline": [
+          {
+            "rank": 29,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:29"
+      },
+      {
+        "id": 61,
+        "title": "油价飙升加剧通胀担忧，美债收益率再刷20年新高，美股指连跌两日静待美联储决策",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 1,
+        "url": "https://wallstreetcn.com/articles/3781779",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          1
+        ],
+        "rank_timeline": [
+          {
+            "rank": 1,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:61"
+      },
+      {
+        "id": 202,
+        "title": "问界售后权责划分",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 27,
+        "url": "https://s.weibo.com/weibo?q=%E9%97%AE%E7%95%8C%E5%94%AE%E5%90%8E%E6%9D%83%E8%B4%A3%E5%88%92%E5%88%86",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E9%97%AE%E7%95%8C%E5%94%AE%E5%90%8E%E6%9D%83%E8%B4%A3%E5%88%92%E5%88%86&t=31&band_rank=27&Refer=top",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:202"
+      },
+      {
+        "id": 237,
+        "title": "鸡如果吃了水蛭，水蛭可以钻破鸡的肠胃，长期在鸡的体内吸血吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 2,
+        "url": "https://www.zhihu.com/question/1947010301284286955",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
         "matched_category": "肠胃代谢",
-        "item_id": "news:245"
+        "item_id": "news:237"
       },
       {
-        "id": 249,
+        "id": 244,
         "title": "为什么在北京，大家对于通勤的忍受度这么高？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 14,
+        "rank": 9,
         "url": "https://www.zhihu.com/question/2056391510673855704",
         "mobile_url": "",
-        "first_crawl_time": "05-39",
-        "last_crawl_time": "05-39",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
         "crawl_count": 1,
-        "created_at": "2026-09-16 05:39:26",
-        "updated_at": "2026-09-16 05:39:26",
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:244"
+      },
+      {
+        "id": 246,
+        "title": "国家卫健委拟延长献血年龄至 65 岁，献血间隔拟由 6 个月缩至 3 个月，对此你怎么看？能有效缓解用血荒吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 11,
+        "url": "https://www.zhihu.com/question/2083247942941655409",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "08-41"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "医疗健康",
+        "item_id": "news:246"
+      },
+      {
+        "id": 249,
+        "title": "新加坡总理已经是全球收入最高的政府首脑，为什么还要给自己涨 64% 的工资？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 14,
+        "url": "https://www.zhihu.com/question/2081049102310286514",
+        "mobile_url": "",
+        "first_crawl_time": "08-41",
+        "last_crawl_time": "08-41",
+        "crawl_count": 1,
+        "created_at": "2026-09-16 08:41:30",
+        "updated_at": "2026-09-16 08:41:30",
         "ranks": [
           14
         ],
         "rank_timeline": [
           {
             "rank": 14,
-            "crawl_time": "05-39"
+            "crawl_time": "08-41"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
+        "matched_category": "就业民生",
         "item_id": "news:249"
       }
     ],
@@ -997,228 +1105,240 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-09-16 05:39:26"
+        "updated_at": "2026-09-16 08:41:30"
       }
     ],
     "latest_item_ids": [
-      "news:31",
       "news:35",
       "news:36",
       "news:39",
+      "news:40",
       "news:41",
-      "news:47",
-      "news:48",
-      "news:49",
+      "news:46",
+      "news:52",
       "news:60",
       "news:97",
-      "news:120",
-      "news:207",
-      "news:223",
-      "news:227",
-      "news:144",
-      "news:80",
+      "news:116",
+      "news:121",
+      "news:127",
+      "news:206",
+      "news:220",
+      "news:230",
       "news:81",
       "news:83",
-      "news:88",
+      "news:85",
+      "news:90",
       "news:153",
       "news:154",
       "news:161",
-      "news:4",
       "news:5",
-      "news:7",
-      "news:9",
       "news:10",
       "news:11",
-      "news:19",
+      "news:16",
+      "news:18",
       "news:22",
-      "news:63",
-      "news:245",
+      "news:24",
+      "news:27",
+      "news:29",
+      "news:61",
+      "news:202",
+      "news:237",
+      "news:244",
+      "news:246",
       "news:249"
     ],
     "categories": {
       "住房民生": [
-        "news:31",
-        "news:60",
-        "news:5"
-      ],
-      "社会保障": [
         "news:35",
-        "news:144"
+        "news:5",
+        "news:22"
       ],
       "医疗健康": [
         "news:36",
-        "news:49",
-        "news:120",
-        "news:81"
+        "news:116",
+        "news:83",
+        "news:246"
+      ],
+      "物价消费": [
+        "news:39",
+        "news:121",
+        "news:127",
+        "news:24",
+        "news:61"
       ],
       "睡眠心理": [
-        "news:39",
-        "news:223",
-        "news:227"
+        "news:40",
+        "news:220",
+        "news:230"
       ],
       "消费维权": [
         "news:41",
-        "news:11"
+        "news:11",
+        "news:202"
       ],
-      "人口家庭": [
-        "news:47",
-        "news:80",
-        "news:9"
-      ],
-      "交通出行": [
-        "news:48",
-        "news:83",
-        "news:154",
-        "news:22",
-        "news:249"
+      "社会保障": [
+        "news:46"
       ],
       "安全灾害": [
+        "news:52",
         "news:97",
-        "news:207"
+        "news:206",
+        "news:85"
+      ],
+      "人口家庭": [
+        "news:60",
+        "news:81",
+        "news:16",
+        "news:29"
       ],
       "就业民生": [
-        "news:88"
+        "news:90",
+        "news:249"
       ],
       "养老生活": [
         "news:153",
-        "news:7"
+        "news:18"
+      ],
+      "交通出行": [
+        "news:154",
+        "news:27",
+        "news:244"
       ],
       "日常饮食": [
         "news:161"
       ],
       "常见疾病": [
-        "news:4",
         "news:10"
       ],
-      "物价消费": [
-        "news:19",
-        "news:63"
-      ],
       "肠胃代谢": [
-        "news:245"
+        "news:237"
       ]
     },
     "latest_categories": {
       "住房民生": [
-        "news:31",
-        "news:60",
-        "news:5"
-      ],
-      "社会保障": [
         "news:35",
-        "news:144"
+        "news:5",
+        "news:22"
       ],
       "医疗健康": [
         "news:36",
-        "news:49",
-        "news:120",
-        "news:81"
+        "news:116",
+        "news:83",
+        "news:246"
+      ],
+      "物价消费": [
+        "news:39",
+        "news:121",
+        "news:127",
+        "news:24",
+        "news:61"
       ],
       "睡眠心理": [
-        "news:39",
-        "news:223",
-        "news:227"
+        "news:40",
+        "news:220",
+        "news:230"
       ],
       "消费维权": [
         "news:41",
-        "news:11"
+        "news:11",
+        "news:202"
       ],
-      "人口家庭": [
-        "news:47",
-        "news:80",
-        "news:9"
-      ],
-      "交通出行": [
-        "news:48",
-        "news:83",
-        "news:154",
-        "news:22",
-        "news:249"
+      "社会保障": [
+        "news:46"
       ],
       "安全灾害": [
+        "news:52",
         "news:97",
-        "news:207"
+        "news:206",
+        "news:85"
+      ],
+      "人口家庭": [
+        "news:60",
+        "news:81",
+        "news:16",
+        "news:29"
       ],
       "就业民生": [
-        "news:88"
+        "news:90",
+        "news:249"
       ],
       "养老生活": [
         "news:153",
-        "news:7"
+        "news:18"
+      ],
+      "交通出行": [
+        "news:154",
+        "news:27",
+        "news:244"
       ],
       "日常饮食": [
         "news:161"
       ],
       "常见疾病": [
-        "news:4",
         "news:10"
       ],
-      "物价消费": [
-        "news:19",
-        "news:63"
-      ],
       "肠胃代谢": [
-        "news:245"
+        "news:237"
       ]
     },
     "raw_count": 255,
@@ -1226,7 +1346,7 @@
   },
   "rss": {
     "date": "2026-09-16",
-    "latest_crawl_time": "05:39",
+    "latest_crawl_time": "08:41",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -1239,7 +1359,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-16 05:39:28"
+        "updated_at": "2026-09-16 08:41:31"
       },
       {
         "id": "yahoo-finance",
@@ -1249,13 +1369,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-16 05:39:28"
+        "updated_at": "2026-09-16 08:41:31"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 70,
-    "raw_latest_count": 70
+    "raw_count": 69,
+    "raw_latest_count": 69
   }
 }

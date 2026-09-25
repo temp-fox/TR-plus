@@ -1,109 +1,131 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-25T09:45:46.123782+08:00",
+  "generated_at": "2026-09-25T16:06:22.154012+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "36083362676",
-    "run_number": "1198",
+    "run_id": "36111045545",
+    "run_number": "1199",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-09-25",
-  "crawl_time": "09-45",
+  "crawl_time": "16-06",
   "counts": {
-    "news": 14,
-    "latest_news": 14,
+    "news": 15,
+    "latest_news": 15,
     "rss": 0,
     "latest_rss": 0,
-    "total": 14,
-    "latest_total": 14,
-    "raw_news": 255,
-    "raw_latest_news": 255,
+    "total": 15,
+    "latest_total": 15,
+    "raw_news": 254,
+    "raw_latest_news": 254,
     "raw_rss": 69,
     "raw_latest_rss": 69
   },
   "categories": {
+    "人口家庭": {
+      "news": [
+        "news:32",
+        "news:77",
+        "news:80",
+        "news:2",
+        "news:178"
+      ],
+      "rss": []
+    },
     "交通出行": {
       "news": [
-        "news:41",
-        "news:153",
-        "news:236"
+        "news:46",
+        "news:156"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
         "news:123",
-        "news:86"
-      ],
-      "rss": []
-    },
-    "人口家庭": {
-      "news": [
-        "news:78",
-        "news:79",
-        "news:172",
-        "news:4",
-        "news:179"
+        "news:131",
+        "news:87",
+        "news:197"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
-        "news:156"
+        "news:159"
       ],
       "rss": []
     },
     "消费维权": {
       "news": [
-        "news:170"
+        "news:173",
+        "news:242"
       ],
       "rss": []
     },
-    "养老生活": {
+    "常见疾病": {
       "news": [
-        "news:174"
-      ],
-      "rss": []
-    },
-    "日常饮食": {
-      "news": [
-        "news:204"
+        "news:201"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-09-25",
-    "latest_crawl_time": "09-45",
-    "count": 14,
-    "latest_count": 14,
+    "latest_crawl_time": "16-06",
+    "count": 15,
+    "latest_count": 15,
     "items": [
       {
-        "id": 41,
-        "title": "陌生快递寄来礼品卡？误区要注意",
+        "id": 32,
+        "title": "特朗普听到大熊猫将落户美国笑了",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 11,
-        "url": "https://www.baidu.com/s?wd=%E9%99%8C%E7%94%9F%E5%BF%AB%E9%80%92%E5%AF%84%E6%9D%A5%E7%A4%BC%E5%93%81%E5%8D%A1%EF%BC%9F%E8%AF%AF%E5%8C%BA%E8%A6%81%E6%B3%A8%E6%84%8F",
+        "rank": 2,
+        "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%90%AC%E5%88%B0%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%B0%86%E8%90%BD%E6%88%B7%E7%BE%8E%E5%9B%BD%E7%AC%91%E4%BA%86",
         "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
         "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
         "ranks": [
-          11
+          2
         ],
         "rank_timeline": [
           {
-            "rank": 11,
-            "crawl_time": "09-45"
+            "rank": 2,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:32"
+      },
+      {
+        "id": 46,
+        "title": "高铁站安检仪扫到好多“小圆球”",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 16,
+        "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%93%81%E7%AB%99%E5%AE%89%E6%A3%80%E4%BB%AA%E6%89%AB%E5%88%B0%E5%A5%BD%E5%A4%9A%E2%80%9C%E5%B0%8F%E5%9C%86%E7%90%83%E2%80%9D",
+        "mobile_url": "",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          16
+        ],
+        "rank_timeline": [
+          {
+            "rank": 16,
+            "crawl_time": "16-06"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:41"
+        "item_id": "news:46"
       },
       {
         "id": 123,
@@ -113,18 +135,18 @@
         "rank": 3,
         "url": "https://www.cls.cn/detail/2492840",
         "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
         "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "09-45"
+            "crawl_time": "16-06"
           }
         ],
         "is_latest": true,
@@ -132,316 +154,316 @@
         "item_id": "news:123"
       },
       {
-        "id": 78,
-        "title": "云南高院指令再审“家暴离婚被驳回”案：再审审查期间丈夫持刀重伤岳父母，足以证明感情已破裂",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 8,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34143631",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34143631",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:78"
-      },
-      {
-        "id": 79,
-        "title": "谭案说法｜“非亲生”案中，受骗的抚养者被侵何权？",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 9,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34141770",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34141770",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:79"
-      },
-      {
-        "id": 86,
-        "title": "油价调控再出手！国家半年四次压缩成品油涨幅，本轮涨幅砍半",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 16,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34142908",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34142908",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:86"
-      },
-      {
-        "id": 153,
-        "title": "配送50骑手赚2.7,平台抽太狠",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 8,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%85%8D%E9%80%8150%E9%AA%91%E6%89%8B%E8%B5%9A2.7%2C%E5%B9%B3%E5%8F%B0%E6%8A%BD%E5%A4%AA%E7%8B%A0&topic_id=28365574",
-        "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:153"
-      },
-      {
-        "id": 156,
-        "title": "东京医大改分阻拦女生入学",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
+        "id": 131,
+        "title": "国际油价深夜坐上“过山车”：沙特再度遭袭 美伊谈判又有新传闻",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
         "rank": 11,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%B8%9C%E4%BA%AC%E5%8C%BB%E5%A4%A7%E6%94%B9%E5%88%86%E9%98%BB%E6%8B%A6%E5%A5%B3%E7%94%9F%E5%85%A5%E5%AD%A6&topic_id=28365518",
+        "url": "https://www.cls.cn/detail/2492838",
         "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
         "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
         "ranks": [
           11
         ],
         "rank_timeline": [
           {
             "rank": 11,
-            "crawl_time": "09-45"
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:131"
+      },
+      {
+        "id": 77,
+        "title": "云南高院指令再审“家暴离婚被驳回”案：再审审查期间丈夫持刀重伤岳父母，足以证明感情已破裂",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 7,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34143631",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34143631",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:77"
+      },
+      {
+        "id": 80,
+        "title": "谭案说法｜“非亲生”案中，受骗的抚养者被侵何权？",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 10,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34141770",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34141770",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          10
+        ],
+        "rank_timeline": [
+          {
+            "rank": 10,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:80"
+      },
+      {
+        "id": 87,
+        "title": "油价调控再出手！国家半年四次压缩成品油涨幅，本轮涨幅砍半",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 17,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34142908",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34142908",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:87"
+      },
+      {
+        "id": 156,
+        "title": "配送50骑手赚2.7,平台抽太狠",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 11,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%85%8D%E9%80%8150%E9%AA%91%E6%89%8B%E8%B5%9A2.7%2C%E5%B9%B3%E5%8F%B0%E6%8A%BD%E5%A4%AA%E7%8B%A0&topic_id=28365574",
+        "mobile_url": "",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:156"
+      },
+      {
+        "id": 159,
+        "title": "东京医大改分阻拦女生入学",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 14,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%B8%9C%E4%BA%AC%E5%8C%BB%E5%A4%A7%E6%94%B9%E5%88%86%E9%98%BB%E6%8B%A6%E5%A5%B3%E7%94%9F%E5%85%A5%E5%AD%A6&topic_id=28365518",
+        "mobile_url": "",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "16-06"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:156"
+        "item_id": "news:159"
       },
       {
-        "id": 170,
+        "id": 173,
         "title": "Zuian签证被拒,TES召回369",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 25,
+        "rank": 28,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=Zuian%E7%AD%BE%E8%AF%81%E8%A2%AB%E6%8B%92%2CTES%E5%8F%AC%E5%9B%9E369&topic_id=28365361",
         "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
         "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
         "ranks": [
-          25
+          28
         ],
         "rank_timeline": [
           {
-            "rank": 25,
-            "crawl_time": "09-45"
+            "rank": 28,
+            "crawl_time": "16-06"
           }
         ],
         "is_latest": true,
         "matched_category": "消费维权",
-        "item_id": "news:170"
+        "item_id": "news:173"
       },
       {
-        "id": 172,
-        "title": "结婚发钱,生娃再拿12万",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 27,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%BB%93%E5%A9%9A%E5%8F%91%E9%92%B1%2C%E7%94%9F%E5%A8%83%E5%86%8D%E6%8B%BF12%E4%B8%87&topic_id=28365189",
+        "id": 2,
+        "title": "特朗普听到大熊猫将落户美国笑了",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 2,
+        "url": "https://www.toutiao.com/trending/7689262718079028745/",
         "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
         "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:2"
+      },
+      {
+        "id": 178,
+        "title": "特朗普听到大熊猫将落户美国笑了",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 4,
+        "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%90%AC%E5%88%B0%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%B0%86%E8%90%BD%E6%88%B7%E7%BE%8E%E5%9B%BD%E7%AC%91%E4%BA%86",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%90%AC%E5%88%B0%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%B0%86%E8%90%BD%E6%88%B7%E7%BE%8E%E5%9B%BD%E7%AC%91%E4%BA%86&t=31&band_rank=4&Refer=top",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "人口家庭",
+        "item_id": "news:178"
+      },
+      {
+        "id": 197,
+        "title": "特斯拉中国又宣布降价",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 23,
+        "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD%E5%8F%88%E5%AE%A3%E5%B8%83%E9%99%8D%E4%BB%B7%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD%E5%8F%88%E5%AE%A3%E5%B8%83%E9%99%8D%E4%BB%B7%23&t=31&band_rank=23&Refer=top",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
+        "ranks": [
+          23
+        ],
+        "rank_timeline": [
+          {
+            "rank": 23,
+            "crawl_time": "16-06"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:197"
+      },
+      {
+        "id": 201,
+        "title": "癌症早期的6个预警信号",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 27,
+        "url": "https://s.weibo.com/weibo?q=%E7%99%8C%E7%97%87%E6%97%A9%E6%9C%9F%E7%9A%846%E4%B8%AA%E9%A2%84%E8%AD%A6%E4%BF%A1%E5%8F%B7",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E7%99%8C%E7%97%87%E6%97%A9%E6%9C%9F%E7%9A%846%E4%B8%AA%E9%A2%84%E8%AD%A6%E4%BF%A1%E5%8F%B7&t=31&band_rank=27&Refer=top",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
+        "crawl_count": 1,
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
         "ranks": [
           27
         ],
         "rank_timeline": [
           {
             "rank": 27,
-            "crawl_time": "09-45"
+            "crawl_time": "16-06"
           }
         ],
         "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:172"
+        "matched_category": "常见疾病",
+        "item_id": "news:201"
       },
       {
-        "id": 174,
-        "title": "日本99岁老人不工作就没饭吃",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 29,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%97%A5%E6%9C%AC99%E5%B2%81%E8%80%81%E4%BA%BA%E4%B8%8D%E5%B7%A5%E4%BD%9C%E5%B0%B1%E6%B2%A1%E9%A5%AD%E5%90%83&topic_id=28365195",
-        "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:174"
-      },
-      {
-        "id": 4,
-        "title": "特朗普听到大熊猫将落户美国笑了",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 4,
-        "url": "https://www.toutiao.com/trending/7689262718079028745/",
-        "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:4"
-      },
-      {
-        "id": 179,
-        "title": "大熊猫平平福双将落户美国",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 4,
-        "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%B9%B3%E5%B9%B3%E7%A6%8F%E5%8F%8C%E5%B0%86%E8%90%BD%E6%88%B7%E7%BE%8E%E5%9B%BD%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%B9%B3%E5%B9%B3%E7%A6%8F%E5%8F%8C%E5%B0%86%E8%90%BD%E6%88%B7%E7%BE%8E%E5%9B%BD%23&t=31&band_rank=4&Refer=top",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:179"
-      },
-      {
-        "id": 204,
-        "title": "升糖最快的主食不是米饭而是这6种",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 29,
-        "url": "https://s.weibo.com/weibo?q=%E5%8D%87%E7%B3%96%E6%9C%80%E5%BF%AB%E7%9A%84%E4%B8%BB%E9%A3%9F%E4%B8%8D%E6%98%AF%E7%B1%B3%E9%A5%AD%E8%80%8C%E6%98%AF%E8%BF%996%E7%A7%8D",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8D%87%E7%B3%96%E6%9C%80%E5%BF%AB%E7%9A%84%E4%B8%BB%E9%A3%9F%E4%B8%8D%E6%98%AF%E7%B1%B3%E9%A5%AD%E8%80%8C%E6%98%AF%E8%BF%996%E7%A7%8D&t=31&band_rank=29&Refer=top",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
-        "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
-        "ranks": [
-          29
-        ],
-        "rank_timeline": [
-          {
-            "rank": 29,
-            "crawl_time": "09-45"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "日常饮食",
-        "item_id": "news:204"
-      },
-      {
-        "id": 236,
-        "title": "网友吐槽美团抽成太多，一份 25 元的外卖商家实际到手收入 6.08 元，是真的吗？剩下的钱都花在了什么环节？",
+        "id": 242,
+        "title": "麦当劳多门店被举报售卖到期奶浆、无冷链运输，具体是咋回事？若属实会给麦当劳带来什么影响？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 1,
-        "url": "https://www.zhihu.com/question/2086444635463705931",
+        "rank": 8,
+        "url": "https://www.zhihu.com/question/2085369534504853504",
         "mobile_url": "",
-        "first_crawl_time": "09-45",
-        "last_crawl_time": "09-45",
+        "first_crawl_time": "16-06",
+        "last_crawl_time": "16-06",
         "crawl_count": 1,
-        "created_at": "2026-09-25 09:45:40",
-        "updated_at": "2026-09-25 09:45:40",
+        "created_at": "2026-09-25 16:06:17",
+        "updated_at": "2026-09-25 16:06:17",
         "ranks": [
-          1
+          8
         ],
         "rank_timeline": [
           {
-            "rank": 1,
-            "crawl_time": "09-45"
+            "rank": 8,
+            "crawl_time": "16-06"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:236"
+        "matched_category": "消费维权",
+        "item_id": "news:242"
       }
     ],
     "platforms": [
@@ -449,151 +471,150 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-09-25 09:45:40"
+        "updated_at": "2026-09-25 16:06:17"
       }
     ],
     "latest_item_ids": [
-      "news:41",
+      "news:32",
+      "news:46",
       "news:123",
-      "news:78",
-      "news:79",
-      "news:86",
-      "news:153",
+      "news:131",
+      "news:77",
+      "news:80",
+      "news:87",
       "news:156",
-      "news:170",
-      "news:172",
-      "news:174",
-      "news:4",
-      "news:179",
-      "news:204",
-      "news:236"
+      "news:159",
+      "news:173",
+      "news:2",
+      "news:178",
+      "news:197",
+      "news:201",
+      "news:242"
     ],
     "categories": {
+      "人口家庭": [
+        "news:32",
+        "news:77",
+        "news:80",
+        "news:2",
+        "news:178"
+      ],
       "交通出行": [
-        "news:41",
-        "news:153",
-        "news:236"
+        "news:46",
+        "news:156"
       ],
       "物价消费": [
         "news:123",
-        "news:86"
-      ],
-      "人口家庭": [
-        "news:78",
-        "news:79",
-        "news:172",
-        "news:4",
-        "news:179"
+        "news:131",
+        "news:87",
+        "news:197"
       ],
       "教育民生": [
-        "news:156"
+        "news:159"
       ],
       "消费维权": [
-        "news:170"
+        "news:173",
+        "news:242"
       ],
-      "养老生活": [
-        "news:174"
-      ],
-      "日常饮食": [
-        "news:204"
+      "常见疾病": [
+        "news:201"
       ]
     },
     "latest_categories": {
+      "人口家庭": [
+        "news:32",
+        "news:77",
+        "news:80",
+        "news:2",
+        "news:178"
+      ],
       "交通出行": [
-        "news:41",
-        "news:153",
-        "news:236"
+        "news:46",
+        "news:156"
       ],
       "物价消费": [
         "news:123",
-        "news:86"
-      ],
-      "人口家庭": [
-        "news:78",
-        "news:79",
-        "news:172",
-        "news:4",
-        "news:179"
+        "news:131",
+        "news:87",
+        "news:197"
       ],
       "教育民生": [
-        "news:156"
+        "news:159"
       ],
       "消费维权": [
-        "news:170"
+        "news:173",
+        "news:242"
       ],
-      "养老生活": [
-        "news:174"
-      ],
-      "日常饮食": [
-        "news:204"
+      "常见疾病": [
+        "news:201"
       ]
     },
-    "raw_count": 255,
-    "raw_latest_count": 255
+    "raw_count": 254,
+    "raw_latest_count": 254
   },
   "rss": {
     "date": "2026-09-25",
-    "latest_crawl_time": "09:45",
+    "latest_crawl_time": "16:06",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -606,7 +627,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-25 09:45:43"
+        "updated_at": "2026-09-25 16:06:19"
       },
       {
         "id": "yahoo-finance",
@@ -616,7 +637,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-25 09:45:43"
+        "updated_at": "2026-09-25 16:06:19"
       }
     ],
     "latest_item_ids": [],

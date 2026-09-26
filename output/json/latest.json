@@ -1,44 +1,44 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-26T15:57:18.625297+08:00",
+  "generated_at": "2026-09-26T21:19:44.223468+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "36228293592",
-    "run_number": "1204",
+    "run_id": "36244748204",
+    "run_number": "1205",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-09-26",
-  "crawl_time": "15-57",
+  "crawl_time": "21-19",
   "counts": {
-    "news": 10,
-    "latest_news": 10,
+    "news": 8,
+    "latest_news": 8,
     "rss": 0,
     "latest_rss": 0,
-    "total": 10,
-    "latest_total": 10,
+    "total": 8,
+    "latest_total": 8,
     "raw_news": 255,
     "raw_latest_news": 255,
     "raw_rss": 69,
     "raw_latest_rss": 69
   },
   "categories": {
+    "就业民生": {
+      "news": [
+        "news:57"
+      ],
+      "rss": []
+    },
     "物价消费": {
       "news": [
         "news:127",
-        "news:132"
+        "news:133"
       ],
       "rss": []
     },
     "营养饮食": {
       "news": [
-        "news:130"
-      ],
-      "rss": []
-    },
-    "就业民生": {
-      "news": [
-        "news:76"
+        "news:132"
       ],
       "rss": []
     },
@@ -50,20 +50,13 @@
     },
     "教育民生": {
       "news": [
-        "news:165",
-        "news:6"
+        "news:165"
       ],
       "rss": []
     },
-    "人口家庭": {
+    "安全灾害": {
       "news": [
-        "news:204"
-      ],
-      "rss": []
-    },
-    "养老金政策": {
-      "news": [
-        "news:243"
+        "news:190"
       ],
       "rss": []
     },
@@ -76,10 +69,36 @@
   },
   "news": {
     "date": "2026-09-26",
-    "latest_crawl_time": "15-57",
-    "count": 10,
-    "latest_count": 10,
+    "latest_crawl_time": "21-19",
+    "count": 8,
+    "latest_count": 8,
     "items": [
+      {
+        "id": 57,
+        "title": "放弃千万生意回村建景区 工资3500元",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 27,
+        "url": "https://www.baidu.com/s?wd=%E6%94%BE%E5%BC%83%E5%8D%83%E4%B8%87%E7%94%9F%E6%84%8F%E5%9B%9E%E6%9D%91%E5%BB%BA%E6%99%AF%E5%8C%BA+%E5%B7%A5%E8%B5%843500%E5%85%83",
+        "mobile_url": "",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
+        "crawl_count": 1,
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
+        "ranks": [
+          27
+        ],
+        "rank_timeline": [
+          {
+            "rank": 27,
+            "crawl_time": "21-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:57"
+      },
       {
         "id": 127,
         "title": "美股收盘：美债风暴持续发酵 油价深夜巨震 Meta涨超4%",
@@ -88,18 +107,18 @@
         "rank": 7,
         "url": "https://www.cls.cn/detail/2492840",
         "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
         "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
         "ranks": [
           7
         ],
         "rank_timeline": [
           {
             "rank": 7,
-            "crawl_time": "15-57"
+            "crawl_time": "21-19"
           }
         ],
         "is_latest": true,
@@ -107,82 +126,56 @@
         "item_id": "news:127"
       },
       {
-        "id": 130,
+        "id": 132,
         "title": "霍尔木兹海峡有望重开压低油价！市场或暂时抛开收益率梦魇 | 今夜看点",
         "platform_id": "cls-hot",
         "platform_name": "财联社热门",
-        "rank": 10,
+        "rank": 12,
         "url": "https://www.cls.cn/detail/2493077",
         "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
         "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
-        "ranks": [
-          10
-        ],
-        "rank_timeline": [
-          {
-            "rank": 10,
-            "crawl_time": "15-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "营养饮食",
-        "item_id": "news:130"
-      },
-      {
-        "id": 132,
-        "title": "国际油价深夜坐上“过山车”：沙特再度遭袭 美伊谈判又有新传闻",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 12,
-        "url": "https://www.cls.cn/detail/2492838",
-        "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
-        "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
         "ranks": [
           12
         ],
         "rank_timeline": [
           {
             "rank": 12,
-            "crawl_time": "15-57"
+            "crawl_time": "21-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "营养饮食",
+        "item_id": "news:132"
+      },
+      {
+        "id": 133,
+        "title": "国际油价深夜坐上“过山车”：沙特再度遭袭 美伊谈判又有新传闻",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 13,
+        "url": "https://www.cls.cn/detail/2492838",
+        "mobile_url": "",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
+        "crawl_count": 1,
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
+        "ranks": [
+          13
+        ],
+        "rank_timeline": [
+          {
+            "rank": 13,
+            "crawl_time": "21-19"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:132"
-      },
-      {
-        "id": 76,
-        "title": "言短意长｜招聘信息禁用“高薪”“面议”：少点模糊，多些真诚",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 6,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34149617",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34149617",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
-        "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "15-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:76"
+        "item_id": "news:133"
       },
       {
         "id": 162,
@@ -192,18 +185,18 @@
         "rank": 17,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E9%85%8D%E9%80%8150%E9%AA%91%E6%89%8B%E8%B5%9A2.7%2C%E5%B9%B3%E5%8F%B0%E6%8A%BD%E5%A4%AA%E7%8B%A0&topic_id=28365574",
         "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
         "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
         "ranks": [
           17
         ],
         "rank_timeline": [
           {
             "rank": 17,
-            "crawl_time": "15-57"
+            "crawl_time": "21-19"
           }
         ],
         "is_latest": true,
@@ -218,18 +211,18 @@
         "rank": 20,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E4%B8%9C%E4%BA%AC%E5%8C%BB%E5%A4%A7%E6%94%B9%E5%88%86%E9%98%BB%E6%8B%A6%E5%A5%B3%E7%94%9F%E5%85%A5%E5%AD%A6&topic_id=28365518",
         "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
         "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
         "ranks": [
           20
         ],
         "rank_timeline": [
           {
             "rank": 20,
-            "crawl_time": "15-57"
+            "crawl_time": "21-19"
           }
         ],
         "is_latest": true,
@@ -237,82 +230,30 @@
         "item_id": "news:165"
       },
       {
-        "id": 6,
-        "title": "陈妤颉夺冠后收到五年高考三年模拟",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 6,
-        "url": "https://www.toutiao.com/trending/7689679163422182921/",
-        "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
-        "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "15-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:6"
-      },
-      {
-        "id": 204,
-        "title": "朋友圈已进入领证结婚时代",
+        "id": 190,
+        "title": "北京暴雨",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 29,
-        "url": "https://s.weibo.com/weibo?q=%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%B7%B2%E8%BF%9B%E5%85%A5%E9%A2%86%E8%AF%81%E7%BB%93%E5%A9%9A%E6%97%B6%E4%BB%A3",
-        "mobile_url": "https://s.weibo.com/weibo?q=%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%B7%B2%E8%BF%9B%E5%85%A5%E9%A2%86%E8%AF%81%E7%BB%93%E5%A9%9A%E6%97%B6%E4%BB%A3&t=31&band_rank=29&Refer=top",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
+        "rank": 15,
+        "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8&t=31&band_rank=15&Refer=top",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
         "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
         "ranks": [
-          29
+          15
         ],
         "rank_timeline": [
           {
-            "rank": 29,
-            "crawl_time": "15-57"
+            "rank": 15,
+            "crawl_time": "21-19"
           }
         ],
         "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:204"
-      },
-      {
-        "id": 243,
-        "title": "护士突发脑出血倒在工作岗位，人社局称抢救十天不予认定工伤，为何倒在工位上仍无法认定工伤？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 8,
-        "url": "https://www.zhihu.com/question/2086839765966348416",
-        "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
-        "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "15-57"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老金政策",
-        "item_id": "news:243"
+        "matched_category": "安全灾害",
+        "item_id": "news:190"
       },
       {
         "id": 249,
@@ -322,18 +263,18 @@
         "rank": 14,
         "url": "https://www.zhihu.com/question/2087134099702137028",
         "mobile_url": "",
-        "first_crawl_time": "15-57",
-        "last_crawl_time": "15-57",
+        "first_crawl_time": "21-19",
+        "last_crawl_time": "21-19",
         "crawl_count": 1,
-        "created_at": "2026-09-26 15:57:14",
-        "updated_at": "2026-09-26 15:57:14",
+        "created_at": "2026-09-26 21:19:36",
+        "updated_at": "2026-09-26 21:19:36",
         "ranks": [
           14
         ],
         "rank_timeline": [
           {
             "rank": 14,
-            "crawl_time": "15-57"
+            "crawl_time": "21-19"
           }
         ],
         "is_latest": true,
@@ -346,132 +287,122 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-09-26 15:57:14"
+        "updated_at": "2026-09-26 21:19:36"
       }
     ],
     "latest_item_ids": [
+      "news:57",
       "news:127",
-      "news:130",
       "news:132",
-      "news:76",
+      "news:133",
       "news:162",
       "news:165",
-      "news:6",
-      "news:204",
-      "news:243",
+      "news:190",
       "news:249"
     ],
     "categories": {
+      "就业民生": [
+        "news:57"
+      ],
       "物价消费": [
         "news:127",
-        "news:132"
+        "news:133"
       ],
       "营养饮食": [
-        "news:130"
-      ],
-      "就业民生": [
-        "news:76"
+        "news:132"
       ],
       "交通出行": [
         "news:162"
       ],
       "教育民生": [
-        "news:165",
-        "news:6"
+        "news:165"
       ],
-      "人口家庭": [
-        "news:204"
-      ],
-      "养老金政策": [
-        "news:243"
+      "安全灾害": [
+        "news:190"
       ],
       "常见疾病": [
         "news:249"
       ]
     },
     "latest_categories": {
+      "就业民生": [
+        "news:57"
+      ],
       "物价消费": [
         "news:127",
-        "news:132"
+        "news:133"
       ],
       "营养饮食": [
-        "news:130"
-      ],
-      "就业民生": [
-        "news:76"
+        "news:132"
       ],
       "交通出行": [
         "news:162"
       ],
       "教育民生": [
-        "news:165",
-        "news:6"
+        "news:165"
       ],
-      "人口家庭": [
-        "news:204"
-      ],
-      "养老金政策": [
-        "news:243"
+      "安全灾害": [
+        "news:190"
       ],
       "常见疾病": [
         "news:249"
@@ -482,7 +413,7 @@
   },
   "rss": {
     "date": "2026-09-26",
-    "latest_crawl_time": "15:57",
+    "latest_crawl_time": "21:19",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -495,7 +426,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-26 15:57:16"
+        "updated_at": "2026-09-26 21:19:41"
       },
       {
         "id": "yahoo-finance",
@@ -505,7 +436,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-09-26 15:57:16"
+        "updated_at": "2026-09-26 21:19:41"
       }
     ],
     "latest_item_ids": [],

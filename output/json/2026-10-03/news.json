@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T02:36:59.526251+08:00",
+  "generated_at": "2026-10-03T07:10:38.915713+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "37048545194",
-    "run_number": "1233",
+    "run_id": "37076235661",
+    "run_number": "1234",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-10-03",
-  "crawl_time": "02-36",
+  "crawl_time": "07-10",
   "counts": {
-    "news": 16,
-    "latest_news": 16,
+    "news": 18,
+    "latest_news": 18,
     "rss": 0,
     "latest_rss": 0,
-    "total": 16,
-    "latest_total": 16,
+    "total": 18,
+    "latest_total": 18,
     "raw_news": 255,
     "raw_latest_news": 255,
     "raw_rss": 69,
@@ -26,14 +26,16 @@
     "交通出行": {
       "news": [
         "news:31",
-        "news:60",
+        "news:46",
+        "news:50",
+        "news:99",
         "news:250"
       ],
       "rss": []
     },
     "人口家庭": {
       "news": [
-        "news:106"
+        "news:112"
       ],
       "rss": []
     },
@@ -51,50 +53,55 @@
     },
     "医疗健康": {
       "news": [
-        "news:88",
-        "news:238"
+        "news:75",
+        "news:239"
       ],
       "rss": []
     },
     "常见疾病": {
       "news": [
         "news:16",
-        "news:199"
+        "news:200"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:24",
         "news:61",
-        "news:66"
+        "news:65"
+      ],
+      "rss": []
+    },
+    "物价消费": {
+      "news": [
+        "news:67"
       ],
       "rss": []
     },
     "养老生活": {
       "news": [
-        "news:197"
-      ],
-      "rss": []
-    },
-    "营养饮食": {
-      "news": [
-        "news:246"
+        "news:204"
       ],
       "rss": []
     },
     "教育民生": {
       "news": [
-        "news:252"
+        "news:242"
+      ],
+      "rss": []
+    },
+    "营养饮食": {
+      "news": [
+        "news:249"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-10-03",
-    "latest_crawl_time": "02-36",
-    "count": 16,
-    "latest_count": 16,
+    "latest_crawl_time": "07-10",
+    "count": 18,
+    "latest_count": 18,
     "items": [
       {
         "id": 31,
@@ -104,18 +111,18 @@
         "rank": 1,
         "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E5%90%84%E5%9C%B0%E4%B8%BA%E4%BD%95%E9%83%BD%E5%9C%A8%E2%80%9C%E7%88%86%E6%94%B9%E5%9C%B0%E9%93%81%E2%80%9D",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
@@ -123,56 +130,108 @@
         "item_id": "news:31"
       },
       {
-        "id": 60,
+        "id": 46,
         "title": "意大利公交中国人太多挤到刷不上卡",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 30,
+        "rank": 16,
         "url": "https://www.baidu.com/s?wd=%E6%84%8F%E5%A4%A7%E5%88%A9%E5%85%AC%E4%BA%A4%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%A4%AA%E5%A4%9A%E6%8C%A4%E5%88%B0%E5%88%B7%E4%B8%8D%E4%B8%8A%E5%8D%A1",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
-        "ranks": [
-          30
-        ],
-        "rank_timeline": [
-          {
-            "rank": 30,
-            "crawl_time": "02-36"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:60"
-      },
-      {
-        "id": 106,
-        "title": "Kat和Sid结婚啦",
-        "platform_id": "bilibili-hot-search",
-        "platform_name": "bilibili 热搜",
-        "rank": 16,
-        "url": "https://search.bilibili.com/all?keyword=Kat%E5%92%8CSid%E7%BB%93%E5%A9%9A%E5%95%A6",
-        "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
-        "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           16
         ],
         "rank_timeline": [
           {
             "rank": 16,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:46"
+      },
+      {
+        "id": 50,
+        "title": "武汉地铁现央视同款《橘颂》",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 20,
+        "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E5%9C%B0%E9%93%81%E7%8E%B0%E5%A4%AE%E8%A7%86%E5%90%8C%E6%AC%BE%E3%80%8A%E6%A9%98%E9%A2%82%E3%80%8B",
+        "mobile_url": "",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
+        "crawl_count": 1,
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
+        "ranks": [
+          20
+        ],
+        "rank_timeline": [
+          {
+            "rank": 20,
+            "crawl_time": "07-10"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:50"
+      },
+      {
+        "id": 99,
+        "title": "当高铁维修师是什么体验",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 9,
+        "url": "https://search.bilibili.com/all?keyword=%E5%BD%93%E9%AB%98%E9%93%81%E7%BB%B4%E4%BF%AE%E5%B8%88%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C",
+        "mobile_url": "",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
+        "crawl_count": 1,
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
+        "ranks": [
+          9
+        ],
+        "rank_timeline": [
+          {
+            "rank": 9,
+            "crawl_time": "07-10"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:99"
+      },
+      {
+        "id": 112,
+        "title": "Kat和Sid结婚啦",
+        "platform_id": "bilibili-hot-search",
+        "platform_name": "bilibili 热搜",
+        "rank": 22,
+        "url": "https://search.bilibili.com/all?keyword=Kat%E5%92%8CSid%E7%BB%93%E5%A9%9A%E5%95%A6",
+        "mobile_url": "",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
+        "crawl_count": 1,
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
+        "ranks": [
+          22
+        ],
+        "rank_timeline": [
+          {
+            "rank": 22,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:106"
+        "item_id": "news:112"
       },
       {
         "id": 124,
@@ -182,18 +241,18 @@
         "rank": 4,
         "url": "https://www.cls.cn/detail/2496795",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
@@ -208,18 +267,18 @@
         "rank": 4,
         "url": "https://www.thepaper.cn/newsDetail_forward_34192197",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34192197",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           4
         ],
         "rank_timeline": [
           {
             "rank": 4,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
@@ -227,30 +286,30 @@
         "item_id": "news:74"
       },
       {
-        "id": 88,
+        "id": 75,
         "title": "上海生育医疗费用个人“无自付”新政落地，部分住院分娩孕产妇已获益",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 18,
+        "rank": 5,
         "url": "https://www.thepaper.cn/newsDetail_forward_34191974",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34191974",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
-          18
+          5
         ],
         "rank_timeline": [
           {
-            "rank": 18,
-            "crawl_time": "02-36"
+            "rank": 5,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:88"
+        "item_id": "news:75"
       },
       {
         "id": 16,
@@ -260,49 +319,23 @@
         "rank": 16,
         "url": "https://www.toutiao.com/trending/7691890868747534390/",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           16
         ],
         "rank_timeline": [
           {
             "rank": 16,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "常见疾病",
         "item_id": "news:16"
-      },
-      {
-        "id": 24,
-        "title": "美国就业降温 金融市场先松了口气",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 24,
-        "url": "https://www.toutiao.com/trending/7692074177934659135/",
-        "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
-        "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
-        "ranks": [
-          24
-        ],
-        "rank_timeline": [
-          {
-            "rank": 24,
-            "crawl_time": "02-36"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:24"
       },
       {
         "id": 61,
@@ -312,18 +345,18 @@
         "rank": 1,
         "url": "https://wallstreetcn.com/articles/3782938",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
@@ -331,134 +364,186 @@
         "item_id": "news:61"
       },
       {
-        "id": 66,
+        "id": 65,
         "title": "9月新增就业料降至9万：今夜非农真正的“炸点”，或在8月数据是否大幅下修",
         "platform_id": "wallstreetcn-hot",
         "platform_name": "华尔街见闻",
-        "rank": 6,
+        "rank": 5,
         "url": "https://wallstreetcn.com/articles/3782927",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
-          6
+          5
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "02-36"
+            "rank": 5,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:66"
+        "item_id": "news:65"
       },
       {
-        "id": 197,
-        "title": "女生自助餐暴食开腹取出三斤残渣",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 22,
-        "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E8%87%AA%E5%8A%A9%E9%A4%90%E6%9A%B4%E9%A3%9F%E5%BC%80%E8%85%B9%E5%8F%96%E5%87%BA%E4%B8%89%E6%96%A4%E6%AE%8B%E6%B8%A3%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E8%87%AA%E5%8A%A9%E9%A4%90%E6%9A%B4%E9%A3%9F%E5%BC%80%E8%85%B9%E5%8F%96%E5%87%BA%E4%B8%89%E6%96%A4%E6%AE%8B%E6%B8%A3%23&t=31&band_rank=22&Refer=top",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "id": 67,
+        "title": "马克龙呼吁G7协调联合抛储，油价应声跳水，欧美股市集体上涨，10年德债收益率跌至三周低位",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 7,
+        "url": "https://wallstreetcn.com/articles/3782926",
+        "mobile_url": "",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
-          22
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 22,
-            "crawl_time": "02-36"
+            "rank": 7,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:197"
+        "matched_category": "物价消费",
+        "item_id": "news:67"
       },
       {
-        "id": 199,
+        "id": 200,
         "title": "67岁阿姨花光积蓄去南极肿瘤变小了",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 24,
+        "rank": 25,
         "url": "https://s.weibo.com/weibo?q=%2367%E5%B2%81%E9%98%BF%E5%A7%A8%E8%8A%B1%E5%85%89%E7%A7%AF%E8%93%84%E5%8E%BB%E5%8D%97%E6%9E%81%E8%82%BF%E7%98%A4%E5%8F%98%E5%B0%8F%E4%BA%86%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%2367%E5%B2%81%E9%98%BF%E5%A7%A8%E8%8A%B1%E5%85%89%E7%A7%AF%E8%93%84%E5%8E%BB%E5%8D%97%E6%9E%81%E8%82%BF%E7%98%A4%E5%8F%98%E5%B0%8F%E4%BA%86%23&t=31&band_rank=24&Refer=top",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "mobile_url": "https://s.weibo.com/weibo?q=%2367%E5%B2%81%E9%98%BF%E5%A7%A8%E8%8A%B1%E5%85%89%E7%A7%AF%E8%93%84%E5%8E%BB%E5%8D%97%E6%9E%81%E8%82%BF%E7%98%A4%E5%8F%98%E5%B0%8F%E4%BA%86%23&t=31&band_rank=25&Refer=top",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
-          24
+          25
         ],
         "rank_timeline": [
           {
-            "rank": 24,
-            "crawl_time": "02-36"
+            "rank": 25,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "常见疾病",
-        "item_id": "news:199"
+        "item_id": "news:200"
       },
       {
-        "id": 238,
-        "title": "网友称小诊所看病好得快的原因是采用了抗生素、激素等猛药压制症状的疗法，是真的吗？会对健康造成哪些影响？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 3,
-        "url": "https://www.zhihu.com/question/2088709467814585476",
-        "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "id": 204,
+        "title": "女生自助餐暴食开腹取出三斤残渣",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 29,
+        "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E8%87%AA%E5%8A%A9%E9%A4%90%E6%9A%B4%E9%A3%9F%E5%BC%80%E8%85%B9%E5%8F%96%E5%87%BA%E4%B8%89%E6%96%A4%E6%AE%8B%E6%B8%A3%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E8%87%AA%E5%8A%A9%E9%A4%90%E6%9A%B4%E9%A3%9F%E5%BC%80%E8%85%B9%E5%8F%96%E5%87%BA%E4%B8%89%E6%96%A4%E6%AE%8B%E6%B8%A3%23&t=31&band_rank=29&Refer=top",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
-          3
+          29
         ],
         "rank_timeline": [
           {
-            "rank": 3,
-            "crawl_time": "02-36"
+            "rank": 29,
+            "crawl_time": "07-10"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:204"
+      },
+      {
+        "id": 239,
+        "title": "网友称小诊所看病好得快的原因是采用了抗生素、激素等猛药压制症状的疗法，是真的吗？会对健康造成哪些影响？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 4,
+        "url": "https://www.zhihu.com/question/2088709467814585476",
+        "mobile_url": "",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
+        "crawl_count": 1,
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
+        "ranks": [
+          4
+        ],
+        "rank_timeline": [
+          {
+            "rank": 4,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "医疗健康",
-        "item_id": "news:238"
+        "item_id": "news:239"
       },
       {
-        "id": 246,
-        "title": "为什么维生素只有 ABCDE 和 K，中间跳过了 FGHIJ？",
+        "id": 242,
+        "title": "清华北大是本身有含金量，还是因为 13 亿人高考内卷出来的排名靠前的学生有含金量？",
         "platform_id": "zhihu",
         "platform_name": "知乎",
-        "rank": 11,
-        "url": "https://www.zhihu.com/question/1996498851373270061",
+        "rank": 7,
+        "url": "https://www.zhihu.com/question/1978164446527498062",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
-          11
+          7
         ],
         "rank_timeline": [
           {
-            "rank": 11,
-            "crawl_time": "02-36"
+            "rank": 7,
+            "crawl_time": "07-10"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:242"
+      },
+      {
+        "id": 249,
+        "title": "为什么维生素只有 ABCDE 和 K，中间跳过了 FGHIJ？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 14,
+        "url": "https://www.zhihu.com/question/1996498851373270061",
+        "mobile_url": "",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
+        "crawl_count": 1,
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "营养饮食",
-        "item_id": "news:246"
+        "item_id": "news:249"
       },
       {
         "id": 250,
@@ -468,49 +553,23 @@
         "rank": 15,
         "url": "https://www.zhihu.com/question/2089009532022125355",
         "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
+        "first_crawl_time": "07-10",
+        "last_crawl_time": "07-10",
         "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
+        "created_at": "2026-10-03 07:10:30",
+        "updated_at": "2026-10-03 07:10:30",
         "ranks": [
           15
         ],
         "rank_timeline": [
           {
             "rank": 15,
-            "crawl_time": "02-36"
+            "crawl_time": "07-10"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
         "item_id": "news:250"
-      },
-      {
-        "id": 252,
-        "title": "清华北大是本身有含金量，还是因为 13 亿人高考内卷出来的排名靠前的学生有含金量？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 17,
-        "url": "https://www.zhihu.com/question/1978164446527498062",
-        "mobile_url": "",
-        "first_crawl_time": "02-36",
-        "last_crawl_time": "02-36",
-        "crawl_count": 1,
-        "created_at": "2026-10-03 02:36:54",
-        "updated_at": "2026-10-03 02:36:54",
-        "ranks": [
-          17
-        ],
-        "rank_timeline": [
-          {
-            "rank": 17,
-            "crawl_time": "02-36"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:252"
       }
     ],
     "platforms": [
@@ -518,95 +577,99 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-10-03 02:36:54"
+        "updated_at": "2026-10-03 07:10:30"
       }
     ],
     "latest_item_ids": [
       "news:31",
-      "news:60",
-      "news:106",
+      "news:46",
+      "news:50",
+      "news:99",
+      "news:112",
       "news:124",
       "news:74",
-      "news:88",
+      "news:75",
       "news:16",
-      "news:24",
       "news:61",
-      "news:66",
-      "news:197",
-      "news:199",
-      "news:238",
-      "news:246",
-      "news:250",
-      "news:252"
+      "news:65",
+      "news:67",
+      "news:200",
+      "news:204",
+      "news:239",
+      "news:242",
+      "news:249",
+      "news:250"
     ],
     "categories": {
       "交通出行": [
         "news:31",
-        "news:60",
+        "news:46",
+        "news:50",
+        "news:99",
         "news:250"
       ],
       "人口家庭": [
-        "news:106"
+        "news:112"
       ],
       "住房民生": [
         "news:124"
@@ -615,36 +678,40 @@
         "news:74"
       ],
       "医疗健康": [
-        "news:88",
-        "news:238"
+        "news:75",
+        "news:239"
       ],
       "常见疾病": [
         "news:16",
-        "news:199"
+        "news:200"
       ],
       "就业民生": [
-        "news:24",
         "news:61",
-        "news:66"
+        "news:65"
+      ],
+      "物价消费": [
+        "news:67"
       ],
       "养老生活": [
-        "news:197"
-      ],
-      "营养饮食": [
-        "news:246"
+        "news:204"
       ],
       "教育民生": [
-        "news:252"
+        "news:242"
+      ],
+      "营养饮食": [
+        "news:249"
       ]
     },
     "latest_categories": {
       "交通出行": [
         "news:31",
-        "news:60",
+        "news:46",
+        "news:50",
+        "news:99",
         "news:250"
       ],
       "人口家庭": [
-        "news:106"
+        "news:112"
       ],
       "住房民生": [
         "news:124"
@@ -653,26 +720,28 @@
         "news:74"
       ],
       "医疗健康": [
-        "news:88",
-        "news:238"
+        "news:75",
+        "news:239"
       ],
       "常见疾病": [
         "news:16",
-        "news:199"
+        "news:200"
       ],
       "就业民生": [
-        "news:24",
         "news:61",
-        "news:66"
+        "news:65"
+      ],
+      "物价消费": [
+        "news:67"
       ],
       "养老生活": [
-        "news:197"
-      ],
-      "营养饮食": [
-        "news:246"
+        "news:204"
       ],
       "教育民生": [
-        "news:252"
+        "news:242"
+      ],
+      "营养饮食": [
+        "news:249"
       ]
     },
     "raw_count": 255,
@@ -680,7 +749,7 @@
   },
   "rss": {
     "date": "2026-10-03",
-    "latest_crawl_time": "02:36",
+    "latest_crawl_time": "07:10",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -693,7 +762,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-10-03 02:36:56"
+        "updated_at": "2026-10-03 07:10:36"
       },
       {
         "id": "yahoo-finance",
@@ -703,7 +772,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-10-03 02:36:56"
+        "updated_at": "2026-10-03 07:10:36"
       }
     ],
     "latest_item_ids": [],

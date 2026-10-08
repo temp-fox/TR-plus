@@ -1,253 +1,275 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T10:12:17.669353+08:00",
+  "generated_at": "2026-10-08T17:21:11.950819+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "37716649367",
-    "run_number": "1257",
+    "run_id": "37755947539",
+    "run_number": "1258",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-10-08",
-  "crawl_time": "10-12",
+  "crawl_time": "17-21",
   "counts": {
-    "news": 7,
-    "latest_news": 7,
+    "news": 8,
+    "latest_news": 8,
     "rss": 0,
     "latest_rss": 0,
-    "total": 7,
-    "latest_total": 7,
+    "total": 8,
+    "latest_total": 8,
     "raw_news": 255,
     "raw_latest_news": 255,
     "raw_rss": 20,
     "raw_latest_rss": 20
   },
   "categories": {
-    "四季养生": {
-      "news": [
-        "news:37"
-      ],
-      "rss": []
-    },
-    "医疗健康": {
-      "news": [
-        "news:38"
-      ],
-      "rss": []
-    },
-    "睡眠心理": {
-      "news": [
-        "news:52"
-      ],
-      "rss": []
-    },
     "物价消费": {
       "news": [
-        "news:128",
-        "news:69"
+        "news:38",
+        "news:67",
+        "news:246"
       ],
       "rss": []
     },
-    "就业民生": {
+    "住房民生": {
       "news": [
-        "news:149"
+        "news:131"
       ],
       "rss": []
     },
     "交通出行": {
       "news": [
-        "news:180"
+        "news:86"
+      ],
+      "rss": []
+    },
+    "就业民生": {
+      "news": [
+        "news:154"
+      ],
+      "rss": []
+    },
+    "医疗健康": {
+      "news": [
+        "news:187",
+        "news:253"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-10-08",
-    "latest_crawl_time": "10-12",
-    "count": 7,
-    "latest_count": 7,
+    "latest_crawl_time": "17-21",
+    "count": 8,
+    "latest_count": 8,
     "items": [
       {
-        "id": 37,
-        "title": "寒露 贴秋膘",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 7,
-        "url": "https://www.baidu.com/s?wd=%E5%AF%92%E9%9C%B2+%E8%B4%B4%E7%A7%8B%E8%86%98",
-        "mobile_url": "",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
-        "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
-        "ranks": [
-          7
-        ],
-        "rank_timeline": [
-          {
-            "rank": 7,
-            "crawl_time": "10-12"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "四季养生",
-        "item_id": "news:37"
-      },
-      {
         "id": 38,
-        "title": "A股开盘：医药医疗、油气等板块走强",
+        "title": "豪华车现“腰斩式”降价",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
         "rank": 8,
-        "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E5%BC%80%E7%9B%98%EF%BC%9A%E5%8C%BB%E8%8D%AF%E5%8C%BB%E7%96%97%E3%80%81%E6%B2%B9%E6%B0%94%E7%AD%89%E6%9D%BF%E5%9D%97%E8%B5%B0%E5%BC%BA",
+        "url": "https://www.baidu.com/s?wd=%E8%B1%AA%E5%8D%8E%E8%BD%A6%E7%8E%B0%E2%80%9C%E8%85%B0%E6%96%A9%E5%BC%8F%E2%80%9D%E9%99%8D%E4%BB%B7",
         "mobile_url": "",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
         "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
         "ranks": [
           8
         ],
         "rank_timeline": [
           {
             "rank": 8,
-            "crawl_time": "10-12"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "医疗健康",
-        "item_id": "news:38"
-      },
-      {
-        "id": 52,
-        "title": "新能源汽车“续航焦虑”缓解了吗",
-        "platform_id": "baidu",
-        "platform_name": "百度热搜",
-        "rank": 22,
-        "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E2%80%9C%E7%BB%AD%E8%88%AA%E7%84%A6%E8%99%91%E2%80%9D%E7%BC%93%E8%A7%A3%E4%BA%86%E5%90%97",
-        "mobile_url": "",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
-        "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
-        "ranks": [
-          22
-        ],
-        "rank_timeline": [
-          {
-            "rank": 22,
-            "crawl_time": "10-12"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "睡眠心理",
-        "item_id": "news:52"
-      },
-      {
-        "id": 128,
-        "title": "DRAM迎超级成长周期 传南亚科计划涨价 涨幅最高达20%",
-        "platform_id": "cls-hot",
-        "platform_name": "财联社热门",
-        "rank": 8,
-        "url": "https://www.cls.cn/detail/2498430",
-        "mobile_url": "",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
-        "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "10-12"
+            "crawl_time": "17-21"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:128"
+        "item_id": "news:38"
       },
       {
-        "id": 149,
-        "title": "男友失业变巨婴,七年感情告急",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 4,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%94%B7%E5%8F%8B%E5%A4%B1%E4%B8%9A%E5%8F%98%E5%B7%A8%E5%A9%B4%2C%E4%B8%83%E5%B9%B4%E6%84%9F%E6%83%85%E5%91%8A%E6%80%A5&topic_id=28366386",
+        "id": 131,
+        "title": "房贷贴息新政首周银行都在忙什么？连夜开发系统、加大线下拓客、积极对接地方财政|一线",
+        "platform_id": "cls-hot",
+        "platform_name": "财联社热门",
+        "rank": 11,
+        "url": "https://www.cls.cn/detail/2499043",
         "mobile_url": "",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
         "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
         "ranks": [
-          4
+          11
         ],
         "rank_timeline": [
           {
-            "rank": 4,
-            "crawl_time": "10-12"
+            "rank": 11,
+            "crawl_time": "17-21"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:149"
+        "matched_category": "住房民生",
+        "item_id": "news:131"
       },
       {
-        "id": 69,
-        "title": "华为余承东：芯片基本摆脱对美依赖，手机利润率正在急剧下降，未来不得不涨价",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
-        "rank": 9,
-        "url": "https://wallstreetcn.com/articles/3783111",
-        "mobile_url": "",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
+        "id": 86,
+        "title": "游客称打车去惠州平潭机场两次遭遇司机加价，平台：由服务商对司机违规操作进行处理",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 16,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34210760",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34210760",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
         "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
+        "ranks": [
+          16
+        ],
+        "rank_timeline": [
+          {
+            "rank": 16,
+            "crawl_time": "17-21"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:86"
+      },
+      {
+        "id": 154,
+        "title": "男友失业变巨婴,七年感情告急",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 9,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E7%94%B7%E5%8F%8B%E5%A4%B1%E4%B8%9A%E5%8F%98%E5%B7%A8%E5%A9%B4%2C%E4%B8%83%E5%B9%B4%E6%84%9F%E6%83%85%E5%91%8A%E6%80%A5&topic_id=28366386",
+        "mobile_url": "",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
+        "crawl_count": 1,
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
         "ranks": [
           9
         ],
         "rank_timeline": [
           {
             "rank": 9,
-            "crawl_time": "10-12"
+            "crawl_time": "17-21"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:154"
+      },
+      {
+        "id": 67,
+        "title": "特朗普称对伊朗军事行动 “必须收尾了”，媒体爆料美军制定“中选前打击方案”，油价应声上涨",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 7,
+        "url": "https://wallstreetcn.com/articles/3783137",
+        "mobile_url": "",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
+        "crawl_count": 1,
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "17-21"
           }
         ],
         "is_latest": true,
         "matched_category": "物价消费",
-        "item_id": "news:69"
+        "item_id": "news:67"
       },
       {
-        "id": 180,
-        "title": "机票大跳水比高铁还便宜",
+        "id": 187,
+        "title": "太仓代孕机构被曝月手术上百台",
         "platform_id": "weibo",
         "platform_name": "微博",
-        "rank": 5,
-        "url": "https://s.weibo.com/weibo?q=%23%E6%9C%BA%E7%A5%A8%E5%A4%A7%E8%B7%B3%E6%B0%B4%E6%AF%94%E9%AB%98%E9%93%81%E8%BF%98%E4%BE%BF%E5%AE%9C%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%9C%BA%E7%A5%A8%E5%A4%A7%E8%B7%B3%E6%B0%B4%E6%AF%94%E9%AB%98%E9%93%81%E8%BF%98%E4%BE%BF%E5%AE%9C%23&t=31&band_rank=5&Refer=top",
-        "first_crawl_time": "10-12",
-        "last_crawl_time": "10-12",
+        "rank": 12,
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E4%BB%93%E4%BB%A3%E5%AD%95%E6%9C%BA%E6%9E%84%E8%A2%AB%E6%9B%9D%E6%9C%88%E6%89%8B%E6%9C%AF%E4%B8%8A%E7%99%BE%E5%8F%B0",
+        "mobile_url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E4%BB%93%E4%BB%A3%E5%AD%95%E6%9C%BA%E6%9E%84%E8%A2%AB%E6%9B%9D%E6%9C%88%E6%89%8B%E6%9C%AF%E4%B8%8A%E7%99%BE%E5%8F%B0&t=31&band_rank=12&Refer=top",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
         "crawl_count": 1,
-        "created_at": "2026-10-08 10:12:14",
-        "updated_at": "2026-10-08 10:12:14",
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
         "ranks": [
-          5
+          12
         ],
         "rank_timeline": [
           {
-            "rank": 5,
-            "crawl_time": "10-12"
+            "rank": 12,
+            "crawl_time": "17-21"
           }
         ],
         "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:180"
+        "matched_category": "医疗健康",
+        "item_id": "news:187"
+      },
+      {
+        "id": 246,
+        "title": "Claude 发布 Haiku5.5，跑分暴涨并降价 75%，这意味着什么？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 11,
+        "url": "https://www.zhihu.com/question/2091366502272447177",
+        "mobile_url": "",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
+        "crawl_count": 1,
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "17-21"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:246"
+      },
+      {
+        "id": 253,
+        "title": "网友称坐滴滴接触到前乘客的血液，警方称因隐私不能要求对方出具传染病证明，合理吗？需进行传染病筛查吗？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 18,
+        "url": "https://www.zhihu.com/question/2089778452542877830",
+        "mobile_url": "",
+        "first_crawl_time": "17-21",
+        "last_crawl_time": "17-21",
+        "crawl_count": 1,
+        "created_at": "2026-10-08 17:21:02",
+        "updated_at": "2026-10-08 17:21:02",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "17-21"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "医疗健康",
+        "item_id": "news:253"
       }
     ],
     "platforms": [
@@ -255,118 +277,117 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-10-08 10:12:14"
+        "updated_at": "2026-10-08 17:21:02"
       }
     ],
     "latest_item_ids": [
-      "news:37",
       "news:38",
-      "news:52",
-      "news:128",
-      "news:149",
-      "news:69",
-      "news:180"
+      "news:131",
+      "news:86",
+      "news:154",
+      "news:67",
+      "news:187",
+      "news:246",
+      "news:253"
     ],
     "categories": {
-      "四季养生": [
-        "news:37"
-      ],
-      "医疗健康": [
-        "news:38"
-      ],
-      "睡眠心理": [
-        "news:52"
-      ],
       "物价消费": [
-        "news:128",
-        "news:69"
+        "news:38",
+        "news:67",
+        "news:246"
       ],
-      "就业民生": [
-        "news:149"
+      "住房民生": [
+        "news:131"
       ],
       "交通出行": [
-        "news:180"
+        "news:86"
+      ],
+      "就业民生": [
+        "news:154"
+      ],
+      "医疗健康": [
+        "news:187",
+        "news:253"
       ]
     },
     "latest_categories": {
-      "四季养生": [
-        "news:37"
-      ],
-      "医疗健康": [
-        "news:38"
-      ],
-      "睡眠心理": [
-        "news:52"
-      ],
       "物价消费": [
-        "news:128",
-        "news:69"
+        "news:38",
+        "news:67",
+        "news:246"
       ],
-      "就业民生": [
-        "news:149"
+      "住房民生": [
+        "news:131"
       ],
       "交通出行": [
-        "news:180"
+        "news:86"
+      ],
+      "就业民生": [
+        "news:154"
+      ],
+      "医疗健康": [
+        "news:187",
+        "news:253"
       ]
     },
     "raw_count": 255,
@@ -374,7 +395,7 @@
   },
   "rss": {
     "date": "2026-10-08",
-    "latest_crawl_time": "10:12",
+    "latest_crawl_time": "17:21",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -387,7 +408,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-10-08 10:12:15"
+        "updated_at": "2026-10-08 17:21:09"
       },
       {
         "id": "yahoo-finance",
@@ -397,7 +418,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-10-08 10:12:15"
+        "updated_at": "2026-10-08 17:21:09"
       }
     ],
     "latest_item_ids": [],

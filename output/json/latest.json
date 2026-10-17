@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T19:04:15.804299+08:00",
+  "generated_at": "2026-10-17T22:20:19.175378+08:00",
   "source": {
     "repository": "temp-fox/TR-plus",
-    "run_id": "39027235045",
-    "run_number": "1300",
+    "run_id": "39040241561",
+    "run_number": "1301",
     "workflow": "Get Hot News",
     "ref": "main"
   },
   "date": "2026-10-17",
-  "crawl_time": "19-04",
+  "crawl_time": "22-19",
   "counts": {
     "news": 24,
     "latest_news": 24,
@@ -19,163 +19,199 @@
     "latest_total": 24,
     "raw_news": 255,
     "raw_latest_news": 255,
-    "raw_rss": 20,
-    "raw_latest_rss": 20
+    "raw_rss": 0,
+    "raw_latest_rss": 0
   },
   "categories": {
+    "养老生活": {
+      "news": [
+        "news:39",
+        "news:81",
+        "news:85",
+        "news:16"
+      ],
+      "rss": []
+    },
     "人口家庭": {
       "news": [
-        "news:36",
-        "news:42",
-        "news:183",
-        "news:193"
+        "news:48",
+        "news:52"
       ],
       "rss": []
     },
     "交通出行": {
       "news": [
-        "news:46",
-        "news:82",
-        "news:158"
+        "news:57",
+        "news:77",
+        "news:161",
+        "news:14"
       ],
       "rss": []
     },
     "物价消费": {
       "news": [
         "news:121",
-        "news:16",
-        "news:63"
+        "news:62"
       ],
       "rss": []
     },
-    "养老生活": {
+    "健康总论": {
       "news": [
-        "news:85",
-        "news:90",
-        "news:9"
-      ],
-      "rss": []
-    },
-    "教育民生": {
-      "news": [
-        "news:146",
-        "news:240",
-        "news:241"
+        "news:208"
       ],
       "rss": []
     },
     "安全灾害": {
       "news": [
-        "news:152",
-        "news:251"
+        "news:212",
+        "news:155"
       ],
       "rss": []
     },
-    "消费维权": {
+    "教育民生": {
       "news": [
-        "news:167",
-        "news:180"
+        "news:147",
+        "news:238",
+        "news:252"
       ],
       "rss": []
     },
     "就业民生": {
       "news": [
-        "news:179",
-        "news:239"
+        "news:148",
+        "news:188",
+        "news:246"
+      ],
+      "rss": []
+    },
+    "消费维权": {
+      "news": [
+        "news:169"
+      ],
+      "rss": []
+    },
+    "常见疾病": {
+      "news": [
+        "news:199"
       ],
       "rss": []
     },
     "社会保障": {
       "news": [
-        "news:243",
-        "news:249"
+        "news:241"
       ],
       "rss": []
     }
   },
   "news": {
     "date": "2026-10-17",
-    "latest_crawl_time": "19-04",
+    "latest_crawl_time": "22-19",
     "count": 24,
     "latest_count": 24,
     "items": [
       {
-        "id": 36,
-        "title": "消失很久的“结婚大件”突然卖爆了",
+        "id": 39,
+        "title": "多少岁才算老人家",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 6,
-        "url": "https://www.baidu.com/s?wd=%E6%B6%88%E5%A4%B1%E5%BE%88%E4%B9%85%E7%9A%84%E2%80%9C%E7%BB%93%E5%A9%9A%E5%A4%A7%E4%BB%B6%E2%80%9D%E7%AA%81%E7%84%B6%E5%8D%96%E7%88%86%E4%BA%86",
+        "rank": 9,
+        "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%B0%91%E5%B2%81%E6%89%8D%E7%AE%97%E8%80%81%E4%BA%BA%E5%AE%B6",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
-          6
+          9
         ],
         "rank_timeline": [
           {
-            "rank": 6,
-            "crawl_time": "19-04"
+            "rank": 9,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:39"
+      },
+      {
+        "id": 48,
+        "title": "女子被家暴终止妊娠 男方要求退彩礼",
+        "platform_id": "baidu",
+        "platform_name": "百度热搜",
+        "rank": 18,
+        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E8%A2%AB%E5%AE%B6%E6%9A%B4%E7%BB%88%E6%AD%A2%E5%A6%8A%E5%A8%A0+%E7%94%B7%E6%96%B9%E8%A6%81%E6%B1%82%E9%80%80%E5%BD%A9%E7%A4%BC",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          18
+        ],
+        "rank_timeline": [
+          {
+            "rank": 18,
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:36"
+        "item_id": "news:48"
       },
       {
-        "id": 42,
-        "title": "男子为女友母亲养老送终获500万遗产",
+        "id": 52,
+        "title": "女子选“聪明又老实”的结婚后后悔",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 12,
-        "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E4%B8%BA%E5%A5%B3%E5%8F%8B%E6%AF%8D%E4%BA%B2%E5%85%BB%E8%80%81%E9%80%81%E7%BB%88%E8%8E%B7500%E4%B8%87%E9%81%97%E4%BA%A7",
+        "rank": 22,
+        "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E9%80%89%E2%80%9C%E8%81%AA%E6%98%8E%E5%8F%88%E8%80%81%E5%AE%9E%E2%80%9D%E7%9A%84%E7%BB%93%E5%A9%9A%E5%90%8E%E5%90%8E%E6%82%94",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
-          12
+          22
         ],
         "rank_timeline": [
           {
-            "rank": 12,
-            "crawl_time": "19-04"
+            "rank": 22,
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
         "matched_category": "人口家庭",
-        "item_id": "news:42"
+        "item_id": "news:52"
       },
       {
-        "id": 46,
+        "id": 57,
         "title": "带充电桩的车位油车到底能不能停",
         "platform_id": "baidu",
         "platform_name": "百度热搜",
-        "rank": 16,
+        "rank": 27,
         "url": "https://www.baidu.com/s?wd=%E5%B8%A6%E5%85%85%E7%94%B5%E6%A1%A9%E7%9A%84%E8%BD%A6%E4%BD%8D%E6%B2%B9%E8%BD%A6%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E5%81%9C",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
-          16
+          27
         ],
         "rank_timeline": [
           {
-            "rank": 16,
-            "crawl_time": "19-04"
+            "rank": 27,
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:46"
+        "item_id": "news:57"
       },
       {
         "id": 121,
@@ -185,18 +221,18 @@
         "rank": 1,
         "url": "https://www.cls.cn/detail/2507382",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
           1
         ],
         "rank_timeline": [
           {
             "rank": 1,
-            "crawl_time": "19-04"
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
@@ -204,51 +240,129 @@
         "item_id": "news:121"
       },
       {
-        "id": 82,
-        "title": "市民建议上海地铁全线添加沪语报站，交通部门回应",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 12,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34270134",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34270134",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "id": 208,
+        "title": "健康中国释放新信号",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 3,
+        "url": "https://www.douyin.com/hot/2700426",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
-          12
+          3
         ],
         "rank_timeline": [
           {
-            "rank": 12,
-            "crawl_time": "19-04"
+            "rank": 3,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "健康总论",
+        "item_id": "news:208"
+      },
+      {
+        "id": 212,
+        "title": "台风蔷琵路径还有很大变数",
+        "platform_id": "douyin",
+        "platform_name": "抖音",
+        "rank": 7,
+        "url": "https://www.douyin.com/hot/2700435",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "安全灾害",
+        "item_id": "news:212"
+      },
+      {
+        "id": 77,
+        "title": "市民建议上海地铁全线添加沪语报站，交通部门回应",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 7,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34270134",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34270134",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          7
+        ],
+        "rank_timeline": [
+          {
+            "rank": 7,
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
         "matched_category": "交通出行",
-        "item_id": "news:82"
+        "item_id": "news:77"
       },
       {
-        "id": 85,
+        "id": 81,
         "title": "阿尔茨海默病老人“闪婚”后房子被置换，妻子、胞弟谁适合当监护人？",
         "platform_id": "thepaper",
         "platform_name": "澎湃新闻",
-        "rank": 15,
+        "rank": 11,
         "url": "https://www.thepaper.cn/newsDetail_forward_34264950",
         "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34264950",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:81"
+      },
+      {
+        "id": 85,
+        "title": "重阳节银发族开启错峰游：“县城康养”搜索热度同比增长203%",
+        "platform_id": "thepaper",
+        "platform_name": "澎湃新闻",
+        "rank": 15,
+        "url": "https://www.thepaper.cn/newsDetail_forward_34269748",
+        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34269748",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
           15
         ],
         "rank_timeline": [
           {
             "rank": 15,
-            "crawl_time": "19-04"
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
@@ -256,472 +370,368 @@
         "item_id": "news:85"
       },
       {
-        "id": 90,
-        "title": "重阳节银发族开启错峰游：“县城康养”搜索热度同比增长203%",
-        "platform_id": "thepaper",
-        "platform_name": "澎湃新闻",
-        "rank": 20,
-        "url": "https://www.thepaper.cn/newsDetail_forward_34269748",
-        "mobile_url": "https://m.thepaper.cn/newsDetail_forward_34269748",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          20
-        ],
-        "rank_timeline": [
-          {
-            "rank": 20,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:90"
-      },
-      {
-        "id": 146,
+        "id": 147,
         "title": "设备中毒攻击校园网,吧友求助",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 1,
+        "rank": 2,
         "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E8%AE%BE%E5%A4%87%E4%B8%AD%E6%AF%92%E6%94%BB%E5%87%BB%E6%A0%A1%E5%9B%AD%E7%BD%91%2C%E5%90%A7%E5%8F%8B%E6%B1%82%E5%8A%A9&topic_id=28367438",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
-          1
+          2
         ],
         "rank_timeline": [
           {
-            "rank": 1,
-            "crawl_time": "19-04"
+            "rank": 2,
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
         "matched_category": "教育民生",
-        "item_id": "news:146"
+        "item_id": "news:147"
       },
       {
-        "id": 152,
-        "title": "日本误报9.9级地震,民众炸锅",
+        "id": 148,
+        "title": "Ale在线求职,不改脾气谁敢要",
         "platform_id": "tieba",
         "platform_name": "贴吧",
-        "rank": 7,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%97%A5%E6%9C%AC%E8%AF%AF%E6%8A%A59.9%E7%BA%A7%E5%9C%B0%E9%9C%87%2C%E6%B0%91%E4%BC%97%E7%82%B8%E9%94%85&topic_id=28367427",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          7
-        ],
-        "rank_timeline": [
-          {
-            "rank": 7,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:152"
-      },
-      {
-        "id": 158,
-        "title": "列车车次大改,火车迷炸锅",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 13,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%88%97%E8%BD%A6%E8%BD%A6%E6%AC%A1%E5%A4%A7%E6%94%B9%2C%E7%81%AB%E8%BD%A6%E8%BF%B7%E7%82%B8%E9%94%85&topic_id=28367359",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          13
-        ],
-        "rank_timeline": [
-          {
-            "rank": 13,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "交通出行",
-        "item_id": "news:158"
-      },
-      {
-        "id": 167,
-        "title": "患者送1.9元汽水举报医生收礼",
-        "platform_id": "tieba",
-        "platform_name": "贴吧",
-        "rank": 22,
-        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%82%A3%E8%80%85%E9%80%811.9%E5%85%83%E6%B1%BD%E6%B0%B4%E4%B8%BE%E6%8A%A5%E5%8C%BB%E7%94%9F%E6%94%B6%E7%A4%BC&topic_id=28367219",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          22
-        ],
-        "rank_timeline": [
-          {
-            "rank": 22,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:167"
-      },
-      {
-        "id": 9,
-        "title": "多少岁才算老人家",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 9,
-        "url": "https://www.toutiao.com/trending/7697540222615339017/",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          9
-        ],
-        "rank_timeline": [
-          {
-            "rank": 9,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "养老生活",
-        "item_id": "news:9"
-      },
-      {
-        "id": 16,
-        "title": "油价将于10月29日24时调整",
-        "platform_id": "toutiao",
-        "platform_name": "今日头条",
-        "rank": 16,
-        "url": "https://www.toutiao.com/trending/7697010887899004947/",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          16
-        ],
-        "rank_timeline": [
-          {
-            "rank": 16,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:16"
-      },
-      {
-        "id": 63,
-        "title": "华尔街腹背受敌：AI抛售潮蔓延至债市，110美元油价再添一把火",
-        "platform_id": "wallstreetcn-hot",
-        "platform_name": "华尔街见闻",
         "rank": 3,
-        "url": "https://wallstreetcn.com/articles/3783826",
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=Ale%E5%9C%A8%E7%BA%BF%E6%B1%82%E8%81%8C%2C%E4%B8%8D%E6%94%B9%E8%84%BE%E6%B0%94%E8%B0%81%E6%95%A2%E8%A6%81&topic_id=28367485",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
           3
         ],
         "rank_timeline": [
           {
             "rank": 3,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "物价消费",
-        "item_id": "news:63"
-      },
-      {
-        "id": 179,
-        "title": "欠薪345万却砸钱送孩子韩国出道",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 4,
-        "url": "https://s.weibo.com/weibo?q=%23%E6%AC%A0%E8%96%AA345%E4%B8%87%E5%8D%B4%E7%A0%B8%E9%92%B1%E9%80%81%E5%AD%A9%E5%AD%90%E9%9F%A9%E5%9B%BD%E5%87%BA%E9%81%93%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%AC%A0%E8%96%AA345%E4%B8%87%E5%8D%B4%E7%A0%B8%E9%92%B1%E9%80%81%E5%AD%A9%E5%AD%90%E9%9F%A9%E5%9B%BD%E5%87%BA%E9%81%93%23&t=31&band_rank=4&Refer=top",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          4
-        ],
-        "rank_timeline": [
-          {
-            "rank": 4,
-            "crawl_time": "19-04"
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
         "matched_category": "就业民生",
-        "item_id": "news:179"
+        "item_id": "news:148"
       },
       {
-        "id": 180,
-        "title": "学生插队被制止家长举报老师体罚",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 5,
-        "url": "https://s.weibo.com/weibo?q=%23%E5%AD%A6%E7%94%9F%E6%8F%92%E9%98%9F%E8%A2%AB%E5%88%B6%E6%AD%A2%E5%AE%B6%E9%95%BF%E4%B8%BE%E6%8A%A5%E8%80%81%E5%B8%88%E4%BD%93%E7%BD%9A%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E5%AD%A6%E7%94%9F%E6%8F%92%E9%98%9F%E8%A2%AB%E5%88%B6%E6%AD%A2%E5%AE%B6%E9%95%BF%E4%B8%BE%E6%8A%A5%E8%80%81%E5%B8%88%E4%BD%93%E7%BD%9A%23&t=31&band_rank=5&Refer=top",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          5
-        ],
-        "rank_timeline": [
-          {
-            "rank": 5,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "消费维权",
-        "item_id": "news:180"
-      },
-      {
-        "id": 183,
-        "title": "男子为女友母亲养老送终获500万遗产",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 8,
-        "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%BA%E5%A5%B3%E5%8F%8B%E6%AF%8D%E4%BA%B2%E5%85%BB%E8%80%81%E9%80%81%E7%BB%88%E8%8E%B7500%E4%B8%87%E9%81%97%E4%BA%A7%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%B8%BA%E5%A5%B3%E5%8F%8B%E6%AF%8D%E4%BA%B2%E5%85%BB%E8%80%81%E9%80%81%E7%BB%88%E8%8E%B7500%E4%B8%87%E9%81%97%E4%BA%A7%23&t=31&band_rank=8&Refer=top",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:183"
-      },
-      {
-        "id": 193,
-        "title": "沈月好友翁小雯离婚",
-        "platform_id": "weibo",
-        "platform_name": "微博",
-        "rank": 18,
-        "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%9C%88%E5%A5%BD%E5%8F%8B%E7%BF%81%E5%B0%8F%E9%9B%AF%E7%A6%BB%E5%A9%9A%23",
-        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E6%9C%88%E5%A5%BD%E5%8F%8B%E7%BF%81%E5%B0%8F%E9%9B%AF%E7%A6%BB%E5%A9%9A%23&t=31&band_rank=18&Refer=top",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          18
-        ],
-        "rank_timeline": [
-          {
-            "rank": 18,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "人口家庭",
-        "item_id": "news:193"
-      },
-      {
-        "id": 239,
-        "title": "中建七局拖欠 118 名农民工合计 320 万工资，为何这些大企业也会拖欠工资？相关负责人可能会面临哪些处罚？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 4,
-        "url": "https://www.zhihu.com/question/2094335476488300413",
+        "id": 155,
+        "title": "日本误报9.9级地震,民众炸锅",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 10,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%97%A5%E6%9C%AC%E8%AF%AF%E6%8A%A59.9%E7%BA%A7%E5%9C%B0%E9%9C%87%2C%E6%B0%91%E4%BC%97%E7%82%B8%E9%94%85&topic_id=28367427",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
-          4
+          10
         ],
         "rank_timeline": [
           {
-            "rank": 4,
-            "crawl_time": "19-04"
+            "rank": 10,
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
-        "matched_category": "就业民生",
-        "item_id": "news:239"
+        "matched_category": "安全灾害",
+        "item_id": "news:155"
       },
       {
-        "id": 240,
-        "title": "班主任休产假遭家长投诉质问「一定要生孩子吗」，教师称举报信数量激增，如何看待近几年兴起的校园投诉潮？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 5,
-        "url": "https://www.zhihu.com/question/2094730049790465149",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          5
-        ],
-        "rank_timeline": [
-          {
-            "rank": 5,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:240"
-      },
-      {
-        "id": 241,
-        "title": "怎么评价高三学生陈妤颉在近期访谈中提到的「最好不出省不出市」的高考目标？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 6,
-        "url": "https://www.zhihu.com/question/2093673328301159605",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          6
-        ],
-        "rank_timeline": [
-          {
-            "rank": 6,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "教育民生",
-        "item_id": "news:241"
-      },
-      {
-        "id": 243,
-        "title": "社保新规 11 月 1 日起施行，明确自愿放弃社保无效，怎样解读？企业未足额缴纳社保，员工权益会受到哪些损害？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 8,
-        "url": "https://www.zhihu.com/question/2094785686142558570",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          8
-        ],
-        "rank_timeline": [
-          {
-            "rank": 8,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:243"
-      },
-      {
-        "id": 249,
-        "title": "一小男孩被曝衣衫不整跟随母亲游荡，官方称孩子母亲多次拒绝救助，具体是什么情况？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
-        "rank": 14,
-        "url": "https://www.zhihu.com/question/2094122392523990193",
-        "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
-        "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
-        "ranks": [
-          14
-        ],
-        "rank_timeline": [
-          {
-            "rank": 14,
-            "crawl_time": "19-04"
-          }
-        ],
-        "is_latest": true,
-        "matched_category": "社会保障",
-        "item_id": "news:249"
-      },
-      {
-        "id": 251,
-        "title": "网友称蒙古国草原火灾并非无力管控，而是他们认为烧荒能增加土壤肥力，是真的吗？长远看这种方式有哪些影响？",
-        "platform_id": "zhihu",
-        "platform_name": "知乎",
+        "id": 161,
+        "title": "列车车次大改,火车迷炸锅",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
         "rank": 16,
-        "url": "https://www.zhihu.com/question/2094076155120676878",
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E5%88%97%E8%BD%A6%E8%BD%A6%E6%AC%A1%E5%A4%A7%E6%94%B9%2C%E7%81%AB%E8%BD%A6%E8%BF%B7%E7%82%B8%E9%94%85&topic_id=28367359",
         "mobile_url": "",
-        "first_crawl_time": "19-04",
-        "last_crawl_time": "19-04",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
         "crawl_count": 1,
-        "created_at": "2026-10-17 19:04:09",
-        "updated_at": "2026-10-17 19:04:09",
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
         "ranks": [
           16
         ],
         "rank_timeline": [
           {
             "rank": 16,
-            "crawl_time": "19-04"
+            "crawl_time": "22-19"
           }
         ],
         "is_latest": true,
-        "matched_category": "安全灾害",
-        "item_id": "news:251"
+        "matched_category": "交通出行",
+        "item_id": "news:161"
+      },
+      {
+        "id": 169,
+        "title": "患者送1.9元汽水举报医生收礼",
+        "platform_id": "tieba",
+        "platform_name": "贴吧",
+        "rank": 24,
+        "url": "https://tieba.baidu.com/hottopic/browse/hottopic?amp%3Btopic_name=%E6%82%A3%E8%80%85%E9%80%811.9%E5%85%83%E6%B1%BD%E6%B0%B4%E4%B8%BE%E6%8A%A5%E5%8C%BB%E7%94%9F%E6%94%B6%E7%A4%BC&topic_id=28367219",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          24
+        ],
+        "rank_timeline": [
+          {
+            "rank": 24,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "消费维权",
+        "item_id": "news:169"
+      },
+      {
+        "id": 14,
+        "title": "英国为何拒绝对中国电动车加关税",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 14,
+        "url": "https://www.toutiao.com/trending/7697596237339430426/",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          14
+        ],
+        "rank_timeline": [
+          {
+            "rank": 14,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "交通出行",
+        "item_id": "news:14"
+      },
+      {
+        "id": 16,
+        "title": "多少岁才算老人家",
+        "platform_id": "toutiao",
+        "platform_name": "今日头条",
+        "rank": 16,
+        "url": "https://www.toutiao.com/trending/7697540222615339017/",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          16
+        ],
+        "rank_timeline": [
+          {
+            "rank": 16,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "养老生活",
+        "item_id": "news:16"
+      },
+      {
+        "id": 62,
+        "title": "华尔街腹背受敌：AI抛售潮蔓延至债市，110美元油价再添一把火",
+        "platform_id": "wallstreetcn-hot",
+        "platform_name": "华尔街见闻",
+        "rank": 2,
+        "url": "https://wallstreetcn.com/articles/3783826",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          2
+        ],
+        "rank_timeline": [
+          {
+            "rank": 2,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "物价消费",
+        "item_id": "news:62"
+      },
+      {
+        "id": 188,
+        "title": "欠薪345万却砸钱送孩子韩国出道",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 13,
+        "url": "https://s.weibo.com/weibo?q=%23%E6%AC%A0%E8%96%AA345%E4%B8%87%E5%8D%B4%E7%A0%B8%E9%92%B1%E9%80%81%E5%AD%A9%E5%AD%90%E9%9F%A9%E5%9B%BD%E5%87%BA%E9%81%93%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%23%E6%AC%A0%E8%96%AA345%E4%B8%87%E5%8D%B4%E7%A0%B8%E9%92%B1%E9%80%81%E5%AD%A9%E5%AD%90%E9%9F%A9%E5%9B%BD%E5%87%BA%E9%81%93%23&t=31&band_rank=13&Refer=top",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          13
+        ],
+        "rank_timeline": [
+          {
+            "rank": 13,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:188"
+      },
+      {
+        "id": 199,
+        "title": "6种癌症有明显家族遗传倾向",
+        "platform_id": "weibo",
+        "platform_name": "微博",
+        "rank": 24,
+        "url": "https://s.weibo.com/weibo?q=%236%E7%A7%8D%E7%99%8C%E7%97%87%E6%9C%89%E6%98%8E%E6%98%BE%E5%AE%B6%E6%97%8F%E9%81%97%E4%BC%A0%E5%80%BE%E5%90%91%23",
+        "mobile_url": "https://s.weibo.com/weibo?q=%236%E7%A7%8D%E7%99%8C%E7%97%87%E6%9C%89%E6%98%8E%E6%98%BE%E5%AE%B6%E6%97%8F%E9%81%97%E4%BC%A0%E5%80%BE%E5%90%91%23&t=31&band_rank=24&Refer=top",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          24
+        ],
+        "rank_timeline": [
+          {
+            "rank": 24,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "常见疾病",
+        "item_id": "news:199"
+      },
+      {
+        "id": 238,
+        "title": "班主任休产假遭家长投诉质问「一定要生孩子吗」，教师称举报信数量激增，如何看待近几年兴起的校园投诉潮？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 3,
+        "url": "https://www.zhihu.com/question/2094730049790465149",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          3
+        ],
+        "rank_timeline": [
+          {
+            "rank": 3,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:238"
+      },
+      {
+        "id": 241,
+        "title": "社保新规 11 月 1 日起施行，明确自愿放弃社保无效，怎样解读？企业未足额缴纳社保，员工权益会受到哪些损害？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 6,
+        "url": "https://www.zhihu.com/question/2094785686142558570",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          6
+        ],
+        "rank_timeline": [
+          {
+            "rank": 6,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "社会保障",
+        "item_id": "news:241"
+      },
+      {
+        "id": 246,
+        "title": "中建七局拖欠 118 名农民工合计 320 万工资，为何这些大企业也会拖欠工资？相关负责人可能会面临哪些处罚？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 11,
+        "url": "https://www.zhihu.com/question/2094335476488300413",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          11
+        ],
+        "rank_timeline": [
+          {
+            "rank": 11,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "就业民生",
+        "item_id": "news:246"
+      },
+      {
+        "id": 252,
+        "title": "怎么评价高三学生陈妤颉在近期访谈中提到的「最好不出省不出市」的高考目标？",
+        "platform_id": "zhihu",
+        "platform_name": "知乎",
+        "rank": 17,
+        "url": "https://www.zhihu.com/question/2093673328301159605",
+        "mobile_url": "",
+        "first_crawl_time": "22-19",
+        "last_crawl_time": "22-19",
+        "crawl_count": 1,
+        "created_at": "2026-10-17 22:19:59",
+        "updated_at": "2026-10-17 22:19:59",
+        "ranks": [
+          17
+        ],
+        "rank_timeline": [
+          {
+            "rank": 17,
+            "crawl_time": "22-19"
+          }
+        ],
+        "is_latest": true,
+        "matched_category": "教育民生",
+        "item_id": "news:252"
       }
     ],
     "platforms": [
@@ -729,181 +739,189 @@
         "id": "baidu",
         "name": "百度热搜",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "bilibili-hot-search",
         "name": "bilibili 热搜",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "cls-hot",
         "name": "财联社热门",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "douyin",
         "name": "抖音",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "ifeng",
         "name": "凤凰网",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "thepaper",
         "name": "澎湃新闻",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "tieba",
         "name": "贴吧",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "toutiao",
         "name": "今日头条",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "wallstreetcn-hot",
         "name": "华尔街见闻",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "weibo",
         "name": "微博",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       },
       {
         "id": "zhihu",
         "name": "知乎",
         "is_active": 1,
-        "updated_at": "2026-10-17 19:04:09"
+        "updated_at": "2026-10-17 22:19:59"
       }
     ],
     "latest_item_ids": [
-      "news:36",
-      "news:42",
-      "news:46",
+      "news:39",
+      "news:48",
+      "news:52",
+      "news:57",
       "news:121",
-      "news:82",
+      "news:208",
+      "news:212",
+      "news:77",
+      "news:81",
       "news:85",
-      "news:90",
-      "news:146",
-      "news:152",
-      "news:158",
-      "news:167",
-      "news:9",
+      "news:147",
+      "news:148",
+      "news:155",
+      "news:161",
+      "news:169",
+      "news:14",
       "news:16",
-      "news:63",
-      "news:179",
-      "news:180",
-      "news:183",
-      "news:193",
-      "news:239",
-      "news:240",
+      "news:62",
+      "news:188",
+      "news:199",
+      "news:238",
       "news:241",
-      "news:243",
-      "news:249",
-      "news:251"
+      "news:246",
+      "news:252"
     ],
     "categories": {
+      "养老生活": [
+        "news:39",
+        "news:81",
+        "news:85",
+        "news:16"
+      ],
       "人口家庭": [
-        "news:36",
-        "news:42",
-        "news:183",
-        "news:193"
+        "news:48",
+        "news:52"
       ],
       "交通出行": [
-        "news:46",
-        "news:82",
-        "news:158"
+        "news:57",
+        "news:77",
+        "news:161",
+        "news:14"
       ],
       "物价消费": [
         "news:121",
-        "news:16",
-        "news:63"
+        "news:62"
       ],
-      "养老生活": [
-        "news:85",
-        "news:90",
-        "news:9"
-      ],
-      "教育民生": [
-        "news:146",
-        "news:240",
-        "news:241"
+      "健康总论": [
+        "news:208"
       ],
       "安全灾害": [
-        "news:152",
-        "news:251"
+        "news:212",
+        "news:155"
       ],
-      "消费维权": [
-        "news:167",
-        "news:180"
+      "教育民生": [
+        "news:147",
+        "news:238",
+        "news:252"
       ],
       "就业民生": [
-        "news:179",
-        "news:239"
+        "news:148",
+        "news:188",
+        "news:246"
+      ],
+      "消费维权": [
+        "news:169"
+      ],
+      "常见疾病": [
+        "news:199"
       ],
       "社会保障": [
-        "news:243",
-        "news:249"
+        "news:241"
       ]
     },
     "latest_categories": {
+      "养老生活": [
+        "news:39",
+        "news:81",
+        "news:85",
+        "news:16"
+      ],
       "人口家庭": [
-        "news:36",
-        "news:42",
-        "news:183",
-        "news:193"
+        "news:48",
+        "news:52"
       ],
       "交通出行": [
-        "news:46",
-        "news:82",
-        "news:158"
+        "news:57",
+        "news:77",
+        "news:161",
+        "news:14"
       ],
       "物价消费": [
         "news:121",
-        "news:16",
-        "news:63"
+        "news:62"
       ],
-      "养老生活": [
-        "news:85",
-        "news:90",
-        "news:9"
-      ],
-      "教育民生": [
-        "news:146",
-        "news:240",
-        "news:241"
+      "健康总论": [
+        "news:208"
       ],
       "安全灾害": [
-        "news:152",
-        "news:251"
+        "news:212",
+        "news:155"
       ],
-      "消费维权": [
-        "news:167",
-        "news:180"
+      "教育民生": [
+        "news:147",
+        "news:238",
+        "news:252"
       ],
       "就业民生": [
-        "news:179",
-        "news:239"
+        "news:148",
+        "news:188",
+        "news:246"
+      ],
+      "消费维权": [
+        "news:169"
+      ],
+      "常见疾病": [
+        "news:199"
       ],
       "社会保障": [
-        "news:243",
-        "news:249"
+        "news:241"
       ]
     },
     "raw_count": 255,
@@ -911,7 +929,7 @@
   },
   "rss": {
     "date": "2026-10-17",
-    "latest_crawl_time": "19:04",
+    "latest_crawl_time": "22:19",
     "count": 0,
     "latest_count": 0,
     "items": [],
@@ -924,7 +942,7 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-10-17 19:04:13"
+        "updated_at": "2026-10-17 22:20:16"
       },
       {
         "id": "yahoo-finance",
@@ -934,13 +952,13 @@
         "last_fetch_time": null,
         "last_fetch_status": null,
         "item_count": 0,
-        "updated_at": "2026-10-17 19:04:13"
+        "updated_at": "2026-10-17 22:20:16"
       }
     ],
     "latest_item_ids": [],
     "categories": {},
     "latest_categories": {},
-    "raw_count": 20,
-    "raw_latest_count": 20
+    "raw_count": 0,
+    "raw_latest_count": 0
   }
 }
